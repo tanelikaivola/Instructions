@@ -7,3 +7,5 @@
 *.blg
 *.out
 
+#Gedit backup files
+*~
