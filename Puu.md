@@ -1,5 +1,6 @@
 # Puutyötila
-## Olemassaolevat sähkötyökalut
+## Työkalut
+### Sähkötyökalut
 * Pistosaha x 3
 * Akkuväännin, makita, x2
 * Lamellijyrsin x2
@@ -19,7 +20,7 @@
 * Oikohöylä
 * Pöytäsirkkeli/Jiirisaha-hybridi
 
-## Käsityökalut
+### Käsityökalut
 * Höylä x2
 * Puolahöylä
 * Pikasaha x N
@@ -33,7 +34,7 @@
 * Pärepuukko
 * Pistepuikko, jousitettu
 
-## Kiinitysvälineet
+### Kiinitysvälineet
 * Pitkä liimapuristin x2
 * Kehikkopuristin x 2
 * Puristin, sekalainen x N
@@ -73,3 +74,8 @@ Näitä saa tuoda mielellään labille
 * Lattiaharja
 * Pölyharja
 * Yläjyrsimen teräsarja
+
+## Tilan puuttuvat rakenteet
+* Sähkörasiat
+* Kaksi reikälevyä seinälle vielä
+* Lisää tukevia pöytiä, yksi keskelle lattiaa ja yksi toiselle pitkälle seinälle
