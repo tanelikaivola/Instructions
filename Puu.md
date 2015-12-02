@@ -79,3 +79,4 @@ Näitä saa tuoda mielellään labille
 * Sähkörasiat
 * Kaksi reikälevyä seinälle vielä
 * Lisää tukevia pöytiä, yksi keskelle lattiaa ja yksi toiselle pitkälle seinälle
+* Höyläpenkki
