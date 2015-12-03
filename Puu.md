@@ -1,5 +1,8 @@
 # Puutyötila
+Puutyötila on vielä hyvinkin vaiheessa. Tilaa rakennetaan elektroniikkahuonetta vastapäiseen huoneeseen. Tällä hetkellä tilassa pystyy tekemään puutöitä vain hyvin pienellä alueella.
+
 ## Työkalut
+Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvikkeiden tiedot tulevat pian.
 ### Sähkötyökalut
 * Pistosaha x 3
 * Akkuväännin, makita, x2
@@ -63,16 +66,18 @@
 * Suppea teräsarja yläjyrsimeen
 
 ## Puutteet
-Näitä saa tuoda mielellään labille
+Näitä saa tuoda mielellään labille, kutakuinkin tärkeysjärjestyksessä
 
-* Ruuvikärkisarja
+* Siivoustarvikkeet
+ * Lattiaharja
+ * Pölyharja
+ * Roskis lastuille ja hukkapaloille
 * Puranteräsarja
+* Teroituskivi
+* Ruuvikärkisarja
 * Kunnollinen talttasarja
 * Hyvä nauhahiomakone
 * Random-orbit hiomakone
-* Teroituskivi
-* Lattiaharja
-* Pölyharja
 * Yläjyrsimen teräsarja
 
 ## Tilan puuttuvat rakenteet
@@ -80,3 +85,12 @@ Näitä saa tuoda mielellään labille
 * Kaksi reikälevyä seinälle vielä
 * Lisää tukevia pöytiä, yksi keskelle lattiaa ja yksi toiselle pitkälle seinälle
 * Höyläpenkki
+* Pölynpoisto
+* Puristinteline
+
+## Jos olis rahaa...
+* Kunnon höyläpenkki
+* Sirkkeli paremmilla ohjureilla
+* Vannesaha
+* Kiinteä hiomakone, nauha + laikka -yhdistelmä
+* Pölynpoisto ja hyvä lastuimuri
