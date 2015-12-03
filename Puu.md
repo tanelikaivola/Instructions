@@ -4,56 +4,58 @@ Puutyötila on vielä hyvinkin vaiheessa. Tilaa rakennetaan elektroniikkahuonett
 ## Työkalut
 Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvikkeiden tiedot tulevat pian.
 ### Sähkötyökalut
-* Pistosaha x 3
 * Akkuväännin, makita, x2
-* Lamellijyrsin x2
-* Nauhahiomakone, biltema
-* Yläjyrsin
-* Käsisirkkeli x2
-* Tasohiomakone, hyvä x 3
-* Tasohiomakone, sekalainen x 3
-* Laikkahiomakone
-* Iskuporakone, sekalainen x2
-* Iskuporakone, makita
-* Poravasara, halpis
-* Poranteränterotin
+* Hiomakone, laikka
+* Hiomakone, nauha, biltema
+* Hiomakone, taso, hyvä x 3
+* Hiomakone, taso, sekalainen x 3
+* Höylä, oiko
+* Jyrsin, ylä
+* Jyrsin, lamelli x2
 * Kuumailmapuhallin x2
-* Polttorauta
 * Pienväännin/dremelkopio/tjsp x 2
-* Oikohöylä
-* Pöytäsirkkeli/Jiirisaha-hybridi
+* Polttorauta
+* Porakone, isku, sekalainen x2
+* Porakone, isku, makita
+* Porakone, vasara, halpis
+* Poranteränterotin
+* Saha, pisto x 3
+* Sirkkeli, käsi x2
+* Sirkkeli, pöytä
 
 ### Käsityökalut
-* Höylä x2
-* Puolahöylä
-* Pikasaha x N
-* Selkäsaha x 2
-* Pieni selkäsaha x2
-* Vasara x2
-* Nuija x 3
-* Taltta, sekalainen xN
-* Viila, karkea x6
 * Hiontatyyny
-* Pärepuukko
+* Höylä x2
+* Höylä, puola
+* Nuija x 3
 * Pistepuikko, jousitettu
+* Puukko, päre
+* Puukko, mora
+* Saha, pika xN
+* Saha, selkä x2
+* Saha, selkä, pieni x2
+* Taltta, sekalainen xN
+* Vasara
+* Vasara, pieni
+* Viila, karkea x6
 
 ### Kiinitysvälineet
-* Pitkä liimapuristin x2
-* Kehikkopuristin x 2
+* Puristin, kehikko x2
+* Puristin, liima, pitkä x2
 * Puristin, sekalainen x N
 
 ## Mittavälineet
-* Suorakulma x 3
 * Mitta, 1m
 * Mitta, lyhyt x2
+* Suorakulma x 3
 * Vatupassi, lyhyt x2
 * Vatupassi, erittäin pitkä
 
 ## Suojavarusteet
-* Kuulonsuojain x2
-* Suojalasit x N
 * Hengityssuojain x 2
+* Kuulonsuojain x2
 * Käsineet, pari x 2
+* Suojalasit x N
 
 ## Muut
 * Ruuvi, sekalainen XNN
