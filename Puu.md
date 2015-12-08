@@ -68,6 +68,9 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Lamellijyrsimen keksejä, 10, xN
 * Lamellijyrsimen kekesejä, 20, xN
 * Hiomapaperi, karkea, sekalainen XN
+ * Jonkin verran 150mm ja 125mm hiomalaikkoja
+ * Jonkin verran "silitysrauta"-mallin hiomapapereita tasokoneeseen
+ * Jonkin verran 92x182mm tasokoneeseen tarrakiinitteisiä papereita
 * Poranterä, hyvin sekalainen, xN
 * Puutikkuja xN
 * Timpurinkyniä
@@ -87,10 +90,11 @@ Näitä saa tuoda mielellään labille, kutakuinkin tärkeysjärjestyksessä
 * Hyvä nauhahiomakone
 * Random-orbit hiomakone
 * Yläjyrsin
+* Nauhahiomakoneeseen lisää nauhoja
 
 ## Tilan puuttuvat rakenteet
 * Sähkörasiat
-* Kaksi reikälevyä seinälle vielä
+* Neliömäisiä reikälevyjä toinen pitkä seinä täyteen, palkin yläosasta alaspäin
 * Lisää tukevia pöytiä, yksi keskelle lattiaa ja yksi toiselle pitkälle seinälle
 * Höyläpenkki
 * Pölynpoisto
