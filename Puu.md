@@ -24,6 +24,7 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Porakone, vasara, Coltech
 * Ruuvinväännin, Makita, 6826, kilpuri
 * Saha, pisto, Bosch, PST 800 PEL, ojousima
+* Saha, pisto, sekalainen x2
 * Sirkkeli, käsi, 165mm, Makita, 5604R, suovula
 * Sirkkeli, käsi, 52mm, Black & Decker, DN228
 * Sirkkeli, pöytä, Dewalt, DW7111
