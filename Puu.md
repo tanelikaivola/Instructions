@@ -4,24 +4,29 @@ Puutyötila on vielä hyvinkin vaiheessa. Tilaa rakennetaan elektroniikkahuonett
 ## Työkalut
 Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvikkeiden tiedot tulevat pian.
 ### Sähkötyökalut
-* Akkuväännin, makita, x2
-* Hiomakone, laikka
-* Hiomakone, nauha, biltema
-* Hiomakone, taso, hyvä x 3
-* Hiomakone, taso, sekalainen x 3
-* Höylä, oiko
-* Jyrsin, ylä
-* Jyrsin, lamelli x2
-* Kuumailmapuhallin x2
+* Akkuväännin, Makita, DHP458
+* Akkuväännin, Makita, BDF453
+* Hiomakone, laikka, 150mm, Coltech, S16-AJ-150
+* Hiomakone, nauha, 75x533mm, Biltema, 17-222
+* Hiomakone, nauha, 75x533mm, Black & Decker, ojousima
+* Hiomakone, taso, ?x?mm, Makita, BO3700, Suovula
+* Hiomakone, taso, 115x230mm, Kinzo, 50P620, Zupa
+* Hiomakone, taso, 92x182mm, Bosch, PSS250AE, ojousima
+* Hiomakone, taso, "silitysrauta" 140x140x80
+* Höylä, oiko, Bosch, ojousima
+* Jyrsin, lamelli, Dewalt, DW682, ojousima
+* Jyrsin, lamelli, Deuzer, Kallekilponen
+* Kuumailmapuhallin, Coltech, HarAld
 * Pienväännin/dremelkopio/tjsp x 2
-* Polttorauta
-* Porakone, isku, sekalainen x2
-* Porakone, isku, makita
-* Porakone, vasara, halpis
-* Poranteränterotin
-* Saha, pisto x 3
-* Sirkkeli, käsi x2
-* Sirkkeli, pöytä
+* Polttorauta, Biltema
+* Porakone, isku, Biltema
+* Porakone, isku, Einhell
+* Porakone, vasara, Coltech
+* Ruuvinväännin, Makita, 6826, kilpuri
+* Saha, pisto, Bosch, PST 800 PEL, ojousima
+* Sirkkeli, käsi, 165mm, Makita, 5604R, suovula
+* Sirkkeli, käsi, 52mm, Black & Decker, DN228
+* Sirkkeli, pöytä, Dewalt, DW7111
 
 ### Käsityökalut
 * Hiontatyyny
@@ -60,7 +65,8 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 ## Muut
 * Ruuvi, sekalainen XNN
 * Puutappeja x N
-* Lamellijyrsimen keksejä xN
+* Lamellijyrsimen keksejä, 10, xN
+* Lamellijyrsimen kekesejä, 20, xN
 * Hiomapaperi, karkea, sekalainen XN
 * Poranterä, hyvin sekalainen, xN
 * Puutikkuja xN
@@ -80,7 +86,7 @@ Näitä saa tuoda mielellään labille, kutakuinkin tärkeysjärjestyksessä
 * Kunnollinen talttasarja
 * Hyvä nauhahiomakone
 * Random-orbit hiomakone
-* Yläjyrsimen teräsarja
+* Yläjyrsin
 
 ## Tilan puuttuvat rakenteet
 * Sähkörasiat
