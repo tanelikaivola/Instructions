@@ -25,11 +25,9 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Ruuvinväännin, Makita, 6826, kilpuri
 * Saha, pisto, Bosch, PST 800 PEL, ojousima
 * Saha, pisto, sekalainen x2
-* Saha, vanne, pieni, kremmen
 * Sirkkeli, käsi, 165mm, Makita, 5604R, suovula
 * Sirkkeli, käsi, 52mm, Black & Decker, DN228
 * Sirkkeli, pöytä, Dewalt, DW7111
-* Sorvi, kremmen
 
 ### Käsityökalut
 * Hiontatyyny
@@ -80,6 +78,13 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Timpurinkyniä
 * Suppea teräsarja yläjyrsimeen
 
+## Tulossa / tarkistusta tai käyttötilaa vailla
+* Sorvi, Kremmen
+ * Myös taltat
+* Saha, vanne, pieni, Kremmen
+ * Vaatii uuden turvakytkimen kun edellinen kytkin on rikki
+* Jyrsin, ylä, ojousima
+
 ## Puutteet
 Näitä saa tuoda mielellään labille, kutakuinkin tärkeysjärjestyksessä
 
@@ -94,7 +99,6 @@ Näitä saa tuoda mielellään labille, kutakuinkin tärkeysjärjestyksessä
 * Kunnollinen talttasarja
 * Hyvä nauhahiomakone
 * Random-orbit hiomakone
-* Yläjyrsin
 * Nauhahiomakoneeseen lisää nauhoja
 
 ## Tilan puuttuvat rakenteet
