@@ -9,7 +9,7 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Hiomakone, laikka, 150mm, Coltech, S16-AJ-150
 * Hiomakone, nauha, 75x533mm, Biltema, 17-222
 * Hiomakone, nauha, 75x533mm, Black & Decker, ojousima
-* Hiomakone, taso, ?x?mm, Makita, BO3700, Suovula
+* Hiomakone, taso, 93mm x 185mm, Makita, BO3700, Suovula
 * Hiomakone, taso, 115x230mm, Kinzo, 50P620, Zupa
 * Hiomakone, taso, 92x182mm, Bosch, PSS250AE, ojousima
 * Hiomakone, taso, "silitysrauta" 140x140x80
