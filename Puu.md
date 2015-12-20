@@ -16,11 +16,13 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Höylä, oiko, Bosch, ojousima
 * Jyrsin, lamelli, Dewalt, DW682, ojousima
 * Jyrsin, lamelli, Deuzer, Kallekilponen
+* Jyrsin, ylä, Bosch, ojousima
 * Kuumailmapuhallin, Coltech, HarAld
 * Pienväännin/dremelkopio/tjsp x 2
 * Polttorauta, Biltema
 * Porakone, isku, Biltema
 * Porakone, isku, Einhell
+* Porakone, vasara, Bosch, kilpuri
 * Porakone, vasara, Coltech
 * Ruuvinväännin, Makita, 6826, kilpuri
 * Saha, pisto, Bosch, PST 800 PEL, ojousima
@@ -65,6 +67,8 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Suojalasit x N
 
 ## Muut
+* Lattiaharja + kihveli
+* Pölyharja
 * Ruuvi, sekalainen XNN
 * Puutappeja x N
 * Lamellijyrsimen keksejä, 10, xN
@@ -76,30 +80,31 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Poranterä, hyvin sekalainen, xN
 * Puutikkuja xN
 * Timpurinkyniä
-* Suppea teräsarja yläjyrsimeen
+* Yläjyrsimen terät, kolmessa eri laatikossa, varsin laaja sarja.
 
 ## Tulossa / tarkistusta tai käyttötilaa vailla
 * Sorvi, Kremmen
  * Myös taltat
 * Saha, vanne, pieni, Kremmen
- * Vaatii uuden turvakytkimen kun edellinen kytkin on rikki
-* Jyrsin, ylä, ojousima
+ * Vaatii uuden turvakytkimen kun edellinen kytkin on rikki, uusi tulossa kiinasta
+* Ilmastointikoneesta peräisin oleva radiaalipuhallin, pitäisi selvittää miten tätä saa ajettua.
 
 ## Puutteet
 Näitä saa tuoda mielellään labille, kutakuinkin tärkeysjärjestyksessä
 
 * Siivoustarvikkeet
- * Lattiaharja
- * Pölyharja
  * Roskis lastuille ja hukkapaloille
 * Turvakytkin vannesahaan
+ * Tilattu kiinasta
 * Puranteräsarja
+ * Olemassaolevat puuporanterät ovat kaikki hyvin kieroja
 * Teroituskivi
 * Ruuvikärkisarja
 * Kunnollinen talttasarja
 * Hyvä nauhahiomakone
-* Random-orbit hiomakone
-* Nauhahiomakoneeseen lisää nauhoja
+ * Tulossa ehkä tammikuussa
+* Epäkesko (Random-orbit) hiomakone
+* Nauhahiomakoneeseen nauhoja
 
 ## Tilan puuttuvat rakenteet
 * Sähkörasiat
