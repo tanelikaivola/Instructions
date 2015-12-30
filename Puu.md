@@ -9,6 +9,7 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Hiomakone, laikka, 150mm, Coltech, S16-AJ-150
 * Hiomakone, nauha, 75x533mm, Biltema, 17-222
 * Hiomakone, nauha, 75x533mm, Black & Decker, ojousima
+* Hiomakone, nauha, ??x???mm, Makita, thjt
 * Hiomakone, taso, 93mm x 185mm, Makita, BO3700, Suovula
 * Hiomakone, taso, 115x230mm, Kinzo, 50P620, Zupa
 * Hiomakone, taso, 92x182mm, Bosch, PSS250AE, ojousima
@@ -17,6 +18,7 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Jyrsin, lamelli, Dewalt, DW682, ojousima
 * Jyrsin, lamelli, Deuzer, Kallekilponen
 * Jyrsin, ylä, Bosch, ojousima
+* Jyrsin, ylä, Coltech
 * Kuumailmapuhallin, Coltech, HarAld
 * Pienväännin/dremelkopio/tjsp x 2
 * Polttorauta, Biltema
@@ -33,7 +35,8 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 
 ### Käsityökalut
 * Hiontatyyny
-* Höylä x2
+* Höylä, pieni x 3
+* Höylä, iso x2
 * Höylä, puola
 * Nuija x 3
 * Pistepuikko, jousitettu
@@ -43,10 +46,13 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Saha, selkä x2
 * Saha, selkä, pieni x2
 * Taltta, sekalainen xN
+  * Puunkaiverrussarja, 12kpl, HarAld
+  * Suora taltta x 5
 * Taltta, sorvaus xN, kremmen
 * Vasara
 * Vasara, pieni
 * Viila, karkea x6
+* Viila, hieno, x3
 
 ### Kiinitysvälineet
 * Puristin, kehikko x2
@@ -77,7 +83,8 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
  * Jonkin verran 150mm ja 125mm hiomalaikkoja
  * Jonkin verran "silitysrauta"-mallin hiomapapereita tasokoneeseen
  * Jonkin verran 92x182mm tasokoneeseen tarrakiinitteisiä papereita
-* Poranterä, hyvin sekalainen, xN
+* Poranterä, puu, enemmän tai vähemmän kiero, xN
+* Poranterä, puu, Bosch, x5
 * Puutikkuja xN
 * Timpurinkyniä
 * Yläjyrsimen terät, kolmessa eri laatikossa, varsin laaja sarja.
@@ -90,31 +97,32 @@ Työkalujen karkea inventaario. Tarkemmat mallit ja työkaluihin sopivien tarvik
 * Ilmastointikoneesta peräisin oleva radiaalipuhallin, pitäisi selvittää miten tätä saa ajettua.
 
 ## Puutteet
+### Työt
+* Talttojen, höylien, puukkojen ja muiden teroittaminen
+* Ruuvilaatikon perkaaminen
+* Poranteräkasan perkaaminen käyristä teristä
+* Neliömäisiä reikälevyjä toinen pitkä seinä täyteen.
+ * Puuta listaksi kattopalkin alareunaan ja levy siitä alaspäin
+
+### Työkalut ja tarvikkeet
 Näitä saa tuoda mielellään labille, kutakuinkin tärkeysjärjestyksessä
 
-* Siivoustarvikkeet
- * Roskis lastuille ja hukkapaloille
 * Turvakytkin vannesahaan
  * Tilattu kiinasta
-* Puranteräsarja
- * Olemassaolevat puuporanterät ovat kaikki hyvin kieroja
 * Teroituskivi
 * Ruuvikärkisarja
-* Kunnollinen talttasarja
-* Hyvä nauhahiomakone
- * Tulossa ehkä tammikuussa
 * Epäkesko (Random-orbit) hiomakone
 * Nauhahiomakoneeseen nauhoja
 
-## Tilan puuttuvat rakenteet
+### Tilan puuttuvat rakenteet
 * Sähkörasiat
-* Neliömäisiä reikälevyjä toinen pitkä seinä täyteen, palkin yläosasta alaspäin
 * Lisää tukevia pöytiä, yksi keskelle lattiaa ja yksi toiselle pitkälle seinälle
 * Höyläpenkki
 * Pölynpoisto
 * Puristinteline
+* Teline lautatavaralle
 
-## Jos olis rahaa...
+### Jos olis rahaa...
 * Kunnon höyläpenkki
 * Sirkkeli paremmilla ohjureilla
 * Vannesaha
