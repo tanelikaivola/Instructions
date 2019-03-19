@@ -1,0 +1,4270 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="date" content="2000-08-21T16:52:13Z"/>
+<meta name="pdf:PDFVersion" content="1.3"/>
+<meta name="pdf:docinfo:title" content="Alpha Amplifier SVU Maintenance Mnl, GFZ-65195EN/01"/>
+<meta name="Keywords" content="Drives"/>
+<meta name="access_permission:modify_annotations" content="true"/>
+<meta name="access_permission:can_print_degraded" content="true"/>
+<meta name="subject" content="GFZ-65195EN/01, Alpha Amplifier SVU Maintenance Mnl"/>
+<meta name="dcterms:created" content="1996-11-05T10:38:56Z"/>
+<meta name="Last-Modified" content="2000-08-21T16:52:13Z"/>
+<meta name="dcterms:modified" content="2000-08-21T16:52:13Z"/>
+<meta name="dc:format" content="application/pdf; version=1.3"/>
+<meta name="Last-Save-Date" content="2000-08-21T16:52:13Z"/>
+<meta name="access_permission:fill_in_form" content="true"/>
+<meta name="pdf:docinfo:keywords" content="Drives"/>
+<meta name="pdf:docinfo:modified" content="2000-08-21T16:52:13Z"/>
+<meta name="meta:save-date" content="2000-08-21T16:52:13Z"/>
+<meta name="pdf:encrypted" content="false"/>
+<meta name="dc:title" content="Alpha Amplifier SVU Maintenance Mnl, GFZ-65195EN/01"/>
+<meta name="modified" content="2000-08-21T16:52:13Z"/>
+<meta name="cp:subject" content="GFZ-65195EN/01, Alpha Amplifier SVU Maintenance Mnl"/>
+<meta name="pdf:docinfo:subject" content="GFZ-65195EN/01, Alpha Amplifier SVU Maintenance Mnl"/>
+<meta name="Content-Type" content="application/pdf"/>
+<meta name="X-Parsed-By" content="org.apache.tika.parser.DefaultParser"/>
+<meta name="X-Parsed-By" content="org.apache.tika.parser.pdf.PDFParser"/>
+<meta name="dc:subject" content="Drives"/>
+<meta name="meta:creation-date" content="1996-11-05T10:38:56Z"/>
+<meta name="created" content="1996-11-05T10:38:56Z"/>
+<meta name="access_permission:extract_for_accessibility" content="true"/>
+<meta name="access_permission:assemble_document" content="true"/>
+<meta name="xmpTPg:NPages" content="74"/>
+<meta name="Creation-Date" content="1996-11-05T10:38:56Z"/>
+<meta name="access_permission:extract_content" content="true"/>
+<meta name="access_permission:can_print" content="true"/>
+<meta name="meta:keyword" content="Drives"/>
+<meta name="producer" content="Acrobat Distiller 2.1 for Windows"/>
+<meta name="access_permission:can_modify" content="true"/>
+<meta name="pdf:docinfo:producer" content="Acrobat Distiller 2.1 for Windows"/>
+<meta name="pdf:docinfo:created" content="1996-11-05T10:38:56Z"/>
+<title>Alpha Amplifier SVU Maintenance Mnl, GFZ-65195EN/01</title>
+</head>
+<body>
+<div class="page">
+<p/>
+<p>GE Fanuc Automation
+</p>
+<p>Computer Numerical Control Products
+</p>
+<p>αα Series Control Motor Amplifier
+Servo Amplifier Unit
+</p>
+<p>Maintenance Manual
+</p>
+<p>GFZ-65195EN/01 August 1995</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>GFL-001
+</p>
+<p>Warnings, Cautions, and Notes
+as Used in this Publication
+</p>
+<p>Warning
+</p>
+<p>Warning notices are used in this publication to emphasize that hazardous voltages, currents,
+temperatures, or other conditions that could cause personal injury exist in this equipment or
+may be associated with its use.
+</p>
+<p>In situations where inattention could cause either personal injury or damage to equipment, a
+Warning notice is used.
+</p>
+<p>Caution
+</p>
+<p>Caution notices are used where equipment might be damaged if care is not taken.
+</p>
+<p>Note
+Notes merely call attention to information that is especially significant to understanding and
+operating the equipment.
+</p>
+<p>This document is based on information available at the time of its publication.  While efforts
+have been made to be accurate, the information contained herein does not purport to cover all
+details or variations in hardware or software, nor to provide for every possible contingency in
+connection with installation, operation, or maintenance.  Features may be described herein
+which are not present in all hardware and software systems.  GE Fanuc Automation assumes
+no obligation of notice to holders of this document with respect to changes subsequently made.
+</p>
+<p>GE Fanuc Automation makes no representation or warranty, expressed, implied, or statutory
+with respect to, and assumes no responsibility for the accuracy, completeness, sufficiency, or
+usefulness of the information contained herein.  No warranties of merchantability or fitness for
+purpose shall apply.
+</p>
+<p>&copy;Copyright 1995 GE Fanuc Automation North America, Inc.
+</p>
+<p>All Rights Reserved.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>PREFACE
+</p>
+<p>This manual provides information necessary for maintenance of the
+FANUC Control Motor
+Amplifier α series (servo amplifier units SVU and SVUC).
+There are two servo amplifier unit types, as listed below.
+</p>
+<p>Name Designation Remark
+</p>
+<p>SVU A06B-6089-H*** &middot; The specification of this type is partly different
+from that of the C series servo amplifier.
+</p>
+<p>&middot; Conforms to VDE0160.
+</p>
+<p>SVUC A06B-6090-H*** &middot; This type is designed to satisfy the compati
+bility with the C series servo amplifier.
+</p>
+<p>&middot; Does not conform to VDE0160.
+</p>
+<p>Part I describes the procedure to start up the servo amplifier unit.  Part II
+describes the error recovery procedure.  
+Part III describes the cautions that should be observed in switching from
+the C series servo amplifier to the α series 
+servo amplifier unit SVU or SVUC.
+</p>
+<p>This document uses the abbreviations listed below.
+</p>
+<p>Model Abbreviation
+</p>
+<p>A06B-6089-H*** SVU
+</p>
+<p>A06B-6090-H*** SVUC
+</p>
+<p>FANUC Series � FS-�
+</p>
+<p>FANUC Power Mate MODEL � PM-�
+</p>
+<p>In this manual, the servo parameter numbers are arranged as shown below.
+</p>
+<p>FS-15
+�
+</p>
+<p>Function name or bit of the servo parameter
+�No. 1877
+</p>
+<p>Overload protection coefficient (OVC1)
+</p>
+<p>�
+</p>
+<p>FS-16, 18, 20, 21
+PM-D, F
+</p>
+<p>�
+</p>
+<p>FS-0C
+</p>
+<p>No. 8X62No. 2062
+</p>
+<p>In addition to this manual,  those listed below are provided for the FANUC
+Control Motor Amplifier α series (servo amplifier unit).
+1) FANUC CONTROL MOTOR AMPLIFIER α series
+</p>
+<p>SERVO AMPLIFIER UNIT DESCRIPTIONS B-65192EN
+2) FANUC AC SERVO MOTOR α series 
+</p>
+<p>DESCRIPTIONS B-65142E
+3) FANUC AC SERVO MOTOR α series 
+</p>
+<p>PARAMETER MANUAL B-65150E
+</p>
+<p>Examples</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>When maintaining or inspecting the servo amplifiers, keep the
+power supply switched off.  
+Also make sure that the &ldquo;CHARGING&rdquo; LED (red) beside the
+circuit breaker on the front panel of the servo amplifier is off.
+(See Appendix A.)
+</p>
+<p>IMPORTANT</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 Table of contents
+</p>
+<p>i
+</p>
+<p>I. START-UP PROCEDURE
+</p>
+<p>1. OVERVIEW 3. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>2. CONFIGURATION 4. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+2.1 BASIC CONFIGURATION 5. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>2.2 MAJOR COMPONENTS 6. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+2.2.1 SVU 6. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+2.2.2 SVUC 7. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3. START-UP PROCEDURE 8. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.1 OVERVIEW OF THE START-UP PROCEDURE 9. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3.2 CONNECTING THE POWER SUPPLY 10. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.2.1 Confirming the Line Voltage and Power Requirements 10. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.2.2 Connecting to the Protection Ground 10. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.2.3 Leakage Current and Selecting a Ground Fault Interrupter 10. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3.3 SWITCH SETTING 12. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3.4 CONNECTING THE BATTERY FOR AN ABSOLUTE PULSE CODER 14. . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3.5 CONNECTING THE SEPARATE REGENERATIVE DISCHARGE UNIT 15. . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3.6 INITIALIZING SERVO PARAMETERS 18. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>4. OPERATION CONFIRMATION METHOD 25. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+4.1 CONFIRMATION PROCEDURE 26. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>4.2 SERVO AMPLIFIER UNIT CHECK PINS 27. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+4.2.1 Checking the +5V Power Supply Voltage 27. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+4.2.2 Checking the Motor Instantaneous Current 27. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>4.3 STATUS INDICATOR 29. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>5. AXIS LEFT UNUSED IN A MULTI-AXIS AMPLIFIER 30. . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>6. SERVO CHECK BOARD 31. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>II. TROUBLESHOOTING AND RECOVERY
+</p>
+<p>1. OVERVIEW 37. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>2. ALARM NUMBER AND BRIEF DESCRIPTIONS 38. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+2.1 ALARM NUMBER IN SERIES 15 (SERVO ALARMS) 39. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>2.2 ALARM NUMBER IN SERIES 0-C (SERVO ALARMS) 40. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>2.3 ALARM NUMBER IN SERIES 16, 18, 20 (SERVO ALARMS) 41. . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3. TROUBLESHOOTING AND RECOVERY PROCEDURES 42. . . . . . . . . . . . . . . . . . . 
+3.1 SERVO AMPLIFIER UNIT 43. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3.1.1 LED Indications and Meanings 43. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.1.2 Actions to be Taken on Each Alarm 44. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3.2 CURRENT CONVERSION FAILURE ALARM 48. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3.3 SERVO SOFTWARE 49. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01Table of contents
+</p>
+<p>ii
+</p>
+<p>3.3.1 Servo Adjustment Screen 49. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.3.2 Overload Alarm 50. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.3.3 Feedback Disconnected Alarm 50. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.3.4 Motor Overheat Alarm 51. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.3.5 Invalid Servo Parameter Setting Parameters 51. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.3.6 Pulse Coder Error Alarm 57. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.3.7 Rotation Speed Data Error Alarm 57. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.3.8 Pulse Coder Communication Error Alarm 58. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>4. REPLACING THE FUSE 59. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>III. COMPATIBILITY OF THE SVU AND SVUC WITH THE 
+C SERIES AMPLIFIER
+</p>
+<p>1. OVERVIEW 63. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>2. COMPATIBILITY OF THE SVU AND SVUC WITH THE 
+C SERIES AMPLIFIER 64. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>3. SVUC SPECIFICATION CODE 66. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>APPENDIX
+</p>
+<p>A. SERVO AMPLIFIER UNIT FRONT PANEL 69. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+</p>
+<p>B. MOTOR GROUNDING CONNECTION 70. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>I. START-UP PROCEDURE</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 1. OVERVIEWSTART-UP PROCEDURE
+</p>
+<p>3
+</p>
+<p>1 OVERVIEW
+This part provides information necessary to confirm the system
+configuration and start up the servo amplifier units :
+</p>
+<p>&ndash; Configuration
+</p>
+<p>&ndash; Start- up procedure
+</p>
+<p>&ndash; Operation confirmation procedure</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>2. CONFIGURATION B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>4
+</p>
+<p>2 CONFIGURATION</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 2. CONFIGURATIONSTART-UP PROCEDURE
+</p>
+<p>5
+</p>
+<p>The basic configuration is shown below.
+</p>
+<p>Refer to &ldquo;FANUC CONTROL MOTOR AMPLIFIER α Series (SERVO
+AMPLIFIER UNIT) Descriptions&rdquo; (B-65192EN) for detail.
+</p>
+<p>&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+</p>
+<p>&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+</p>
+<p>&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+</p>
+<p>&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+</p>
+<p>Ex. Tow SVU2s
+</p>
+<p>Power Supply For
+Control Circuit
+</p>
+<p>&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+</p>
+<p>&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;
+</p>
+<p>Servo 
+Amplifier
+Unit
+</p>
+<p>SVU2
+</p>
+<p>Servo
+Amplifier
+Unit
+</p>
+<p>SVU2
+</p>
+<p>1 φ
+AC200/220/230V
++10, &ndash;15%
+</p>
+<p>AC
+Line
+Filter
+</p>
+<p>3φ 
+(AC380V)
+(AC415V)
+(AC460V)
+</p>
+<p>AC200V
+AC220V
+AC230V
+</p>
+<p>Breaker
+Magnetic
+Contactor
+</p>
+<p>Servo
+Motor
+</p>
+<p>Servo
+Motor
+</p>
+<p>Servo
+Motor
+</p>
+<p>Servo
+Motor
+</p>
+<p>(Note 1) (Note 2) (Note 3)Power
+Transformer
+</p>
+<p> : Basic
+ : Optional
+ : Units prepared by the machine tool builder
+</p>
+<p>Notes
+1 This circuit breaker is intended to protect the power cord and related equipment. A circuit
+</p>
+<p>breaker to protect a servo amplifier unit is provided within the servo amplifier unit.
+2 This AC line filter should always be used,so influence by harmonic noise to the power supply
+</p>
+<p>can be reduced.  When the line voltage is out of specification,and a power transformer (isolation
+type) is used, the AC line filter can be omitted. 
+If the AC line filter is ineffective in making the servo amplifier unit satisfy EMC standards, use
+an appropriate commercial noise filter.
+</p>
+<p>3 The magnetic contactor is required if it is necessary to qualify for European CE marking.
+4 When using the SVU,install a surge absorber between the power lines and between a power
+</p>
+<p>line and a ground line at the entrance of the power magnetic cabinet in order to protect the
+equipment from a surge voltage.  For the SVUC, it is unnecessary to install an external surge
+absorber because the SVUC has a built- in surge absorber as the C series amplifier.
+</p>
+<p>2.1
+BASIC
+CONFIGURATION</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>2. CONFIGURATION B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>6
+</p>
+<p>(1) SVU 1
+</p>
+<p>Model Oder 
+specification
+</p>
+<p>Wiring board
+specification
+</p>
+<p>P. C. B.
+specification
+</p>
+<p>Remark
+</p>
+<p>SVU1-12 A06B-6089-H101 A16B-2202-0950 A20B-2002-0030
+</p>
+<p>SVU1-20 A06B-6089-H102 A16B-2202-0951
+</p>
+<p>SVU1-40 A06B-6089-H104 A20B-2002-0040 A20B-2002-0031
+</p>
+<p>SVU1-80 A06B-6089-H105 A20B-2002-0041
+</p>
+<p>SVU1-130 A06B-6089-H106 A20B-2002-0050
+</p>
+<p>(2) SVU 2
+</p>
+<p>Model Oder 
+specification
+</p>
+<p>Wiring board
+specification
+</p>
+<p>P. C. B.
+specification
+</p>
+<p>Remark
+</p>
+<p>SVU2-12/12 A06B-6089-H201 A20B-2002-0060 A20B-2002-0032
+</p>
+<p>SVU2-12/20 A06B-6089-H202 A20B-2002-0061
+</p>
+<p>SVU2-20/20 A06B-6089-H203 A20B-2002-0062
+</p>
+<p>SVU2-12/40 A06B-6089-H204 A20B-2002-0063
+</p>
+<p>SVU2-20/40 A06B-6089-H205 A20B-2002-0064
+</p>
+<p>SVU2-40/40 A06B-6089-H206 A20B-2002-0065
+</p>
+<p>SVU2-40/80 A06B-6089-H207 A20B-2002-0066
+</p>
+<p>SVU2-80/80 A06B-6089-H208 A20B-2002-0067
+</p>
+<p>SVU2-12/80 A06B-6089-H209 A20B-2002-0068
+</p>
+<p>SVU2-20/80 A06B-6089-H210 A20B-2002-0069
+</p>
+<p>2.2
+MAJOR
+COMPONENTS
+</p>
+<p>2.2.1
+SVU</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 2. CONFIGURATIONSTART-UP PROCEDURE
+</p>
+<p>7
+</p>
+<p>(1) SVUC 1
+</p>
+<p>Model Oder 
+specification
+</p>
+<p>Wiring board
+specification
+</p>
+<p>P. C. B.
+specification
+</p>
+<p>Remark
+</p>
+<p>SVUC1-4 A06B-6090-H002 A16B-2202-0955 A20B-2002-0030
+/03B or laterSVUC1-12 A06B-6090-H003 A16B-2202-0956 /03B or later
+</p>
+<p>SVUC1-40 A06B-6090-H004 A20B-2002-0045 A20B-2002-0031
+/03B or laterSVUC1-80 A06B-6090-H006 A20B-2002-0047 /03B or later
+</p>
+<p>SVUC1-130 A06B-6090-H008 A20B-2002-0055
+</p>
+<p>(2) SVUC 2
+</p>
+<p>Model Oder 
+specification
+</p>
+<p>Wiring board
+specification
+</p>
+<p>P. C. B.
+specification
+</p>
+<p>Remark
+</p>
+<p>SVUC2-4/4 A06B-6090-H222 A20B-2002-0151 A20B-2002-0032
+/03B or laterSVUC2-4/12 A06B-6090-H223 A20B-2002-0152 /03B or later
+</p>
+<p>SVUC2-4/40 A06B-6090-H224 A20B-2002-0153
+</p>
+<p>SVUC2-12/12 A06B-6090-H233 A20B-2002-0154
+</p>
+<p>SVUC2-12/40 A06B-6090-H234 A20B-2002-0155
+</p>
+<p>SVUC2-12/80 A06B-6090-H236 A20B-2002-0156
+</p>
+<p>SVUC2-40/40 A06B-6090-H244 A20B-2002-0157
+</p>
+<p>SVUC2-40/80 A06B-6090-H246 A20B-2002-0158
+</p>
+<p>SVUC2-80/80 A06B-6090-H266 A20B-2002-0159
+</p>
+<p>2.2.2
+SVUC</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. START-UP PROCEDURE B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>8
+</p>
+<p>3 	
+��
+���� ���������</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 3. START-UP PROCEDURESTART-UP PROCEDURE
+</p>
+<p>9
+</p>
+<p>Start-up procedure
+</p>
+<p>1. Confirm the CNC model, nd the specifications of the control
+    motors, detectors, and servo amplifier units.
+</p>
+<p>2. Check for damage to the appernce.
+</p>
+<p>3. Confirm the line voltage and power requirements.  
+(See Section 3.2.)
+</p>
+<p>4. Connect the grounding line, power cords, and motor power wires.  
+(See Section 3.2.)
+</p>
+<p>5. Check the settings.  (See Section 3.3.)
+</p>
+<p>6. Start up the servo amplifier units.
+</p>
+<p>3.1
+OVERVIEW OF THE
+START-UP
+PROCEDURE</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. START-UP PROCEDURE B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>10
+</p>
+<p>(1) Line voltge
+Before connecting the power source to the mchine, check the voltge
+of the power source.
+</p>
+<p>Item Specifiction
+</p>
+<p>Three-phase input for
+power
+</p>
+<p>Voltage 200/220/230 VAC+10%, &ndash;15%
+Frequency 50Hz, 60Hz �� 2Hz
+Voltage deviation due to load (at maximum output)
+shall be 7% or less.
+</p>
+<p>Single-phase input for
+control power
+</p>
+<p>Voltage 200/220/230 VAC+10%, &ndash;15%
+Frequency 50Hz, 60Hz �� 2Hz
+</p>
+<p>Single-phase input for
+ESP of SVUC
+</p>
+<p>Voltage 100VAC +10%, &ndash;15%
+Frequency 50Hz �� 2Hz
+OR
+Voltage 100/110VAC +10%, &ndash;15%
+Frequency 60Hz �2Hz)
+</p>
+<p>(2) Power requirements
+&bull; The power requirement of the servo amplifier unit is the sum of the
+</p>
+<p>power requirements of individual servo motors.
+&bull; When  servo motor accelertes or decelertes rapidly, it may require
+</p>
+<p>power twice as much as the continuous rating momentarily.  Check on
+the input voltage required when more than one servo motor accelertes
+or decelertes simultaneously, and keep the voltage above 170 VAC.
+</p>
+<p>&bull; Refer to Chapter 5 of &ldquo;SERVO AMPLIFIER UNIT Descriptions&rdquo;
+(B-65192EN) for details of the power requirements.
+</p>
+<p>(3) When motor power and control power are input separately from each
+other.  When supplying motor power and control power separately
+from each other, be sure to remove a jumper connecting L1C and L1,
+and a jumper connecting L2C and L2.  (These jumpers have been
+factory-insatlled.)
+</p>
+<p>When it is necessary to make a motor operating with the SVU qualify for
+European CE marking, ground the motor using the accessory plate
+terminal.
+</p>
+<p>Note that installing more than one protection ground line with  single
+screw makes it impossible for the motor to qualify for European CE
+marking. (See Appendix NO TAG.)
+</p>
+<p>Because the drive circuit for the servo amplifier unit operates by  pulse
+width modulation control system using IGBTs, high-frequency leakage
+current flows from the motor windings and power lines to the ground
+through stray capacitance.  This leakage current may cause the ground
+fault interrupter or leakage protection relay installed in the power line on
+the power supply side to malfunction.  So they must have a maesure
+against influence from inverters so tht they do not malfunction.
+</p>
+<p>3.2
+CONNECTING THE
+POWER SUPPLY
+</p>
+<p>3.2.1
+Confirming the Line
+Voltage and Power
+Requirements
+</p>
+<p>3.2.2
+Connecting to the
+Protection Ground
+</p>
+<p>3.2.3
+Leakage Current and
+Selecting a Ground
+Fault Interrupter</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 3. START-UP PROCEDURESTART-UP PROCEDURE
+</p>
+<p>11
+</p>
+<p>(1) Leakage current from the motor
+Determine the leakage current from each motor according to the table
+below.
+</p>
+<p>Motor model Leakage current of commercial 
+power frequency component
+</p>
+<p>α0.5 to α6 1.8 mA
+</p>
+<p>α12 to α22 2.0 mA
+</p>
+<p>α30 to α40 2.5 mA</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. START-UP PROCEDURE B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>12
+</p>
+<p>There are four channel switches above the 7-segment LED behind the
+terminal board cover on the front of the servo amplifier.  These switches
+should be set as described below before use of the servo amplifier.
+</p>
+<p>(1) Positions
+The switches are sequentially numbered 1, 2, 3, and 4 with the one
+at the bottom as switch 1.  The OFF position is on the left, and the ON
+position on the right.
+</p>
+<p>OFF ON
+</p>
+<p>�ON
+</p>
+<p>4
+3
+2
+1
+</p>
+<p>(2) Switch 1 setting
+The setting of switch 1 varies with the interface type used between the
+NC and servo amplifier.
+� If the setting is incorrect, an alarm occurs.  
+</p>
+<p>If the load is light, the motor may keep running.
+</p>
+<p>ON Type B interface
+</p>
+<p>OFF Type A interface
+</p>
+<p>&bull; The following NC unit has the type interface.
+FS-0C, FS-15A, FS-15B, FS-16A, FS-16B, FS-18A, FS-21TA,
+PM-D, PM-F
+</p>
+<p>&bull; The following NC unit has the type B interface.
+FS-20, FS-21TB, FS-21GA, FS-16B, FS-18B, PM-H
+</p>
+<p>(3) Switch 2 setting
+For the SVU, set switch 2 to off.
+For the SVUC, set switch 2 to on.
+� If the setting is incorrect, the VRDY OFF alarm my occur.
+</p>
+<p>(4) Switch 3 and 4 setting 
+The setting varies depending on the regenerative discharge resistance
+used.
+</p>
+<p>3.3
+SWITCH SETTING</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 3. START-UP PROCEDURESTART-UP PROCEDURE
+</p>
+<p>13
+</p>
+<p>� If the setting is incorrect, the regenerative discharge control 
+circuit failure alarm (DCSW) cannot be detected correctly.
+</p>
+<p>� SVU1- (12, 20)
+3 4 Regenerative Discharge Resistor
+</p>
+<p>ON ON Built-in
+</p>
+<p>ON OFF Separate A06B-6089-H510
+</p>
+<p>OFF OFF Separate A06B-6089-H500
+</p>
+<p>� SVUC1- (4, 12)
+</p>
+<p>3 4 Regenerative Discharge Resistor
+</p>
+<p>ON ON Built-in
+</p>
+<p>� SVU1- (40, 80), SVU2-�/�
+SVUC1- (40, 80), SVUC2-�/�
+</p>
+<p>3 4 RegenerativeDischarge Resistor
+</p>
+<p>ON ON Built-in
+</p>
+<p>ON OFF Separate A06B-6089-H500
+</p>
+<p>OFF OFF Separate A06B-6089-H713 (800W), A06B-6089-H714
+(1200W)
+</p>
+<p>� SVU1-130
+SVUC1-130
+</p>
+<p>ON ON Built-in
+</p>
+<p>ON OFF Separate A06B-6089-H711
+</p>
+<p>OFF OFF Separate A06B-6089-H712</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. START-UP PROCEDURE B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>14
+</p>
+<p>Use of an absolute pulse coder requires a battery.  The way the battery is
+connected varies with the type (A or B) of the interface used between the
+NC and the servo amplifier unit.
+</p>
+<p>(1) Type A
+The battery is connected on the NC side.
+(Refer to the applicable NC manual for details.)
+</p>
+<p>(2) Type B
+The battery is connected on the servo amplifier unit side.
+</p>
+<p>Servo Amplifier Unit
+</p>
+<p>Battery
+</p>
+<p>Battery : A06B-6050-K061
+Bttery Case : A06B-6050-K060
+Battery Cable : A02B-0120-K809
+(5m)
+</p>
+<p>Connector : JA4
+</p>
+<p>3.4
+CONNECTING THE
+BATTERY FOR AN
+ABSOLUTE PULSE
+CODER</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 3. START-UP PROCEDURESTART-UP PROCEDURE
+</p>
+<p>15
+</p>
+<p>(1) Type
+� For SVU
+</p>
+<p>A06B-6089-H101 to H102
+(16Ω/100W, with natural cooling)
+</p>
+<p>A06B-6089-H510
+</p>
+<p>A06B-6089-H101 to H105, H201 to H210
+(16Ω/200W, with natural cooling)
+</p>
+<p>A06B-6089-H500
+(A06B-6066-H500) Note 1)
+</p>
+<p>A06B-6089-H103 to H105, H201 to H210
+(16Ω/800W, with cooling fan)
+</p>
+<p>A06B-6089-H713
+(A06B-6066-H713) Note 1)
+</p>
+<p>A06B-6089-H103 to H105, H201 to H210
+(16Ω/1200W, with cooling fan)
+</p>
+<p>A06B-6089-H714
+(A06B-6066-H714) Note 1)
+</p>
+<p>A06B-6089-H106
+(8Ω/800W, with cooling fan)
+</p>
+<p>A06B-6089-H711
+(A06B-6066-H711) Note 1)
+</p>
+<p>A06B-6066-H106
+(8Ω/1200W, with cooling fan)
+</p>
+<p>A06B-6089-H712
+(A06B-6066-H712) Note 1)
+</p>
+<p>� For SVUC
+</p>
+<p>A06B-6090-H004 to H006, H2**
+(16Ω/200W, with natural cooling)
+</p>
+<p>A06B-6089-H500
+(A06B-6066-H500) Note 1)
+</p>
+<p>A06B-6090-H004 to H006, H2**
+(16Ω/800W, with cooling fan)
+</p>
+<p>A06B-6089-H713
+(A06B-6066-H713) Note 1)
+</p>
+<p>A06B-6090-H004 to H006, H2**
+(16Ω/1200W, with cooling fan)
+</p>
+<p>A06B-6089-H714
+(A06B-6066-H714) Note 1)
+</p>
+<p>A06B-6090-H008
+(8Ω/800W, with cooling fan)
+</p>
+<p>A06B-6089-H711
+(A06B-6066-H711) Note 1)
+</p>
+<p>A06B-6090-H008
+(8Ω/1200W, with cooling fan)
+</p>
+<p>A06B-6089-H712
+(A06B-6066-H712) Note 1)
+</p>
+<p>Notes
+If it is unnecessary to conform to safety standards, separate
+regenerative discharge unit for the C series servo amplifier
+indicated in parentheses can be used in place of the formal
+model.
+</p>
+<p>3.5
+CONNECTING THE
+SEPARATE
+REGENERATIVE
+DISCHARGE UNIT</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. START-UP PROCEDURE B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>16
+</p>
+<p>(2) Connecting
+1. A06B-6089-H500, H510
+</p>
+<p>&Atilde;&Atilde;
+&Atilde;&Atilde;
+&Atilde;&Atilde;
+</p>
+<p>Note 1)
+</p>
+<p>Note 1)
+</p>
+<p>Resistor 
+16Ω
+</p>
+<p>Separate Regenerative
+Discharge Unit
+</p>
+<p>Thermostat
+Normally 
+Short
+</p>
+<p>SVU, SVUC
+</p>
+<p>T3
+</p>
+<p>RC 1
+</p>
+<p>RI
+</p>
+<p>RE 2
+</p>
+<p>TH1 3
+</p>
+<p>TH2 4
+</p>
+<p>T1
+</p>
+<p>Notes
+To connect a separate regenerative discharge unit, remove
+jumper connecting RC and RI and jumper connecting TH1
+and TH2.
+(These jumpers have been factory-installed.)</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 3. START-UP PROCEDURESTART-UP PROCEDURE
+</p>
+<p>17
+</p>
+<p>2. A06B-6089-H711, H712, H713, H714
+</p>
+<p>&Atilde;&Atilde;
+&Atilde;&Atilde;
+&Atilde;&Atilde;
+</p>
+<p>Note 1)
+</p>
+<p>Note 1)
+</p>
+<p>Resistor
+H711, H712
+8Ω
+H713, H714
+16Ω
+</p>
+<p>Separate Regenerative
+Discharge Unit
+</p>
+<p>Thermostat
+Normally 
+Short
+</p>
+<p>SVU1-130, SVUC1-130
+</p>
+<p>T3
+</p>
+<p>RC 1
+</p>
+<p>RI
+</p>
+<p>RE 2
+</p>
+<p>TH1 3
+</p>
+<p>TH2 4
+</p>
+<p>T1
+</p>
+<p>FAN1 5
+</p>
+<p>FAN2 6
+</p>
+<p>&Atilde;&Atilde;
+&Atilde;&Atilde;
+</p>
+<p>Fan
+</p>
+<p>Notes
+To connect  separate regenerative discharge unit, remove
+jumper connecting RC and RI and jumper connecting TH1
+and TH2.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. START-UP PROCEDURE B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>18
+</p>
+<p>(1) Before servo parameter initialization
+Before starting servo parameter initialization, confirm the following:
+1. NC model  (Example:  Series 15&ndash;B)
+2. Servo motor model  (Example: α 6/2000)
+3. Pulse coder built in a motor  (Example: α pulse coder)
+4. Whether a separate position detector is used or not  (Example:
+</p>
+<p>Not used)
+5. Distance the machine tool moves per revolution of the motor
+</p>
+<p>(Example:  10 mm per one revolution)
+6. Machine detection unit  (Example:  0.001 mm)
+7. NC command unit (Example:  0.001 mm)
+</p>
+<p>(2) Servo parameter initialization procedure
+1. Switch on the NC in an emergency stop state.
+</p>
+<p>Enable parameter writing (PWE = 1).
+2. Initialize servo parameters on the servo setting screen.
+</p>
+<p>To display the servo setting screen, follow the procedure below,
+using the key on the NC.
+&ndash; Series 15
+</p>
+<p>Press the SERVICE key several times, and the servo setting
+screen will appear.
+</p>
+<p>&ndash; Series 16, 18, 20, and 21
+</p>
+<p>SYSTEM &rArr;  [SYSTEM] &rArr;  [ ] &rArr;  [SV&ndash;PRM]
+If no servo screen appears, set the following parameter as
+shown, and switch the NC off and on again.
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>3111 SVS
+</p>
+<p>SVS (b0)=1 (to display the servo screen)
+&ndash; Series 0&ndash;C
+</p>
+<p>Press the PARAM key several times, and the servo setting
+screen will appear.
+If no servo screen appears, set the following parameter as
+shown, and switch the NC off and on again.
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>389 SVS
+</p>
+<p>SVS (b0)=0 (to display the servo screen)
+When the following menu appears on the screen, move the cursor to the
+item you want to set and enter data directly.
+</p>
+<p>3.6
+INITIALIZING SERVO
+PARAMETERS</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 3. START-UP PROCEDURESTART-UP PROCEDURE
+</p>
+<p>19
+</p>
+<p>Servo set 01000 N0000
+</p>
+<p>X axis Z axis 
+INITIAL SET BITS 00001010 00001011
+Motor ID No. 16 16
+AMR 00000000 00000000
+CMR 2 2
+Feed gear N  1 1
+</p>
+<p>(N/M) M  100 1
+Direction Set 111 &ndash;111
+Velocity Pulse No. 8192 819
+Position Palse No. 12500 1250
+Ref. counter 10000 10000
+</p>
+<p>Value SETTING =
+</p>
+<p>Servo setting menu
+</p>
+<p>3. Start initializing
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>DGPR PLC0
+Initial 
+</p>
+<p>set bits
+</p>
+<p>0.1&micro;m
+</p>
+<p>PLC0 (b0) = 0
+</p>
+<p>&lArr; This bit is set to 1 automatically 
+after initialization.
+</p>
+<p>Start initializing (Keep the CNC switched on up until step 11.)
+</p>
+<p>Increment system
+</p>
+<p>1&micro;m
+</p>
+<p>PLC0 (b0) = 1
+</p>
+<p>DGPR (b1) = 0</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. START-UP PROCEDURE B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>20
+</p>
+<p>4. Specify the motor ID No.
+</p>
+<p>Select the motor ID No. according to the model and specification
+(four digits in the middle segment of A06B&ndash;XXXX&ndash;BXXX) of
+your motor.
+</p>
+<p>Motor model α12HV α22HV α30HV αC3/2000 αC6/2000 αC12/2000 αC22/1500
+Motor specification 0176 0177 0178 0142 0123 0127 0128
+</p>
+<p>Motor type No. 3 4 5 7 8 9 10
+</p>
+<p>α0.5 α3/3000 α6/2000 α6/3000 α12/2000 α12/3000 α22/2000 α22/3000
+</p>
+<p>0142 0123 0127 0128 0142 0143 0147 0148
+</p>
+<p>13 15 16 17 18 19 20 21
+</p>
+<p>α30/2000 α30/3000 αM3/3000 αM6/3000 αM9/3000
+0152 0153 0161 0162 0163
+</p>
+<p>22 23 24 25 26
+</p>
+<p>α22/1500 α30/1200 α40/2000
+with FAN
+</p>
+<p>α40/2000
+without FAN
+</p>
+<p>E6/2000 E1/3000 E2/3000
+</p>
+<p>0146 0151 0158 0157 0106 0101 0102
+</p>
+<p>27 28 29 30 34 35 36
+</p>
+<p>α2/2000 αL3/2000 αL6/3000 αL9/3000 αL25/3000 αL50/2000 α1/3000 α2/3000
+</p>
+<p>0372 0561 0562 0564 0571 0572 0371 0373
+</p>
+<p>46 56 57 58 59 60 61 62
+</p>
+<p>5. Set AMR as described below.  The setting does not depend on the
+model of the motor.
+</p>
+<p>α pulse coder 00000000
+</p>
+<p>6. Set CMR with the scale of a distance the NC instructs the
+machine to move.
+</p>
+<p>CMR = Command unit/Detection unit
+</p>
+<p>CMR  1/2 to 48 Setting value = CMR � 2
+</p>
+<p>Usually, CMR=1, so specity 2.
+</p>
+<p>7. Specify the flexible feed gear (F.FG).  This function makes it easy
+to specify a detection unit for the leads and gear reduction ratios
+of various ball screws by changing the number of position
+feedback pulses from the pulse coder and separate detector.
+</p>
+<p>1000000
+</p>
+<p>Number of position pulses neces-
+sary for each revolution of the motor
+</p>
+<p>Setting for the α pulse coder and serial pulse coder A in the semi&ndash;closed mode
+</p>
+<p>=
+</p>
+<p>(Note1)
+</p>
+<p>F.FG numerator (�32767)
+</p>
+<p>F.FG denominator (�32767)
+(as irreducible fraction)
+</p>
+<p>NOTE1
+For both F.FG numerator and denominator, the maximum
+setting value (after reduced) is 32767.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 3. START-UP PROCEDURESTART-UP PROCEDURE
+</p>
+<p>21
+</p>
+<p>(Example of setting) For detection in 1 &micro;m units, specify as
+follows:
+</p>
+<p>Ball screw lead Number of necessaryposition pulses F&amp; FG
+</p>
+<p>10 (mm/rev) 10000 (pulses/rev) 1/100
+</p>
+<p>20 20000 2/100 or 1/50
+</p>
+<p>30 30000 3/100
+</p>
+<p>(Example of setting)
+If the machine is set to detection in 1,000 degree units with
+a gear reduction ratio of 100:1 for the rotation axis, the table
+rotates by 360/100 degrees each time the motor makes one
+turn.  1000 position pulses are necessary for the table to rotate
+through one degree. The number of position pulses necessary
+for the motor to make one turn is:
+360/100 _ 1000 = 3600
+</p>
+<p>3600=F.FG numerator
+F.FG denominator 1000000
+</p>
+<p>= 36
+10000
+</p>
+<p>Number of position pulses necessary for
+the motor to make one turn
+</p>
+<p>Setting for use of a separate detector (full&ndash;closed)
+</p>
+<p>=
+F.FG numerator (�32767)
+</p>
+<p>F.FG denominator (�32767)
+(as irreducible fraction)
+</p>
+<p>Number of position pulses from the separate
+detector when the motor makes one turn
+</p>
+<p>NOTE2
+DMR can also be used with the separate position detector,
+provided that F.FG = 0.
+</p>
+<p>Example of setting) When the separate detector detects 1 &micro;m
+for 10000 (pulses/rev)
+</p>
+<p>Ball screw lead Number of necessaryposition pulses F&amp; FG DMR
+</p>
+<p>1 (mm/rev) 1000 (pulses/rev) 1/10 &ndash;
+</p>
+<p>5 5000 1/2 2
+</p>
+<p>10 10000 1/1 4
+</p>
+<p>8. Specify the direction in which the motor rotates.
+</p>
+<p>111 Clockwise as viewed from the pulse coder
+</p>
+<p>-111 Counterclockwise as viewed from the pulse coder</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. START-UP PROCEDURE B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>22
+</p>
+<p>9. Specify the number of velocity pulses and the number of position
+pulses.
+</p>
+<p>Semi&ndash;closed Full&ndash;closed
+</p>
+<p>Command unit (&micro;m) 1 0.1 1 0.1
+</p>
+<p>Initialization bit b0=0 b0=1 b0=0 b0=1
+</p>
+<p>Number of velocity pulses 8192 819 8192 819
+</p>
+<p>Number of position pulses 12500 1250 Np Np/10
+</p>
+<p>Np:Number of position pulses from the separate detector when
+the motor makes one turn
+</p>
+<p>When using a separate detector (full&ndash;closed mode), also specify
+the following parameters:
+&ndash; Series 15, 16, 18, 20, 21
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>1807
+</p>
+<p> PFSE
+</p>
+<p>&uArr;
+Must be specified only for Series 15
+</p>
+<p>PFSE(b3) The separate position detector is:
+</p>
+<p>0:Not used
+1:Used
+</p>
+<p>NOTE
+This parameter is used only for Series 15.
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>1815 OPTX
+</p>
+<p>&uArr;
+Must be specified for all NCs.
+</p>
+<p>OPTX(b1) The separate position detector is:
+</p>
+<p>0:Not used
+1:Used
+</p>
+<p>NOTE
+For Series 16, 18, 20, and 21, setting this parameter causes
+bit 3 of parameter No. 2002 to be set to 1 automatically.
+</p>
+<p>&ndash; Series 0&ndash;C
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>37 STP8 STP7 STP4 STPZ STPY STPX
+</p>
+<p>STPX to 8 The separate position detector is:
+</p>
+<p>0:Not used for the X&ndash;axis, Y&ndash;axis, Z&ndash;axis, fourth axis, 
+seventh axis, or eighth axis
+</p>
+<p>1:Used for the X&ndash;axis, Y&ndash;axis, Z&ndash;axis, fourth axis, seventh
+axis, and eighth axis
+</p>
+<p>10. Specify the reference counter.  The reference counter is used in
+making a return to the reference position by a grid method.  The
+value to be specified is the number of pulses necessary for the</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 3. START-UP PROCEDURESTART-UP PROCEDURE
+</p>
+<p>23
+</p>
+<p>motor to make one turn, or a value obtained by dividing the
+number by an integer.
+(Example of setting)
+</p>
+<p>α pulse coder, semi&ndash;closed (detection in 1 &micro;m units)
+</p>
+<p>Ball screw lead
+Number of nec-
+essary position
+</p>
+<p>pulses
+</p>
+<p>Reference
+counter Grid width
+</p>
+<p>10mm/rev 10000pulses/rev 10000 10mm
+</p>
+<p>20 20000 20000 20
+</p>
+<p>30 30000 30000 30
+</p>
+<p>11. Switch the NC off and on again.
+This completes servo parameter initialization.
+If a servo alarm related to pulse coders occurs for an axis for
+which a servo motor or amplifier is not connected, specify the
+following parameter.
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>1953
+</p>
+<p>8X09
+SERD
+</p>
+<p>2009
+</p>
+<p>SERD(b0) The serial feedback dummy function is:
+</p>
+<p>0:Not used
+1:Used
+</p>
+<p>12. When you are going to use an α pulse coder as an absolute pulse
+coder, use the following procedure.
+The procedure for setting absolute position communication using
+the α pulse coder is somewhat different from the procedure using
+serial pulse coder A.
+1. Set the following parameter, and switch the CNC off.
+</p>
+<p>&ndash; Series 15, 16, 18, 20, 21
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>1815 APCX
+</p>
+<p>Bit 5 (APCX)
+0:Does not perform as absolute position pulsecoder.
+1:Performs absolute position as communication pulsecoder.
+</p>
+<p>&ndash; Series 0&ndash;C
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>21 APC8 APC7 APC4 APCZ APCY APCX
+</p>
+<p>STPX to 8
+0:Does not perform absolute position communication for the
+</p>
+<p>X&ndash;, Y&ndash;, Z&ndash;, 4&ndash;, 7&ndash;, or 8&ndash;axis.
+1:Performs absolute position communication for the X&ndash;, Y&ndash;,
+</p>
+<p>Z&ndash;, 4&ndash;, 7&ndash;, or 8&ndash;axis.
+2. After making sure that the battery for the pulse coder is
+</p>
+<p>connected, switch the NC on.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>These steps 
+were added.
+</p>
+<p>&lArr;
+</p>
+<p>3. START-UP PROCEDURE B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>24
+</p>
+<p>3. Absolute position communication is
+performed, and a request to return to the
+reference position is displayed.
+</p>
+<p>4. More motor more than one revolution by
+JOG Feed.
+</p>
+<p>5. Turm off and on the CNC.
+</p>
+<p>6. Absolute position communication is performed, and a
+request to return to the reference position is displayed.
+</p>
+<p>7. Return to the reference position.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+4. OPERATION CONFIRMATION
+</p>
+<p>METHODSTART-UP PROCEDURE
+</p>
+<p>25
+</p>
+<p>4 ���&#13;����
+� ��
+��&#13;	����
+� 	�����</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>4. OPERATION CONFIRMATION
+METHOD B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>26
+</p>
+<p>3. After confirming the NC parameters,release the emergency stop condition.
+</p>
+<p>1. Supply power.
+</p>
+<p>See Section 4.3.
+</p>
+<p>2. The STATUS indicator indicates &ldquo;&ndash;&rdquo;.
+</p>
+<p>The STATUS indicator does not indicate &ldquo;&ndash;&rdquo;.
+</p>
+<p>The STATUS indicator does not indicate &ldquo;0&rdquo;.
+</p>
+<p>See Section 4.3.
+</p>
+<p>4. The STATUS indicator indicates &ldquo;0&rdquo;.
+</p>
+<p>5. Check the servo motor operation.
+</p>
+<p>Alarm is issued
+</p>
+<p>See Chapter II.
+</p>
+<p>The motor malfunctions.
+</p>
+<p>Refer to &ldquo;FANUC AC SERVO MOTOR α Series Parameters.&rdquo;
+</p>
+<p>4.1
+CONFIRMATION
+PROCEDURE</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+4. OPERATION CONFIRMATION
+</p>
+<p>METHODSTART-UP PROCEDURE
+</p>
+<p>27
+</p>
+<p>The check pins in the servo amplifier unit enable checking the control
+power supply voltage and motor current.  There are six check pins in the
+servo amplifier unit.  Open the terminal cover on the servo amplifier unit
+front panel,and you will see the six check pins below the 7-segment LED.
+(See Appendix NO TAG.)
+</p>
+<p>OFF ON
+</p>
+<p>�ON
+</p>
+<p>4
+3
+2
+1
+</p>
+<p>IRL IRM
+</p>
+<p>ISL ISM
+</p>
+<p>IRL, IRM
+ISL, ISM
+</p>
+<p>Motor instantaneous current
+</p>
+<p>Power supply for control circuit
+</p>
+<p>ISL
+</p>
+<p>0V +5V
+</p>
+<p>+5V, 0V
+</p>
+<p>The voltage across the 0V and +5V check pins should be 5V +5%.
+</p>
+<p>The motor instantaneous current can be measured by observing the
+voltage across the 0V and IRL, IRM, ISL, or ISM check pins on an
+oscilloscope.  This measurement cannot be done correctly with a
+volt-ohm-milliammeter.
+The relationships between the motor instantaneous current and the
+measured voltage are as described below.  The servo amplifier name has
+a number enclosed in a box &ldquo;�&rdquo;.  This number is a limit to the motor
+instantaneous current. It is determined so that when the motor current
+reaches the limit,the measured voltage is �4V.
+Therefore, the coefficient to calculate the motor current is obtained as
+follows.
+</p>
+<p>Coefficient to calculate =
+the motor current
+</p>
+<p>Limit to Motor instantaneous current
+</p>
+<p>4V [A/V]
+</p>
+<p>4.2
+SERVO AMPLIFIER
+UNIT CHECK PINS
+</p>
+<p>4.2.1
+Checking the +5V
+Power Supply Voltage
+</p>
+<p>4.2.2
+Checking the Motor
+Instantaneous Current</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>4. OPERATION CONFIRMATION
+METHOD B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>28
+</p>
+<p>Then the motor instantaneous current can be obtained by multipling this
+coefficient to the voltage observed on the check-pin.
+</p>
+<p>For example SVU1-40
+</p>
+<p>Coefficient to calculate =
+the motor current 4V
+</p>
+<p>40A
+= 10 [A/V]
+</p>
+<p>The servo amplifier name
+SVU (C) 1-�
+</p>
+<p>Limit to Motor instantaneous current
+�
+</p>
+<p>SVU (C) 2-�/�
+</p>
+<p>M axis : Limit to Motor instantaneous current
+L axis : Limit to Motor instantaneous current
+</p>
+<p>� �
+</p>
+<p>Limit to Motor instantaneous 
+current [A]
+</p>
+<p>Coefficient to caliculate the 
+motor current [A/V]
+</p>
+<p>4 1
+</p>
+<p>12 3
+</p>
+<p>20 5
+</p>
+<p>40 10
+</p>
+<p>80 20
+</p>
+<p>130 32.5</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+4. OPERATION CONFIRMATION
+</p>
+<p>METHODSTART-UP PROCEDURE
+</p>
+<p>29
+</p>
+<p>The STATUS indicator is a 7-segment LED indicator above the check
+pins.  
+</p>
+<p>Indication Description
+</p>
+<p>The 7-segment indicator is off.
+</p>
+<p>&ndash; The control power is not supplied.
+</p>
+<p>&ndash; The power supply circuit in the servo amplifier unit is defective.  
+(Replace the fuse if necessary. If the indicator is still off,replace the servo amplifier 
+unit. )
+</p>
+<p>The servo amplifier unit is waiting for the ready signal from the NC.
+(The name of the ready signal is *MCON.)
+</p>
+<p>The servo amplifier unit is in a ready state.
+</p>
+<p>The motor is being energized.
+</p>
+<p>ex. All indications other than those described above mean an alarm condition.
+</p>
+<p>&ndash; See chapter II for the troubleshooting and recovery procedures.
+</p>
+<p>4.3
+STATUS INDICATOR</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>5. AXIS LEFT UNUSED IN A
+MULTI-AXIS AMPLIFIER B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>30
+</p>
+<p>5 ����� ���&#13;� �	����� �	� �� ���&#13;������� ��
+������
+If an axis is left unused, for example, in a two-axis amplifier, remove the
+cable between the NC and servo amplifier unit, and insert a dummy
+connector,with pins 8 and 10 strapped, into the JV*B (for type A
+interface) or JS*B (for type B interface) connector of that axis.
+</p>
+<p>If a dummy connector is inserted, it prevents the motor of the
+corresponding axis from being energized. In this state, the dynamic brake
+is not applied to the motor, leaving it in a free state. Be careful especially
+about vertical- axis motors in this situation.
+</p>
+<p>Servo
+Amplifier
+</p>
+<p>JV*B 
+or JS*B
+</p>
+<p>�� Dummy Connector with pins 8 and 10 strapped</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 6. SERVO CHECK BOARDSTART-UP PROCEDURE
+</p>
+<p>31
+</p>
+<p>6 SERVO CHECK BOARD
+(1) General
+</p>
+<p>The servo check board receives the digital value used for control
+inside the digital servo as numerical data and converts it to an analog
+form.
+</p>
+<p>(2) Servo check board specifications
+</p>
+<p>Specification Name
+</p>
+<p>A06B&ndash;6057&ndash;H602 Servo check board (with a cable having a provision to pre-
+vent incorrect insertion)
+</p>
+<p>A02B&ndash;0120&ndash;C211 Servo adaptor board (not required for Series 0&ndash;C or 15&ndash;A)
+</p>
+<p>(3) Connecting the servo check board
+When connecting the check board, always keep the NC switched off.
+If you do not obtain a correct waveform, install strapping on the 5
+MHz side of clock pin S1 on the check board.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>6. SERVO CHECK BOARD B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>32
+</p>
+<p>NC
+</p>
+<p>MAIN CPU
+</p>
+<p>Connector
+JA8A
+</p>
+<p>Adaptor
+cable
+</p>
+<p>Servo check
+board first and
+second axes
+</p>
+<p>Servo check
+board third and
+</p>
+<p>fourth axes
+</p>
+<p>OPTION&ndash;2
+JA8B
+</p>
+<p>Preventing reverse
+insertion cable
+</p>
+<p>To the analog spindle
+</p>
+<p>Adaptor board
+</p>
+<p>Fifth to eight axes
+</p>
+<p>Do not mix up CN0 with CN1.
+</p>
+<p>Axis control board Servo check board
+</p>
+<p>TEST1 TEST2
+</p>
+<p>CN0 CN1
+</p>
+<p>Preventing reverse
+insertion cable
+</p>
+<p>� Series 15&ndash;B, 16, 18, 20, 21, Power Mate MODEL D, Power Mate MODEL F
+</p>
+<p>� Series 0&ndash;C, 15&ndash;A
+</p>
+<p>(4) Location of signal output
+</p>
+<p>Check
+pin TSAL TSAM CH1 CH2 CH3 CH4 CH5 CH6
+</p>
+<p>Signal L axis
+VCMD
+</p>
+<p>L axis
+TCMD
+</p>
+<p>M axis
+VCMD
+</p>
+<p>M axis
+TCMD
+</p>
+<p>L axis
+TSA
+</p>
+<p>M axis
+TSA
+</p>
+<p>(Check terminal TSAL or TSAM is not used.)
+</p>
+<p>(5) VCMD signal
+The VCMD signal is used to output a speed command.  It can also be
+used to measure a very small vibration or uneven movement of the
+motor.  The VCMD signal conversion mode can be switched by a
+parameter.  Because the VCMD signal is clamped at +5 V, the
+waveform may become difficult to observe.  In such a case, switch for
+easier observation.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 6. SERVO CHECK BOARDSTART-UP PROCEDURE
+</p>
+<p>33
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>1956
+</p>
+<p>8X12
+VCM2 VCM1
+</p>
+<p>2012
+</p>
+<p>VCM2 VCM1 Specified speed / 5V
+</p>
+<p>0 0 0.9155 rpm
+</p>
+<p>0 1 14 rpm
+</p>
+<p>1 0 234 rpm
+</p>
+<p>1 1 3750 rpm
+</p>
+<p>To check small vibrations, monitor the entire vibration on the DC
+mode of the ascilloscope then enlarge monitor the desired range on
+the AC mode.
+</p>
+<p>GND
+</p>
+<p>DC mode
+</p>
+<p>Enlarge
+</p>
+<p>AC mode
+</p>
+<p>VCMD
+</p>
+<p>GND
+E
+</p>
+<p>1/f
+</p>
+<p>When the signal conversion result for the VCMD waveform is W (rpm/5
+V), the voltage per positional shift pulse is:
+</p>
+<p>Voltage (V) per positional deviation pulse =
+300 _ Position gain (S&ndash;1)
+</p>
+<p>Number of positional feedback pulses/motor revolution _ W
+</p>
+<p>(Example)
+Assume the conditions:  Position gain = 30 (S&ndash;1), the number of positional
+feedback pulses/motor revolution = 1000 pulses, and signal conversion
+result for the VCMD waveform = 14 rpm/5 V with 1 &micro;m/pulse)
+</p>
+<p>Under these conditions, if you observe E = 300 mV and 1/f = 20 ms:
+Voltage per positional deviation pulse = 64 mv/pulse
+Therefore, table vibration = 300 _ 1/64 = 4.6 &micro;m, with a vibration
+period of 50 Hz
+</p>
+<p>(6) TCMD signal
+The TCMD signal outputs a motor torque command.  It may be
+different from the actual current (IR, IS) of the motor rotating at high
+speed, because the motor produces a back electromotive force.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>6. SERVO CHECK BOARD B&ndash;65195EN/01START-UP PROCEDURE
+</p>
+<p>34
+</p>
+<p>Maximum
+current
+</p>
+<p>Signal output
+for maximum
+</p>
+<p>current
+Ap/V Applicable servo moter
+</p>
+<p>12Ap 4.44V 2.7 α0.5, α1/3000
+α/2000, α2/3000
+</p>
+<p>20Ap 4.44V 4.5 αC3/2000, αC6/2000, αC12/2000
+</p>
+<p>40Ap 4.44V 9 α12HV, α22HV, α30HV
+αC22/1500, αC30/1200
+αM3/3000
+α3/3000, α6/2000
+α12/2000, α22/1500
+αL3/3000
+</p>
+<p>80Ap 4.44V 18 αM6/3000, αM9/3000
+α6/3000, α12/3000
+α22/2000, α30/1200
+αL6/3000, αL9/3000
+</p>
+<p>130Ap 4.44V 29 α22/3000, α30/2000, α30/3000
+α40/2000
+αL25/3000, αL50/2000
+</p>
+<p>Root mean square value (RMS) = TCMD signal output (Ap) � 0.71
+</p>
+<p>(7) TSA signal
+The TSA signal outputs a motor speed.
+</p>
+<p>Signal Conversion     3750 rpm/5V
+</p>
+<p>If the TSA signal is clamped at 5 V, check whether the following
+parameter is specified.
+</p>
+<p>Be sure to specify 0.
+</p>
+<p>1726
+</p>
+<p>
+Not used
+</p>
+<p>2115</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>II. TROUBLESHOOTING AND
+RECOVERY</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 1. OVERVIEWTROUBLESHOOTING AND RECOVERY
+</p>
+<p>37
+</p>
+<p>1 ��������
+This part describes troubleshooting and recovery procedures.Each item
+should be carefully followed to find the cause of trouble and take
+necessary actions.
+</p>
+<p>First, check the alarm No.  (displayed on the CNC) and the STATUS
+indicator in the servo amplifier unit to find the cause of trouble by
+referring to Chapter 2.  Second, take appropriate actions according to
+Chapter 3.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>2. ALARM NUMBER AND
+BRIEF DESCRIPTIONS B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>38
+</p>
+<p>2 �	��
+� ��
+���� ���� ������ ������&#13;�����</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+2. ALARM NUMBER AND
+</p>
+<p>BRIEF DESCRIPTIONSTROUBLESHOOTING AND RECOVERY
+</p>
+<p>39
+</p>
+<p>Alarm No. SVU, SVUC Description Remark
+</p>
+<p>SV001 Overload alarm (OVC) 3.3.2
+</p>
+<p>SV003 8 L axis over-current alarm (HCL) 3.1.2
+</p>
+<p>8. L axis IPM alarm (IPML) 3.1.2
+</p>
+<p>9 M axis over- current alarm (HCM) 3.1.2
+</p>
+<p>9. M axis IPM alarm (IPMM) 3.1.2
+</p>
+<p>b L, M axis over-current alarm (HCLM) 3.1.2
+</p>
+<p>b. L, M axis IPM alarm (IPMLM) 3.1.2
+</p>
+<p>SV004 1 DC link over- voltage alarm (HV) 3.1.2
+</p>
+<p>SV005 4 Regenerative discharge control circuit failure alarm (DCSW) 3.1.2
+</p>
+<p>5 Over-Regenerative discharge alarm (DCOH) 3.1.2
+</p>
+<p>SV005
+SV006
+</p>
+<p>7 Dynamic brake circuit failure alarm (DBRLY) 3.1.2
+</p>
+<p>SV006 2 Low control power voltage alarm (LV) 3.1.2
+</p>
+<p>3 Low DC link voltage (LVDC) 3.1.2
+</p>
+<p>SV015 Feedback disconnected alarm 3.3.3
+</p>
+<p>SV023 Overheat alarm (motor) 3.3.4
+</p>
+<p>SV027 Invalid servo parameter setting alarm 3.3.5
+</p>
+<p>SV110 α pulse coder error alarm 3.3.6
+</p>
+<p>SV114 Rotation speed data error alarm 3.3.7
+</p>
+<p>SV115 Pulse coder communication error alarm 3.3.8
+</p>
+<p>SV117 Current conversion error alarm 3.2
+</p>
+<p>2.1
+ALARM NUMBER IN
+Series 15 (SERVO
+ALARMS)</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>2. ALARM NUMBER AND
+BRIEF DESCRIPTIONS B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>40
+</p>
+<p>Alarm No. SVU, SVUC Description Remark
+</p>
+<p>309 Alarm 3 α pulse coder error alarm (OVC) 3.3.6
+</p>
+<p>309 Alarm 4 Pulse coder communication error alarm 3.3.8
+</p>
+<p>400 Alarm1 Bit7 Overheat alarm (motor) 3.3.4
+</p>
+<p>414 Alarm1 Bit5 Overload alarm (OVC) 3.3.2
+</p>
+<p>414 Alarm1 Bit3 1 DC link over- voltage alarm (HV) 3.1.2
+</p>
+<p>414 Alarm1 Bit6 2 Low control power voltage alarm (LV) 3.1.2
+</p>
+<p>3 Low DC link voltage (LVDC) 3.1.2
+</p>
+<p>414 Alarm1 Bit 2 4 Regenerative discharge control circuit failure alarm (DCSW) 3.1.2
+</p>
+<p>5 Over-Regenerative discharge alarm (DCOH) 3.1.2
+</p>
+<p>414 Alarm1 Bit2
+Alarm1 Bit6
+</p>
+<p>7 Dynamic brake circuit failure alarm (DBRLY) 3.1.2
+</p>
+<p>414 Alarm1 Bit4 8 L axis over- current alarm (HCL) 3.1.2
+</p>
+<p>8. L axis IPM alarm (IPML) 3.1.2
+</p>
+<p>9 M axis over- current alarm (HCM) 3.1.2
+</p>
+<p>9. M axis IPM alarm (IPMM) 3.1.2
+</p>
+<p>b L, M axis over-current alarm (HCLM) 3.1.2
+</p>
+<p>b. L, M axis IPM alarm (IPMLM) 3.1.2
+</p>
+<p>416 Alarm1 Bit1 Feedback disconnected alarm 3.3.3
+</p>
+<p>417 Invalid servo parameter setting alarm 3.3.5
+</p>
+<p>� To interpret alarms 1 to 4, see Section 3.3.1 
+or diagnose No. listed on the right.
+</p>
+<p>Alarm1 Diagnose No. 720 to 723
+Alarm2 Diagnose No. 730 to 733
+Alarm3 Diagnose No. 760 to 763
+Alarm4 Diagnose No. 770 to 773
+</p>
+<p>2.2
+ALARM NUMBER IN
+Series 0-C (SERVO
+ALARMS)</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+2. ALARM NUMBER AND
+</p>
+<p>BRIEF DESCRIPTIONSTROUBLESHOOTING AND RECOVERY
+</p>
+<p>41
+</p>
+<p>Alarm No. SVU, SVUC Description Remark
+</p>
+<p>350 Alarm3 α pulse coder error alarm 3.3.6
+</p>
+<p>350 Alarm4 bit6 Rotation speed data error alarm 3.3.7
+</p>
+<p>351 Alarm4 Pulse coder communication error alarm 3.3.8
+</p>
+<p>400 Alarm1 bit7 Overheat alarm (motor) 3.3.4
+</p>
+<p>414 Alarm5 bit6 Current conversion error alarm 3.2
+</p>
+<p>414 Alarm1 bit5 Overload alarm (OVC) 3.3.2
+</p>
+<p>414 Alarm1 bit3 1 DC link over-voltage alarm (HV) 3.1.2
+</p>
+<p>414 Alarm1 bit6 2 Low control power voltage alarm (LV) 3.1.2
+</p>
+<p>3 Low DC link voltage (LVDC) 3.1.2
+</p>
+<p>414 Alarm1 bit2 4 Regenerative discharge control circuit failure alarm (DCSW) 3.1.2
+</p>
+<p>5 Over-Regenerative discharge alarm (DCOH) 3.1.2
+</p>
+<p>414 Alarm5 bit5 7 Dynamic brake circuit failure alarm (DBRLY) 3.1.2
+</p>
+<p>414 Alarm1 bit4 8 L axis over- current alarm (HCL) 3.1.2
+</p>
+<p>8. L axis IPM alarm (IPML) 3.1.2
+</p>
+<p>9 M axis over- current alarm (HCM) 3.1.2
+</p>
+<p>9. M axis IPM alarm (IPMM) 3.1.2
+</p>
+<p>b L, M axis over- current alarm (HCLM) 3.1.2
+</p>
+<p>b. L, M axis IPM alarm (IPMLM) 3.1.2
+</p>
+<p>416 Alarm1 bit1 Feedback disconnected alarm 3.3.3
+</p>
+<p>417 Invalid servo parameter setting alarm 3.3.5
+</p>
+<p>� To interpret alarms 1 to 5, see Section 3.3.1 
+or diagnose No.listed on the right.
+</p>
+<p>Alarm1 Diagnose No. 200
+Alarm3 Diagnose No. 202
+Alarm4 Diagnose No. 203
+Alarm5 Diagnose No. 204
+</p>
+<p>2.3
+ALARM NUMBER IN
+Series 16, 18, 20
+(SERVO ALARMS)</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING AND
+RECOVERY PROCEDURES B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>42
+</p>
+<p>3 �����
+������	��� ���� ��������� &#13;���������</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+3. TROUBLESHOOTING AND
+</p>
+<p>RECOVERY PROCEDURESTROUBLESHOOTING AND RECOVERY
+</p>
+<p>43
+</p>
+<p>If an alarm condition related to the servo amplifier unit occurs, the
+7-segment LED indicator on the amplifier front panel behaves as listed
+below.  
+</p>
+<p>Type LED 
+indication
+</p>
+<p>Description
+</p>
+<p>Over-voltage alarm
+(HV)
+</p>
+<p>This alarm occurs if the DC voltage of the main circuit power supply is abnor-
+mally high.
+</p>
+<p>Low control power
+voltage alarm (LV)
+</p>
+<p>This alarm occurs if the control power voltage is abnormally low.
+</p>
+<p>Low DC link voltage
+alarm (LVDC)
+</p>
+<p>This alarm occurs if the DC voltage of the main circuit power supply is abnor-
+mally low or the circuit breaker trips.
+</p>
+<p>Regenerative dis-
+charge control circuit
+failure alarm (DCSW)
+</p>
+<p>This alarm occurs if : 
+&ndash; The short-time regenerative discharge energy is too high.
+&ndash; The regenerative discharge circuit is abnormal.
+</p>
+<p>Over-regenerative 
+discharge alarm
+(DCOH)
+</p>
+<p>This alarm occurs if : 
+&ndash; The average regenerative discharge energy is too high 
+</p>
+<p>(too frequent acceleration/deacceleration).
+&ndash; The transformer overheats.
+</p>
+<p>Dynamic brake circuit
+failure alarm (DBRLY)
+</p>
+<p>This alarm occurs if the relay contacts of the dynamic brake welds together.
+</p>
+<p>L-axis over-current
+alarm (HCL)
+</p>
+<p>This alarm occurs if an abnormally high current flows in the L-axis motor.
+</p>
+<p>M-axis over-current
+alarm (HCM)
+</p>
+<p>This alarm occurs if an abnormally high current flows in the M-axis motor.
+</p>
+<p>L-and M-axis 
+over-current alarm
+(HCM)
+</p>
+<p>This alarm occurs if an abnormally high current flows in the L-and M-axes
+motor.
+</p>
+<p>L-axis IPM alarm
+(IPML)
+</p>
+<p>This alarm is detected by the IPM (intelligent power module) of the L-axis.
+(Note 1)
+</p>
+<p>M-axis IPM alarm
+(IPML)
+</p>
+<p>This alarm is detected by the IPM (intelligent power module) of the M- axis.
+(Note 1)
+</p>
+<p>L-and M-axis IPM
+alarm (IPMLM)
+</p>
+<p>This alarm is detected by the IPM (intelligent power module) of the L-and M-
+axes.  (Note 1)
+</p>
+<p>Circuit breaker Trips The circuit breaker trips if an abnormally high current (exceeding the working
+current of the circuit breaker) flows through it.  Note 2)
+</p>
+<p>3.1
+SERVO AMPLIFIER
+UNIT
+</p>
+<p>3.1.1
+LED Indications and
+Meanings</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING AND
+RECOVERY PROCEDURES B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>44
+</p>
+<p>Notes
+1 The IPM can detect the following alarms.
+</p>
+<p>&ndash; Over-current 
+&ndash; Over-heat
+&ndash; Drop in IPM control power voltage
+</p>
+<p>2 When the control power is separated from the main power, if the circuit breaker of the servo
+amplifier is off, low DC link voltage alarm (LVDC) is detected.
+</p>
+<p>Type LED Action
+</p>
+<p>Over-voltage alarm 
+(HV)
+</p>
+<p>(1) The three-phase input voltage is probably higher than the rating.  Check the 
+voltage and correct it as required.
+</p>
+<p>(2) The connection of the separate regenerative discharge unit is probably incor
+rect. Check the connection.
+</p>
+<p>(3) The resistor of the separate regenerative discharge unit is probably defec
+tive.Disconnect the wiring of the regenerative discharge unit and check the 
+resistance. If it is not within +20% of the rating (described in Section 3. 5), 
+replace the regenerative discharge unit.
+</p>
+<p>� If any of the above three items does not fit the case,replace the servo amplifier.
+</p>
+<p>Low control power 
+voltage alarm (LV)
+</p>
+<p>(1) The single-phase input voltage (for control circuit) is probably lower than the 
+rating.  Check the voltage and correct it as required.
+</p>
+<p>(2) The emergency stop input signal is probably short- circuited.  
+Remove the CX4 connector from the amplifier. If the alarm condition disap
+pears,check the connection of the external cable.
+</p>
+<p>(3) For the type B interface,the pulse coder is probably short- circuited.  
+Remove the JF* connector from the amplifier. If the alarm condition disap
+pears,check the connection of the external cable.
+</p>
+<p>� If any of the above three items does not fit the case,replace the servo amplifier.
+</p>
+<p>Low DC link voltage
+alarm (LVDC)
+</p>
+<p>(1) The circuit breaker is probably off.  Check the circuit breaker.
+</p>
+<p>(2) The three-phase input voltage is probably lower than the rating. Check the volt
+age and correct it as required.
+</p>
+<p>� If either of the above two items does not fit the case, replace the servo am
+plifier
+</p>
+<p>Regenerative 
+discharge control circuit
+failure alarm (DCSW)
+</p>
+<p>(1) The connection of the separate regenerative discharge unit is probably incor
+rect. Check the connection.
+</p>
+<p>(2) The resistor of the separate regenerative discharge unit is probably defec
+tive.Disconnect the wiring of the regenerative discharge unit and check the 
+resistance. If it is not within +20% of the rating (described in Section 3. 5), 
+replace the regenerative discharge unit.
+</p>
+<p>� If either of the above two items does not fit the case, replace the servo amplifier
+</p>
+<p>3.1.2
+Actions to be Taken on
+Each Alarm</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+3. TROUBLESHOOTING AND
+</p>
+<p>RECOVERY PROCEDURESTROUBLESHOOTING AND RECOVERY
+</p>
+<p>45
+</p>
+<p>Type LED Action
+</p>
+<p>Over-regenerative 
+discharge alarm 
+(DCOH)
+</p>
+<p>(1) The average regenerative discharge energy is probably too high.  Reduce the 
+frequency of acceleration/deceleration.
+</p>
+<p>(2) The connection of the thermostat line to the separate regenerative discharge 
+unit is probably incorrect.  Check the connection.
+</p>
+<p>(3) The thermostat of the separate regenerative discharge unit is probably defec
+tive.Disconnect the wiring of the regenerative discharge unit, and check the 
+thermostat.  If the thermostat is open when the regenerative discharge unit is 
+not hot, replace the regenerative discharge unit.
+</p>
+<p>(4) The transformer has probably overheated.  Check the ambient temperature, 
+motor output, and transform rating.
+</p>
+<p>� If any of the above four items does not fit the case,replace the servo amplifier.
+</p>
+<p>Dynamic brake circuit
+failure alarm (DBRLY)
+</p>
+<p>The connection between the NC and servo amplifier is probably incorrect.  Check
+the connection.
+</p>
+<p>� If the above items does not fit the case,replace the servo amplifier.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING AND
+RECOVERY PROCEDURES B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>46
+</p>
+<p>Type LED Type LED Type LED
+</p>
+<p>L-axis over-
+current alarm
+(HCL)
+</p>
+<p>M-axis over-
+current alarm
+(HCM)
+</p>
+<p>L-and M-axes
+over-current
+alarm (HCL)
+</p>
+<p>(1) Check that following parameters are set to standard values.  If they
+are not, normal current control is impossible.
+</p>
+<p>No. 1809
+</p>
+<p>No. 2004 No. 8X04
+</p>
+<p>No. 1884
+</p>
+<p>No. 2006 No. 8X06
+</p>
+<p>No. 1954 (15-A), 1955 (15-B)
+</p>
+<p>No. 2011 No. 8X10
+</p>
+<p>No. 1852
+</p>
+<p>No. 2040 No. 8X40
+</p>
+<p>No. 1853
+</p>
+<p>No. 2041 No. 8X41
+</p>
+<p>No. 1967
+</p>
+<p>No. 2074 No. 8X74
+</p>
+<p>No. 1991
+</p>
+<p>No. 8X98No. 2098
+</p>
+<p>(2) Disconnect the power wires from the amplifier terminals,and release
+the emergency stop condition.
+� If an overcurrent alarm is issued, replace the amplifier.
+� If an overcurrent alarm is not issued,go to (3).
+</p>
+<p>(3) Disconnect the power wires from the amplifier terminals, and check
+the U, V, and W wires for isolation from the grounding wire
+sequentially.
+� If they are isolated from the grounding wire, go to (4) and (5).
+</p>
+<p>If any of the power wires is short-circuited to the grounding wire,
+disconnect the power wires from the motor connector, and check the
+U, V, and W terminals of the motor for isolation from the ground
+terminal sequentially.
+</p>
+<p>� If the U,V,or W terminal of the motor is short- circuited to the
+ground terminal,replace the motor.
+</p>
+<p>� If they are isolated from the ground terminal,replace the power
+wires.
+</p>
+<p>(4) Connect the wires again,and observe the motor
+current(IR,IS)waveforms when the motor is accelerating or
+decelerating. (See Subsec. 4.2.2 in Part I for how to measure)
+� If the motor current waveforms are abnormal,replace the
+</p>
+<p>amplifier.
+</p>
+<p>(5) Check that noise is induced on the motor current (IR, IS) waveforms.
+� If there is noise,shield the wires and ground the shielding.
+� If there is no noise,replace the amplifier.
+</p>
+<p>(6) If any of the above five items does not fit the case,the pulse
+coder,command cable or the hardware inside the CNC is probably
+defective.
+</p>
+<p>Action</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+3. TROUBLESHOOTING AND
+</p>
+<p>RECOVERY PROCEDURESTROUBLESHOOTING AND RECOVERY
+</p>
+<p>47
+</p>
+<p>Type LED Type LED Type LED Remarks
+</p>
+<p>L-axis IPM alarm
+(IPML)
+</p>
+<p>M-axis IPM alarm
+(IPMM)
+</p>
+<p>L-and M-axes IPM
+alarm (IPMLM)
+</p>
+<p>Both figure and
+period appear 
+simultaneously.
+</p>
+<p>(1) Only the SVU1- 20(A06B- 6089- H102)has a built- in fan. If this fan
+stops,an IPM alarm (&ldquo;8.&rdquo; in the LED indicator) is issued.  So, if this
+alarm is issued on the SVU1- 20, first check that the fan is rotating.
+A spare of the fan motor can be ordered using the spare list code
+A06P- 6089- H102.
+</p>
+<p>(2) After keeping the amplifier switched off for about ten minutes,
+release the emergency stop condition.
+� If the alarm was due to IPM overheat, it will not be issued this
+</p>
+<p>time because the IPM is not hot any longer.  The probable causes
+of IPM overheat include high ambient temperature and
+excessively strict operating condition for the motor.Check for
+these conditions.
+</p>
+<p>� If the IPM alarm is still issued, go to (3).
+</p>
+<p>(3) Disconnect the power wires from the amplifier terminals, and release
+the emergency stop condition.
+� If the IPM alarm is still issued, the probable cause is the operation
+</p>
+<p>of the IPM protection function (overcurrent or power supply
+failure).  Replace the IPM or amplifier.
+</p>
+<p>� If the IPM alarm is not issued, go to (4).
+</p>
+<p>(4) Disconnect the power wires from the amplifier terminals, and check
+the U, V, and W wires for isolation from the grounding wire
+sequentially.
+� If they are isolated from the grounding wire, go to (5) and (6).
+</p>
+<p>If any of the power wires is short- circuited to the grounding wire,
+disconnect the power wires from the motor connector, and check the
+U, V, and W terminals of the motor for isolation from the ground
+terminal sequentially.
+</p>
+<p>� If the U, V, or W terminal of the motor is short-circuited to the
+ground terminal, replace the motor.
+</p>
+<p>� If they are isolated from the ground terminal, replace the power
+wires.
+</p>
+<p>(5) Connect the wires again,and observe the motor current (IR, IS)
+waveforms when the motor is accelerating or decelerating.  (See
+Section 4.2.2 for how to measure.)
+� If the motor current waveforms are abnormal, replace the
+</p>
+<p>amplifier.
+</p>
+<p>(6) Check to see if noise is induced on the motor current (IR, IS)
+waveforms.
+� If there is noise, shield the wires and ground the shielding.
+� If there is no noise, replace the amplifier.
+</p>
+<p>(7) Any of the above six items does not fit the case,the pulse coder,
+command cable or the hardware inside the CNC is probably defective.
+</p>
+<p>Action</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING AND
+RECOVERY PROCEDURES B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>48
+</p>
+<p>(1) Exchange the command cables as shown in the example below.  Turn
+on CNC in an emergency stage.
+&ndash; If the alarm is issued on the same axis, go to (2).
+&ndash; If the alarm is issued now on the axis that was normal, go to (3).
+</p>
+<p>(2) The module for current conversion in the CNC is defective.
+</p>
+<p>(3) Disconnect the command cable from the axis on which the alarm was
+issued, and connect it to a normal axis.
+&ndash; If the alarm is issued on the same axis, go to (4)
+&ndash; If the alarm is issued now on the axis that was normal, go to (5).
+</p>
+<p>(4) The servo amplifier is defective.
+</p>
+<p>(5) The command cable is defective.  Replace it.
+</p>
+<p>Defective
+Axis (L)
+</p>
+<p>Normal
+Axis (M)
+</p>
+<p>Servo
+AmplifierM-axis command cable
+</p>
+<p>�
+</p>
+<p>CableExchange
+</p>
+<p>L-axis
+</p>
+<p>M-axis
+�
+</p>
+<p>L-axis command cable
+</p>
+<p>CNC
+</p>
+<p>3.2
+CURRENT
+CONVERSION
+FAILURE ALARM</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+3. TROUBLESHOOTING AND
+</p>
+<p>RECOVERY PROCEDURESTROUBLESHOOTING AND RECOVERY
+</p>
+<p>49
+</p>
+<p>Cause the servo adjustment screen to appear, and check the position error,
+actual current, and actual speed on it.
+</p>
+<p>Using the keys on the CNC, enter the required value according to the
+following procedure.
+</p>
+<p>� Series 15-B
+Press the SERVICE key several times to cause the servo setting screen
+to appear.  Then press the  key, and the servo adjustment screen will
+appear.
+</p>
+<p>� Series 0-C, 16, 18, 20, or 21
+SYSTEM &rArr;  [SYSTEM] &rArr;  [ ] &rArr;  [SV&ndash;TUM]
+If the servo setting screen does not appear, specify the following
+parameter, then switch the NC off and on again.
+</p>
+<p>Series 16, 18, 20, 21
+b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>3111 SVS
+</p>
+<p>SVS (b0)=1 (to display the servo setting screen)
+</p>
+<p>Series 0-C
+b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>389 SVS
+</p>
+<p>SVS (b0)=0 (to display the servo setting screen)
+</p>
+<p>Servo adjustment 01000 N0000
+</p>
+<p>X axis
+</p>
+<p>Func bit 00000000 Alarm1 00000000
+</p>
+<p>Loop goin 3000 Alarm2 00000000
+</p>
+<p>Tuning st 0 Alarm3 10000000
+</p>
+<p>Set period 0 Alarm4 00000000
+</p>
+<p>Int. gain 113 Alarm5 00000000
+</p>
+<p>Prop. gain &ndash;1015 Loop gain 3000
+</p>
+<p>Filter 0 Pos error 5555
+</p>
+<p>Veloc gain 100 Current(%) 5
+</p>
+<p>Speed(rpm) 1000
+</p>
+<p>Servo adjustment screen
+</p>
+<p>The cause and detailed information of servo alarms are indicated with
+alarms 1 to 5.
+</p>
+<p>3.3
+SERVO SOFTWARE
+</p>
+<p>3.3.1
+Servo Adjustment
+Screen</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING AND
+RECOVERY PROCEDURES B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>50
+</p>
+<p>(1) Make sure that the motor is not vibrating.
+</p>
+<p>&rArr; If a motor vibrates, the current flowing in it becomes more than
+necessary, resulting in an alarm.
+</p>
+<p>(2) Make sure that the power line to the motor is connected correctly.
+&rArr; If the connection is incorrect, an abnormal current flows in the 
+</p>
+<p>motor, resulting in an alarm.
+</p>
+<p>(3) Make sure that the following parameters are set correctly.
+&rArr; An overload alarm is issued based on the result of calculation of
+</p>
+<p>these parameters.  Be sure to set them to the standard values.
+</p>
+<p>8X62
+</p>
+<p>1877 Overload protection coefficient (OVC1)
+</p>
+<p>2062
+</p>
+<p>8X63
+</p>
+<p>1878 Overload protection coefficient (OVC2)
+</p>
+<p>2063
+</p>
+<p>8X65
+</p>
+<p>1893 Overload protection coefficient (OVCLMT)
+</p>
+<p>2065
+</p>
+<p>(4) Attach the check board (A06B&ndash;6071&ndash;K290) to connector JX5 to
+measure the waveform of the actual current (IR and IS) of the servo
+amplifier module.  Start the motor and measure the actual current (IR
+and IS).
+&rArr; If the actual current exceeds 1.4 times the rated current, the constant
+</p>
+<p>for the acceleration/deceleration duration is too small,or the load on
+the machine is too heavy for the capacity of the motor.
+</p>
+<p>&rArr; If the actual current exceeds 1.4 times the rated current during 
+normal operation, the load on the machine is too heavy for the 
+capacity of the motor.
+</p>
+<p>This alarm is detailed with alarms 1 and 2 on the servo adjustment screen
+(&rArr;  3.3.1).
+</p>
+<p>Alarm1
+Alarm details
+</p>
+<p>Alarm2
+</p>
+<p>b7 b2
+Alarm  details
+</p>
+<p>b7 b4
+</p>
+<p>0 1 CM alarm (α pulse coder) 1 1
+</p>
+<p>0 1 Pulse coder disconnected (soft ware) 0 0
+</p>
+<p>0 1 Separate pulse coder disconnected (hard ware) 1 1
+</p>
+<p>For the CM alarm, go to 3.3.7.
+For software disconnected, go to (1).
+For hardware disconnected, go to (3).
+</p>
+<p>(1) For a full&ndash;closed Series 0&ndash;C system, make sure that the phase C
+signal is not connected to full&ndash;closed feedback pins 10 to 13.  When
+the connection is correct, or when the system is not a Series 0&ndash;C, go
+to (2).
+</p>
+<p>(2) If there is a large backlash; or if the number of position feedback
+pulses divided by the motor one&ndash;rotation signal is equal to or less than
+640, and a software disconnected alarm is detected when it should
+not, change the alarm level.
+</p>
+<p>3.3.2
+Overload Alarm
+</p>
+<p>3.3.3
+Feedback
+Disconnected Alarm</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+3. TROUBLESHOOTING AND
+</p>
+<p>RECOVERY PROCEDURESTROUBLESHOOTING AND RECOVERY
+</p>
+<p>51
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>1808
+</p>
+<p>8X03
+TGAL
+</p>
+<p>TGAL (b1)=1     (the software disconnected alarm level is changed.)
+</p>
+<p>2003
+</p>
+<p>8X64
+</p>
+<p>1892
+Software disconnected alarm level
+</p>
+<p>Standard value:  4  &rArr;   The setting is increased by 4.
+2064
+</p>
+<p>(3) If the alarm is a separate detector hardware disconnected alarm, check
+the specification and wiring of the separate detector.
+</p>
+<p>(1) Check whether the motor has overheated; it is dangerous to touch
+the motor by the hand or any other part of you body.  If the motor
+is overheated, use it less frequently.
+</p>
+<p>(2) When the motor is cooled enough, check whether an overheat alarm
+occurs.
+&rArr; If it occurs, the thermostat is defective.
+&rArr; If not, use the motor less frequently.
+</p>
+<p>The following table contains actions to be taken for invalid servo
+parameter setting alarms.
+</p>
+<p>Find the relevant guideline under &rdquo;Decision criterion,&rdquo; and proceed to the
+corresponding &rdquo;Adjustment item.&rdquo;
+</p>
+<p>Alarm Decision criterion Adjustmentitem
+</p>
+<p>POA1 overflow Try resetting POA1 to 0.
+Parameter:  No. 8X47&ndash;1859&ndash;2047&ndash;1047 = 0
+</p>
+<p>Adjustment1
+</p>
+<p>1 pulse suppression level overflow Disable the  pulse suppression function.
+Function bit:  No. 8X03&ndash;1808&ndash;2003&ndash;1003,B4 = 0
+</p>
+<p>Adjustment2
+</p>
+<p>Feed&ndash;forward coefficient overflow
+Reset the feed&ndash;forward coefficient to 0.
+Parameter:  No. 8X68&ndash;1961&ndash;2068 = 0
+Parameter:  No. 8X92&ndash;1985&ndash;2092 (advance) = 0
+</p>
+<p>Adjustment3
+</p>
+<p>Position gain overflow Reset the position gain to 0.
+Parameter:  No. 517&ndash;1825&ndash;1825 = 0
+</p>
+<p>Adjustment4
+</p>
+<p>Number of position pulses overflow
+The number of position pulses is greater than 13100
+ (No. 8X00&ndash;1804&ndash;2000, bit 0 = 1).
+Parameter:  No. 8X00&ndash;1804&ndash;2000, B0
+</p>
+<p>Adjustment5
+</p>
+<p>Motor ID No. Check whether the motor ID No. is correct.
+Parameter:  No. 8X20&ndash;1874&ndash;2020
+</p>
+<p>Adjustment6
+</p>
+<p>Invalid axis selection parameter setting
+Check whether the setting is correct.
+Series 0&ndash;C:  No. 269 to 274
+Series 15, 16:  No. 1023
+</p>
+<p>Others
+</p>
+<p>Number of position pulses � 0
+Number of velocity pulses � 0
+Direction of travel = 0
+Feed gear numerator � 0, denominator � 0
+Numerator &gt; denominator(Serial A, α and semi-closed mode)
+</p>
+<p>3.3.4
+Motor Overheat Alarm
+</p>
+<p>3.3.5
+Invalid Servo
+Parameter Setting
+Parameters</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING AND
+RECOVERY PROCEDURES B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>52
+</p>
+<p>NOTE
+The parameter numbers in the table are in the following
+order:
+</p>
+<p>No. (Series 0&ndash;C)&ndash;(Series 15)&ndash;(Series 16, 18, 20, 21)
+</p>
+<p>Survey
+If the adjustments described below cannot eliminate overflow, let us work
+out the setting procedure individually.
+</p>
+<p>Adjustment 1:  POA1 overflow (No. 8X47&ndash;1859&ndash;2047)
+</p>
+<p>Use the tenfold POA1 setting function.
+Note)  This function is available 
+for 9060/L. 9070/C, 9046/A, 
+and later versions.
+</p>
+<p>� How to use the tenfold POA1 setting function
+If POA1 is specified as a negative value, the absolute value is internally
+multiplied by 10.  If the value you want to set is a positive value, specify
+as follows:
+</p>
+<p>(&ndash;1) � the desired setting/10
+</p>
+<p>Adjustment 2:  One&ndash;pulse suppress (No. 1992&ndash;2099)
+Reduce the setting according to the flowchart shown below.  If an
+overflow occurs in the FS0C, stop using it, because the level parameter
+is fixed at a standard value of 400.
+</p>
+<p>Number of velocity FB pulses
+</p>
+<p>Is the system a semiclosed system with serial 
+pulse coder A or an α pulse coder?
+</p>
+<p>No Yes
+</p>
+<p>One&ndash;pulse suppress 
+parameter setting
+</p>
+<p>Reduce the setting so that the value of the above formula falls within one word (32767).
+</p>
+<p>Feed gear denominator
+Number of position FB pulses Feed gear numerator
+</p>
+<p>10000
+8192X X X
+</p>
+<p>1
+80X
+</p>
+<p>One&ndash;pulse suppress 
+parameter setting
+</p>
+<p>Reduce the setting so that the value of the above formula falls within one word (32767).
+</p>
+<p>Feed gear denominator
+Number of position FB pulses Feed gear numerator
+</p>
+<p>10000
+8192
+</p>
+<p>1
+80
+</p>
+<p>One&ndash;pulse suppress 
+parameter setting
+</p>
+<p>Number of velocity FB pulses
+</p>
+<p>Reduce the setting so that the value of the above formula falls within one word (32767).
+</p>
+<p>Feed gear denominator
+Number of position FB pulses Feed gear numerator
+</p>
+<p>10000
+8192X X X
+</p>
+<p>NOTE
+Number of  velocity FB pulses (No. 8X23&ndash;1876&ndash;2023)
+Number of position FB pulses (No. 8X24&ndash;1891&ndash;2024)
+Feed gear numerator (No. 8X84&ndash;1977&ndash;2084)
+Feed gear denominator (No. 8X85&ndash;1978&ndash;2085)</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+3. TROUBLESHOOTING AND
+</p>
+<p>RECOVERY PROCEDURESTROUBLESHOOTING AND RECOVERY
+</p>
+<p>53
+</p>
+<p>Adjustment 3: Feed forward coefficient (No. 8X68&ndash;1961&ndash;2068,
+No. 8X92&ndash;1985&ndash;2092 (advance))
+[9060, 9070, Series]
+</p>
+<p>Specify the position gain setting range expansion function.
+</p>
+<p>Function bit:  No. 1804&ndash;2000&ndash;1000, B4=1
+ (Series 15&ndash;B, 16, 18, 20, 21)
+</p>
+<p>� The function also expands the feed&ndash;forward coefficient range.
+[9046 Series]
+If a negative number is specified for the feed&ndash;forward coefficient, the
+internal processing assumes a value ten times the absolute number of
+the specified number.
+If the calculation result obtained during parameter setting exceeds
+32767, specify as follows:
+(&ndash;1) x calculation result/10
+</p>
+<p>Adjustment 4:  Position gain
+</p>
+<p>Use the position gain setting range expansion function.
+</p>
+<p>Setting:  No. 8X11&ndash;1955, B5 = 1 (Series 0&ndash;C, 15&ndash;A)
+</p>
+<p>Multiply 8X24&ndash;1891 by 8 and re&ndash;enter it.
+</p>
+<p>No. 2000&ndash;1804, B4 = 1 (Series 15&ndash;B, 16, 18, 20, 21)
+</p>
+<p>�    If an overflow still occurs :
+</p>
+<p>1. Multiply the feed gear (or DMR) value by an integer.
+</p>
+<p>2. Increase the following values by the same integer.
+</p>
+<p>Parameter Series 0&ndash;C Series 15 Series 16, 18, 20, 21
+</p>
+<p>CMR
+</p>
+<p>Effective area
+</p>
+<p>Limit to a position error
+during travel
+</p>
+<p>Limit to a position error
+at a halt
+</p>
+<p>Backlash
+</p>
+<p>Reference counter
+</p>
+<p>No. 100&ndash;103
+</p>
+<p>500&ndash;503
+</p>
+<p>504&ndash;507
+</p>
+<p>593&ndash;596
+</p>
+<p>535&ndash;538
+</p>
+<p>570&ndash;573
+</p>
+<p>No. 1820
+</p>
+<p>1826,27
+</p>
+<p>1828
+</p>
+<p>1829
+</p>
+<p>1851,52
+</p>
+<p>1896
+</p>
+<p>No. 1820
+</p>
+<p>1826,27
+</p>
+<p>1828
+</p>
+<p>1829
+</p>
+<p>1851,52
+</p>
+<p>1821
+</p>
+<p>(Example) The position gain overflows internally under the following
+conditions:
+</p>
+<p>α pulse coder, Reduction gear ratio:  1/20, Ball screw:  1 mm/rev,
+Position gain:  30 (with 1&micro; scale)
+In this case, specify the position gain setting range expansion
+function.  For 9046 series, multiply the number of position pulses by
+8.
+</p>
+<p>Number of position pulses
+(No. 8X24&ndash;1891) 50 400
+</p>
+<p>�8
+</p>
+<p>Adjustment 5:  Number of position pulses
+Make the changes listed below.  Value E must satisfy the following:
+Number of current position pulses/E &lt; 13100</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING AND
+RECOVERY PROCEDURES B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>54
+</p>
+<p>Current setting value/E Current setting value/E
+</p>
+<p>Series
+0&ndash;C Series 15 Series 16
+</p>
+<p>Series
+0&ndash;C Series 15 Series 16
+</p>
+<p>No. 8X23
+8X24
+8X43
+8X44
+8X54
+8X56
+8X57
+</p>
+<p>No. 1876
+1891
+1855
+1856
+1866
+1868
+1869
+</p>
+<p>No. 2023
+2024
+2043
+2044
+2054
+2056
+2057
+</p>
+<p>No. 8X53
+8X74
+8X76
+</p>
+<p>No. 1865
+1967
+1969
+</p>
+<p>No. 2053
+2074
+2076
+</p>
+<p>Adjustment 6:  Motor ID No.
+</p>
+<p>The motor ID numbers valid for each series of models are listed below.
+</p>
+<p>9046 series
+9060 series
+</p>
+<p>9070 series
+</p>
+<p>15&ndash;89 (edition A)
+15&ndash;89 (edition K)
+  3&ndash;89 (edition L)
+  3&ndash;89 (edition C)
+</p>
+<p>Feed&ndash;forward cosfficient overflow check (9060, 9070 series)
+</p>
+<p>If the result of any of the following calculations exceed 32767, an
+overflow occurs.
+</p>
+<p>�X�X
+</p>
+<p>(Advance) feed&ndash;forward
+parameter setting value
+</p>
+<p>10000 (*)
+4096X
+</p>
+<p>Feed gear
+denominator
+</p>
+<p>�X 180X
+</p>
+<p>4
+DMR
+</p>
+<p>(X4 serial A)...�
+</p>
+<p>Is 32767 exceeded?
+</p>
+<p>Note)  If the parameter setting value is 100 or less,
+use 100 instead of 1000 at a term indicated with *.
+</p>
+<p>No
+</p>
+<p>Number of velocity
+pulses
+</p>
+<p>Number of position
+pulses
+</p>
+<p>� X ...�
+</p>
+<p>No
+</p>
+<p>Is your system a semi&ndash;closed system
+with serial pulse coder A or   pulse
+coder?
+</p>
+<p>Feed gear
+numerator
+</p>
+<p>...�
+Is the feed gear in use ? No
+</p>
+<p>Yes
+</p>
+<p>Feed gear
+denominator
+</p>
+<p>Feed gear
+numerator
+</p>
+<p>...�
+</p>
+<p>Is 32767 exceeded?
+</p>
+<p>...�
+</p>
+<p>Is 32767 exceeded?
+</p>
+<p>Full closed or serial C
+</p>
+<p>Reference</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+3. TROUBLESHOOTING AND
+</p>
+<p>RECOVERY PROCEDURESTROUBLESHOOTING AND RECOVERY
+</p>
+<p>55
+</p>
+<p>Position gain overflow check
+</p>
+<p>� X
+</p>
+<p>2000
+655 X
+</p>
+<p>�
+</p>
+<p>Number of position pulses
+X 4DMRX
+</p>
+<p>DMR
+4� X X
+</p>
+<p>1
+10X
+</p>
+<p>DMR
+4 X
+</p>
+<p>When is servo softwore series ?
+9060, 9070 seris
+</p>
+<p>9046 seris
+</p>
+<p>Position gain 
+parameter setting value Number of velocity pulses ...�
+</p>
+<p>...� ...�
+</p>
+<p>No
+</p>
+<p>No
+</p>
+<p>No
+</p>
+<p>Yes
+</p>
+<p>Yes
+</p>
+<p>Is 32767 exceeded?
+</p>
+<p>Is the feed gear in use? No overflow has occurred.
+</p>
+<p>Is you system a semi&ndash;closed system
+with serial pulse coder A or   pulse
+coder?
+</p>
+<p>Feed gear 
+denominator
+</p>
+<p>Feed gear 
+numerator
+</p>
+<p>Is 32767 exceeded? Is 32767 exceeded?
+</p>
+<p>Feed gear 
+denominator
+</p>
+<p>Feed gear 
+numerator</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING AND
+RECOVERY PROCEDURES B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>56
+</p>
+<p>� X
+</p>
+<p>2000
+655 X
+</p>
+<p>�
+</p>
+<p>Number of position pulses
+� X
+</p>
+<p>4
+� X
+</p>
+<p>X 1
+80
+</p>
+<p>(9060, 9070 series)
+</p>
+<p>No
+</p>
+<p>Yes
+</p>
+<p>No
+</p>
+<p>No
+</p>
+<p>No
+</p>
+<p>No
+</p>
+<p>No No
+</p>
+<p>No
+</p>
+<p>Yes
+</p>
+<p>Yes
+</p>
+<p>No
+</p>
+<p>Yes
+</p>
+<p>No
+</p>
+<p>Position gain 
+parameter setting value ...�
+</p>
+<p>Is 32767 exceeded?
+</p>
+<p>Number of velocity pulses
+</p>
+<p>Is 32767 exceeded?
+</p>
+<p>...�
+</p>
+<p>Is the feed gear in use?
+</p>
+<p>Is your system a semi&ndash;closed sys-
+tem with serial pulse coder A or α
+pulse coder?
+</p>
+<p>DMR ...�
+</p>
+<p>Is 32767 exceeded?
+</p>
+<p>Feed gear 
+denominator
+</p>
+<p>Feed gear 
+numerator
+</p>
+<p>...� � X
+</p>
+<p>Feed gear 
+denominator
+</p>
+<p>Feed gear 
+numerator
+</p>
+<p>...�
+</p>
+<p>Is 32767 exceeded? Is 32767 exceeded?
+</p>
+<p>Is �, �, or � less than or equal to
+1000?
+</p>
+<p>Is �, �, or � less than or equal to
+4000?
+</p>
+<p>Is the specified position gain 6253 or
+greater?
+</p>
+<p>Is the specified position gain 25012 or
+greater?
+</p>
+<p>No overflow
+has occurred.
+</p>
+<p>To increase precision, the value set for the
+parameter is multiplied by 16 internally.
+Restart at � using the resulting value.
+</p>
+<p>To increase precision, the value set for
+the parameter is multiplied by 4 internally.
+Restart at � using the resulting value.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+3. TROUBLESHOOTING AND
+</p>
+<p>RECOVERY PROCEDURESTROUBLESHOOTING AND RECOVERY
+</p>
+<p>57
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>Alarm 3 CSAL BLAL PHAL BZAL CKAL SPH
+</p>
+<p>(&rArr;  See Section 3.3.1.)
+</p>
+<p>Whether the
+alarm occurs in
+</p>
+<p>each pulse coder
+</p>
+<p>α pulse
+coder
+</p>
+<p>Serial
+A
+</p>
+<p>SPH (b0) Probably, pulse coder or feedback cable is
+abnormal, or noise
+</p>
+<p>� �
+</p>
+<p>CKAL  (b1) For serial pulse coder A, a clock alarm has
+occurred.
+</p>
+<p>For α pulse coder, the pulse coder or feed-
+back cable is abnormal.
+</p>
+<p>X �
+</p>
+<p>BZAL (b2) The voltage of the pulse coder battery is 0
+V.  Replace the battery and cause a return
+to the reference position.
+</p>
+<p>� �
+</p>
+<p>PHAL  (b4) Pulse coder or feedback cable is abnormal X �
+</p>
+<p>BLAL (b5) The voltage of the pulse coder battery is
+dropping (warning).
+</p>
+<p>� �
+</p>
+<p>CSAL (b6) For serial pulse coder A, a check sum
+alarm has occurred.
+</p>
+<p>For α pulse coder, an LED error has oc-
+curred.
+</p>
+<p>X �
+</p>
+<p>(b7) This is not an alarm.
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>Alarm 5 LDAL PMAL
+</p>
+<p>(&rArr;   See Section 3.3.1.)
+</p>
+<p>PMAL (b3) The pulse coder or feedback cable is ab-
+normal.
+</p>
+<p>� X
+</p>
+<p>LDAL (b4) The pulse coder LED is abnormal. � X
+</p>
+<p>� Serial pulse coder A
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>Alarm 3 RCAL
+</p>
+<p>(&rArr;   See Section 3.3.1.)
+</p>
+<p>RCAL (b3) A rotation speed data error alarm occurred.
+</p>
+<p>3.3.6
+Pulse Coder Error
+Alarm
+</p>
+<p>3.3.7
+Rotation Speed Data
+Error Alarm</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING AND
+RECOVERY PROCEDURES B&ndash;65195EN/01TROUBLESHOOTING AND RECOVERY
+</p>
+<p>58
+</p>
+<p>� α pulse coder
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>Alarm 1 FBAL
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>Alarm 2 ALDF
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>Alarm 3 CMAL
+</p>
+<p>(&rArr;   See Section 3.3.1.)
+</p>
+<p>CMAL (b3) A pulse count error occurred.  If the CNC software does not
+correspond to α Series, this bit is not used for a mode other
+than the APC MODE.  If a built&ndash;in pulse coder hardware dis-
+continued alarm (bit 1 of alarm 1 = 1 and bit 7 of alarm 2 = 1)
+occurs in a system with an α pulse coder, a pulse count error
+has occurred.
+</p>
+<p>b7 b6 b5 b4 b3 b2 b1 b0
+</p>
+<p>Alarm 4 DTER CRC STB
+</p>
+<p>(&rArr;   See Section 3.3.1.)
+</p>
+<p>STB (b5) A communication error occurred from the pulse coder
+</p>
+<p>The pulse coder or feedback cable is abnormal, or the servo
+module is defective.
+</p>
+<p>CRC (b6) A communication error occurred from the pulse coder
+</p>
+<p>The pulse coder or feedback cable is abnormal, or the servo
+module is defective.
+</p>
+<p>DTER (b7) The pulse coder does not communicate.
+</p>
+<p>The pulse coder or feedback cable is abnormal.
+</p>
+<p>3.3.8
+Pulse Coder
+Communication Error
+Alarm</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 4. REPLACING THE FUSETROUBLESHOOTING AND RECOVERY
+</p>
+<p>59
+</p>
+<p>4 ���	���
+�� ���� ��&#13;�
+When replacing the fuse,keep the power supply switched off.  Also make
+sure that the &ldquo;CHARGING&rdquo; LED (red) beside the circuit breaker on the
+servo amplifier front panel is off.
+</p>
+<p>When replacing the fuse,keep the power supply switched off.
+Also make sure that the &ldquo;CHARGING&rdquo; LED (red) beside the
+circuit breaker on the servo amplifier front panel is off.
+</p>
+<p>�� Remove the plastic cover on the left hand side.
+�
+</p>
+<p>�� Replace the fuse near the 7-segment LED.  
+(See Appendix NO TAG.)
+</p>
+<p>� For SVU-130, SVUC-130
+</p>
+<p>Use Name Qty. Specification
+</p>
+<p>For control power supply FU2 1 FANUC : A06B-6089-K250
+</p>
+<p>For fan FU1 1 MAKER : HM50 250V F5.0A Daito
+</p>
+<p>� For all
+</p>
+<p>Use Name Qty. Specification
+</p>
+<p>For control power supply FU1 1 FANUC : A06B-6089-K250
+</p>
+<p>MAKER : HM50 250V F5.0A Daito
+</p>
+<p>IMPORTANT
+</p>
+<p>Replacement procedure</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>III. COMPATIBILITY OF THE SVU
+AND SVUC WITH THE 
+C SERIES AMPLIFIER</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01 1. OVERVIEW
+</p>
+<p>COMPATIBILITY OF THE SVU
+AND SVUC WITH THE 
+C SERIES AMPLIFIER
+</p>
+<p>63
+</p>
+<p>1 ��������
+This part describes the cautions to be observed when replacing the C
+series amplifier with SVU or SVUC.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+</p>
+<p>2. COMPATIBILITY OF THE SVU
+AND SVUC WITH THE 
+C SERIES AMPLIFIER
+</p>
+<p>COMPATIBILITY OF THE SVU
+AND SVUC WITH THE 
+C SERIES AMPLIFIER
+</p>
+<p>64
+</p>
+<p>2
+�&#13;����	�	
+	��� &#13;�� ���� ���� ���� ����� �	��� ���� �
+</p>
+<p>���	��� ���
+	�	��
+</p>
+<p>Table 1 lists the differences of the SVU and SVUC from the C series
+amplifier.  When replacing the C series amplifier with the SVU or
+SVUC,observe the cautions listed below.
+</p>
+<p>������ 1
+</p>
+<p>Item SVUC SVU
+</p>
+<p>Outline Common to 
+C series.
+</p>
+<p>Common to C series.
+</p>
+<p>Interface of ESP Common to 
+C series.
+</p>
+<p>DC24V 
+(Connector : CX4)
+</p>
+<p>Interface of NC Type A interface
+Type B interface
+</p>
+<p>Type A interface
+Type B interface
+</p>
+<p>Surge absorber to
+protect Input
+</p>
+<p>Common to 
+C series.
+</p>
+<p>None. External surge
+absorber is required.
+</p>
+<p>MCC confirmation
+contact
+</p>
+<p>b contact except for
+SVUC1-130
+</p>
+<p>b contact except for
+SVUC1-130
+</p>
+<p>TUV Not qualified Qualified
+</p>
+<p>UL/CSA Qualified Qualified
+</p>
+<p>Connection and
+cables
+</p>
+<p>Common to 
+C series.
+</p>
+<p>Common to C series
+except for ESP.
+</p>
+<p>Connector location Much the same as
+C series.
+</p>
+<p>Much the same as 
+C series.
+</p>
+<p>Terminal location Common to 
+C series.
+</p>
+<p>Common to C series.
+</p>
+<p>Application to 
+S series motor
+</p>
+<p>Allowed Not allowed
+</p>
+<p>Note 1 : Interface of ESP (Emergency Stop)
+</p>
+<p>Type Input Terminal Signal Name
+</p>
+<p>C series amplifier 1 φ AC100V T1 (5-6) 100A-100B
+</p>
+<p>SVU DC24 CX4 (2-3) ESP, +24V
+</p>
+<p>SVUC 1 φ AC100V T1 (5-6) (100A) - (100B)
+</p>
+<p>Note 2 : Interface of NC
+C series amplifier is available to Type A interface only.  
+The connectors JV1B (L-axis) and JV2B (M-axis) in SVU and
+SVUC correspond to the connectors CN1 (L- axis) and CN2
+(M-axis) in C series amplifier.
+</p>
+<p>Note 1
+</p>
+<p>Note 2
+</p>
+<p>Note 3
+</p>
+<p>Note 4</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+</p>
+<p>2. COMPATIBILITY OF THE SVU
+AND SVUC WITH THE
+ C SERIES AMPLIFIER
+</p>
+<p>COMPATIBILITY OF THE SVU
+AND SVUC WITH THE 
+C SERIES AMPLIFIER
+</p>
+<p>65
+</p>
+<p>Note 3 : Specification of the MCC (RELAY) confirmation contact
+The C series amplifier makes the auxiliary contact (b-contact)
+of the MCC, installed on the three-phase power line for motor
+power, accessible to the outside. It is used to indicate when the
+power to the motor is shut off.  On the other hand, the SVU and
+SVUC make the auxiliary contact of the dynamic brake circuit
+relay (in the SVU1-130 and SVUC1-130, a-contact, and for
+others, b-contact) accessible to the outside, in order to indicate
+when the motor power is shut off.
+</p>
+<p>Type Auxiliary 
+Contact
+</p>
+<p>Terminal Signal Name
+</p>
+<p>C series amplifier b contact T1 (7-8) MC1-MC2
+</p>
+<p>SVU1-130, SVUC1-130 a contact T1 (7-8) RL1-RL2
+</p>
+<p>Other SVU and SVUC b contact T1 (7-8) RL2-RL3
+</p>
+<p>a contact : In dynamic brake, its contact is open. 
+b contact : In dynamic brake, its contact is short.
+</p>
+<p>Note 4 : Conformance to TUV
+Like the C series amplifier, the SVUC is not qualified for TUV
+(because it has a built-in surge absorber for input protection).
+When it is necessary to acquire qualification for CE marking,
+use the SVU.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/013. SVUC SPECIFICATION CODE
+</p>
+<p>COMPATIBILITY OF THE SVU
+AND SVUC WITH THE 
+C SERIES AMPLIFIER
+</p>
+<p>66
+</p>
+<p>3 ��&#13;�� �
+���������	�� �	��
+&ldquo;H���&rdquo; in the specification code is common to both C series amplifier
+and SVUC.  (It is not common to the SVU.)
+</p>
+<p>&middot; C series amplifier 
+A06B-6066-H���
+</p>
+<p>&middot; SVUC 
+A06B-6090-H���
+</p>
+<p>� �
+</p>
+<p>&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;
+&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;&Atilde;
+</p>
+<p>Model name is common to the
+C series amplifier</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>APPENDIX</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01
+A. SERVO AMPLIFIER UNIT
+</p>
+<p>FRONT PANELAPPENDIX
+</p>
+<p>69
+</p>
+<p>A ����	� ��
+������� ���&#13;� ��	�&#13;� 
+����</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>B&ndash;65195EN/01B. �	�	
+� �
+	������� �	������	� APPENDIX
+</p>
+<p>70
+</p>
+<p>B �	�	
+� �
+	������� �	������	�</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>IndexB&ndash;65195EN/01
+[A]
+</p>
+<p>Actions to be Taken on Each Alarm, 44
+</p>
+<p>Alarm Number and Brief Descriptions, 38
+</p>
+<p>Alarm Number in Series 0-C (Servo Alarms), 40
+</p>
+<p>Alarm Number in Series 15 (Servo Alarms), 39
+</p>
+<p>Alarm Number in Series 16, 18, 20 (Servo Alarms),
+41
+</p>
+<p>Axis Left Unused in a Multi-axis Amplifier, 30
+</p>
+<p>[B]
+Basic Configuration, 5
+</p>
+<p>[C]
+Checking the +5V Power Supply Voltage, 27
+</p>
+<p>Checking the Motor Instantaneous Current, 27
+</p>
+<p>Compatibility of the SVU and SVUC with the C Se-
+ries Amplifier, 64
+</p>
+<p>Confirmation Procedure, 26
+</p>
+<p>Confirming the Line Voltage and Power Require-
+ments, 10
+</p>
+<p>Connecting the Battery for an Absolute Pulse Coder,
+14
+</p>
+<p>Connecting the Power Supply, 10
+</p>
+<p>Connecting the Separate Regenerative Discharge Unit,
+15
+</p>
+<p>Connecting to the Protection Ground, 10
+</p>
+<p>Current Conversion Failure Alarm, 48
+</p>
+<p>[F]
+Feedback Disconnected Alarm, 50
+</p>
+<p>[I]
+Initializing Servo Parameters, 18
+</p>
+<p>Invalid Servo Parameter Setting Parameters, 51
+</p>
+<p>[L]
+Leakage Current and Selecting a Ground Fault Inter-
+</p>
+<p>rupter, 10
+</p>
+<p>LED Indications and Meanings, 43
+</p>
+<p>[M]
+Major Components, 6
+</p>
+<p>Motor Grounding Connection, 70
+</p>
+<p>Motor Overheat Alarm, 51
+</p>
+<p>[O]
+Operation Confirmation Method, 25
+</p>
+<p>Overload Alarm, 50
+</p>
+<p>Overview of the Start-up Procedure, 9
+</p>
+<p>[P]
+Pulse Coder Communication Error Alarm, 58
+</p>
+<p>Pulse Coder Error Alarm, 57
+</p>
+<p>[R]
+Replacing the Fuse, 59
+</p>
+<p>Rotation Speed Data Error Alarm, 57
+</p>
+<p>[S]
+Servo Adjustment Screen, 49
+</p>
+<p>Servo Amplifier Unit, 43
+</p>
+<p>Servo Amplifier Unit Check Pins, 27
+</p>
+<p>Servo Amplifier Unit Front Panel, 69
+</p>
+<p>Servo Check Board, 31
+</p>
+<p>Servo Software, 49
+</p>
+<p>Start-up Procedure, 8
+</p>
+<p>STATUS Indicator, 29
+</p>
+<p>SVU, 6
+</p>
+<p>SVUC, 7
+</p>
+<p>SVUC Specification Code, 66
+</p>
+<p>Switch Setting, 12
+</p>
+<p>[T]
+Troubleshooting and Recovery Procedures, 42</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>R
+ev
+</p>
+<p>is
+io
+</p>
+<p>n 
+R
+</p>
+<p>ec
+or
+</p>
+<p>d
+</p>
+<p>FA
+N
+</p>
+<p>U
+C
+�
+�
+
+
+	
+&#13;
+�
+
+
+�
+��
+
+
+&#13;
+
+
+�
+��
+�
+�
+�
+��
+��
+�
+�α
+</p>
+<p> s
+er
+</p>
+<p>ie
+s 
+</p>
+<p>S
+E
+</p>
+<p>R
+V
+</p>
+<p>O
+ A
+</p>
+<p>M
+P
+</p>
+<p>LI
+F
+</p>
+<p>IE
+R
+</p>
+<p> U
+N
+</p>
+<p>IT
+ M
+</p>
+<p>A
+IN
+</p>
+<p>T
+E
+</p>
+<p>N
+A
+</p>
+<p>N
+C
+</p>
+<p>E
+ M
+</p>
+<p>A
+N
+</p>
+<p>U
+A
+</p>
+<p>L 
+(B
+</p>
+<p>&ndash;6
+51
+</p>
+<p>95
+E
+</p>
+<p>N
+)
+</p>
+<p>01
+A
+</p>
+<p>ug
+., 
+</p>
+<p>&rsquo;9
+5
+</p>
+<p>E
+di
+</p>
+<p>tio
+n
+</p>
+<p>D
+at
+</p>
+<p>e
+C
+</p>
+<p>on
+te
+</p>
+<p>nt
+s
+</p>
+<p>E
+di
+</p>
+<p>tio
+n
+</p>
+<p>D
+at
+</p>
+<p>e
+C
+</p>
+<p>on
+te
+</p>
+<p>nt
+s</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>&middot;  No part of this manual may be
+reproduced in any form.
+</p>
+<p>&middot;  All specifications and designs
+are subject to change without
+notice.</p>
+<p/>
+</div>
+<ul>	<li>PREFACE</li>
+	<li>TABLE OF CONTENTS</li>
+	<li>START-UP PROCEDURE</li>
+<ul>	<li>Overview</li>
+	<li>Configuratioin</li>
+<ul>	<li>Basic Configuration</li>
+	<li>Major Components</li>
+<ul>	<li>SVU</li>
+	<li>SVUC</li>
+</ul>
+</ul>
+	<li>Start-Up Procedure</li>
+<ul>	<li>Overview</li>
+	<li>Connecting the Power Supply</li>
+<ul>	<li>Confirming Line Voltage and Power Requirements</li>
+	<li>Connecting to the Protection Ground</li>
+	<li>Leakage Current and Selecting a Ground Fault Interrupter</li>
+</ul>
+	<li>Switch Setting</li>
+	<li>Connecting the Battery for an Absolute Pulse Coder</li>
+	<li>Connecting the Separate Regenerative Discharge Unit</li>
+	<li>Initializing Servo Parameters</li>
+</ul>
+	<li>Confirming Operation</li>
+<ul>	<li>Procedure</li>
+	<li>Servo Amplifier Unit Check Pins</li>
+<ul>	<li>Checking the +5V Power Supply Voltage</li>
+	<li>Checking the Motor Instantaneous Current</li>
+</ul>
+	<li>Status Indicator</li>
+</ul>
+	<li>Unused Axis in a Multi-Axis Amplifier</li>
+	<li>Servo Check Board</li>
+</ul>
+	<li>TROUBLESHOOTING</li>
+<ul>	<li>Overview</li>
+	<li>Alarm Numbers and Descriptions</li>
+<ul>	<li>Series 15 Servo Alarms</li>
+	<li>Series 0-C Servo Alarms</li>
+	<li>Series 16, 18, 20 Servo Alarms</li>
+</ul>
+	<li>Recovery Procedures</li>
+<ul>	<li>Servo Amplifier Unit</li>
+<ul>	<li>LED Indications and Meanings</li>
+	<li>Actions to be Taken on each Alarm</li>
+</ul>
+	<li>Current Conversion Failure Alarm</li>
+	<li>Servo Software</li>
+<ul>	<li>Servo Adjustment Screen</li>
+	<li>Overload Alarm</li>
+	<li>Feedback Disconnected Alarm</li>
+	<li>Motor Overheat Alarm</li>
+	<li>Invalid Servo Parameter Setting Parameters</li>
+	<li>Pulse Coder Error Alarm</li>
+	<li>Rotation Speed Data Error Alarm</li>
+	<li>Pulse Coder Communication Error Alarm</li>
+</ul>
+</ul>
+	<li>Replacing the Fuse</li>
+</ul>
+	<li>COMPATIBILITY OF THE SVU AND SVUC WITH THE C SERIES AMPLIFIER</li>
+<ul>	<li>Overview</li>
+	<li>Compatibility Comparison</li>
+	<li>SVUC Specification Code</li>
+</ul>
+	<li>APPENDIXES</li>
+<ul>	<li>Servo Amplifier Unit Front Panel</li>
+	<li>Motor Grounding Connection</li>
+</ul>
+	<li>INDEX</li>
+	<li>REVISION RECORD</li>
+</ul>
+</body>
+</html>

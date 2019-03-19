@@ -1,0 +1,910 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="date" content="2012-08-13T14:21:32Z"/>
+<meta name="pdf:PDFVersion" content="1.6"/>
+<meta name="pdf:docinfo:title" content="Alpha AC Servo Motor Maintenance Mnl, GFZ-65165E/02"/>
+<meta name="xmp:CreatorTool" content="Windows NT 4.0"/>
+<meta name="dc:description" content="GFZ-65165E/02, Alpha AC Servo Motor Maintenance Mnl"/>
+<meta name="access_permission:modify_annotations" content="true"/>
+<meta name="access_permission:can_print_degraded" content="true"/>
+<meta name="subject" content="GFZ-65165E/02, Alpha AC Servo Motor Maintenance Mnl"/>
+<meta name="description" content="GFZ-65165E/02, Alpha AC Servo Motor Maintenance Mnl"/>
+<meta name="dcterms:created" content="2012-08-13T14:21:03Z"/>
+<meta name="Last-Modified" content="2012-08-13T14:21:32Z"/>
+<meta name="dcterms:modified" content="2012-08-13T14:21:32Z"/>
+<meta name="dc:format" content="application/pdf; version=1.6"/>
+<meta name="xmpMM:DocumentID" content="uuid:2428995e-f0a5-4d57-8616-b8629ca5f075"/>
+<meta name="Last-Save-Date" content="2012-08-13T14:21:32Z"/>
+<meta name="pdf:docinfo:creator_tool" content="Windows NT 4.0"/>
+<meta name="access_permission:fill_in_form" content="true"/>
+<meta name="pdf:docinfo:modified" content="2012-08-13T14:21:32Z"/>
+<meta name="meta:save-date" content="2012-08-13T14:21:32Z"/>
+<meta name="pdf:encrypted" content="false"/>
+<meta name="dc:title" content="Alpha AC Servo Motor Maintenance Mnl, GFZ-65165E/02"/>
+<meta name="modified" content="2012-08-13T14:21:32Z"/>
+<meta name="cp:subject" content="GFZ-65165E/02, Alpha AC Servo Motor Maintenance Mnl"/>
+<meta name="pdf:docinfo:subject" content="GFZ-65165E/02, Alpha AC Servo Motor Maintenance Mnl"/>
+<meta name="Content-Type" content="application/pdf"/>
+<meta name="X-Parsed-By" content="org.apache.tika.parser.DefaultParser"/>
+<meta name="X-Parsed-By" content="org.apache.tika.parser.pdf.PDFParser"/>
+<meta name="meta:creation-date" content="2012-08-13T14:21:03Z"/>
+<meta name="created" content="2012-08-13T14:21:03Z"/>
+<meta name="access_permission:extract_for_accessibility" content="true"/>
+<meta name="access_permission:assemble_document" content="true"/>
+<meta name="xmpTPg:NPages" content="16"/>
+<meta name="Creation-Date" content="2012-08-13T14:21:03Z"/>
+<meta name="access_permission:extract_content" content="true"/>
+<meta name="access_permission:can_print" content="true"/>
+<meta name="producer" content="Acrobat Distiller 4.05 for Windows"/>
+<meta name="access_permission:can_modify" content="true"/>
+<meta name="pdf:docinfo:producer" content="Acrobat Distiller 4.05 for Windows"/>
+<meta name="pdf:docinfo:created" content="2012-08-13T14:21:03Z"/>
+<title>Alpha AC Servo Motor Maintenance Mnl, GFZ-65165E/02</title>
+</head>
+<body>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+    AND ACTION                                         TROUBLESHOOTING                                                          B-65165E/02
+</p>
+<p>- 128 -
+</p>
+<p>3.2 SERVO AMPLIFIER MODULE
+</p>
+<p>3.2.1 Abnormal Current Alarms (8, 9, A, b, C, d, and E in the LED
+display)
+</p>
+<p>(1) Make sure that the following parameters are set to the standard
+values.  If they are not, abnormal current control is performed.
+</p>
+<p>No. 1809 No. 1884 No. 1954(15-A),1955(15-B)
+No. 2004 No. 8X04 No. 2006 No. 8X06 No. 2011 No. 8X10
+</p>
+<p>No. 1852 No. 1853 No. 1967 No. 1991
+No. 2040 No. 8X40 No. 2041 No. 8X41 No. 2074 No. 8X74 No. 2098 No. 8X98
+</p>
+<p>(2) Remove the power line wires from the amplifier terminals, and
+release an emergency stop state.
+&rarr; If an abnormal current alarm is issued, the servo amplifier
+</p>
+<p>module needs to be replaced.
+&rarr; If not, go to (3).
+</p>
+<p>(3) Check for insulation between PE and each of the removed power
+wires U, V, and W.  If insulation is perfect, go to (4).  If not,
+disconnect the power wires from the motor connector.  Then
+check for insulation between PE and each of the U, V, and W
+terminals on the motor.
+&rarr; If there is a short-circuit between PE and  U, V, or W of the
+</p>
+<p>motor, replace the motor.
+&rarr; If insulation is perfect, replace the power wires.
+</p>
+<p>(4) Connect the power wires. Attach the check board (A06B-6071-
+K290) to connector JX5 to measure the waveform of the actual
+current (IR and IS) in the servo amplifier module.  Accelerate or
+decelerate the motor, and measure the actual current (IR and IS) of
+the amplifier.
+&rarr; If an abnormal current alarm occurs right after an emergency
+</p>
+<p>stop state is released, go to (5).
+</p>
+<p>Release an emergency stop state, and start the motor.
+Check whether the waveform of the actual current (IR and IS) is a
+normal sine wave.
+&rarr; If normal, go to (5).
+&rarr; If not, replace the amplifier.
+</p>
+<p>(5) Check whether there is noise on the actual current (IR and IS)
+waveform.
+&rarr; If there is no noise, replace the amplifier.
+&rarr; If there is noise, use a shielding wire, and ground the
+</p>
+<p>shielding, or take other countermeasures as required.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+B-65165E/02                                                          TROUBLESHOOTING                     AND ACTION              
+</p>
+<p>- 129 -
+</p>
+<p>(6) If still there is noise, a probable cause is a defective command
+cable or a hardware failure in the CNC.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+    AND ACTION                                         TROUBLESHOOTING                                                          B-65165E/02
+</p>
+<p>- 130 -
+</p>
+<p>3.2.2 IPM Alarms (8., 9., A., b., C., d., and E in the LED display; note
+these codes are displayed simultaneously with a period.)
+</p>
+<p>(1) Wait for about 10 minutes.  Then release the emergency stop state.
+If an IPM alarm still occurs, go to (2).
+If the cause is IPM overheat, the IPM alarm will not recur.  IPM
+overheat can occur if the ambient temperature is high or the motor
+is overloaded.  Check the operating condition.
+</p>
+<p>(2) Remove the power wires from the amplifier terminals, and release
+an emergency stop state.
+If the IPM alarm does not recur, go to (3).
+</p>
+<p>If the IPM alarm recurs, the probable cause is the operation of the
+IPM protective function (for overcurrent or power failure).
+Replace the amplifier and see.
+&rarr; If the IPM does not recur, go to (3).
+</p>
+<p>(3) Check for insulation between PE and each of the removed power
+wires U, V, and W.  If insulation is perfect, go to (4).  If not,
+disconnect the power wires from the motor connector.  Then
+check for insulation between PE and each of the U, V, and W
+terminals on the motor.
+&rarr; If there is a short-circuit between PE and  U, V, or W of the
+</p>
+<p>motor, replace the motor.
+&rarr; If insulation is perfect, replace the power wires.
+</p>
+<p>(4) Connect the power wires.  Attach the check board (A06B-6071-
+K290) to connector JX5 to measure the waveform of the actual
+current (IR and IS) in the servo amplifier module.  Accelerate or
+decelerate the motor, and measure the actual current (IR and IS) of
+the amplifier.
+If an overcurrent alarm occurs right after an emergency stop state
+is released, go to (5).
+Release an emergency stop state, and start the motor.
+Check whether the waveform of the actual current (IR and IS) is a
+normal sine wave.
+&rarr; If normal, go to (5).
+&rarr; If not, replace the amplifier.
+</p>
+<p>(5) Check whether there is noise on the actual current (IR and IS)
+waveform.
+&rarr; If there is no noise, replace the amplifier.
+&rarr; If there is noise, use a shielding wire, and ground the
+</p>
+<p>shielding, or take other countermeasures as required.
+</p>
+<p>(6) If still there is noise, a probable cause is a defective command
+cable or a hardware failure in the CNC.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+B-65165E/02                                                          TROUBLESHOOTING                     AND ACTION              
+</p>
+<p>- 131 -
+</p>
+<p>3.2.3 Control Power Supply Undervoltage Alarm (2 in the LED
+display)
+</p>
+<p>(1) Check the three-phase input voltage to the amplifier.
+&rarr; If the voltage is below 0.85 times the rating, adjust it to the
+</p>
+<p>rated value.
+</p>
+<p>(2) Replace the servo amplifier.
+</p>
+<p>3.2.4 DC Link Undervoltage Alarm (5 in the LED display)
+</p>
+<p>(1) Check the three-phase input voltage to the power supply module.
+&rarr; If the voltage is below 0.85 times the rating, adjust it to the
+</p>
+<p>rated value.
+</p>
+<p>(2) Replace the servo amplifier module.
+</p>
+<p>3.2.5 Fan Stopped Alarm (1 in the LED display)
+</p>
+<p>(1) Make sure that the fan is not clogged up.
+</p>
+<p>(2) Replace the servo amplifier module.  Alternatively, replace the
+cooling fan inside the servo amplifier module according to
+Chapter 4.
+</p>
+<p>3.2.6 Current Conversion Error Alarm
+</p>
+<p>(1) Exchange the command cable with the cable for the axis on which
+no alarm has occurred.
+&rarr; If the alarm occurs on the same axis, go to (3).
+&rarr; If the alarm occurs on the new axis, go to (2).
+</p>
+<p>(2) The command cable is defective.  Replace it.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+    AND ACTION                                         TROUBLESHOOTING                                                          B-65165E/02
+</p>
+<p>- 132 -
+</p>
+<p>(3) Exchange the command cables according to the diagram here.
+When switching the CNC on, do so in an emergency stop state.
+&rarr; If the alarm recurs on the same axis, go to (5).
+&rarr; If the alarm occurs on the other axis, go to (4).
+</p>
+<p>CNC
+Alarmed axis
+</p>
+<p>(L-axis)
+</p>
+<p>M-axis
+</p>
+<p>L-axis
+</p>
+<p>Command cable
+</p>
+<p>Servo amplifier
+</p>
+<p>Normal axis
+(M-axis)
+</p>
+<p>(4) The servo amplifier is defective.
+</p>
+<p>(5) The module for current conversion in the CNC is defective.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+B-65165E/02                                                          TROUBLESHOOTING                     AND ACTION              
+</p>
+<p>- 133 -
+</p>
+<p>3.3 SERVO SOFTWARE
+If a servo alarm is issued, an alarm message is output, and details of the
+alarm are also displayed on the servo adjustment screen or the
+diagnosis screen.  Using the alarm identification table given in this
+section, determine the alarm, and take a proper action.  With a CNC of
+the i series, detailed alarm messages are displayed.  So, from the
+information in the alarm identification table, select a proper action.
+</p>
+<p>3.3.1 Servo Adjustment Screen
+</p>
+<p>� Series 0-C
+Press the           key several times to display the servo setting screen.
+</p>
+<p>Pressing the                      keys displays the servo screen.
+</p>
+<p>If the servo setting screen does not appear, specify the following
+parameter, then switch the CNC off and on again:
+</p>
+<p>#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>0389 SVS
+</p>
+<p>SVS (#0)=0 (to display the servo setting screen)
+</p>
+<p>� Series 15-A/B, 15i
+Press the          key several times to cause the servo setting screen to
+appear. Then press the          key, and the servo adjustment screen will
+appear.
+</p>
+<p>� Series 16, 18, 20, 21
+            &rarr; [SYSTEM]  &rarr;  [      ]  &rarr;  [SV-PRM]  &rarr;  [SV-TUN]
+If the servo setting screen does not appear, specify the following
+parameter, then switch the CNC off and on again.
+</p>
+<p>#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>3111 SVS
+</p>
+<p>SVS (#0)=1 (to display the servo setting screen)
+</p>
+<p>SERVICE
+</p>
+<p>SYSTEM
+</p>
+<p>PAGE
+</p>
+<p>PAGE
+</p>
+<p>PARAM</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+    AND ACTION                                         TROUBLESHOOTING                                                          B-65165E/02
+</p>
+<p>- 134 -
+</p>
+<p>Alarm detail
+information
+</p>
+<p>&lt;1&gt;
+&lt;2&gt;
+&lt;3&gt;
+&lt;4&gt;
+&lt;5&gt;
+</p>
+<p>Fig. 3.3.1(a)  Servo adjustment screen
+</p>
+<p>&lt;1&gt;
+</p>
+<p>&lt;2&gt;
+</p>
+<p>&lt;3&gt;
+</p>
+<p>&lt;4&gt;
+</p>
+<p>&lt;5&gt;
+</p>
+<p>&lt;6&gt;
+</p>
+<p>&lt;7&gt;
+</p>
+<p>&lt;8&gt;
+</p>
+<p>&lt;9&gt;
+</p>
+<p>Alarm detail
+information
+</p>
+<p>Fig. 3.3.1(b)  Series 15i servo alarm screen
+</p>
+<p>The table below indicates the names of the alarm bits.
+</p>
+<p>Table 3.3.1  List of alarm bit names
+</p>
+<p>#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>&lt;1&gt;  Alarm 1 OVL LVA OVC HCA HVA DCA FBA OFA
+</p>
+<p>&lt;2&gt;  Alarm 2 ALD EXP
+</p>
+<p>&lt;3&gt;  Alarm 3 CSA BLA PHA RCA BZA CKA SPH
+</p>
+<p>&lt;4&gt;  Alarm 4 DTE CRC STB PRM
+</p>
+<p>&lt;5&gt;  Alarm 5 OFS MCC LDM PMS FAN DAL ABF
+</p>
+<p>&lt;6&gt;  Alarm 6 SFA
+</p>
+<p>&lt;7&gt;  Alarm 7 OHA LDA BLA PHA CMA BZA PMA SPH
+</p>
+<p>&lt;8&gt;  Alarm 8 DTE CRC STB SPD
+</p>
+<p>&lt;9&gt;  Alarm 9 FSD SVE IDW NCE IFE
+</p>
+<p>NOTE
+The empty fields do not represent alarm codes.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+B-65165E/02                                                          TROUBLESHOOTING                     AND ACTION              
+</p>
+<p>- 135 -
+</p>
+<p>3.3.2 Diagnosis Screen
+</p>
+<p>The alarm items of the servo adjustment screen correspond to the
+diagnosis screen numbers indicated in the table below.
+</p>
+<p>Table 3.3.2 Correspondence between the servo adjustment screen and
+diagnosis screen
+</p>
+<p>Alarm No. Series 0-C Series 15-A, B, 15i Series 16, 18, 20, 21 PowerMate-E
+&lt;1&gt;  Alarm 1
+&lt;2&gt;  Alarm 2
+&lt;3&gt;  Alarm 3
+&lt;4&gt;  Alarm 4
+&lt;5&gt;  Alarm 5
+&lt;6&gt;  Alarm 6
+&lt;7&gt;  Alarm 7
+&lt;8&gt;  Alarm 8
+&lt;9&gt;  Alarm 9
+</p>
+<p>No 720 to 723
+730 to 733
+760 to 763
+770 to 773
+
+
+
+
+
+</p>
+<p>No 3014 + 20(X-1)
+3015 + 20(X-1)
+3016 + 20(X-1)
+3017 + 20(X-1)
+
+
+
+
+
+</p>
+<p>   No 200
+201
+202
+203
+204
+
+205
+206
+
+</p>
+<p>No 2711
+2710
+2713
+2712
+2714
+
+
+
+
+</p>
+<p>Fig. 3.3.2  Series 16i diagnosis screen
+</p>
+<p>&lt;1&gt;
+</p>
+<p>&lt;2&gt;
+</p>
+<p>&lt;3&gt;
+</p>
+<p>&lt;4&gt;
+</p>
+<p>&lt;5&gt;
+</p>
+<p>&lt;7&gt;
+</p>
+<p>&lt;8&gt;</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+    AND ACTION                                         TROUBLESHOOTING                                                          B-65165E/02
+</p>
+<p>- 136 -
+</p>
+<p>3.3.3 Overload Alarm (Soft Thermal, OVC)
+</p>
+<p>(Alarm identification method)
+</p>
+<p>#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>&lt;1&gt;  Alarm 1 OVL LVA OVC HCA HVA DCA FBA OFA
+</p>
+<p>(Action)
+</p>
+<p>(1) Make sure that the motor is not vibrating.
+&rArr; If a motor vibrates, the current flowing in it becomes more
+</p>
+<p>than necessary, resulting in an alarm.
+</p>
+<p>(2) Make sure that the power line to the motor is connected correctly.
+&rArr; If the connection is incorrect, an abnormal current flows in
+</p>
+<p>the motor, resulting in an alarm.
+</p>
+<p>(3) Make sure that the following parameters are set correctly.
+&rArr; An overload alarm is issued based on the result of calculation
+</p>
+<p>of these parameters.  Be sure to set them to the standard values.
+For details of the standard values, refer to the parameter
+manual (B-65150E).
+</p>
+<p>1877 8x62 Overload protection coefficient (OVC1)
+</p>
+<p>2062 1062
+</p>
+<p>1878 8x63 Overload protection coefficient (OVC2)
+</p>
+<p>2063 1063
+</p>
+<p>1893 8x65 Overload protection coefficient (OVCLMT)
+</p>
+<p>2065 1065
+</p>
+<p>(4) Attach the check board (A06B-6071-K290) to connector JX5 to
+measure the waveform of the actual current (IR and IS) of the
+servo amplifier module.  Start the motor and measure the actual
+current (IR and IS).
+&rArr; If the actual current exceeds 1.4 times the rated current, the
+</p>
+<p>constant for the acceleration/deceleration duration is too
+small, or the load on the machine is too heavy for the capacity
+of the motor.
+</p>
+<p>&rArr; If the actual current exceeds 1.4 times the rated current during
+normal operation, the load on the machine is too heavy for the
+capacity of the motor.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+B-65165E/02                                                          TROUBLESHOOTING                     AND ACTION              
+</p>
+<p>- 137 -
+</p>
+<p>3.3.4 Feedback Disconnected Alarm
+</p>
+<p>(Alarm identification method)
+#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>&lt;1&gt;  Alarm 1 OVL LVA OVC HCA HVA DCA FBA OFA
+</p>
+<p>&lt;2&gt;  Alarm 2 ALD EXP
+</p>
+<p>&lt;6&gt;  Alarm 6 SFA
+</p>
+<p>FBA ALD EXP SFA Alarm description Action
+</p>
+<p>1 1 1 0 Hard disconnection (separate phase A/B) 1
+</p>
+<p>1 0 0 0 Soft disconnection (closed loop) 2
+</p>
+<p>1 0 0 1 Soft disconnection (α pulse coder) 3
+</p>
+<p>(Action)
+Action 1: This alarm is issued when a separate phase A/B scale is
+</p>
+<p>used.  Check if the phase A/B detector is connected
+correctly.
+</p>
+<p>Action 2: This alarm is issued when the position feedback pulse
+variation is small relative to the velocity feedback pulse
+variation.  This means that this alarm is not issued when a
+semi-full is used.  Check if the separate detector outputs
+position feedback pulses correctly.  If position feedback
+pulses are output correctly, it is considered that the motor
+alone is rotating in the reverse direction at the start of
+machine operation because of a large backlash between the
+motor position and scale position.
+</p>
+<p>#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>1808 8X03 TGAL
+</p>
+<p>2003 1003
+</p>
+<p>TGAL (#1) 1: Uses the parameter for the soft disconnection alarm
+detection level.
+</p>
+<p>1892 8X64 Soft disconnection alarm level
+</p>
+<p>2064 1064
+</p>
+<p>Standard setting 4: Alarm issued for a 1/8 rotation of the motor.
+Increase this value.
+</p>
+<p>Action 3: This alarm is issued when synchronization between the
+absolute position data sent from the built-in pulse coder and
+phase data is lost.  Turn off the power to the CNC, then
+detach the pulse coder cable then attach it again.  If this
+alarm is still issued, replace the pulse coder.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+    AND ACTION                                         TROUBLESHOOTING                                                          B-65165E/02
+</p>
+<p>- 138 -
+</p>
+<p>3.3.5 Overheat Alarm
+</p>
+<p>(Alarm identification method)
+#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>&lt;1&gt;  Alarm 1 OVL LVA OVC HCA HVA DCA FBA OFA
+</p>
+<p>&lt;2&gt;  Alarm 2 ALD EXP
+</p>
+<p>OVL ALD EXP Alarm description Action
+</p>
+<p>1 1 0 Motor overheat 1
+</p>
+<p>1 0 0 Amplifier overheat 1
+</p>
+<p>(Action)
+Action 1: If this alarm is issued after a long-time of continuous
+</p>
+<p>operation, it is considered that the motor and amplifier are
+overheated.  Stop operation for a while, then make a check.
+If this alarm is still issued after the power is off for about 10
+minutes then is turned on again, the thermostat is
+considered to be faulty.  If this alarm is issued intermittently,
+increase the time constant or increase stop time in the
+program to suppress the rise in temperature.
+</p>
+<p>3.3.6 Invalid Servo Parameter Setting Alarm
+</p>
+<p>The invalid servo parameter setting alarm is issued when a setting out
+of the specifiable range is specified, or an overflow has occurred in an
+internal calculation.  When an invalid parameter is detected on the
+servo side, alarm 4 #4 (PRM) = 1 results.
+(Alarm identification method)
+</p>
+<p>#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>&lt;4&gt;  Alarm 4 DTE CRC STB PRM
+</p>
+<p>For details and action required when the invalid servo parameter setting
+alarm is issued on the servo side, refer to the parameter manual (B-
+65150E) edition 4 and up.
+</p>
+<p>(Reference information)
+Method of checking details of an invalid parameter detected on the
+servo side
+</p>
+<p>(For Series 15i)
+A number is indicated in the item "Details of invalid parameter" on
+the servo alarm screen (Fig. 3.3.1(b)).
+</p>
+<p>(For Series 16i, 18i, 21i, and Power Mate i)
+A number is indicated in No. 352 of the diagnosis screen.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+B-65165E/02                                                          TROUBLESHOOTING                     AND ACTION              
+</p>
+<p>- 139 -
+</p>
+<p>3.3.7 Alarms Related to Pulse Coder and Separate Serial Detector
+</p>
+<p>(Bits for alarm identification)
+</p>
+<p>#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>&lt;1&gt;  Alarm 1 OVL LVA OVC HCA HVA DCA FBA OFA
+</p>
+<p>&lt;2&gt;  Alarm 2 ALD EXP
+</p>
+<p>&lt;3&gt;  Alarm 3 CSA BLA PHA RCA BZA CKA SPH
+</p>
+<p>&lt;4&gt;  Alarm 4 DTE CRC STB PRM
+</p>
+<p>&lt;5&gt;  Alarm 5 OFS MCC LDM PMS FAN DAL ABF
+</p>
+<p>&lt;6&gt;  Alarm 6 SFA
+</p>
+<p>&lt;7&gt;  Alarm 7 OHA LDA BLA PHA CMA BZA PMA SPH
+</p>
+<p>&lt;8&gt;  Alarm 8 DTE CRC STB SPD
+</p>
+<p>&lt;9&gt;  Alarm 9 FSD SVE IDW NCE IFE
+</p>
+<p>(1) For a built-in pulse coder
+An alarm is determined from the bits of alarms 1, 2, 3, and 5.  The
+table below indicates the meaning of each bit.
+</p>
+<p>Alarm 3 Alarm 5 1 Alarm 2
+CSA BLA PHA RCA BZA CKA SPH LDM PMA FBA ALD EXP
+</p>
+<p>Alarm description Action
+</p>
+<p>1 Soft phase alarm 2
+1 Clock alarm (serial A)
+</p>
+<p>1 Zero battery voltage 1
+1 0 0 0 Speed error (serial A)
+1 1 1 0 Count error alarm (α pulse coder) 2
+</p>
+<p>1 Phase alarm (serial A) 2
+1 Battery voltage decrease (warning) 1
+</p>
+<p>1 Checksum alarm (serial A)
+1 Pulse error alarm (α pulse coder)
+</p>
+<p>1 LED error alarm (α pulse coder)
+</p>
+<p>NOTE
+An alarm for which no action number is given is
+considered to be caused by a pulse coder failure.
+Replace the pulse coder.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+    AND ACTION                                         TROUBLESHOOTING                                                          B-65165E/02
+</p>
+<p>- 140 -
+</p>
+<p>(2) For a separate serial detector
+An alarm is determined from the bits of alarm 7.  The table below
+indicates the meaning of each bit.
+</p>
+<p>Alarm 7
+OHA LDA BLA PHA CMA BZA PMA SPH
+</p>
+<p>Alarm description Action
+</p>
+<p>1 Soft phase alarm 2
+1 Pulse error alarm
+</p>
+<p>1 Zero battery voltage 1
+1 Count error alarm 2
+</p>
+<p>1 Phase alarm 2
+</p>
+<p>1
+Battery voltage decrease
+(warning)
+</p>
+<p>1
+</p>
+<p>1 LED error alarm
+1 Separate detector alarm
+</p>
+<p>NOTE
+An alarm for which no action number is given is
+considered to be caused by a detector failure.
+Replace the detector.
+</p>
+<p>(Action)
+Action 1: Battery-related alarms
+</p>
+<p>Check if a battery is connected.  When the power is turned
+on for the first time after a battery is connected, the zero
+battery voltage alarm is issued.  In such a case, turn off the
+power, then turn on the power again.  If the alarm is still
+issued, check the battery voltage.  If the battery voltage
+decrease alarm is issued, check the voltage, and replace the
+battery as required.
+</p>
+<p>Action 2: Alarms that may be issued for noise
+If an alarm is issued intermittently or after emergency stop
+cancellation, noise is probably the cause.  So, provide noise
+protection.  If the same alarm is still issued after noise
+protection is provided, replace the detector.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+B-65165E/02                                                          TROUBLESHOOTING                     AND ACTION              
+</p>
+<p>- 141 -
+</p>
+<p>(3) Alarms related to serial communication
+An alarm is determined from the bits of alarms 4 and 8.
+</p>
+<p>Alarm 4 Alarm 8
+DTE CRC STB DTE CRC STB
+</p>
+<p>Alarm description
+</p>
+<p>1
+1
+</p>
+<p>1
+Serial pulse coder communication alarm
+</p>
+<p>1
+1
+</p>
+<p>1
+Separate serial pulse coder communication alarm
+</p>
+<p>Action: Serial communication is not performed correctly.  Check if
+the cable is connected correctly and is not broken.  If CRC
+or STB is issued, noise may be the cause.  So, provide noise
+protection.  If CRC or STB is always issued after the power
+is turned on, the pulse coder or amplifier control board (i
+series) or the pulse module (i series) may be faulty.</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+    AND ACTION                                         TROUBLESHOOTING                                                          B-65165E/02
+</p>
+<p>- 142 -
+</p>
+<p>3.3.8 Other Alarms
+</p>
+<p>(Alarm identification method)
+</p>
+<p>#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>&lt;5&gt;  Alarm 5 OFS MCC LDM PMS FAN DAL ABF
+</p>
+<p>OFS DAL ABF Alarm description Action
+</p>
+<p>1 Feedback mismatch alarm 1
+</p>
+<p>1 Excessive semi-full error alarm 2
+</p>
+<p>1 Current offset error alarm 3
+</p>
+<p>(Action)
+Action 1: This alarm is issued when the move direction of the position
+</p>
+<p>detector is opposite to the move direction of the speed
+detector.  Check the rotation direction of the separate
+detector.  If the rotation direction of the separate detector is
+opposite to the rotation direction of the motor, take the
+following action:
+For a phase A/B detector:  Reverse the connections of A and
+A.
+For a serial detector: Reverse the setting of the signal
+</p>
+<p>direction of the separate detector.
+</p>
+<p>#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>1960 - RVRSE
+</p>
+<p>2018 -
+</p>
+<p>RVRSE (#0) Reverses the signal direction of the separate detector.
+0: Does not reverse the signal direction of the separate detector.
+1: Reverses the signal direction of the separate detector.
+</p>
+<p>If a large distortion exists between the motor and separate detector, this
+alarm may be issued in the case of abrupt acceleration/ deceleration.  In
+such a case, modify the detection level.
+</p>
+<p>#7 #6 #5 #4 #3 #2 #1 #0
+</p>
+<p>1741 - RNLV
+</p>
+<p>2201 -
+</p>
+<p>RNLV (#1) Modifies the feedback mismatch alarm detection level.
+1: Detected with 1000 min-1 or more
+0: Detected with 600 min-1 or more</p>
+<p/>
+</div>
+<div class="page">
+<p/>
+<p>3. TROUBLESHOOTING
+B-65165E/02                                                          TROUBLESHOOTING                     AND ACTION              
+</p>
+<p>- 143 -
+</p>
+<p>Action 2: This alarm is issued when the difference between the motor
+position and separate detector position exceeds the
+excessive semi-full error level.  Check if the conversion
+efficient for dual position feedback is set correctly.  If the
+conversion efficient is set correctly, increase the alarm level.
+If this alarm is still issued after the level is modified, check
+the connection direction of the scale.
+</p>
+<p>1971 - Dual position feedback conversion coefficient (numerator)
+</p>
+<p>2078 -
+</p>
+<p>1972 - Dual position feedback conversion coefficient (denominator)
+</p>
+<p>2079 -
+</p>
+<p>Conversion coefficient =
+</p>
+<p>Number of feedback pulses per motor
+revolution (detection unit)
+</p>
+<p>1,000,000
+</p>
+<p>1729 - Dual position feedback semi-full error level
+</p>
+<p>2118 -
+</p>
+<p>[Setting] Detection unit.  When 0 is set, no detection is made.
+</p>
+<p>Action 3: The current offset value of the current detector (equivalent
+to the current value in the emergency stop state) is
+abnormally high.  If this alarm is still issued after the power
+is turned off then back on, the current detector is faulty.  For
+the i series, replace the control board of the amplifier.  For
+series other than the i series, replace the servo-related
+modules on the CNC.</p>
+<p/>
+</div>
+</body>
+</html>
