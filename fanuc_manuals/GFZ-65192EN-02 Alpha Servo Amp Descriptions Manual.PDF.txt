@@ -1,0 +1,6931 @@
+
+GE Fanuc Automation
+
+Computer Numerical Control Products
+
+αα Series Control Motor Amplifier
+Servo Amplifier Unit
+
+Descriptions Manual
+
+GFZ-65192EN/02 August 1997
+
+
+
+GFL-001
+
+Warnings, Cautions, and Notes
+as Used in this Publication
+
+Warning
+
+Warning notices are used in this publication to emphasize that hazardous voltages, currents,
+temperatures, or other conditions that could cause personal injury exist in this equipment or
+may be associated with its use.
+
+In situations where inattention could cause either personal injury or damage to equipment, a
+Warning notice is used.
+
+Caution
+
+Caution notices are used where equipment might be damaged if care is not taken.
+
+Note
+Notes merely call attention to information that is especially significant to understanding and
+operating the equipment.
+
+This document is based on information available at the time of its publication.  While efforts
+have been made to be accurate, the information contained herein does not purport to cover all
+details or variations in hardware or software, nor to provide for every possible contingency in
+connection with installation, operation, or maintenance.  Features may be described herein
+which are not present in all hardware and software systems.  GE Fanuc Automation assumes
+no obligation of notice to holders of this document with respect to changes subsequently made.
+
+GE Fanuc Automation makes no representation or warranty, expressed, implied, or statutory
+with respect to, and assumes no responsibility for the accuracy, completeness, sufficiency, or
+usefulness of the information contained herein.  No warranties of merchantability or fitness for
+purpose shall apply.
+
+©Copyright 1997 GE Fanuc Automation North America, Inc.
+All Rights Reserved.
+
+
+
+Note
+
+GE Fanuc has modified this manual created by FANUC:
+
+1. We have added a supplementary Descriptions Manual for the SVUC
+Amplifier.  This information is available as a separate publication,
+GFK-1278.
+
+2. We have also added a supplementary Descriptions Manual for the
+SVU3 Amplifier.  This information is available as a separate
+publication, GFZ-65192EN/02-01.
+
+3. In addition, we have added supplementary power cable and jumper
+information on page 47a.  This information will more clearly explain
+the diagram on the preceding page (page 47).
+
+We believe our customers will find it more helpful to have all this information
+printed and bound within one manual for the SVU Amplifier.
+
+
+
+s–1
+
+SAFETY PRECAUTIONS
+
+FANUC CONTROL MOTOR AMPLIFIER series
+
+This ”Safety Precautions” section describes the precautions which must be observed to ensure safety when using
+FANUC control motor amplifiers.  Users of any control motor amplifier model are requested to read the ”Safety
+Precautions” carefully before first using the amplifier.  Users should also read the relevant description in this
+manual to become fully familiar with the functions of the control motor amplifier.
+
+Contents
+
+1. DEFINITION OF WARNING, CAUTION, AND NOTE s–2. . . . . . . . . . . . . . . . . . . . . . . . 
+
+2. WARNINGS AND CAUTIONS RELATING TO MOUNTING s–3. . . . . . . . . . . . . . . . . . 
+
+3. WARNINGS AND CAUTIONS RELATING TO A PILOT RUN s–7. . . . . . . . . . . . . . . . . 
+
+4. WARNINGS AND CAUTIONS RELATING TO MAINTENANCE s–9. . . . . . . . . . . . . . . 
+
+
+
+SAFETY PRECAUTIONS B–65192EN/02
+
+s–2
+
+1 DEFINITION OF WARNING, CAUTION, AND NOTE
+This manual includes safety precautions for protecting the user and preventing damage to the
+machine.  Precautions are classified into Warning and Caution according to their bearing on safety.
+Also, supplementary information is described as a Note.  Read the Warning, Caution, and Note
+thoroughly before attempting to use the machine.
+
+WARNING
+
+Applied when there is a danger of the user being injured or when there is a damage of both the user
+being injured and the equipment being damaged if the approved procedure is not observed.
+
+CAUTION
+
+Applied when there is a danger of the equipment being damaged, if the approved procedure is not
+observed.
+
+NOTE
+
+The Note is used to indicate supplementary information other than Warning and Caution.
+
+� Read this manual carefully, and store it in a safe place.
+
+
+
+B–65192EN/02 SAFETY PRECAUTIONS
+
+s–3
+
+2 WARNINGS AND CAUTIONS RELATING TO MOUNTING
+WARNING
+
+� Check the specification code of the amplifier.
+
+Check that the delivered amplifier is as originally ordered.
+
+� Mount a ground fault interrupter.
+
+To guard against fire and electric shock, fit the factory power supply or machine with a ground
+fault interrupter (designed for use with an inverter).
+
+� Securely ground the amplifier.
+
+Securely connect the ground terminal and metal frame of the amplifier and motor to a common
+ground plate of the power magnetics cabinet.
+
+� Be aware of the weight of the amplifier and other components.
+
+Control motor amplifiers and AC reactors are heavy.  When transporting them or mounting them
+in the cabinet, therefore, be careful not to injured yourself or damage the equipment.  Be
+particularly carefull not to jam your fingers between the cabinet and amplifier.
+
+� Never ground or short–circuit either the power supply lines or power lines.
+
+Protect the lines from any stress such as bending.  Handle the ends appropriately.
+
+� Ensure that the power supply lines, power lines, and signal lines are
+securely connected.
+
+A loose screw, loose connection, or the like will cause a motor malfunction or overheating, or
+a ground fault.
+
+� Insulate all exposed parts that are charged.
+
+� Never touch the regenerative discharge resistor or radiator directly.
+
+The surface of the radiator and regenerative discharge unit become extremely hot.  Never touch
+them directly.  An appropriate structure should also be considered.
+
+� Close the amplifier cover after completing the wiring.
+
+Leaving the cover open presents a danger of electric shock.
+
+
+
+SAFETY PRECAUTIONS B–65192EN/02
+
+s–4
+
+CAUTION
+
+� Do not step or sit on the amplifier.
+
+Also, do not stack unpacked amplifiers on top of each other.
+
+� Use the amplifier in an appropriate environment.
+
+See the allowable ambient temperatures and other requirements, given in the corresponding
+descriptions.
+
+� Protect the amplifier from corrosive or conductive mist or drops of water.
+
+Use a filter if necessary.
+
+� Protect the amplifier from impact.
+
+Do not place anything on the amplifier.
+
+� Do not disassemble the amplifier.
+
+� Do not block the air inlet to the radiator.
+
+A deposit of coolant, oil mist, or chips on the air inlet will result in a reduction in the cooling
+efficiency.  In some cases, the required efficiency cannot be achieved.  The deposit may also lead
+to a reduction in the useful life of the semiconductors.  Especially, when outside air is drawn in,
+mount filters on both the air inlet and outlet.  These filters must be replaced regularly.  So, an
+easy–to–replace type of filter should be used.
+
+� Connect the power supply lines and power lines to the appropriate
+terminals.
+
+� Connect the signal lines to the appropriate connectors.
+
+� Ensure that the cables used for the power supply lines and power lines are
+of the appropriate diameter and temperature ratings.
+
+� Do not apply an excessively large force to plastic parts.
+
+If a plastic section breaks, it may cause internal damage, thus interfering with normal operation.
+The edge of a broken section is likely to be sharp and, therefore, presents a risk of injury.
+
+� Before connecting the power supply wiring, check the supply voltage.
+
+Check that the supply voltage is within the range specified in this manual, then connect the power
+supply lines.
+
+
+
+B–65192EN/02 SAFETY PRECAUTIONS
+
+s–5
+
+CAUTION
+
+� Ensure that the combination of motor and amplifier is appropriate.
+
+� Ensure that valid parameters are specified.
+
+Specifying an invalid parameter for the combination of motor and amplifier may not only
+prevent normal operation of the motor but also result in damage to the amplifier.
+
+� Ensure that the amplifier and peripheral equipment are securely
+connected.
+
+Check that the magnetic contactor, circuit breaker, and other devices mounted outside the
+amplifier are securely connected to each other and that those devices are securely connected to
+the amplifier.
+
+� Check that the amplifier is securely mounted in the power magnetics
+cabinet.
+
+If any clearance is left between the power magnetics cabinet and the surface on which the
+amplifier is mounted, dust entering the gap may build up and prevent the normal operation of
+the amplifier.
+
+� Apply appropriate countermeasures against noise.
+
+Adequate countermeasures against noise are required to maintain normal operation of the
+amplifier.  For example, signal lines must be routed away from power supply lines and power
+lines.
+
+
+
+SAFETY PRECAUTIONS B–65192EN/02
+
+s–6
+
+NOTE
+
+� Keep the nameplate clearly visible.
+
+� Keep the legend on the nameplate clearly visible.
+
+� After unpacking the amplifier, carefully check for any damage.
+
+� Mount the amplifier in a location where it can be easily accessed to allow
+periodic inspection and daily maintenance.
+
+� Leave sufficient space around the machine to enable maintenance to be
+performed easily.
+
+Do not place any heavy objects such that they would interfere with the opening of the doors.
+
+� Keep the parameter table and spare parts at hand.
+
+Also, keep the specifications at hand.  These items must be stored in a location where they can
+be retrieved immediately.
+
+� Provide adequate shielding.
+
+A cable to be shielded must be securely connected to the ground plate, using a cable clamp or
+the like.
+
+
+
+B–65192EN/02 SAFETY PRECAUTIONS
+
+s–7
+
+3 WARNINGS AND CAUTIONS RELATING TO A PILOT RUN
+WARNING
+
+� Before turning on the power, check that the cables connected to the power
+magnetics cabinet and amplifier, as well as the power lines and power
+supply lines, are securely connected.  Also, check that no lines are slack.
+
+� Before turning on the power, ensure that the power magnetics cabinet is
+securely grounded.
+
+� Before turning on the power, check that the door of the power magnetics
+cabinet and all other doors are closed.
+
+Ensure that the door of the power magnetics cabinet containing the amplifier, and all other doors,
+are securely closed.  During operation, all doors must be closed and locked.
+
+� Apply extreme caution if the door of the power magnetics cabinet or
+another door must be opened.
+
+Only a person trained in the maintenance of the corresponding machine or equipment should
+open the door, and only after shutting off the power supply to the power magnetics cabinet (by
+opening both the input circuit breaker of the power magnetics cabinet and the factory switch used
+to supply power to the cabinet).  If the machine must be operated with the door open to enable
+adjustment or for some other purpose, the operator must keep his or her hands and tools well
+away from any dangerous voltages.  Such work must be done only by a person trained in the
+maintenance of the machine or equipment.
+
+� When operating the machine for the first time, check that the machine
+operates as instructed.
+
+To check whether the machine operates as instructed, first specify a small value for the motor,
+then increase the value gradually.  If the motor operates abnormally, perform an emergency stop
+immediately.
+
+� After turning on the power, check the operation of the emergency stop
+circuit.
+
+Press the emergency stop button to check that the motor stops immediately, and that the power
+being supplied to the amplifier is shut off by the magnetic contactor.
+
+� Before opening a door or protective cover of a machine to enable
+adjustment of the machine, first place the machine in the emergency stop
+state and check that the motor has stopped.
+
+
+
+SAFETY PRECAUTIONS B–65192EN/02
+
+s–8
+
+CAUTION
+
+� Note whether an alarm status relative to the amplifier is displayed at
+power–up or during operation.
+
+If an alarm is displayed, take appropriate action as explained in the maintenance manual.  If the
+work to be done requires that the door of the power magnetics cabinet be left open, the work must
+be carried out by a person trained in the maintenance of the machine or equipment.  Note that
+if some alarms are forcibly reset to enable operation to continue, the amplifier may be damaged.
+Take appropriate action according to the contents of the alarm.
+
+� Before operating the motor for the first time, mount and adjust the position
+and speed detectors.
+
+Following the instructions given in the maintenance manual, adjust the position and speed
+detectors for the spindle so that an appropriate waveform is obtained.  If the detectors are not
+properly adjusted, the motor may not rotate normally or the spindle may fail to stop as desired.
+
+� If the motor makes any abnormal noise or vibration while operating, stop
+it immediately.
+
+Note that if operation is continued in spite of there being some abnormal noise or vibration, the
+amplifier may be damaged.  Take appropriate corrective action, then resume operation.
+
+� Observe the ambient temperature and output rating requirements.
+
+The continuous output rating or continuous operation period of some amplifiers may fall as the
+ambient temperature increases.  If the amplifier is used continuously with an excessive load
+applied, the amplifier may be damaged.
+
+
+
+B–65192EN/02 SAFETY PRECAUTIONS
+
+s–9
+
+4 WARNINGS AND CAUTIONS RELATING TO MAINTENANCE
+WARNING
+
+� Read the maintenance manual carefully and ensure that you are totally
+familiar with its contents.
+The maintenance manual describes daily maintenance and the procedures to be followed in the
+event of an alarm being issued.  The operator must be familiar with these descriptions.
+
+� Notes on replacing a fuse or PC board
+
+1) Before starting the replacement work, ensure that the circuit breaker protecting the power
+magnetics cabinet is open.
+
+2) Check that the red LED that indicates that charging is in progress is not lit.  The position
+of the charging LED on each model of amplifier is given in this manual.  While the LED
+is lit, hazardous voltages are present inside the unit, and thus there is a danger of electric
+shock.
+
+3) Some PC board components become extremely hot.  Be careful not to touch these
+components.
+
+4) Ensure that a fuse having an appropriate rating is used.
+
+5) Check the specification code of a PC board to be replaced.  If a modification drawing number
+is indicated, contact FANUC before replacing the PC board.  Also, before and after replacing
+a PC board, check its pin settings.
+
+6) After replacing the fuse, ensure that the screws are firmly tightened.  For a socket–type fuse,
+ensure that the fuse is inserted correctly.
+
+7) After replacing the PC board, ensure that it is securely connected.
+
+8) Ensure that all power lines, power supply lines, and connectors are securely connected.
+
+� Take care not to lose any screws.
+When removing the case or PC board, take care not to lose any screws.  If a screw is lost inside
+the nit and the power is turned on, the machine may be damaged.
+
+� Notes on replacing the battery of the absolute pulse coder
+Replace the battery only while the power is on.  If the battery is replaced while the power is turned
+off, the stored absolute positioning data will be lost.  Some   series servo amplifier modules have
+batteries in their servo amplifiers.  To replace the battery of any of those models, observe the
+following procedure:  Open the door of the power magnetics cabinet; Leave the control power
+of the power supply module on; Place the machine in the emergency stop state so that the power
+being input to the amplifier is shut off; Then, replace the battery.  Replacement work should be
+done only by a person who is trained in the related maintenance and safety requirements.  The
+power magnetics cabinet in which the servo amplifier is mounted has a high–voltage section.
+This section presents a severe risk of electric shock.
+
+
+
+SAFETY PRECAUTIONS B–65192EN/02
+
+s–10
+
+WARNING
+
+� Check the number of any alarm.
+
+If the machine stops upon an alarm being issued, check the alarm number.  Some alarms indicate
+that a component must be replaced.  If the power is reconnected without first replacing the failed
+component, another component may be damaged, making it difficult to locate the original cause
+of the alarm.
+
+� Before resetting an alarm, ensure that the original cause of the alarm has
+been removed.
+
+� Contact FANUC whenever a question relating to maintenance arises.
+
+
+
+B–65192EN/02 SAFETY PRECAUTIONS
+
+s–11
+
+CAUTION
+
+� Ensure that all required components are mounted.
+
+When replacing a component or PC board, check that all components, including the snubber
+capacitor, are correctly mounted.  If the snubber capacitor is not mounted, for example, the IPM
+will be damaged.
+
+� Tighten all screws firmly.
+
+� Check the specification code of the fuse, PC board, and other
+components.
+
+When replacing a fuse or PC board, first check the specification code of the fuse or PC board,
+then mount it in the correct position.  The machine will not operate normally if a fuse or PC board
+having other than the correct specification code  is mounted, or if a fuse or PC board is mounted
+in the wrong position.
+
+� Mount the correct cover.
+
+The cover on the front of the amplifier carries a label indicating a specification code.  When
+mounting a previously removed front cover, take care to mount it on the unit from which it was
+removed.
+
+� Notes on cleaning the heat sink and fan
+
+1) A dirty heat sink or fan results in reduced semiconductor cooling efficiency, which degrades
+reliability.  Periodic cleaning is necessary.
+
+2) Using compressed air for cleaning scatters the dust.  A deposit of conductive dust on the
+amplifier or peripheral equipment will result in a failure.
+
+3) To clean the heat sink, do so only after turning the power off and ensuring that the heat sink
+has cooled to room temperature.  The heat sink becomes extremely hot, such that touching
+it during operation or immediately after power–off is likely to cause a burn.  Be extremely
+careful when touching the heat sink.
+
+� Notes on removing the amplifier
+
+Before removing the amplifier, first ensure that the power is shut off.  Be careful not to jam your
+fingers between the power magnetics cabinet and amplifier.
+
+
+
+SAFETY PRECAUTIONS B–65192EN/02
+
+s–12
+
+NOTE
+
+� Ensure that the battery connector is correctly inserted.
+
+If the power is shut off while the battery connector is not connected correctly, the absolute
+position data for the machine will be lost.
+
+� Store the manuals in a safe place.
+
+The manuals should be stored in a location where they can be accessed immediately it so required
+during maintenance work.
+
+� Notes on contacting FANUC
+
+Inform FANUC of the details of an alarm and the specification code of the amplifier so that any
+components required for maintenance can be quickly secured, and any other necessary action
+can be taken without delay.
+
+
+
+B–65192EN/02 Table of contents
+
+i
+
+SAFETY PRECAUTIONS
+
+1. OVERVIEW 1. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+2. CONFIGURATION 2. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+2.1 TYPE OF UNIT AND DESIGNATION 3. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+2.1.1 SVU Types 3. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+2.1.2 SVUC Types 4. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+2.1.3 Othes 5. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+3. SPECIFICATION 8. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.1 SPECIFICATION 9. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+3.2 PROTECTION AND ERROR DETECTION FUNCTION 12. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+3.3 NORMAL OPERATION MODE 14. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+3.4 SWITCH SETTING 15. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+4. AC LINE FILTER AND SEPARATE REGENERATIVE DISCHARGE UNIT 18. . . . . 
+4.1 AC LINE FILTER 19. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+4.2 SEPARATE REGENERATIVE DISCHARGE UNIT 21. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+4.2.1 Calculating the Amount of Regenerative Discharge 22. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+4.2.2 Regenerative Discharge Capacity of Regenerative Discharge Resistor (Built–in and Separate Types) 24
+
+5. POWER SUPPLY 25. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+5.1 INPUT POWER SUPPLY 26. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+5.2 POWER REQUIREMENTS 27. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+5.2.1 Capacity of Three–phase Power Supply 27. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+5.2.2 Single–phase Input for Control Circuit 28. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+5.3 POWER TRANSFORMERS FOR EXPORTS 29. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+5.3.1 Specification 29. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+5.3.2 How to Select a Transformer 30. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+5.4 CIRCUIT BREAKER AND MAGNETIC CONTACTOR 31. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+6. HEAT GENERATION 32. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+7. INSTALLATION CONDITIONS AND CAUTIONS 35. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+7.1 ENVIRONMENTAL CONDITIONS 35. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+7.1.1 Ambient Temperature 35. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+7.1.2 Humidity 35. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+7.1.3 Altitude 35. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+7.1.4 Vibration 35. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+7.1.5 Atmosphere 35. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+7.1.6 Cautions for Installation 36. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+7.2 HOW TO SELECT A GROUND FAULT INTERRUPTER 37. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+7.3 MEASURES FOR NOISE 38. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+7.3.1 Signal Line Separation 38. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+7.3.2 Ground 39. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+7.3.3 SVU Grounding for CE Marking (EC Machinery Directive) 40. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+
+
+B–65192EN/02Table of contents
+
+ii
+
+8. OUTLINE DRAWINGS AND AREA OF MAINTENANCE 41. . . . . . . . . . . . . . . . . . . . 
+8.1 OUTLINE DRAWINGS AND AREA OF MAINTENANCE 41. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+8.1.1 Servo Amplifier Unit 41. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+8.1.2 AC Line Fileter 45. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+8.1.3 Power Transformer for Export 47. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+8.1.4 Separate Regenerative Discharge Unit 48. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+8.1.5 Battery Case 51. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+8.2 PANEL CUTOUT DRAWING 52. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+8.2.1 Servo Amplifier Unit 52. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+8.2.2 Separate Regenerative Discharge Unit 54. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+9. CONNECTION 56. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.1 OVERVIEW 56. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+9.1.1 Interface with the NC 56. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.1.2 Safety Standards 56. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+9.2 BASIC CONNECTION 57. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.2.1 Connection Example for SVU 57. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.2.2 Connection Example for SVUC 61. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.2.3 Connector and Terminal (T1) 63. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+9.3 DETAILED CONNECTION 65. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.1 Detailed Connection of Cable K1 65. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.2 Detailed Connection of Cable K2 70. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.3 Detailed Connection of Cable K3 77. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.4 Detailed Connection of Cable K4 79. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.5 Detailed Connection of Cable K5 87. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.6 Detailed Connection of Cable K6 88. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.7 Detailed Connection of Cable K7 88. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.8 Detailed Connection of Cable K8 89. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.9 Detailed Connection of Cable K9 91. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.10 Detailed Connection of Cable K10 92. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.11 Detailed Connection of Cable K11 93. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.12 Detailed Connection of Cable K12 94. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.13 For installation of the Lightning Surge Protector 95. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.14 ESP Signal Connection for Use of Two or more SVUs or SVUCs 97. . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.3.15 Monitoring Contact Output 98. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+10.COMPATIBILITY WITH THE C SERIES SERVO AMPLIFIER 99. . . . . . . . . . . . . . . . 
+10.1 COMPARISON BETWEEN SVU/SVUC AND C SERIES AMPLIFIER 99. . . . . . . . . . . . . . . . . . . . . 
+
+10.2 NOTES ON REPLACING A C SERIES AMPLIFIER WITH THE SVUC 102. . . . . . . . . . . . . . . . . . . . 
+
+
+
+B–65192EN/02 1. OVERVIEW
+
+1
+
+1 OVERVIEW
+This FANUC α series control motor amplifier unit (svu/svuc) is suitable
+for systems with one or two feed axes.
+The features of the servo amplifier unit are as follows:
+
+The servo amplifier unit is integrated with a power supply.
+It enables implementation of a compact system with one or two feed axes.
+
+SVU: The servo amplifier unit is designed to comply with the VDE
+0160 (Europe), UL (USA), and CSA (Canada) safety standards.
+
+SVUC: The servo amplifier unit is designed to comply with UL (USA)
+and CSA (Canada) safety standards. It does not conform to VDE
+0160 (Europe) safety standards.
+
+The servo amplifier unit provides a new interface (type B) as well as the
+conventional interface (type A) for the CNC.
+
+The servo amplifier unit uses an up–to–date power device, IPM
+(intelligent power module), to reduce power loss and enhance alarm
+detection, thereby increasing its reliability.
+
+To maintain compatibility, the servo amplifier unit has the same external
+shape as the C series amplifier.  In addition, they can be mounted in the
+same manner. 
+(Some specifications are different, however.  See Chapter 10 for details.)
+
+Compact
+
+Satisfies safety
+standards
+
+New interfacing
+capability
+
+Up-to-date power device
+
+Compatibility with the C
+series amplifier
+
+
+
+2. CONFIGURATION B–65192EN/02
+
+2
+
+2 CONFIGURATION
+Fig. 2 is the configuration of an NC system with two controlled axes.
+
+A separate regenerative discharge unit may be required in applications in
+which the regenerative energy is high.
+
+X axis
+
+NC
+Control Unit
+
+Pulse Coder
+
+3 φ AC input
+200/220/230VAC
++10 %, –15%
+
+Separate
+Regenerative
+Discharge
+Unit
+ (option)
+
+X axis
+SVU/SVUC
+ (basic)
+
+Z axis
+SVU/SVUC
+ (basic)
+
+ F/B
+
+AC line filter
+ (option)
+
+Pulse Coder
+
+AC Servo Motor
+
+Z axis
+
+ F/B
+
+Fig.2 Example of Configuration
+
+
+
+2. CONFIGURATIONB–65192EN/02
+
+3
+
+����� 2.1.1 (a) Type of SVU and Designation
+
+Group Axis Name Designation
+Applied motor group
+
+Note 1)  
+(refer to table 2.1.1 (b) )
+
+Basic 1 SVU1–12 A06B–6089–H101 Group A
+
+SVU1–20 A06B–6089–H102 Group B
+
+SVU1–40 A06B–6089–H104 Group C
+
+SVU1–80 A06B–6089–H105 Group D
+
+SVU1–130 A06B–6089–H106 Group E
+
+Basic 2 L axis M axis
+
+SVU2–12/12 A06B–6089–H201 Group A Group A
+
+SVU2–12/20 A06B–6089–H202 Group A Group B
+
+SVU2–20/20 A06B–6089–H203 Group B Group B
+
+SVU2–12/40 A06B–6089–H204 Group A Group F
+
+SVU2–20/40 A06B–6089–H205 Group B Group F
+
+SVU2–40/40 A06B–6089–H206 Group F Group F
+
+SVU2–40/80 A06B–6089–H207 Group F Group G
+
+SVU2–80/80 A06B–6089–H208 Group G Group G
+
+SVU2–12/80 A06B–6089–H209 Group A Group G
+
+SVU2–20/80 A06B–6089–H210 Group B Group G
+
+*Name of Servo Amplifier
+
+· 1–Axis Servo Amplifier SVU1 –�
+
+· 2–Axis Servo Amplifier SVU2 –� /�
+
+Limit current value of motor
+
+Limit current value of M–axis motor
+Limit current value of L–axis motor
+
+2.1
+TYPE OF UNIT AND
+DESIGNATION
+
+2.1.1
+SVU Types
+
+
+
+2. CONFIGURATION B–65192EN/02
+
+4
+
+����� 2.1.1 (b) Applied motor
+
+Applied motor group AC Servo Motor
+
+Group A α0.5/3000, α1/3000 ,α2/2000 ,α2/3000,
+αE1/3000, αE2/3000
+
+Group B αC3/2000, αC6/2000, αC12/2000, αE3/2000,
+αE6/2000
+
+Group C α2.5/3000, α3/3000, α6/2000, α12/2000,
+αC22/1500 α22/1500, αM3/3000, αL3/3000
+
+Group D α6/3000, α12/3000, α22/2000, α30/1200,
+αM6/3000, αM9/3000, αL6/3000, αL9/3000
+
+Group E α22/3000, α30/2000, α30/3000, α40/2000,
+α40/2000 (with fan) αL25/3000, αL50/2000
+
+Group F α2.5/3000, α3/3000, α6/2000, α12/2000,
+αL3/3000, αM3/3000
+
+Group G α6/3000, αM6/3000
+
+The SVUC is used to enable maintenance of, or is used as a replacement
+for, the C series amplifier.
+
+����� 2.1.2 Replacing the C Series Amplifier with the SVUC
+
+Axis Replacing the C series amplifier with the SVUC Name
+
+A06B–6066–H002 � A06B–6090–H002 SVUC1–4
+
+A06B–6066–H003 � A06B–6090–H003 SVUC1–12
+
+1 A06B–6066–H004 � A06B–6090–H004 SVUC1–40
+
+A06B–6066–H006 � A06B–6090–H006 SVUC1–80
+
+A06B–6066–H008 � A06B–6090–H008 SVUC1–130
+
+A06B–6066–H222 � A06B–6090–H222 SVUC2–4/4
+
+A06B–6066–H223 � A06B–6090–H223 SVUC2–4/12
+
+A06B–6066–H224 � A06B–6090–H224 SVUC2–4/40
+
+A06B–6066–H233 � A06B–6090–H233 SVUC2–12/12
+
+2 A06B–6066–H234 � A06B–6090–H234 SVUC2–12/40
+
+A06B–6066–H236 � A06B–6090–H236 SVUC2–12/80
+
+A06B–6066–H244 � A06B–6090–H244 SVUC2–40/40
+
+A06B–6066–H246 � A06B–6090–H246 SVUC2–40/80
+
+A06B–6066–H266 � A06B–6090–H266 SVUC2–80/80
+
+The interchangeable C series amplifier and SVUC have identical model
+names (last nibble) in the drawing numbers. The middle nibbles of the
+drawing numbers, however, are different: 6066 for the C series amplifier
+and 6090 for the SVUC.
+
+C series amplifier
+
+A06B–6066–H���
+
+SVUC
+
+A06B–6090–H���
+
+ÃÃÃÃÃÃÃÃÃÃ
+ÃÃÃÃÃÃÃÃÃÃ
+ÃÃÃÃÃÃÃÃÃÃ
+
+Same model name as that 
+of the C series amplifier
+
+2.1.2
+SVUC Types
+
+
+
+2. CONFIGURATIONB–65192EN/02
+
+5
+
+Table 2.1.3 Type of Unit and Designation (1)
+
+Group Name Applcation Designation
+
+Basic AC line filter Type A: 5.4kW A81L–0001–0083#3C
+
+(Caution 1) Type B: 10.5kW A81L–0001–0101#C
+
+Type C: 23kW A81L–0001–0102
+
+Option Power
+transformer
+
+Type SAE: 2.2kVA A80L–0022–0005
+transformer
+for export
+
+Type SBE: 3.5kVA A80L–0024–0006
+for ex ort
+
+(Caution 2) Type SCE: 5.0kVA A80L–0026–0003(Caution 2)
+Type SDE: 7.5kVA A80L–0028–0001
+
+Option Separate
+Regenerative
+Discharge Unit
+
+For A06B–6089–H101 to –H102 
+(16Ω/100W, at natural cooling)
+
+A06B–6089–H510
+
+Discharge Unit
+
+(Caution 3)
+For A06B–6089–H101 to –H105, –H201 to –H210, 
+A06B–6090, –H003 to –H006, –H222 to –H266 
+(16Ω/200W, at natural cooling)
+
+A06B–6089–H500
+
+For A06B–6089–H104 to –H105, –H201 to –H210,
+A06B–6090–H004 to –H006, –H222 to –H266 
+(16Ω/800W, With cooling fanmotor)
+
+A06B–6089–H713
+
+For A06B–6089–H104 to –H105, –H201 to H210,
+A06B–6090–H004 to –H006, –H222 to –H266 
+(16Ω/1200W, With cooling fanmotor)
+
+A06B–6089–H714
+
+For A06B–6089–H106, A06B–6090–H008
+(8Ω/800W, With cooling fanmotor)
+
+A06B–6089–H711
+
+For A06B–6066–H106, A06B–6090–H008
+(8Ω/1200W, With cooling fanmotor)
+
+A06B–6089–H712
+
+2.1.3
+Others
+
+
+
+2. CONFIGURATION B–65192EN/02
+
+6
+
+Table 2. 1. 3 Type of Unit and Designation (2)
+
+Group Name Applcation Designation
+
+Basic Connector JV (1/2) B, JS (1/2) B 
+Between NC to SVU/SVUC
+(Plastic co er)
+
+Soldering type A06B–6073–K212
+
+(Plastic cover)
+
+(Note 1)
+Crimp type A06B–6073–K213
+
+Connector JV (1/2) B, JS (1/2) B
+Between NC to SVU/SVUC
+(Metal co er)
+
+Soldering type A06B–6066–K205
+
+(Metal cover)
+
+(Note 1)
+Crimp type A06B–6066–K206
+
+Connector JF (1/2) For pulse corder F/B cable
+
+(Note 1)
+
+A06B–6073–K214
+
+Connector CX3 : For external MCC A06B–6089–K201
+
+Connector CX4 : For ESP A06B–6089–K202
+
+Fuse For control power supply A06B–6089–K250
+
+(Note 2) For fanmotor (SVU1–130, SVUC1–130)
+
+Option Fanmotor For SVU1–130, SVUC1–130 A06B–6089–K203
+
+(Note 3) Separate Regenerative Discharge Unit
+(A06B–6089–H711, H712, H713, H714)
+
+Battery case For absolute pulse coder A06B–6050–K060
+
+Battery For absolute pulse coder A06B–6050–K061
+
+Battery cable For absolute pulse coder (Length : 5m) A02B–0120–K809
+
+Breaker 5. 0A (*) A06B–6077–K106
+
+Lightning
+surge protector
+
+(*) A06B–6077–K141
+
+* The SVU requires the use of an external circuit breaker and lightning surge protector. The SVUC features a
+built–in lightning surge protector in the same way as the C series amplifier, hence does not require an external
+circuit breaker or lightning surge protector.
+
+
+
+2. CONFIGURATIONB–65192EN/02
+
+7
+
+CAUTION
+1 Be sure to use an AC line filter in order to reduce harmonic
+
+interference with the power supply. See Section 4.1 for
+details .If a power supply transformer (insulation type) is
+used for the line voltage out of specification, it can dispense
+with an AC line filter. If the AC line filter is ineffective in
+satisfying the EMC standards, use a commercial noise filter.
+
+2 If the line voltage is higher than 200/220/230 VAC, use a
+power transformer. When a transformer is used, an AC line
+filter usually becomes unnecessary, however in the case
+that requirements of EMC standard are still not satisfied, AC
+line filter will be needed.
+
+3 If the load inertia or the frequency of acceleration/
+deceleration is high, and the regenerative discharge energy
+from the motor exceeds a specified value, separate
+regenerative discharge unit should be used. If the heat
+dissipation is higher than a specified value of a separate
+regenerative discharge unit, please check the servo motor
+selection and consult FANUC. See Section 4.2 for details.
+
+NOTE
+1 This amplifier has two types of NC interfaces. Type A
+
+interface requires JV (1/2) B. Type B interface requires JS
+(1/2) B or JF (1/2) .
+
+2 The specification of the spare fuses is common to both the
+control power supply and fanmotors. A fanmotor fuse is built
+only in SVU1–130 (A06B–6089–H106) and SVUC1–130
+(A06B–6090–H008).
+
+3 SVU1–130 (A06B–6089–H106), SVUC1–130
+(A06B–6090–H008) and a separate regenerative
+discharge unit (A06B–6089–H711 to –H714) with a cooling
+fan contains a fanmotor. A fanmotor should be arranged as
+a spare part.
+
+4 Use the following servo amplifiers for the T series motors
+(hollow–type motors) .
+Model 0T/3000  => Amplifier corresponding to α3/3000
+Model 5T/2000  => Amplifier corresponding to α6/2000
+Model 5T/3000  => Amplifier corresponding to α6/3000
+Model 10T/2000 => Amplifier corresponding to α12/2000
+Model 10T/3000 => Amplifier corresponding to α12/3000
+
+
+
+3. SPECIFICATION B–65192EN/02
+
+8
+
+3 SPECIFICATION
+
+
+
+B–65192EN/02 3. SPECIFICATION
+
+9
+
+����� 3.1 (a) Specification (Common)
+
+Item Specification
+
+Power
+supply
+
+Three–phase input
+for power
+
+(Caution 1)
+
+Voltage : 200/220/230 VAC +10 %, –15 %
+Frequency : 50/60Hz � 2Hz
+Voltage deviation due to load (at maximum
+output)
+shall be 7% or less.
+
+Single–phase input
+for control power
+
+(Caution 1)
+
+Voltage : 200/220/230 VAC +10 %, –15 %
+Frequency : 50/60Hz � 2Hz
+
+Single–phase input
+emergency stop
+
+(Caution 2)
+
+Voltage : 100 VAC +10 %, –15 %
+Frequency : 50/60Hz
+Voltage : 110 VAC +10 %, –15 %
+Frequency : 60Hz
+
+Control of main circuit Sine–wave PWM control by transistor bridge
+(IPM)
+
+Alarm and protection func-
+tions
+
+· Over–voltage alarm
+· Low control power voltage alarm
+· Low DC link voltage alarm
+· Regenerative discharge control circuit 
+
+failure alarm
+· Over–regenerative discharge alarm
+· Dynamic brake circuit failure alarm
+· Over–current alarm
+· IPM alarm
+· Circuit breaker
+
+Contact of the relay of the Dy-
+namic brake circuit
+
+(Caution 3)
+
+� Except SVU1–130, SVUC1–130
+· In dynamic brake, its contact is short.
+· Condition to use the contact
+
+24VDC, more than 10mA less than 0.3A
+� SVU1–130, SVUC1–130
+· In dynamic brake, its contact is open.
+· Condition to use the contact
+
+24VDC, more than 10mA less than 0.3A
+
+CAUTION
+1 Two lines of the three–phase input for power were
+
+connected with the lines of the single–phase input for
+control power by a jumper bar at the factory.
+
+2 Necessary for the SVUC only
+3 The customer can use this contact for monitoring purposes
+
+when designing a safety protection circuit.
+
+3.1
+SPECIFICATION
+
+
+
+3. SPECIFICATION B–65192EN/02
+
+10
+
+Table 3.1 (b) Specification (Each model for SVU) 
+
+L axis M axis
+
+Axis Name Designation Rated current
+(Arms)
+
+Current limit
+(Apeak)
+
+Rated current
+(Arms)
+
+Current limit
+(Apeak)
+
+1 SVU1–12 A06B–6089–H101 3.0 12
+
+SVU1–20 A06B–6089–H102 5.9 20
+
+SVU1–40 A06B–6089–H104 12.5 40
+
+SVU1–80 A06B–6089–H105 18.7 80
+
+SVU1–130 A06B–6089–H106 52.2 130
+
+2 SVU2–12/12 A06B–6089–H201 3.0 12 3.0 12
+
+SVU2–12/20 A06B–6089–H202 3.0 12 5.9 20
+
+SVU2–20/20 A06B–6089–H203 5.9 20 5.9 20
+
+SVU2–12/40 A06B–6089–H204 3.0 12 8.8 40
+
+SVU2–20/40 A06B–6089–H205 5.9 20 8.8 40
+
+SVU2–40/40 A06B–6089–H206 8.8 40 8.8 40
+
+SVU2–40/80 A06B–6089–H207 8.8 40 10.0 80
+
+SVU2–80/80 A06B–6089–H208 10.0 80 10.0 80
+
+SVU2–12/80 A06B–6089–H209 3.0 12 10.0 80
+
+SVU2–20/80 A06B–6089–H210 5.9 20 10.0 80
+
+CAUTION
+1 The rated output is guaranteed under the rated input
+
+voltage.  When the input voltage fluctuates, the rated output
+may not be obtained even if the fluctuation is within the
+tolerance.
+
+2 The current limit are those typical.  The operating value may
+vary by about �10% due to varying circuit parameters.
+
+
+
+B–65192EN/02 3. SPECIFICATION
+
+11
+
+Table 3.1 (c) Specification (Each model) 
+
+L axis M axis
+
+Axis Name Designation Rated current
+(Arms)
+
+Current limit
+(Apeak)
+
+Rated current
+(Arms)
+
+Current limit
+(Apeak)
+
+1 SVUC1–4 A06B–6090–H002 0.9 4
+
+SVUC1–12 A06B–6090–H003 2.9 12
+
+SVUC1–40 A06B–6090–H004 16.0 40
+
+SVUC1–80 A06B–6090–H006 20.0 80
+
+SVUC1–130 A06B–6090–H008 51.0 130
+
+2 SVUC2–4/4 A06B–6090–H222 0.9 4 0.9 4
+
+SVUC2–4/12 A06B–6090–H223 0.9 4 2.9 12
+
+SVUC2–4/40 A06B–6090–H224 0.9 4 8.7 40
+
+SVUC2–12/12 A06B–6090–H233 2.9 12 2.9 12
+
+SVUC2–12/40 A06B–6090–H234 2.9 12 8.7 40
+
+SVUC2–12/80 A06B–6090–H236 2.9 12 10.2 80
+
+SVUC2–40/40 A06B–6090–H244 8.7 40 8.7 40
+
+SVUC2–40/80 A06B–6090–H246 8.7 40 10.2 80
+
+SVUC2–80/80 A06B–6090–H266 10.2 80 10.2 80
+
+CAUTION
+1 The rated output is guaranteed under the rated input
+
+voltage.  When the input voltage fluctuates, the rated output
+may not be obtained even if the fluctuation is within the
+tolerance.
+
+2 The current limit are those typical.  The operating value may
+vary by about �10% due to varying circuit parameters.
+
+
+
+3. SPECIFICATION B–65192EN/02
+
+12
+
+The servo amplifier has a protection and error detection function.  The
+detected alarm conditions are indicated by the 7–segment LED on the
+front of the servo amplifier. 
+If an alarm occurs, the motor is forced to stop by a dynamic brake.
+
+����� 3.2 Protection and Error Detection Function (1/2)
+
+Type LED indication Description
+
+Over–voltage
+alarm (HV)
+
+This alarm occurs if the DC voltage of
+the main circuit power supply is abnor-
+mally high.
+
+Low control
+power voltage
+alarm (LV)
+
+This alarm occurs if the control power
+voltage is abnormally low.
+
+Low DC link
+voltage
+alarm (LVDC)
+
+This alarm occurs if the DC voltage of
+the main circuit power supply is abnor-
+mally low or the circuit breaker trips.
+
+Regenerative
+discharge con-
+trol 
+circuit failure
+alarm (DCSW)
+
+This alarm occurs if:
+–The short–time regenerative dis
+
+charge energy is too high.
+–The regenerative discharge circuit is
+
+abnormal.
+
+Over-regenera-
+tive
+discharge
+alarm (DCOH)
+
+This alarm occurs if:
+–The average regenerative discharge
+
+energy is too high 
+(too frequent acceleration/decelera
+tion).
+
+–The transformer overheats. 
+(See 9.3.8)
+
+Dynamic brake
+circuit failure
+alarm (DBRLY)
+
+This alarm occurs if the relay contacts
+of the dynamic brake welds together.
+
+3.2
+PROTECTION AND
+ERROR DETECTION
+FUNCTION
+
+
+
+B–65192EN/02 3. SPECIFICATION
+
+13
+
+����� 3.2 Protection and Error Detection Function (2/2)
+
+Type LED indication Description
+
+L–axis
+over–current
+alarm (HCL)
+
+This alarm occurs if an abnormally high
+current flows in the L–axis motor.
+
+M–axis
+over–currenta-
+larm (HCM)
+
+This alarm occurs if an abnormally high
+current flows in the M–axis motor.
+
+L–and M–axis
+over–current
+alarm (HCLM)
+
+This alarm occurs if an abnormally high
+current flows in the L–and M–axis mo-
+tors.
+
+L–axis IPM
+alarm (IPML)
+
+This alarm is detected by the IPM (intel-
+ligent power module) of the L–axis.
+
+(Note 1)
+
+M–axis IPM
+alarm (IPMM)
+
+This alarm is detected by the IPM (intel-
+ligent power module) of the M–axis.
+
+(Note 1)
+
+L–and M–axis
+IPM alarm
+ (IPMLM)
+
+This alarm is detected by the IPM (intel-
+ligent power module) of the L–and M–
+axes.
+
+(Note 1)
+
+Circuit
+breaker
+
+Trips The circuit breaker trips if an abnormal-
+ly high current (exceeding the working
+current of the circuit breaker) flows
+through it.
+
+NOTE
+1 The IPM can detect the following alarms. 
+
+� Over–current
+� Over–heat
+� Drop in IPM control power voltage
+
+2 When the control power is separated from the main power,
+if the circuit breaker for the servo amplifier is off, low DC link
+voltage alarm (LVDC) is detected.
+
+
+
+3. SPECIFICATION B–65192EN/02
+
+14
+
+In the normal operation mode, the 7–segment LED on the front of the
+servo amplifier lights as listed below.
+
+����� 3.3 Normal Operation Mode
+
+Type LED indication Description
+
+Amplifier not
+ready
+
+Indicates that the servo amplifier is not
+ready to drive the motor.
+
+Amplifier ready Indicates that the servo amplifier is
+ready to drive the motor.
+
+3.3
+NORMAL
+OPERATION MODE
+
+
+
+B–65192EN/02 3. SPECIFICATION
+
+15
+
+There are four channel switches above the 7–segment LED behind the
+terminal board cover on the front of the servo amplifier.  These switches
+should be set as described below before use of the servo amplifier. 
+
+(1) Positions
+The switches are sequentially numbered 1, 2, 3, and 4 with the one
+at the bottom as switch 1.  The OFF position is on the left, and the ON
+position on the right.
+
+� �
+
+� �
+
+� �
+
+ OFF
+
+ON
+
+ON
+
+4
+
+3
+
+2
+
+1
+
+(2) Switch 1 setting
+The setting of switch 1 varies with the interface type used between the
+NC and servo amplifier.
+
+If the setting is incorrect, an alarm occurs. 
+If the load is light, the motor may keep running.
+
+Switch 1 setting
+
+ON Type B interface
+
+OFF Type A interface
+
+– The following NC unit has the type A interface.
+Series 0–C, Series15–A, Series15–B, Series 16–A, Series 16–B,
+Series 18–A, Series 21–TA, Power Mate–D, Power Mate–F
+
+– The following NC unit has the type B interface.
+Series 20–A, Series 21–TB, Series 21–GA, Series 16–B, Series
+18–B, Power Mate–H
+
+3.4
+SWITCH SETTING
+
+
+
+3. SPECIFICATION B–65192EN/02
+
+16
+
+(3) Switch 2 setting
+The settings of the SVU and SVUC differ.
+
+Switch 2 setting
+
+ON SVUC
+
+OFF SVU
+
+If the setting is incorrect, the VRDY OFF alarm may occur.
+
+(4) Switch 3 and 4 setting
+The setting varies depending on the regenerative discharge resistance
+used.
+
+If the setting is incorrect, the regenerative discharge control circuit
+failure alarm (DCSW) cannot be detected correctly.
+
+(a) SVU1 – 12, 20
+
+SW3 SW4 Regenerative Discharge Resistor
+
+ON ON Built–in (20W)
+
+ON OFF Separate A06B–6066–H510 (100W),
+ A06B–6089–H510 (100W)
+
+OFF OFF Separate A06B–6066–H500 (200W),
+ A06B–6089–H500 (200W)
+
+(b) SVUC1 – 4, 12
+
+SW3 SW4 Regenerative Discharge Resistor
+
+ON ON Built–in (20W)
+
+(c) SVU1 – 40, 80 , SVU2 – �/�
+SVUC1 – 40, 80, SVUC2 – �/�
+
+SW3 SW4 Regenerative Discharge Resistor
+
+ON ON Built–in (100W)
+
+ON OFF Separate A06B–6066–H500 (200W),
+ A06B–6089–H500 (200W)
+
+OFF OFF Separate A06B–6066–H713 (800W),
+A06B–6066–H714 (1200W)
+A06B–6089–H713 (800W)
+A06B–6089–H714 (1200W)
+
+(d) SVU1 –130, SVUC1–130
+
+SW3 SW4 Regenerative Discharge Resistor
+
+ON ON Built–in (400W)
+
+ON OFF Separate A06B–6066–H711 (800W),
+ A06B–6089–H711 (800W)
+
+OFF OFF Separate A06B–6066–H712 (1200W),
+A06B–6089–H712 (1200W)
+
+
+
+B–65192EN/02 3. SPECIFICATION
+
+17
+
+NOTE
+The separate regenerative discharge resistor, designated
+A06B–6066–H***, does not comply with European safety
+standards (VDE 0160). To allow the application of the CE
+marking (machinery directive), use the separate
+regenerative discharge resistor designated A06B–6089
+–H***, which fully conforms to European safety standards.
+
+
+
+4. AC LINE FILTER AND SEPARATE
+REGENERATIVE DISCHARGE UNIT B–65192EN/02
+
+18
+
+4
+AC LINE FILTER AND SEPARATE REGENERATIVE
+DISCHARGE UNIT
+
+
+
+B–65192EN/02
+
+4. AC LINE FILTER AND SEPARATE
+REGENERATIVE DISCHARGE UNIT
+
+19
+
+ An AC line filter should be used to reduce the effect of harmonic noise
+to the power supply.  If two or more servo amplifiers are connected to one
+AC line filter, the total continuous output rating of all the connected servo
+amplifiers should be kept below the continuous output rating of the AC
+line filter.
+
+Estimation of total continuous output rating of the servo motors can be
+reduced depending on the load conditions.
+
+ [Example of selecting an AC line filter]
+ Motors : α12/2000 + α12/2000 + α22/2000
+
+1. Continuous output rating of each servo motor
+   α12/2000:  2.1 kW
+   α22/2000:  3.8 kW
+
+2. Total continuous output rating of the servo motors
+2.1+2.1+3.8=8.0 kW
+
+3. Select the type B AC line filter, whose maximum continuous output
+rating is 10.5 kW.
+
+����� 4.1(a) AC Line Filter Specification
+
+AC line filter Continuous
+rated current
+
+Continuous
+output rating
+
+Heat genera-
+tion
+
+Type A:
+A81L–0001–0083#3C
+
+24A  5.4kW Max. 20W
+
+Type B:
+A81L–0001–0101#C
+
+44A 10.5kW Max. 70W
+
+Type C:
+A81L–0001–0102
+
+100A 23.0kW Max. 50W
+
+4.1
+AC LINE FILTER
+
+
+
+4. AC LINE FILTER AND SEPARATE
+REGENERATIVE DISCHARGE UNIT B–65192EN/02
+
+20
+
+Table 4.1(b) Continuous output rating of servo motors
+
+  Motor
+  Model
+
+Continuous
+output
+rating
+
+  Motor
+  Model
+
+Continuous
+output
+rating
+
+  Motor
+  Model
+
+Continuous
+output
+rating
+
+α40/2000
+ with fan
+
+ 7.3 kW
+
+α0.5/3000  0.2 kW
+
+α30/1200  3.3 kW
+
+αM3/3000  0.9 kW
+
+α1/3000  0.3 kW
+
+α30/2000  4.5 kW
+
+αM6/3000  1.4 kW
+
+α2/2000  0.4 kW
+
+α30/3000  4.8 kW
+
+αM9/3000  1.8 kW
+
+α2/3000  0.5 kW
+
+α40/2000  5.9 kW
+
+αC3/2000  0.3 kW
+
+α3/3000  0.9 kW
+
+αC6/2000  0.6 kW
+
+α6/2000  1.0 kW
+
+αC12/2000  1.0 kW
+
+α6/3000  1.4 kW
+
+αE1/3000  0.3 kW
+αC22/1500  1.5 kW
+
+α12/2000  2.1 kW
+
+αE2/3000  0.5 kW
+αL3/3000  0.9 kW
+
+α12/3000  2.8 kW
+αE6/2000  0.9 kW
+
+αL6/3000  1.4 kW
+
+α22/1500  3.0 kW
+
+αL9/3000  2.0 kW
+
+α22/2000  3.8 kW
+
+αL25/3000  3.5 kW
+
+α22/3000  4.4 kW
+
+αL50/2000  6.0 kW
+
+α2.5/3000  0.3 kW
+
+αE3/2000  0.5 kW
+
+
+
+B–65192EN/02
+
+4. AC LINE FILTER AND SEPARATE
+REGENERATIVE DISCHARGE UNIT
+
+21
+
+(1) If a servo motor releases a large amount of regenerative discharge,
+which exceeds the regenerative discharge capacity of the regenerative
+discharge resistor in the servo amplifier, it is necessary to use a
+separate regenerative discharge unit.
+
+(2) If the motor regenerative discharge R calculated in Subsec. 4.2.1 for
+each axis exceeds the regenerative discharge capacity of the
+regenerative discharge resistor in the servo amplifier listed in Table
+4.2.2 (a) , use a separate regenerative discharge unit.  If R exceeds also
+the regenerative discharge capacity of the regenerative discharge
+resistor in the separate regenerative discharge unit listed in Table
+4.2.2 (b) , contact FANUC and ask for information.  (If a machine has
+a high holding torques on its vertical axis with no counter balance, a
+large amount of high regenerative discharge occurs when the load
+moves down along the vertical axis.  In such a case, especially if the
+machine has a long stroke and the load descends rapidly, the amount
+of generated regenerative discharge may exceed the regenerative
+discharge capacity of the separate regenerative discharge unit. )
+
+(3) The regenerative discharge capacity of the regenerative discharge
+resistor in the following units can be increased by cooling the resistor
+with an external cooling fan:  separate regenerative discharge units
+A06B–6089–H510 and H500, and servo amplifiers (A06B–6089–
+H104, H105, and H201 to H210) and (A06B–6090–H004, H006, and
+H222 to H266). 
+ Tables 4.2.2 (a) and (b) list the relationships between the speed of
+cooling air flow and the regenerative discharge capacity.
+
+(4) The separate regenerative discharge units listed in Table 4.2.2 (b) have been
+developed for use with the α series servo amplifier units. These discharge
+units comply with European safety standards (VDE 0160). The separate
+regenerative discharge units for the C series servo amplifier units can
+be used for the α series servo amplifier units. However they have not
+been designed to meet the requirements of the European standards.
+ 
+
+NOTE
+The CE marking (machinery directive) cannot be affixed to
+a machine using the SVUC.
+
+4.2
+SEPARATE
+REGENERATIVE
+DISCHARGE UNIT
+
+
+
+4. AC LINE FILTER AND SEPARATE
+REGENERATIVE DISCHARGE UNIT B–65192EN/02
+
+22
+
+The amount (R) of regenerative discharge of a motor is the sum of P and
+Q calculated in Section (i) and (ii), respectively. 
+
+(1). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . R � P � Q [W]
+
+(i) Horizontal operation
+Amount of regenerative discharge (power [W] ) with a rapid–traverse
+acceleration/deceleration frequency of one per F seconds 
+
+SI system of units
+
+P � 1
+F
+� (5.48 � 10�3 J Vm2 � 5.23 � 10�2 ta Vm TL) [W] (2). . . 
+
+where
+F: Rapid–traverse acceleration/deceleration frequency
+
+(sec/occurrence)
+
+CAUTION
+Unless otherwise specified, ”once per five seconds” is
+assumed.
+
+J: Jm + JL
+Jm: Inertia (kg · m2) of the motor rotor
+JL: Load inertia (kg · m2) in terms of motor shaft inertia
+Vm:Motor speed (min–1) for rapid traverse
+ta: Rapid–traverse acceleration/deceleration time (sec)
+TL:Machine friction torque (in terms of motor shaft torque)  (N · m)
+
+CGS system of units
+
+P � 1
+F
+� (5.37 � 10�4 J Vm2 � 5.13 � 10�3 ta Vm TL) [W] (3). . . 
+
+where
+F: Rapid–traverse acceleration/deceleration frequency
+
+(sec/occurrence)
+
+CAUTION
+Unless otherwise specified, ”once per five seconds” is
+assumed.
+
+J: Jm + JL
+Jm: Inertia (kg · cm · sec) of the motor rotor
+JL: Load inertia (kg · cm · sec) in terms of motor shaft inertia
+Vm:Motor speed (rpm) for rapid traverse
+ta: Rapid–traverse acceleration/deceleration time (sec)
+TL:Machine friction torque (in terms of motor shaft torque)  (kg · cm)
+
+4.2.1
+Calculating the
+Amount of
+Regenerative
+Discharge
+
+
+
+B–65192EN/02
+
+4. AC LINE FILTER AND SEPARATE
+REGENERATIVE DISCHARGE UNIT
+
+23
+
+(ii)  Vertical operation
+Amount of regenerative discharge (power [W] ) with a duty cycle D
+(%) in the rapid–traverse descending direction
+
+SI system of units
+
+(4). . . . . . . . . . . . . . . . . . . . . . . Q � 1.047 � 10�1 Th Vm � D
+100
+
+[W]
+
+where
+Th: Torque (N · m) needed for the motor to change the operation from
+
+rapid traverse descending to ascending
+Vm:Motor speed (min–1) for rapid traverse
+ D: Duty cycle (%) during rapid–traverse descending
+
+CAUTION
+D is 50% at most.  It is usually below 50%.
+
+CGS system of units
+
+(5). . . . . . . . . . . . . . . . . . . . . . . Q � 1.026 � 10�2 Th Vm � D
+100
+
+[W]
+
+where
+Th: Torque  (kg ⋅ cm) needed for the motor to change the operation
+
+from rapid traverse descending to ascending
+Vm:Motor speed (rpm) for rapid traverse
+D: Duty cycle (%) during rapid–traverse descending
+
+CAUTION
+D is 50% at most.  It is usually below 50%.
+
+
+
+4. AC LINE FILTER AND SEPARATE
+REGENERATIVE DISCHARGE UNIT B–65192EN/02
+
+24
+
+����� 4.2.2 (a) Regenerative discharge capacity of buit–in type discharge
+resistor
+
+Servo Amplifier No wind wind veloc-ity 2m/sec
+wind veloc-
+ity 4m/sec
+
+A06B–6089–H101
+A06B–6089–H102
+A06B–6090–H002
+A06B–6090–H003
+
+ R=20W
+
+A06B–6089–H104
+A06B–6089–H105
+A06B–6089–H201 to –H210
+A06B–6090–H004
+A06B–6090–H006
+A06B–6090–H222 to –H266
+
+ R=100W R=200W  R=300W
+
+A06B–6089–H106
+A06B–6090–H008
+
+Forced cooling fanmotor is
+installed
+
+ R=400W
+
+����� 4.2.2 (b) Regenerative discharge capacity of separate regenerative
+discharge unit
+
+Separate regenerative
+discharge unit No wind
+
+wind veloc-
+ity 2m/sec
+
+wind veloc-
+ity 4m/sec
+
+A06B–6089–H510 (16Ω)  R=100W R=250W
+
+A06B–6089–H500 (16Ω)  R=200W R=400W  R=600W
+
+A06B–6089–H713 (16Ω) Forced cooling fanmotor is
+installed
+
+ R=800W
+
+A06B–6089–H714 (16Ω) Forced cooling fanmotor is
+installed
+
+ R=1200W
+
+A06B–6089–H711 (16Ω) Forced cooling fanmotor is
+installed
+
+ R=800W
+
+A06B–6089–H712 (8Ω) Forced cooling fanmotor is
+installed
+
+ R=1200W
+
+4.2.2
+Regenerative
+Discharge Capacity of
+Regenerative
+Discharge Resistor
+(Built–in and
+Separate Types)
+
+
+
+B–65192EN/02 5. POWER SUPPLY
+
+25
+
+5 POWER SUPPLY
+
+
+
+5. POWER SUPPLY B–65192EN/02
+
+26
+
+· Nominal rated voltage: 200/220/230 VAC
+
+· Voltage fluctuation tolerance: –15% to +10%
+
+· Frequency: 50/60 Hz
+
+· Frequency fluctuation tolerance: �2 Hz
+
+· Power supply impedance: Voltage drop of 7% or less due to load 
+(at maximum output)
+
+· Power supply unbalance: +5% or less of rated voltage
+
+Cautions in connecting the power supply
+
+The servo amplifier requires a three–phase input for power and a single–
+phase input for control power. Two lines of the three–phase input for power
+were connected with the lines of the single–phase input for control power
+by a jumper bar on terminal board T1 at the factory.
+If you want to separate the two power supplies, remove the jumper bar.
+
+5.1
+INPUT POWER
+SUPPLY
+
+
+
+B–65192EN/02 5. POWER SUPPLY
+
+27
+
+(1) If more than one servo motor is used, the total power requirement can
+be calculated by adding the requirements of all the servo motors.
+
+(2) As for continuous output ratings, the power requirements listed in
+Table 5.2.1 are sufficient. However, when a servo motor is required
+to accelerate sharply, it may momentarily consumes power twice as
+more as the continuous output rating.
+So, check the amplifier input voltage during simultaneous
+acceleration/deceleration of the servo motors. The voltage should be
+at least 170 VAC (200 VAC –15%).
+
+Table 5.2.1 Power requirements for motor
+
+ motor
+ model
+
+Power req-
+uirements
+per motor
+
+ motor
+ model
+
+Power req-
+uirements
+per motor
+
+ motor
+ model
+
+Power req-
+uirements
+per motor
+
+α40/2000
+ (with fan)
+
+ 11.3 kVA
+
+α0.5/3000  0.31 kVA
+
+α30/1200  5.1 kVA
+
+αM3/3000  1.4 kVA
+
+α1/3000  0.46 kVA
+
+α30/2000  7.7 kVA
+
+αM6/3000  2.2 kVA
+
+α2/2000  0.62 kVA
+
+α30/3000  8.2 kVA
+
+αM9/3000  2.8 kVA
+
+α2/3000  0.77 kVA
+
+α40/2000  9.1 kVA
+
+αC3/2000  0.46 kVA
+
+α3/3000  1.4 kVA
+
+αC6/2000  0.93 kVA
+
+α6/2000  1.5 kVA
+
+αC12/2000  1.6 kVA
+
+α6/3000  2.2 kVA
+
+αE1/3000  0.46 kVA αC22/1500  2.3 kVA
+
+α12/2000  3.3 kVA
+
+αE2/3000  0.77 kVA
+αL3/3000  1.4 kVA
+
+α12/3000  4.3 kVA αE6/2000  1.4 kVA
+
+αL6/3000  2.2 kVA
+
+α22/1500  4.7 kVA
+
+αL9/3000  3.1 kVA
+
+α22/2000  5.9 kVA
+
+αL25/3000  5.4 kVA
+
+α22/3000  6.8 kVA
+
+αL50/2000  9.3 kVA
+
+α2.5/3000  0.77 kVA
+
+αE3/2000  0.77 kVA
+
+5.2
+POWER
+REQUIREMENTS
+
+5.2.1
+Capacity of
+Three–phase Power
+Supply
+
+
+
+5. POWER SUPPLY B–65192EN/02
+
+28
+
+����� 5.2.2 Power requiremnts for control circuits
+
+Servo Amplifier Capacity
+
+A06B–6089–H101 to H105
+A06B–6090–H002 to H006
+
+30 VA
+
+A06B–6089–H106
+A06B–6090–H008
+
+60 VA
+
+A06B–6089–H201 to H210
+A06B–6090–H222 to H266
+
+40 VA
+
+5.2.2
+Single–phase Input
+for Control Circuit
+
+
+
+B–65192EN/02 5. POWER SUPPLY
+
+29
+
+Use a power transformer for an export when this servo amplifier unit is
+used at a site where the line voltage is other than 200/220/230 VAC. 
+
+Table 5.3.1 Specification of power trasformers
+
+Designation A80L–0022–0005 A80L–0024–0006 A80L–0026–0003 A80L–0028–0001
+
+Model SAE SBE SCE SDE
+
+Rated capacity 2.2 kVA 3.5 kVA 5.0 kVA 7.5 kVA
+
+Rated primary voltage 200/220/230/240VAC (delta connection)
+380/415/460/480/550VAC (star connection)
++10%; –15%, 50/60Hz �2Hz, 3�
+
+rated secondary voltage 210VAC
+
+Rated secondary current 6.1 A 9.6 A 13.7 A 20.6 A
+
+Secondary voltage reguration 5 %
+
+Secondary voltage deviation �2 %
+
+Connection delta–delta–connection or star–delta connection
+
+Insulation Class B (Max. temperature 130�C)
+
+Ambient temp. –20 to 55 �C
+
+Allowable temperaturerise 135 �C
+
+Humidity Max. 95%RH
+
+Type dry–type, self–cooling
+
+Dielectric voltage 2300VAC, 1 minute
+
+Wight Max. 21kg Max. 27kg Max. 36kg Max. 42kg
+
+External dimensions See section 8.1.3
+
+Connection
+
+5.3
+POWER
+TRANSFORMERS
+FOR EXPORTS
+
+5.3.1
+Specification
+
+
+
+5. POWER SUPPLY B–65192EN/02
+
+30
+
+Select a transformer according to the load condition and the model of the
+motor for which the transformer is used. Each transformer has secondary
+winding taps for three amplifiers so that it can be connected to two or three
+amplifiers.
+
+For a machine with typical operating conditions, select a transformer
+according to the following guideline.
+
+ (Sum of 3–phase power requirements of all motors) � 0.6 � transformer rating
+
+Table 5.2.1 Table 5.3.1
+
+CAUTION
+When two or more motors are used, the transformer rating
+obtained using the above expression may be less than the
+actual power requirements of any one of those motors.
+Should this occur, use the motors’ maximum power
+requirements as the transformer rating.
+
+(Example) The power requirements of the α22/2000 and
+α40/2000 (with fan) are indicated in Table 5.2.1, as shown
+below:
+
+α22/2000 : 5.9 kVA
+α40/2000 (with fan) : 11.3 kVA
+
+Using the expression given above, the transformer rating is
+calculated as follows:
+
+(5.9 + 11.3)*0.6 = 10.32 kVA
+
+The power requirement of the α40/2000 (with fan) is 11.3
+kVA, this being greater than the calculated transformer
+rating of 10.32 kVA. So, the transformer rating should be
+11.3 kVA.
+
+5.3.2
+How to Select a
+Transformer
+
+
+
+B–65192EN/02 5. POWER SUPPLY
+
+31
+
+The current drown by the SVU/SVUC is obtained using the following
+expression. Use the calculated value as a reference value when selecting
+an external magnetic contactor (MCC), power cable, and so on.
+
+Input current (Arms) �
+Power supply rating (kVA)
+
+3� � Rated supply voltage
+� 1.2 (Margin)
+
+CAUTION
+The rated supply voltage will normally be 200 Vrms.
+
+5.4
+CIRCUIT BREAKER
+AND MAGNETIC
+CONTACTOR
+
+
+
+6. HEAT GENERATION B–65192EN/02
+
+32
+
+6 HEAT GENERATION
+(1) The heat generated by a servo amplifier unit can be calculated by the
+
+following equations.   In calculation,  use appropriate values selected
+from Tables 6.1 and 6.2 according to the models of the amplifier and
+motor to be used.
+
+Value determined depending on the motor for the second axis
+Value determined depending on the motor for the first axis
+Value determined depending on the unit
+
+Total heat generation (W)  = a + (c+d) + (c+d)  
+
+Heat generated in the cabinet (W)  = b + (0.2c+d) + (0.2c+d)
+ (cooling by natural air flow)  
+ 
+
+Heat generated in the cabinet (W)  = b + (0.1c+d) + (0.1c+d)
+ (cooling by forced air flow) 
+ 
+
+(Example) When the SVU2–20/40 is used to drive the
+C12/2000 and  C22/1500, the generated heat is calculated
+as follows: 
+
+Each heat generation SVU2–20/40 a=29.8  b=29.8
+αC12/2000  c=27.3  d=3.8
+αC22/1500  c=53.0  d=8.6
+
+Total heat generation= 
+29.8 + (27.3+3.8) + (53.0+8.6) = 122.5
+
+Heat generated in the cabinet = 
+29.8 + (0.2�27.3+3.8) + (0.2�53.0+8.6) = 58.3 
+
+(cooling by natural air flow) 
+Heat generated in the cabinet = 
+
+29.8 + (0.1�27.3+3.8) + (0.1�53.0+8.6) = 50.2 
+(cooling by forced air flow)
+
+(2) The amounts of generated heat listed above apply when all motors run
+at the respective continuous output ratings.   These values may be
+decreased during cabinet design,  depending on the actual operating
+condition.
+
+(3) The servo amplifier heat sinks can be placed outside the cabinet
+(except for some models). This configuration can reduce the heat
+generated within the cabinet. The amount of heat generated in the
+cabinet varies depending on whether the heat sink is cooled by natural
+or forced air flow.
+
+
+
+B–65192EN/02 6. HEAT GENERATION
+
+33
+
+CAUTION
+Cooling by forced air flow uses a air flow speed of 2 m/s
+measured at the heat sink. Servo amplifier unit A06B–6089
+–H106 or A06B–6090–H008 has a standard built–in cooling
+fan.
+
+(4) Heat generated by the regenerative discharge resistor
+
+· The regenerative discharge resistor built in servo amplifier
+A06B–6089–H101/H102 or A06B–6090–H002/H003 cannot be
+placed outside the cabinet because of its structure.
+Therefore,  the amount of heat generated in the resistor must be added
+to the total heat generated in the cabinet. See Section 4.2 for
+descriptions of the heat generated by the regenerative discharge
+resistor.
+ 
+
+· The regenerative discharge resistor built in a servo amplifier other than
+A06B–6089–H101/H102 or A06B–6090–H002/H003 can be placed
+outside the cabinet by putting its heatsink out of the cabinet. In this
+case,  it is unnecessary to add the heat generated by the regenerative
+discharge resistor to the total heat generated in the cabinet. 
+
+· If a separate regenerative discharge resistor unit is placed outside the
+cabinet,  it is unnecessary to add the heat generated by the regenerative
+discharge resistor to the total heat generated in the cabinet. 
+
+· If the heat sink of a servo amplifier unit or a separate regenerative
+discharge resistor unit is in the cabinet,  it is necessary to add the heat
+generated by the regenerative discharge resistor to the total heat
+generated in the cabinet. See Section 4.2 for descriptions of the heat
+generated by the regenerative discharge resistor.
+
+����� 6 (a) Total heat generation of each servo amplifier
+
+amplifier model Total heat generation(W) :  a
+Heat generation in the
+
+cabinet  (W) :  b
+
+SVU1–12, 20
+SVUC1–4, 12
+
+20.6 20.6
+
+SVU1–40, 80
+SVUC1–40, 80
+
+26.1 26.1
+
+SVU1–130
+SVUC1–130
+
+59.3 37.3
+
+All SVU2 models
+All SVUC2 models
+
+29.8 29.8
+
+
+
+6. HEAT GENERATION B–65192EN/02
+
+34
+
+����� 6 (b) Heat generation depending on the motors
+
+motor model
+total heat
+
+generation
+(W)  :  c
+
+total heat
+generation
+
+ (W)  :  d
+
+α0.5/3000 10.8 1.4
+
+α1/3000 9.9 1.0
+
+α2/2000 10.4 0.9
+
+α2/3000 13.8 1.7
+
+α2.5/3000 19.9 2.2
+
+α3/3000 22.3 1.2
+
+α6/2000 26.3 1.7
+
+α6/3000 44.0 2.8
+
+α12/2000 45.5 4.3
+
+α12/3000 73.2 6.6
+
+α22/1500 64.8 8.6
+
+α22/2000 91.6 9.6
+
+α22/3000 157.9 0
+
+α30/1200 67.5 4.4
+
+α30/2000 108.9 0
+
+α30/3000 168.2 0
+
+α40/2000 148.6 0
+
+α40/2000
+ (with fan)
+
+216.9 0
+
+αM3/3000 24.6 1.5
+
+αM6/3000 37.4 1.8
+
+αM9/3000 48.5 3.0
+
+αC3/2000 11.6 0.9
+
+αC6/2000 16.6 1.4
+
+αC12/2000 27.3 3.8
+
+αC22/1500 53.0 8.6
+
+αL3/3000 26.5 1.9
+
+αL6/3000 49.3 3.7
+
+αL9/3000 72.5 8.1
+
+αL25/3000 176.0 0
+
+αL50/2000 265.6 0
+
+αE1/3000 11.9 1.5
+
+αE2/3000 13.2 1.4
+
+αE3/2000 22.1 4.9
+
+αE6/2000 24.6 3.1
+
+
+
+B–65192EN/02
+
+7. INSTALLATION CONDITIONS
+    AND CAUTIONS
+
+35
+
+7 INSTALLATION CONDITIONS AND CAUTIONS
+The servo amplifier unit should be installed in a place meeting the
+following environmental conditions.   
+
+Temperature around the unit : 0 to 55 �C (during operation) 
+–20to 60 �C (during storage or shipment)
+
+Temperature change ratio : 1. 1 �C /min or less
+
+Relative humidity of 30 to 95% with no condensation
+
+Not higher than 1000 m above the sea
+
+0.5 G or less during operation
+
+Corrosive or conductive mist or water drop may not stick to the electronic
+circuit or the heat sink.
+
+7.1
+ENVIRONMENTAL
+CONDITIONS
+
+7.1.1
+Ambient Temperature
+
+7.1.2
+Humidity
+
+7.1.3
+Altitude
+
+7.1.4
+Vibration
+
+7.1.5
+Atmosphere
+
+
+
+7. INSTALLATION CONDITIONS
+    AND CAUTIONS B–65192EN/02
+
+36
+
+The servo amplifier unit is designed for installation in the machine
+magnetics cabinet with the heat sink protruding from the rear of the
+cabinet so that the heat generated in the semiconductors is released
+outside the cabinet to minimize the heat remaining in the cabinet. So,
+observe the following items when installing the servo amplifier unit.
+
+(1) Be careful not allow dielectric fluid,  oil mist,  or cutting chips to
+attach to the heat sink or fan. Such foreign matter may decrease the
+cooling effeciency and prevent the normal operation of the servo
+amplifier unit.
+In addition,  the life of the semiconductors in the amplifier may be
+adversely affected. If the machine magnetics cabinet is designed to
+take in outside air,  use an air filter at the air inlet.   Also seal the cable
+access holes and door of the cabinet securely.
+
+(2) Protect the main body of the servo amplifier unit from contaminants
+(such as dust, coolant, organic solvent, acid, corrosive gas, and salt)  by
+keeping it in a cabinet. When it is used in an environment where it may be
+exposed to radiations (such as microwave, ultraviolet ray, laser beam, and
+X–ray), take a necessary provision to shut out the radiations.
+
+(3) Keep dust or dielectric fluid from entering an air outlet without
+disturbing the cooling air flow.
+
+(4) Take precautions to facilitate inspection, dismounting, and mounting
+of the servo amplifier unit for maintenance.
+
+(5) Separate the current carrying lines from the signal lines, and take
+measures for noise. For details, see Section 7.3 and refer to the
+appropriate CNC connection manual.
+
+7.1.6
+Cautions for
+Installation
+
+
+
+B–65192EN/02
+
+7. INSTALLATION CONDITIONS
+    AND CAUTIONS
+
+37
+
+Because the α series control motor amplifiers drive motors using a
+transistor PWM inverter, high–frequency current leaks to a ground line
+through a stray capacitance between the motor winding,  power cable, or
+amplifier and the ground line. This current may cause a ground fault
+interrupter or leakage protection relay to malfunction. To prevent such a
+malfunction,  use a ground fault interrupter designed for use with an
+inverter. The values listed in the following table indicate the approximate
+leakage current of each motor.
+
+ Motor model Commercial power frequency component
+
+α0.5 to α6 1.8 mA
+
+α12 to α22 2.0 mA
+
+α30 to α40 2.5 mA
+
+7.2
+HOW TO SELECT A
+GROUND FAULT
+INTERRUPTER
+
+
+
+7. INSTALLATION CONDITIONS
+    AND CAUTIONS B–65192EN/02
+
+38
+
+Separate the signal lines from the amplifier input power lines and motor
+power lines. The types of cables used are as follows:
+
+Group Description Measure
+
+Amplifier input power line
+Bundle the cables in group A sepa-
+rated from those in group B at least
+10 cm or isolate the groups from
+
+A Motor power line
+
+10 cm, or isolate the grou s from
+each other by placing a grounded
+metal  (ferrous) plate between
+them Attach a noise suppressor
+
+Coil of MCC
+
+them. Attach a noise suppressor
+such as a spark killer to the coil of
+MCC.
+
+B
+
+CNC–SVU/SVUC cable
+Bundle the cables in group A sepa-
+rated from those in group B at least
+10 cm, or isolate the groups from
+each other by placing a groundedB
+
+Pulse coder feedback cable
+
+each other by lacing a grounded
+metal  (ferrous) plate between
+them.
+And be sure to shield this group.
+
+NOTE
+1 ”To bundle separately” means ”to maintain a separation of
+
+at least 10 cm between the cable groups.”
+2 ”To isolate” means ”to place a grounded metal (ferrous)
+
+plate between the groups.”
+
+7.3
+MEASURES FOR
+NOISE
+
+7.3.1
+Signal Line
+Separation
+
+
+
+B–65192EN/02
+
+7. INSTALLATION CONDITIONS
+    AND CAUTIONS
+
+39
+
+The following ground systems are provided for CNC machine tool.
+
+(a) Signal ground system  (SG)
+The signal ground  (SG)  supplies the refernce voltage  (0V)  of the
+electrical signal system.
+
+(b) Frame ground system  (FG)
+The frame ground system  (FG)  is used for safety,  and suppressing
+external and internal noises.  In the frame ground system,  the frames,
+cases of the units,  panels,  and shields for the interface cables between
+the units are connected.
+
+(c) System ground system
+The system ground system is used to connect the frame ground
+systems connected between devices or units with the ground.
+
+Other
+units
+
+Servo
+amplifier
+
+CNC System ground system
+
+Signal ground system
+Frame ground system
+
+Shield
+Operation
+panel
+
+Machine
+
+Cabinet
+
+Distribution board
+
+WARNING ON CONNECTING THE GROUND SYSTEMS
+� The gounding resistance of the system ground shall be 100
+
+ohms or less (class 3 grounding).
+� The system ground cable must have enough cross–
+
+sectional area to safely carry the accidental current flow into
+the system ground when an accident such as a short circuit
+occurs. (Generally, it must have the cross– sectional area
+of the AC power cable or more.)
+
+� Use the cable containing the AC power wire and the system
+ground wire so that   power is supplied with the ground wire
+connected. See Sec. 5.3 for details when a power
+transformer for an export is used.
+
+7.3.2
+Ground
+
+
+
+7. INSTALLATION CONDITIONS
+    AND CAUTIONS B–65192EN/02
+
+40
+
+To gain approval to affix the CE marking, the SVU must be grounded
+using the metal terminal supplied with it.
+
+NOTE
+The SVUC does not comply with European safety
+standards (VDE 0160).  No metal terminal is, therefore,
+supplied with the SVUC.
+
+7.3.3
+SVU Grounding for
+CE Marking (EC
+Machinery Directive)
+
+
+
+B–65192EN/02
+
+8. OUTLINE DRAWINGS AND
+    AREA OF MAINTENANCE
+
+41
+
+8 OUTLINE DRAWINGS AND AREA OF MAINTENANCE
+
+(1) SVU1–12, 20 / SVUC1–4, 12
+
+BREAKER
+
+8.1
+OUTLINE DRAWINGS
+AND AREA OF
+MAINTENANCE
+
+8.1.1
+Servo Amplifier Unit
+
+
+
+8. OUTLINE DRAWINGS AND 
+    AREA OF MAINTENANCE B–65192EN/02
+
+42
+
+(2) SVU1–40, 80 / SVUC1–40, 80
+
+BREAKER
+
+CAUTION
+PARTS INSTALLATION IS NOT PERMITTED HERE
+BECAUSE OF THE HEAT GENERATED BY THE
+DISCHARGE RESISTOR.
+
+
+
+B–65192EN/02
+
+8. OUTLINE DRAWINGS AND
+    AREA OF MAINTENANCE
+
+43
+
+(3) SVU1–130 / SVUC1–130
+
+BREAKER
+
+CAUTION
+PARTS INSTALLATION IS NOT PERMITTED HERE
+BECAUSE OF THE HEAT GENERATED BY THE
+DISCHARGE RESISTOR.
+
+
+
+8. OUTLINE DRAWINGS AND 
+    AREA OF MAINTENANCE B–65192EN/02
+
+44
+
+(4) SVU2 / SVUC2
+
+BREAKER
+
+CAUTION
+PARTS INSTALLATION IS NOT PERMITTED HERE
+BECAUSE OF THE HEAT GENERATED BY THE
+DISCHARGE RESISTOR.
+
+
+
+B–65192EN/02
+
+8. OUTLINE DRAWINGS AND
+    AREA OF MAINTENANCE
+
+45
+
+(1) A81L–0001–0083#3C
+
+8.1.2
+AC Line Filter
+
+
+
+8. OUTLINE DRAWINGS AND 
+    AREA OF MAINTENANCE B–65192EN/02
+
+46
+
+(2) A81L–0001–0101#C
+
+(3) A81L–0001–0102
+
+
+
+B–65192EN/02
+
+8. OUTLINE DRAWINGS AND
+    AREA OF MAINTENANCE
+
+47
+
+Designation A80L–0022–
+0005
+
+A80L–0024–
+0006
+
+A80L–0026–
+0003
+
+A80L–0028–
+0001
+
+Type SAE SBE SCE SDE
+
+Weight 21 kg 27 kg 36 kg 42 kg
+
+h1� (height
+of trans)
+
+217cm Max. 217cm Max. 247cm Max. 247cm Max.
+
+8.1.3
+Power Transformer
+for Export
+
+
+
+
+
+8. OUTLINE DRAWINGS AND 
+    AREA OF MAINTENANCE B–65192EN/02
+
+48
+
+(1) A06B–6089–H510
+
+SCREW OF THE TERMINAL : M4�4 
+WEIGHT : 0.8 kg
+
+8.1.4
+Separate
+Regenerative
+Discharge Unit
+
+
+
+B–65192EN/02
+
+8. OUTLINE DRAWINGS AND
+    AREA OF MAINTENANCE
+
+49
+
+(2) A06B–6089–H500
+
+SCREW OF THE TERMINAL : M4�4 
+WEIGHT : 2.2 kg
+
+
+
+8. OUTLINE DRAWINGS AND 
+    AREA OF MAINTENANCE B–65192EN/02
+
+50
+
+(3) A06B–6089–H711 to H714
+
+CAUTION
+The exhaust section becomes very hot.  No part shall be
+mounted at the exhaust section.
+
+ Designation  Weight
+
+ A06B–6089–H711  5Kg
+
+ A06B–6089–H712  6Kg
+
+ A06B–6089–H713  5Kg
+
+ A06B–6089–H714  6Kg
+
+
+
+B–65192EN/02
+
+8. OUTLINE DRAWINGS AND
+    AREA OF MAINTENANCE
+
+51
+
+8.1.5
+Battery Case
+
+
+
+8. OUTLINE DRAWINGS AND 
+    AREA OF MAINTENANCE B–65192EN/02
+
+52
+
+(1) SVU1–12, –20 (2) SVU1–40, –80 SVU2–�/�
+
+8.2
+PANEL CUTOUT
+DRAWING
+
+8.2.1
+Servo Amplifier Unit
+
+
+
+B–65192EN/02
+
+8. OUTLINE DRAWINGS AND
+    AREA OF MAINTENANCE
+
+53
+
+(3) SVU1–130
+
+
+
+8. OUTLINE DRAWINGS AND 
+    AREA OF MAINTENANCE B–65192EN/02
+
+54
+
+(1) A06B–6089–H510 (2) A06B–6089–H500
+
+CAUTION
+ATTACH PACKINGS (ACRYLONITRILE–BUTADIENE
+RUBBER OR SOFT NBR) TO PREVENT THE INGRESS
+OF OIL AND DUST.
+
+8.2.2
+Separate
+Regenerative
+Discharge Unit
+
+
+
+B–65192EN/02
+
+8. OUTLINE DRAWINGS AND
+    AREA OF MAINTENANCE
+
+55
+
+(3) A06B–6089–H711 to H714
+
+CAUTION
+ATTACH PACKINGS (ACRYLONITRILE–BUTADIENE
+RUBBER OR SOFT NBR) TO PREVENT THE INGRESS
+OF OIL AND DUST.
+
+
+
+9. CONNECTION B–65192EN/02
+
+56
+
+9 CONNECTION
+
+This servo amplifier unit has two types of NC interface. Cable connection
+varies with the interface type used. Before starting to connect, check the
+model of the NC unit and interface type.
+
+ Interface type  NC
+
+ TYPE A Series 0–C, Series 15–A, Series 15–B, Series 16–A, Series
+16–B, Series 18–A, Series 21–TA, Power Mate–D, Power
+Mate–F
+
+ TYPE B Series 20–A, Series 21–TB, Series 21–GA, Series 16–B,
+Series 18–B, Power Mate–H
+
+CAUTION
+The Series 16–B can have both types of interface. Check
+the interface type with the arranged NC.
+
+SVU: This unit has been designed to comply with VDE0160. A
+machine that is configured using this unit would easily be able
+to gain approval to display the CE marking (machinery
+directive). A requirement for obtaining approval is an external
+MCC which trips in the event of an emergency stop.
+
+Sample connections without external MCC: 9.2.1 (1), (2)
+Sample connections with external MCC: 9.2.1 (3), (4)
+
+SVUC: This unit does not comply with VDE0160. A machine
+configured using the unit will not be able to gain approval to
+display the CE marking.
+
+Sample general connections: 9.2.2 (1), (2)
+
+9.1
+OVERVIEW
+
+9.1.1
+Interface with the NC
+
+9.1.2
+Safety Standards
+
+
+
+B–65192EN/02 9. CONNECTION
+
+57
+
+(1) Sample connection with TYPE A interface but without external MCC
+ 1–AXIS  (A06B–6089–H101 to H106)
+ 2–AXIS  (A06B–6089–H201 to H210)
+
+a
+
+RELAY UNIT
+
+BATTERY
+
+PULSECODER
+
+IN THE CASE OF ABUSOLUTE PULSECODER
+
+NC CONTROL UNIT
+
+200/220/230VAC
++10%, –15%
+
+BREAKER
+AC LINE FILTER
+
+BREAKER (5A)
+
+SURGE
+ABSORBER
+
+SEPARATE REGENERATIVE
+DISCHARGE RESISTOR
+
+THERMOSTAT FAN MOTOR
+
+EMERGENCY STOP
+(EMG)
+
+AC SERVO MOTOR
+ON MACHINE
+
+a (Plate metal terminal)
+
+NOTE3
+
+CAUTION1
+
+NOTE2
+
+CAUTION2
+CAUTION3 CAUTION4 CAUTION5
+
+NOTE1
+
+NC
+
+IN THE CASE OF INCREMENTAL PULSECODER
+
+9.2
+BASIC CONNECTION
+
+9.2.1
+Connection Example
+for SVU
+
+
+
+9. CONNECTION B–65192EN/02
+
+58
+
+(2) Sample connection with TYPE B interface but without external MCC
+1–AXIS  (A06B–6089–H101 to H106)
+2–AXIS  (A06B–6089–H201 to H210)
+
+200/220/230VAC
++10%, –15%
+
+BREAKER
+AC LINE FILTER
+
+BREAKER (5A)
+
+SURGE
+ABSORBER
+
+SEPARATE REGENERATIVE
+DISCHARGE RESISTOR
+
+THERMOSTAT FAN MOTOR
+
+BATTERY
+
+IN THE CASE 
+OF PULSECODER
+
+NC CONTROL UNIT
+
+a
+
+EMERGENCY STOP
+(EMG)
+
+AC SERVO MOTOR
+ON MACHINE
+
+a (Plate metal terminal)
+
+NOTE2
+
+CAUTION2
+CAUTION3 CAUTION4 CAUTION5
+
+NOTE1
+
+CAUTION1
+
+(3) Sample connection with TYPE A interface and external MCC
+1–AXIS  (A06B–6089–H101 to H106)
+2–AXIS  (A06B–6089–H201 to H210)
+
+RELAY UNIT
+
+BATTERY
+
+PULSECODER
+
+IN THE CASE OF ABUSOLUTE PULSECODER
+
+NC CONTROL UNIT
+
+NOTE3
+
+CAUTION1
+
+NOTE2
+
+CAUTION2
+CAUTION3 CAUTION4 CAUTION5
+
+NOTE1
+
+NC
+
+a200/220/230VAC
++10%, –15%
+
+BREAKER
+AC LINE FILTER
+
+SEPARATE REGENERATIVE
+DISCHARGE RESISTOR
+
+THERMOSTAT FAN MOTOR
+
+EMERGENCY STOP
+(EMG)
+
+AC SERVO MOTOR
+ON MACHINE
+
+a (Plate metal terminal))
+
+BREAKER (5A)
+
+SURGE
+ABSORBER
+
+NOTE5
+
+IN THE CASE OF INCREMENTAL PULSECODER
+
+Power for MCC drive
+
+
+
+B–65192EN/02 9. CONNECTION
+
+59
+
+(4) Sample connection with TYPE B interface and external MCC
+
+1–AXIS  (A06B–6089–H101 to H106)
+
+2–AXIS  (A06B–6089–H201 to H210)
+
+200/220/230VAC
++10%, –15%
+
+BREAKER
+AC LINE FILTER
+
+BREAKER (5A)
+
+SURGE
+ABSORBER
+
+SEPARATE REGENERATIVE
+DISCHARGE RESISTOR
+
+THERMOSTAT
+FAN MOTOR
+
+BATTERY
+
+IN THE CASE OF PULSECODER
+
+NC CONTROL UNIT
+
+a
+
+EMERGENCY STOP
+(EMG)
+
+AC SERVO MOTOR
+ON MACHINE
+
+a (Plate metal terminal)
+
+NOTE2
+
+CAUTION2
+CAUTION3 CAUTION4 CAUTION5
+
+NOTE1
+
+CAUTION1
+
+NOTE5
+
+Power for MCC drive
+
+CAUTION
+1 Be sure to use an AC line filter to reduce effect of harmonic
+
+noise to the power supply. Two or more SVUs can be
+connected to one AC line filter if its power supply capacity
+is not exceeded.
+
+2 SVU does not contain a surge absorber. One should be
+installed externally.
+
+3 RC and RI were connected with each other through a
+jumper bar at the factory. If a separate regenerative
+discharge unit is to be used, remove the jumper bar.
+
+4 TH1 and TH2 were connected with each other through a
+jumper bar at the factory. Remove the jumper bar, and
+connect them to the separate regenerative discharge unit
+and power transformer thermostat.
+
+5 Only the A06B–6089–H106 has FAN1 and FAN2.   Connect
+them to the fan motor of the separate regenerative
+discharge unit. If a separate regenerative discharge unit
+(other than the A06B–6089–H106)  with a built–in fan motor
+is to be used, connect the fan motor to the circuit beaker
+(5A).
+
+
+
+9. CONNECTION B–65192EN/02
+
+60
+
+NOTE
+1 Unlike the C series amplifiers, SVU does not require 100
+
+VAC for an emergency stop.
+2 L1C and L1 were connected with each other through a
+
+jumper bar at the factory, and so were L2C and L2. Remove
+these jumper bars before connecting a power supply.
+
+3 Some NC units do not require a relay unit. For details, refer
+to the appropriate NC connection manual.
+
+4 An MCC that complies with European standards should be
+selected. Details of the use of the MCC should be
+determined by the machine tool builder.
+
+5 The SVU connectors and terminal block indicated in
+parentheses, ”( )”, correspond to 2–axes amplifier.
+
+
+
+B–65192EN/02 9. CONNECTION
+
+61
+
+(1) Sample connection with the TYPE A interface
+ 1–AXIS  (A06B–6090–H002 to H008)
+ 2–AXIS  (A06B–6090–H222 to H266)
+
+RELAY UNIT
+
+BATTERY
+
+PULSECODER
+
+IN THE CASE OF ABSOLUTE PULSECODER
+
+NC CONTROL UNIT
+
+NOTE3
+
+CAUTION1
+
+NOTE2
+
+CAUTION2 CAUTION3 CAUTION4
+
+NOTE1
+
+200/220/230VAC
++10%, –15%
+
+BREAKER
+AC LINE FILTER
+
+SEPARATE REGENERATIVE
+DISCHARGE RESISTOR
+
+THERMOSTAT FAN MOTOR
+
+EMERGENCY STOP
+(EMG)
+
+AC SERVO MOTOR
+ON MACHINE
+
+BREAKER (5A)
+
+IN THE CASE OF INCREMENTAL PULSECODER
+
+Jumper
+
+(2) Sample connection with the TYPE B interface
+1–AXIS  (A06B–6090–H002 to H008)
+2–AXIS  (A06B–6090–H222 to H266)
+
+200/220/230VAC
++10%, –15%
+
+BREAKER
+
+AC LINE FILTER
+
+BREAKER (5A)
+
+SEPARATE REGENERATIVE
+DISCHARGE RESISTOR
+
+THERMOSTAT FAN MOTOR
+
+BATTERY
+
+NC CONTROL UNIT
+
+EMERGENCY STOP
+(EMG)
+
+AC SERVO MOTOR
+ON MACHINE
+
+NOTE2
+
+CAUTION2 CAUTION3 CAUTION4
+
+NOTE1
+
+CAUTION1
+
+Jumper
+
+9.2.2
+Connection Example
+for SVUC
+
+
+
+9. CONNECTION B–65192EN/02
+
+62
+
+CAUTION
+1 Be sure to use an AC line filter to reduce effect of harmonic
+
+noise to the power supply. Two or more SVUCs can be
+connected to one AC line filter if its power supply capacity
+is not exceeded.
+
+2 RC and RI were connected with each other through a
+jumper bar at the factory. If a separate regenerative
+discharge unit is to be used, remove the jumper bar.
+
+3 TH1 and TH2 were connected with each other through a
+jumper bar at the factory. Remove the jumper bar, and
+connect them to the separate regenerative discharge unit
+and power transformer thermostat.
+
+4 Only the A06B–6090–H008 has FAN1 and FAN2.   Connect
+them to the fan motor of the separate regenerative
+discharge unit.
+
+NOTE
+1 The unit should use 100 VAC for emergency stop, in the
+
+same way as the C series amplifier.
+2 L1C and L1 were connected with each other through a
+
+jumper bar at the factory, and so were L2C and L2.
+3 Some NC units do not require a relay unit. For details, refer
+
+to the appropriate NC connection manual.
+4 The SVUC connectors and terminal block indicated in
+
+parentheses, ”( )”, correspond to 2–axes amplifier.
+
+
+
+B–65192EN/02 9. CONNECTION
+
+63
+
+A06B–6089–H101 to H106
+A06B–6090–H002 to H008
+
+A06B–6089–H201 to H210
+A06B–6090–H222 to H266
+
+(1) Connector location
+
+NAME INDICATION REMARK
+
+� CONNECTOR FOR NC
+INTERFACE L–AXIS
+
+JV1B TYPE A INTERFACE
+
+� CONNECTOR FOR NC
+INTERFACE M–AXIS
+
+JV2B TYPE A INTERFACE
+
+� CONNECTOR FOR NC
+INTERFACE L–AXIS
+
+JS1B TYPE B INTERFACE
+
+� CONNECTOR FOR NC
+INTERFACE M–AXIS
+
+JS2B TYPE B INTERFACE
+
+� CONNECTOR FOR
+PULSE CODER L–AXIS
+
+JF1 TYPE B INTERFACE
+
+� CONNECTOR FOR
+PULSE CODER M–AXIS
+
+JF2 TYPE B INTERFACE
+
+� CONNECTOR FOR POW-
+ER SUPPLY OF ABS
+PULSE CODER
+
+JA4 TYPE B INTERFACE
+
+� CONNECTOR FOR MAIN
+POWER SUPPLY (Y key)
+
+CX3 1 pin
+3 pin
+
+	 CONNECTOR FOR ESP
+SIGNAL (X key)
+
+CX4 2 pin ; ESP (at open)
+3 pin ; 24V
+
+CAUTION
+1 The connector names of the α series amplifier are the same
+
+as those of the NC, but are different from those of the C
+series amplifier. When replacing the C series amplifier with
+the SVUC, therefore, note that JV1B and JV2B of the SVUC
+correspond to CN1(L) and CN1M of the C series amplifier.
+
+2 The CX4 connector 	 for the ESP signal is used only on the
+SVU.
+
+9.2.3
+Connector and
+Terminal (T1)
+
+
+
+9. CONNECTION B–65192EN/02
+
+64
+
+(2) Terminal board (T1)
+
+A06B–6089–H101 to H105
+A06B–6089–H201 to H210
+A06B–6090–H002 to H006
+A06B–6090–H222 to H266
+
+A06B–6089–H106
+A06B–6090–H008
+
+NOTE
+5 and 6 on the terminal board T1 are not used with SVU.
+
+
+
+B–65192EN/02 9. CONNECTION
+
+65
+
+(1) For connection to Series 16–A/B, Series 18–A, Series 15–B, Series
+21–TA, Power Mate–D, or Power Mate–F (TYPE A I/F)
+
+NC  *PWMA (*ALM1)  ( 3)
+Series 16–A/B
+Series 18–A   COMA  ( 4)
+Series 15–B
+Series 21–TA  *PWMB (*ALM2)  ( 5)
+Power Mate–D
+Power Mate–F   COMB  ( 6)
+
+( 7)  *PWMC (*ALM4)  ( 7)
+
+( 8)   COMC  ( 8)
+
+(13)  *PWMD (*ALM8)  (13)
+
+(14)   COMD  (14)
+
+(15)  *PWME  (15)
+
+(16)   COME  (16)
+
+(17)  *PWMF  (17)
+
+(18)   COMF  (18)
+
+( 1)   IR  ( 1)
+
+( 2)   GDR  ( 2)
+
+(11)   IS  (11)
+
+(12)   GDS  (12)
+
+(10)  *MCON  (10)
+
+(20)  *DRDY  (20)
+
+ Connector: PCR–E20FA etc.       Connect Connector: PCR–E20FA etc.
+
+Connector name
+JV1B: L axis (first axis)
+JV2B: M axis (second axis)
+
+ ( 4)
+
+( 3)
+
+( 5)
+
+( 6)
+
+SVU
+SVUC
+
+Wire material: 0.08mm2  twisted pair totally shielded cable  (10 pairs)
+
+9.3
+DETAILED
+CONNECTION
+
+9.3.1
+Detailed Connection
+of Cable K1
+
+
+
+9. CONNECTION B–65192EN/02
+
+66
+
+(2) For connection to Series 0–C or Series 15–A (TYPE A I/F)
+
+NC  *PWMA (*ALM1)  ( 3)
+Series 0–C
+Series 15–A   COMA  ( 4)
+
+     ( 3)  *PWMB (*ALM2)  ( 5)
+
+     ( 4)   COMB  ( 6)
+
+     ( 5)  *PWMC (*ALM4)  ( 7)
+
+     ( 6)   COMC  ( 8)
+
+        (14)  *PWMD (*ALM8)  (13)
+
+     (15)   COMD  (14)
+
+     (16)  *PWME  (15)
+
+     (17)   COME  (16)
+
+        (18)  *PWMF  (17)
+
+     (19)   COMF  (18)
+
+     ( 8)   IR  ( 1)
+
+     ( 9)   GDR  ( 2)
+
+     (10)   IS  (11)
+
+     (11)   GDS  (12)
+
+     (12)  *MCON  (10)
+
+     (13)   GND  ( 9)
+
+     ( 7)  *DRDY  (20)
+
+ Connector: MR–20RD etc.    Connector Connector: PCR–E20FA etc.
+
+Connector name
+JV1B: L axis (first axis)
+JV2B: M axis (second axis)
+
+( 1)
+
+( 2)
+
+SVU
+SVUC
+
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+ÃÃ
+
+No connect (Note)
+
+   Wire material: 0.08mm  twisted pair totally shielded cable  (10 pairs)
+
+CAUTION
+Pin 9 of the amplifier is not connected internally. This pin
+should be connected to pin 13 on the NC with a twisted pair
+cable, the other conductor of which is *MCON.
+
+
+
+B–65192EN/02 9. CONNECTION
+
+67
+
+(3) For connection to Series 16–B, Series 18–B, Series 20, Series 21–TB,
+Series 21–GA, or Power Mate–H (TYPE B I/F)
+
+NC  *PWMA (*ALM1)  ( 3)
+Series 16–B
+Series 18–B   0V  ( 4)
+Series 20
+Series 21–TB  *PWMC (*ALM2)  ( 5)
+Series 21–GA
+Power Mate H   0V  ( 6)
+
+     ( 7)  *PWME (*ALM4)  ( 7)
+
+     ( 8)   0V  ( 8)
+
+        (13)  *ENBL (*ALM8)  (13)
+
+     (14)   0V  (14)
+
+     ( 1)   IR  ( 1)
+
+     ( 2)   GDR  ( 2)
+
+        (11)   IS  (11)
+
+     (12)   GDS  (12)
+
+     (19)   0V  (19)
+
+     (20)   0V  (20)
+
+     ( 9)  *DRDY  ( 9)
+
+     (10)  *MCON  (10)
+
+     (15)   PD  (15)
+
+     (16)  *PD  (16)
+
+     (17)   PREQ  (17)
+
+     (18)  *PREQ  (18)
+
+ Connector: PCR–E20FA etc.       Connector Connector: PCR–E20FA etc.
+
+Connector name
+JS1B: L axis (first axis)
+JS2B: M axis (second axis)
+
+( 3)
+
+( 4)
+
+( 5)
+
+( 6)
+
+SVU
+SVUC
+
+Wire material: 0.08mm  twisted pair totally shielded cable  (10 pairs)
+
+CAUTION
+Cables designed for the TYPE B interface can also be used
+with the TYPE A interface. Cables designed for the TYPE
+A interface, however, cannot be used with the TYPE B
+interface.
+
+
+
+9. CONNECTION B–65192EN/02
+
+68
+
+NOTE
+Wire material of cable K1
+Recommended material of cable K1 is as follows.
+
+Specification : A66L–001–0284#10P
+Name : 10 pairs cable
+Material : #28AWG�10 pairs (20 cores), Standard Length is 
+
+ 200m
+Maker : Hitachi Cable , Oki Electric Cable
+
+ (Important points)
+
+(1) Assign the current feedback signal (IRn, ISn,  pairs of wires are 1–2,
+11–12) in the center of the cable to protect from the effect of the noise.
+Otherwise, the motor may move abnormally.
+Use pair of wires 5–6 in the case of Hitachi Cable, and 6–7 in the case
+of Oki Electric Cable.
+
+(2) The cables are totally shielded. The shield should be ground to the
+earth plate near the NC
+
+
+
+B–65192EN/02 9. CONNECTION
+
+69
+
+(3) Associate ten twisted–pair wires with paires of pins 1 and 2,  3 and
+4, . . . , and 19 and 20 of a connector such as PCR–E20FA when
+connecting the pins with the pairs.
+
+Specificarion
+
+Item Unit Specificarion
+
+Designation A66L–0001–0284#10P
+
+Manufacturer Hitachi Cable
+Oki Electric Cable
+
+Rating 60�C 30V :  UL2789
+80�C 30V :  UL80276
+
+Conductor Stranded wire of tinned annealed
+copper  (ASIM B–286)
+
+Material Insulator Cross–linked vinyl
+
+Shield braid Tinned annealed copper wire
+
+Sheath Heat–resistant oilproof vinyl
+
+Number of pairs pairs 10
+
+Size AWG 28
+
+Conductor Structure Conductors/mm 7/0.127
+
+Outside diameter mm 0.38
+
+Ins lator
+
+Thickness mm 0.1
+(Thinnest portion : 0.08)
+
+Insulator Outside diameter mm 0.58  (approx.)
+
+Core style UL1571  (80�C, 30V) (rating)
+
+Twisted Outside diameter mm 1.16 (approx.)
+
+pair Pitch mm 20 or less
+
+Lay Collect the required number of
+twisted pairs into a cable,  then
+wrap binding tabe around the cable.
+To make the cable round,  apply a
+cable separator as required.
+
+Lay diameter mm 3.5 (approx.)
+
+Drain wire Conductors/mm Hitachi :  Not available
+      Oki :  Available, 10/0.12
+
+Shield Element wire diameter mm 0.12
+
+braid Braid density % 85 or more
+
+Color Black
+
+Sheath Thickness   mm 1.0
+
+Outside diameter   mm 6.2 (approx.)
+
+Standard length m 200
+
+Packing method Bundle
+
+Electrical Resistance Ω/km 233 or less (at 20�C)Electrical
+perfor-
+mance
+
+Insulation resistance MΩ–km 10 or more (at 20�C)
+mance Dielectric strength V/min. 300 (AC)
+
+Flame resistance Shall pass flame resistance tset
+VW–ISC of UL standards.
+
+
+
+9. CONNECTION B–65192EN/02
+
+70
+
+(1) For connection to Series 0–C or Series 15–A
+(a) For model α1/3000,  α2/2000,  α2/3000
+
+NC  SD (12)
+
+     (17)  *SD (13)
+
+     (14)  REQ (5)
+
+     (15)  *REQ (6)
+
+     (4, 5, 6)  +5V (8, 15)
+
+       (1, 2)  0V (1, 2, 3)
+
+      (3)  0VA (10)
+Note)  Note)
+
+     (7)  +6VA (14)
+
+Shield (4)
+� �
+
+ Connector: Connector: HDAB–15S (HIROSE ELECTRIC) MR–20LFH (HONDA TSUSHIN KOGYO)
+Cover    : HDAW–15–CV (HIROSE ELECTRIC)
+
+(16) Motor
+
+{ }
+
+NOTE
+For incremental pulse coders, pins 3 and 7 of the NC and
+pins 10 and 14 of the motor need not be connected.
+Connecting these pins, however, will not result in any
+problems. Therefore, a cable designed for use with an
+absolute pulse coder can also be used with an incremental
+pulse coder.
+
+9.3.2
+Detailed Connection
+of Cable K2
+
+
+
+B–65192EN/02 9. CONNECTION
+
+71
+
+Relay unit  SD (12)
+
+     (17)  *SD (13)
+
+     (14)  REQ (5)
+
+     (15)  *REQ (6)
+
+     (4, 5)  +5V (8, 15)
+
+       (1, 2)  0V (1, 2, 3)
+
+      (3)  0VA (10)
+
+     (6)  +6VA (14)
+
+Shield (4)
+� �
+
+ Connector: Connector: HDAB–15S (HIROSE ELECTRIC) MR–20LMH (HONDA TSUSHIN KOGYO)
+Cover    : HDAW–15–CV (HIROSE ELECTRIC)
+
+(16) Motor
+
+Wire material : +5V, 0V – – –  0.5mm2  or more � 2 
+  (When the cable length is 14m or less)
+: 6VA, 0VA– – –  0.5mm2  or more
+: SD, *SD, REQ, *REQ– – – 0.18mm2  or more ,  twisted pair
+
+NOTE
+ The total resistance of the cables of pins 0V and 5V must be 0.5
+
+Ω or less if the corresponding cables are longer than 14m�
+
+
+
+9. CONNECTION B–65192EN/02
+
+72
+
+(b) For model α3/3000 to α40/2000, αC3/2000 �� αC22/1500
+
+NC  SD (A)
+
+     (17)  *SD (D)
+
+     (14)  REQ (F)
+
+     (15)  *REQ (G)
+
+     (4, 5, 6)  +5V (J, K)
+
+       (1, 2)  0V (N, T)
+
+      (3)  0VA (S)
+Note)  Note)
+
+     (7)  +6VA (R)
+
+Shield (H)
+� �
+
+ Connector: Connector: Refer to table 9.3.4 (b), (c). MR–20LFH (HONDA TSUSHIN KOGYO)
+
+(16) Motor
+
+{ }
+
+NOTE
+For incremental pulse coders, pins 3 and 7 of the NC and pins
+S and R of the motor need not be connected. Connecting
+these pins, however, will not result in any problems. Therefore,
+a cable designed for use with an absolute pulse coder can
+also be used with an incremental pulse coder.
+
+Relay unit  SD (A)
+
+     (17)  *SD (D)
+
+     (14)  REQ (F)
+
+     (15)  *REQ (G)
+
+     (4, 5)  +5V (J, K)
+
+       (1, 2)  0V (N, T)
+
+      (3)  0VA (S)
+
+     (6)  +6VA (R)
+
+Shield (H)
+� �
+
+ Connector:
+ MR–20LMH (HONDA TSUSHIN KOGYO)
+
+(16) Motor
+
+Connector: Refer to table 9.3.4 (b), (c).
+
+Wire material : +5V, 0V – – –  0.5mm2  or more � 2 
+  (When the cable length is 14m or less)
+: 6VA, 0VA– – –  0.5mm2  or more
+: SD, *SD, REQ, *REQ– – – 0.18mm2 or more , twisted pair
+
+NOTE
+ The total resistance of the cables of pins 0V and 5V must be 0.5
+
+Ω or less if the corresponding cables are longer than 14m�
+
+
+
+B–65192EN/02 9. CONNECTION
+
+73
+
+(2) For connection to Series 16–A/B, Series 18–A, Series 15–B, Series
+21– TA, or Power r Mate–D/F (TYPE A I/F)
+
+(a) For model α1/3000,  α2/2000,  α2/3000
+
+NC  SD (12)
+
+     (2)  *SD (13)
+
+     (5)  REQ (5)
+
+     (6)  *REQ (6)
+
+     (9, 18, 20)  +5V (8, 15)
+
+       (12, 14)  0V (1, 2, 3)
+
+      (16)  0VA (10)
+Note)  Note)
+
+     (7)  +6VA (14)
+
+Shield (4)
+� �
+
+ Connector: Connector: HDAB–15S (HIROSE ELECTRIC) FI40–2015S (HIROSE ELECTRIC)
+Cover    : HDAW–15–CV (HIROSE ELECTRIC)
+
+(1) Motor
+
+Case: FI–20–CV (HIROSE ELECTRIC)
+
+{ }
+
+NOTE
+For incremental pulse coders, pins 7 and 16 of the NC and
+pins 10 and 14 of the motor need not be connected.
+Connecting these pins, however, will not result in any
+problems. Therefore, a cable designed for use with an
+absolute pulse coder can also be used with an incremental
+pulse coder.
+
+
+
+9. CONNECTION B–65192EN/02
+
+74
+
+(b) α3/3000 to α40/2000, αC3/2000 �� αC22/1500
+
+NC  SD (A)
+
+     (2)  *SD (D)
+
+     (5)  REQ (F)
+
+     (6)  *REQ (G)
+
+     (9, 18, 20)  +5V (J, K)
+
+       (12, 14)  0V (N, T)
+
+      (16)  0VA (S)
+Note 1)  Note 1)
+
+     (7)  +6VA (R)
+
+Shield (H)
+� �
+
+ Connector: Connector: Refer to table 9.3.4 (b), (c). FI40–2015S (HIROSE ELECTRIC)
+
+(1) Motor
+
+Case: FI–20–CV (HIROSE ELECTRIC)
+
+{ }
+
+Wire material : +5V, 0V – – –  0.5mm2  or more � 2 
+  (When the cable length is 14m or less)
+: 6VA, 0VA– – –  0.5mm2  or more
+: SD, *SD, REQ, *REQ– – – 0.18mm2  or more, twisted pair
+
+NOTE
+1 For incremental pulse coders, pins 7 and 16 of the NC and
+
+pins S and R of the motor need not be connected.
+Connecting these pins, however, will not result in any
+problems. Therefore, a cable designed for use with an
+absolute pulse coder can also be used with an incremental
+pulse coder.
+
+2 The total resistance of the cables of pins 0V and 5V must
+be 0.5 Ω or less if the corresponding cables are longer than
+14m.
+
+
+
+B–65192EN/02 9. CONNECTION
+
+75
+
+(3) For connection to Series 16–B, Series 18–B, Series 20, Series 21–
+GA, Series 21– TB, or Power Mate H (TYPE B I/F)
+
+(a) For model α1/3000,  α2/2000,  α2/3000
+
+SVU
+SVUC
+
+ SD (12)
+
+     (2)  *SD (13)
+
+     (5)  REQ (5)
+
+     (6)  *REQ (6)
+
+     (9, 18, 20)  +5V (8, 15)
+
+       (12, 14)  0V (1, 2, 3)
+
+      (16)  0VA (10)
+Note)  Note)
+
+     (7)  +6VA (14)
+
+Shield (4)
+� �
+
+ Connector: Connector: HDAB–15S (HIROSE ELECTRIC) FI40–2015S (HIROSE ELECTRIC)
+Cover    : HDAW–15–CV (HIROSE ELECTRIC)
+
+(1) Motor
+
+Case: FI–20–CV (HIROSE ELECTRIC)
+
+    JF (1/2)
+
+{ }
+
+NOTE
+For incremental pulse coders, pins 7 and 16 of the NC and
+pins 10 and 14 of the motor need not be connected.
+Connecting these pins, however, will not result in any
+problems. Therefore, a cable designed for use with an
+absolute pulse coder can also be used with an incremental
+pulse coder.
+
+
+
+9. CONNECTION B–65192EN/02
+
+76
+
+(b) For model α3/3000 to α40/2000, αC3/2000 �� αC22/1500
+
+SVU  SD (A)
+
+     (2)  *SD (D)
+
+     (5)  REQ (F)
+
+     (6)  *REQ (G)
+
+     (9, 18, 20)  +5V (J, K)
+
+       (12, 14)  0V (N, T)
+
+      (16)  0VA (S)
+Note 1)  Note 1)
+
+     (7)  +6VA (R)
+
+Shield (H)
+� �
+
+ Connector: Connector: Refer to table 9.3.4 (b), (c). FI40–2015S (HIROSE ELECTRIC)
+
+(1) Motor
+
+Case: FI–20–CV (HIROSE ELECTRIC)
+
+    JF (1/2)
+
+{ }
+
+Wire material : +5V, 0V – – –  0.5mm2  or more � 2 
+  (When the cable length is 14m or less)
+: 6VA, 0VA– – –  0.5mm2  or more
+: SD, *SD, REQ, *REQ– – – 0.18mm2  or more ,  twisted pair
+
+NOTE
+1 For incremental pulse coders, pins 7 and 16 of the NC and
+
+pins S and R of the motor need not be connected.
+Connecting these pins, however, will not result in any
+problems. Therefore, a cable designed for use with an
+absolute pulse coder can also be used with an incremental
+pulse coder.
+
+2 The total resistance of the cables of pins 0V and 5V must
+be  0.5 Ω or less if the corresponding cables are longer than
+14m.
+
+
+
+B–65192EN/02 9. CONNECTION
+
+77
+
+(1) Power supply voltage is 200, 220, 230VAC and the system conform
+with the European standard.
+
+ Power supply
+200VAC
+
+ 220VAC
+ 230VAC
+
+     T
+50/60Hz
+
+     G
+
+R
+
+S
+
+TB1
+
+ (L1)
+
+ (L2)
+
+ (L3)
+
+ (    )
+
+Breaker
+
+AC
+line
+filter
+
+L1
+
+L2
+
+L3
+
+SVU
+SVUC
+
+(2) Power supply voltage is 380, 415, or 460 VAC, and the system has not
+been approved to display the CE marking (machinery directive).
+
+ Power supply
+380VAC
+415VAC
+460VAC
+
+     T
+50/60Hz
+
+     G
+
+R
+
+S
+
+TB1
+
+ (L1)
+
+ (L2)
+
+ (L3)
+
+ (    )
+
+SVU
+SVUC
+
+L1
+
+L2
+
+L3
+
+Power
+trans-
+former
+
+Breaker
+
+(3) Power supply voltage is 380, 415, or 460 VAC, and the system has been
+approved to display the CE marking (machinery directive).
+
+ Power supply
+380VAC
+415VAC
+460VAC
+
+     T
+50/60Hz
+
+     G
+
+R
+
+S
+
+TB1
+
+ (L1)
+
+ (L2)
+
+ (L3)
+
+ (    )
+
+SVU
+
+L1
+
+L2
+
+L3
+
+Power
+trans-
+former
+
+Breaker MCC
+
+NOTE
+1 When the power transformer is used, the AC line filter can
+
+be omitted.
+2 A system using the SVUC will not be able to gain approval
+
+to display the CE marking (machinery directive).
+
+9.3.3
+Detailed Connection
+of Cable K3
+
+
+
+9. CONNECTION B–65192EN/02
+
+78
+
+����� 9.3.3 Specification of Cable K3
+
+Cable
+
+Amplifier Vinyl cabtyre
+cable
+
+Note 1)
+
+Heat–resistive
+vinyl cable
+
+Note 2)
+
+Screw of terminal
+
+SVU1–12, 20
+SVUC1–4, 12
+
+2.0 mm2 or more 2.0 mm2 or more M4
+
+SVU1–40, 80
+SVU2–�/�
+SVUC1–40, 80
+SVUC2–�/�
+
+3.5 mm2 or more 3.5 mm2 or more M4
+
+SVU1–130
+SVUC1–130
+
+5.5 mm2 or more 5.5 mm2 or more M4
+
+NOTE
+1 4–cores vinyl cabtyre cable  (JIS C 3312)
+2 Nonflammable polyflex cable (maximum conductor
+
+temperature : 105�C)
+(LMFC manufactured by Furukawa Electric Co. , or
+equivalent)
+
+
+
+B–65192EN/02 9. CONNECTION
+
+79
+
+(1) For model α0.5/3000
+
+SVU, SVUC
+
+A1
+
+Motor
+
+ U
+ T1  (UL, UM)
+
+A2  V
+ T1  (VL, VM)
+
+A3  W
+ T1  (WL, WM)
+
+B1
+ T1  (       )  G  (Motor body)
+
+Metal terminal
+(Note)
+
+Screw M4 Connector used
+Japan AMP
+Housing : 3–178129–6  (not waterproof)
+
+ Cable used : 0.75mm2 (30/0.18)
+4–cores vinyl cabtyre cable
+
+Contact : 1–175217–2
+
+B
+
+A
+
+� � �
+
+� � �
+
+1 2 3
+
+NOTE
+The SVUC does not require metal terminal connection.
+
+9.3.4
+Detailed Connection
+of Cable K4
+
+
+
+9. CONNECTION B–65192EN/02
+
+80
+
+(2) For model α1/3000 to α2/3000
+
+Metal terminal
+(Note 1)
+
+SVU, SVUC
+1
+
+   Motor
+ U
+
+  T1  (UL, UM)
+2  V
+
+  T1  (VL, VM)
+3  W
+
+  T1  (WL, WM)
+4
+
+  T1  (       )  G  (Motor body)
+
+ G  (Connector shell)
+
+Screw M4
+Connector used
+
+Japan AMP
+176346–2  (waterproof)
+
+ Cable used : 0.75mm2 (30/0.18)
+7–cores vinyl cabtyre cable
+
+6 12345
+
+NOTE
+1 The SVUC does not require metal terminal connection.
+2 The connector shell must be grounded if the machine must
+
+comply with European standards.
+
+
+
+B–65192EN/02 9. CONNECTION
+
+81
+
+(3) For model α3/3000 to α6/3000, αC3/2000 to αC6/2000, αM3/3000 to
+αM9/3000, αL3/3000 to αL9/3000, αΕ1/3000 to αΕ6/2000
+
+SVU, SVUC
+
+A
+
+Motor
+
+ U
+ T1  (UL, UM)
+
+B  V
+ T1  (VL, VM)
+
+C  W
+ T1  (WL, WM)
+
+D
+ T1  (       )  G  (Motor body)
+
+Metal terminal
+(Note)
+
+Screw M4 Connector used
+Refer to
+Table  9.3.4 (a), (b), (c)
+
+ Cable used : 2.0mm2 (37/0.26)
+4–cores vinyl cabtyre cable D
+
+Guide key
+↓
+
+ Cable clamp H/MS3057–10A 
+Canon connector
+
+� � A
+
+C � � BRecommended crimp terminal : 2.0–4
+
+ 
+
+NOTE
+The SVUC does not require metal terminal connection.
+
+
+
+9. CONNECTION B–65192EN/02
+
+82
+
+(4) For model α12/2000 to α30/1200, αC12/2000 to αC22/1500
+
+SVU, SVUC
+
+A
+
+Motor
+
+ U
+ T1  (UL, UM)
+
+B  V
+ T1  (VL, VM)
+
+C  W
+ T1  (WL, WM)
+
+D
+ T1  (       )  G
+
+Metal terminal
+(Note)
+
+Screw M4 Connector used
+Refer to
+Table  9.3.4 (a), (b), (c)
+
+ Cable used : 3.5mm2 (45/0.32)
+4–cores vinyl cabtyre cable D
+
+Guide key
+↓
+
+ Cable clamp JL04–2022CK–(14) 
+Canon connector
+
+� � A
+
+C � � BRecommended crimp terminal : 5.5–4
+
+(Motor
+body)
+
+α12/2000
+α12/3000
+α22/1500
+α22/2000
+α30/1200
+
+NOTE
+The SVUC does not require metal terminal connection.
+
+
+
+B–65192EN/02 9. CONNECTION
+
+83
+
+(5) For model α22/3000, α30/2000, α30/3000, α40/2000, α40/2000 (with
+fan), αL25/3000, αL50/2000
+
+�
+
+  T1  (       )
+
+  T1  (V)
+
+SVU, SVUC
+
+ G
+
+Metal terminal
+(Note)
+
+Screw M4 Connector used
+Refer to
+Table  9.3.4 (a), (b), (c)
+
+ Cable used : 10mm2 � 4 F
+
+Guide key
+↓
+
+ Cable clamp JL04–2428CK–(17) 
+Canon connector
+
+� �
+
+A
+
+D
+�
+
+C
+
+Recommended crimp terminal : 8–S4
+
+(Motor
+body)
+
+α22/3000
+α30/2000
+α30/3000
+α40/2000
+
+ A
+    Motor
+
+  T1  (U)
+ B  U
+
+ C
+
+ D  V
+
+ E
+  T1  (W)
+
+ F  W
+
+    G
+
+� ��E G B
+
+NOTE
+The SVUC does not require metal terminal connection.
+
+
+
+9. CONNECTION B–65192EN/02
+
+84
+
+Important point
+When the motor do not ground to the machine (cabinet)  that
+the motor is mounted, connect the ground of motor and the
+ground of amplifier with the cable to absorb the noise. In this
+case, use the cable thicker than 1.25mm2 which is not the
+line inside the power cable, and install aloof from power
+cable as possible.
+By this connection, the influence of the switching noise can
+be reduced.
+
+
+
+B–65192EN/02 9. CONNECTION
+
+85
+
+Table 9.3.4 (a) Cable side plug specifications (TUV recognized)
+
+Motor model
+
+α3/3000 αM3/3000
+α6/2000 αM6/3000
+α6/3000 αM9/3000
+α3/3000HV αL3/3000
+α6/3000HV αL6/3000
+αC3/2000 αL9/3000
+αC6/2000
+
+α12/2000 α30/3000HV
+α12/3000 αC12/2000
+α22/1500 αC22/1500
+α22/2000
+α30/1200
+α12/3000HV
+α22/3000HV
+
+α22/3000
+α30/2000
+α30/3000
+α40/2000
+α40/2000 (with fan)
+αL25/3000
+αL50/2000
+
+For
+power
+
+With a
+straight
+adapter
+
+H/MS3106A18–10S–D–T–(10)
+(Hirose Electric)
+
+JL04V–6A22–22SE–EB
+(JAE)
+
+JL04V–6A24–10SE (G) –EB
+(JAE)
+
+With an
+angle
+adapter
+
+H/MS3108B18–10S–D–T–(10)
+(Hirose Electric)
+
+JL04V–8A22–22SE–EB
+(JAE)
+
+JL04V–8A24–10SE (G) –EB
+(JAE)
+
+For
+conduit
+attachment
+
+H/MS3106A18–10S–D–T–(13)
+(Hirose Electric)
+
+JL04V–6A22–22SE
+(JAE)
+
+JL04V–6A24–10SE (G)
+(JAE)
+
+NOTE
+1 JAE : Japan Aviation Electronics Industry
+2 The waterproof of the single block type pluge for conduit
+
+attachment should be concidered with the adapter for it.
+For more detail, please contact the connector maker.
+
+Table 9.3.4 (b) Cable side plug specifications (waterproof)
+
+Motor model
+
+α3/3000 αM3/3000
+α6/2000 αM6/3000
+α6/3000 αM9/3000
+α3/3000HV αL3/3000
+α6/3000HV αL6/3000
+αC3/2000 αL9/3000
+αC6/2000
+
+α12/2000 α30/3000HV
+α12/3000 αC12/2000
+α22/1500 αC22/1500
+α22/2000
+α30/1200
+α12/3000HV
+α22/3000HV
+
+α22/3000
+α30/2000
+α30/3000
+α40/2000
+α40/2000 (with fan)
+αL25/3000
+αL50/2000
+
+For
+power
+
+With a straight adapter H/MS3106A18–10S (10)
+(Hirose Electric)
+
+H/MS3106A22–22S (10)
+(Hirose Electric)
+
+H/MS3106A24–10S (10)
+(Hirose Electric)
+
+With an angle adapter H/MS3108B18–10S (10)
+(Hirose Electric)
+
+H/MS3108B22–22S (10)
+(Hirose Electric)
+
+H/MS3108B24–10S (10)
+(Hirose Electric)
+
+For conduit attachment
+(With no adapter)
+
+JL04–6A18–10S–J1(A72)
+(JAE)
+H/MS3106A18–10S (13)
+(Hirose Electric)
+
+JL04–6A22–22S–J1(A72)
+(JAE)
+H/MS3106A22–22S (13)
+(Hirose Electric)
+
+JL04–6A24–10S–J1(A72)
+(JAE)
+H/MS3106A24–10S (13)
+(Hirose Electric)
+
+For
+signal
+
+With a straight adapter H/MS3106A20–29SW (11)
+(Hirose Electric)
+
+With an angle adapter H/MS3108B20–29SW (11)
+(Hirose Electric)
+
+For conduit attachment
+(With no adapter)
+
+JA06A–20–29SW–J1–(A72)
+(JAE)
+H/MS3106A20–29SW (14)
+(Hirose Electric)
+
+NOTE
+JAE : Japan Aviation Electronics Industry
+
+
+
+9. CONNECTION B–65192EN/02
+
+86
+
+Table 9.3.4 (c) Cable side plug specifications (non–waterproof)
+
+Motor model
+
+α3/3000 αM3/3000
+α6/2000 αM6/3000
+α6/3000 αM9/3000
+α3/3000HV αL3/3000
+α6/3000HV αL6/3000
+αC3/2000 αL9/3000
+αC6/2000
+
+α12/2000 α30/3000HV
+α12/3000 αC12/2000
+α22/1500 αC22/1500
+α22/2000
+α30/1200
+α12/3000HV
+α22/3000HV
+
+α22/3000
+α30/2000
+α30/3000
+α40/2000
+α40/2000 (with fan)
+αL25/3000
+αL50/2000
+
+For
+power
+
+With a straight adapter MS3106B18–10S–(A72)
+(JAE)
+H/MSA3106A18–10S (10)
+(Hirose Electric)
+
+MS3106B22–22S–(A72)
+(JAE)
+H/MSA3106A22–22S (10)
+(Hirose Electric)
+
+MS3106B24–10S–(A72)
+(JAE)
+H/MSA3106A24–10S (10)
+(Hirose Electric)
+
+With an angle adapter JL04–8B18–10S–(A72)
+(JAE)
+H/MSA3108B18–10S (10)
+(Hirose Electric)
+
+JL04–8B22–22S–(A72)
+(JAE)
+H/MSA3108B22–22S (10)
+(Hirose Electric)
+
+JL04–8B24–10S–(A72)
+(JAE)
+H/MSA3108B24–10S (10)
+(Hirose Electric)
+
+For
+signal
+
+With a straight adapter MS3106B20–29SW–(A72) H/MSA3106A20–29SW (11)
+(JAE) (Hirose Electric)
+
+With an angle adapter MS3108B20–29SW–(A72) H/MSA3108B20–29SW (11)
+(JAE) (Hirose Electric)
+
+NOTE
+JAE : Japan Aviation Electronics Industry
+
+
+
+B–65192EN/02 9. CONNECTION
+
+87
+
+CX4              SVU
+
+Emergency stop
+contact
+
++24V
+
+ESP
+
+ (1)
+
+ (2)
+
+(3)
+
+Cable specification : Two–core vinly cabtyre cable JIS C 3312 
+Conductor 1.25mm2 (50/0.18) Sheath PVC 9.6 φ
+
+Connector specification : Cnnector manufactured by AMP
+Receptacle housing: 1–178128–3
+Receptacle contact : 1–175218–2
+
+ 
+
+CAUTION
+The contact input signal is defined as follows:
+� The external contact should be rated at least 30 VDC, 100
+    mA.
+� When a square wave input is used without a contact, the
+     effective levels (voltage across the input terminals) are:
+    Low level, logical 0 : 2 V or lower
+    High level, logical 1 : 20 V or higher
+
+9.3.5
+Detailed Connection
+of Cable K5
+
+
+
+9. CONNECTION B–65192EN/02
+
+88
+
+T1               SVU
+
+200R
+
+200S
+
+ (L1C)
+
+ (L2C)
+
+Cable specification : Two–core vinly cabtyre cable JIS C 3312 
+Conductor 1.25mm2 (50/0.18) Sheath PVC 9.6 φ
+
+Crimp terminal : 2–4
+
+SVU, SVUC  Separate regenerative
+ discharge unit
+
+(Caution)
+  T1  (RC) T3 (1)
+
+  T1  (RI) �
+
+  T1  (RE) T3 (2)
+
+Cable specification : Two–core vinly cabtyre cable JIS C 3312 
+Conductor 2.0mm2 (37/0.26) Sheath PVC 10.5 φ
+
+Crimp terminal : 2–4
+
+CAUTION
+When the separate regenerative discharge unit is used,
+remove the short bar between T1 (RC)  and T1 (RI).
+
+9.3.6
+Detailed Connection
+of Cable K6
+
+9.3.7
+Detailed Connection
+of Cable K7
+
+
+
+B–65192EN/02 9. CONNECTION
+
+89
+
+(a) When the transformer is not used
+
+SVU, SVUC  Separate regenerative
+ discharge unit
+
+ T3 (3)
+  T1  (TH1)
+
+ T3 (4)
+  T1  (TH2)
+
+Cable specification : Two–core vinly cabtyre cable JIS C 3312 
+Conductor 0.75mm2 (30/0.18) Sheath PVC 8.8 φ
+
+Crimp terminal : 1.25–4
+
+CAUTION
+When the cable K8 is connected,  set the switch correctly.
+See Section 3.4 for dettails.
+
+9.3.8
+Detailed Connection
+of Cable K8
+
+
+
+9. CONNECTION B–65192EN/02
+
+90
+
+(b) When the transformer is used
+
+Screw M4
+
+SVU, SVUC  Separate regenerative
+ discharge unit
+ 
+
+ T3 (3)
+
+Screw M4
+
+Transformer
+Thermostat : b contact
+
+(51)
+
+  T1  (TH1)
+
+ T3 (4)
+  T1  (TH2)
+
+ (52)
+
+Screw M4
+
+Cable specification : Two–core vinly cabtyre cable JIS C 3312 
+Conductor 0.75mm2 (30/0.18) Sheath PVC 8.8 φ
+
+Crimp terminal : 1.25–4
+
+CAUTION
+When the cable K8 is connected, set the switch correctly.
+See Section 3.4 for dettails.
+
+
+
+B–65192EN/02 9. CONNECTION
+
+91
+
+ 0V
+
+SVU, SVUC   Battery unit
+
+  JA4  (7)
+(+)
+
+  JA4  (3)
+(–)
+
+Crimp terminal : 1.25–4
+Screw M3
+
+Connector :  PCR–E20FA
+
++6V
+
+Cable specification : Two–core vinly cabtyre cable JIS C 3312 
+Conductor 0.75mm2 (30/0.18)
+
+9.3.9
+Detailed Connection
+of Cable K9
+
+
+
+9. CONNECTION B–65192EN/02
+
+92
+
+MCCOFF4
+
+CX3                  SVU
+
+Internal
+contact
+
+MCC
+
+MCCOFF3
+ (3)
+
+Coil Spark killer  (2)
+
+�  (1)
+
+350/Y
+
+Power supply
+
+(Power supply depend on specification of MCC’ s coil.)
+
+Cable specification : Two–core vinly cabtyre cable JIS C 3312 
+Conductor 1.25mm2 (50/0.18) Sheath PVC 9.6 φ
+
+Connector specification : Cnnector manufactured by AMP
+Receptacle housing : 2–178128–3
+Receptacle contact : 1–175218–2
+
+Specification of
+Internal contact
+
+ Resistor load
+  (cosφ=1)
+
+  Inductance load
+ (cosφ=0.4, L/R=7msec)
+
+Rated load 250VAC, 5A / 30VDC, 5A 250VAC, 2A / 30VDC, 2A
+
+Max.  current 5A 5A
+
+Spark killer : Spark killer to fit the MCC must be used to protect the 
+contact of MCC’ s coil.
+
+9.3.10
+Detailed Connection
+of Cable K10
+
+
+
+B–65192EN/02 9. CONNECTION
+
+93
+
+(1) For SVU1–130, SVUC1–130
+
+SVU, SVUC  Separate regenerative
+ discharge unit
+
+  T1  (FAN1) T3  (5)
+
+  T1  (FAN2) T3  (6)
+
+A06B–6089–H711 to H714
+
+Screw : M4 
+Crimp terminal : 2–4
+
+Screw : M4 
+Crimp terminal : 2–4
+
+Cable specification : Two–core vinly cabtyre cable JIS C 3312
+or heat–resistive vinyl cable
+Conductor 2.0mm2 (37/0.26)
+
+(2) For except for SVU1–130, SVUC1–130
+
+(a) SVU
+
+Breaker
+5A
+
+Separate 
+regenerative
+discharge unit
+
+200/220/
+230VAC
+
+3φ
+
+To control
+power
+supply
+of SVU
+
+Surge
+absorber
+
+T3  (5)
+
+T3  (6)
+
+A06B–6089–H711 to H714
+
+Screw : M4 
+Crimp terminal : 2–4
+
+Cable specification : Two–core vinly cabtyre cable JIS C 3312
+or heat–resistive vinyl cable
+Conductor 2.0mm2 (37/0.26)
+
+9.3.11
+Detailed Connection
+of Cable K11
+
+
+
+9. CONNECTION B–65192EN/02
+
+94
+
+(b) SVUC
+
+ Separate regenerative
+ discharge unit
+
+200/220/
+230VAC
+
+3φ
+
+To main
+power
+supply
+of SVUC
+
+T3  (5)
+
+T3  (6)
+
+A06B–6089–H711 to H714
+
+ÃÃ
+ÃÃ
+ÃÃ
+
+Screw : M4 
+Crimp terminal : 2–4
+
+Cable specification : Two–core vinly cabtyre cable JIS C 3312
+or heat–resistive vinyl cable
+Conductor 2.0mm2 (37/0.26)
+
+Emergency stop
+contact
+
+SVUC
+
+T1  (100A)
+
+T1  (100B)
+
+100VAC
+
+Screw : M4 
+Crimp terminal : 2–4
+
+ÃÃ
+ÃÃ
+
+CAUTION
+For the specifications of the single–phase input for
+emergency stop, see Section 3.1.
+
+9.3.12
+Detailed Connection
+of Cable K12
+
+
+
+B–65192EN/02 9. CONNECTION
+
+95
+
+SVU : Requires the use of an external circuit breaker and lightning
+surge protector.
+
+SVUC : Features a built–in lightning arrester in the same way as the C
+series amplifier, hence does not require an external circuit
+breaker or lightning surge protector.
+
+(1) Installation method
+
+ÃÃÃ
+ÃÃÃ
+
+ÃÃÃ
+ÃÃÃ
+
+AC
+line filter
+
+From
+power supply Ground
+
+plate
+
+Lightning surge
+protector 2
+(surge absorber)
+
+Input
+200/
+230VAC
+
+To control power
+supply of SVU
+
+To other
+equipment
+
+Circuit
+protector
+(5A)
+
+α series
+SVU
+
+PE
+
+|
+
+   a
+
+b
+
+Leakage circuit
+breaker for the cabinet
+
+To other
+equipment
+
+Circuit
+breaker MCC
+
+Lightning surge
+protector 1
+(surge absorber)
+
+Ground
+
+9.3.13
+For installation of the
+Lightning Surge
+Protector
+
+
+
+9. CONNECTION B–65192EN/02
+
+96
+
+(2) Cautions
+
+CAUTION
+1 Minimize the length of wiring indicated in solid line so as to
+
+enhance the lightning surge absorptive effect.
+� Wire cross–sectional area :  
+
+2 mm2 or more
+� Wire length : 
+
+The total length of the cable used for lightning surge 
+protector 1 (a) and that used for lightning surge protector
+2 (a) must not exceed 2 m.
+
+2 When a dielectric strength test is conducted with an
+overvoltage  (1000 or 1500 VAC) applied to the power line,
+previously remove the lightning surge protector 2;
+otherwise, it will operates on the supplied voltage.
+
+3 The circuit protector  (5A)  is intended to protect the line if
+a lightning surge protector is short–circuited and fails to
+operate because of a surge voltage higher than its tolerance
+being applied.
+
+4 Because usually no current flows through the lightning
+surge protectors 1 and 2,  they can share the circuit
+protector  (5A)  with other equipment. 
+The circuit protector can be connected to the SVU control
+power supply and the fan motor power supply for the
+separate regenerative discharge unit.
+
+(3) Examples of lightning surge protectors
+Surge absorbers manufactured by Okaya Electric Industries Co. , Ltd.
+
+Lightning
+surge
+
+protector
+  Model
+
+Clamp
+voltage
+
+ (V)
+�10%
+
+Surge
+withstand
+
+current
+8/20µs (A)
+
+Surge
+withstand
+
+voltage
+1. 2/50µs
+
+(V)
+
+Maximum
+allowable
+
+circuit
+voltage
+(Vrms)
+
+1 R  · A  · V
+–781BYZ–2
+
+  783  1000  12K   300
+
+2 R  · A  · V
+–781BXZ–2A
+
+  783  1000  12K   300
+
+
+
+B–65192EN/02 9. CONNECTION
+
+97
+
+*) The connection of the ESP signal for the SVU differs from that for
+the SVUC.
+
+(1) When using SVUs: Use CX4.
+Up to six units can be connected. If more than six units must be
+connected, contact FANUC.
+
+CX4
+
+(3) +24V
+
+(2) ESP
+
+(1)
+
+Emergency stop
+contact
+
+ SVU
+
+CX4
+
+(3) +24V
+
+(2) ESP
+
+(1)
+
+ SVU
+
+CX4
+
+(3) +24V
+
+(2) ESP
+
+(1)
+
+ SVU
+
+ESP ESP ESP
+
+.   .   .
++24V
+
+(2) When using SVUCs: Use terminal block T1 (100A, 100B).
+
+Emergency stop
+contact
+
+ 
+SVUC
+
+ 
+SVUC
+
+ 
+SVUC.   .
+
+ .
+
+100VAC
+
+T1
+
+100A 100B
+
+T1
+
+100A 100B
+
+T1
+
+100A 100B
+
+Ã
+
+9.3.14
+ESP Signal
+Connection for Use of
+Two or more SVUs or
+SVUCs
+
+
+
+9. CONNECTION B–65192EN/02
+
+98
+
+Monitoring contacts RL1 and RL2, or RL2 and RL3, are used as the direct
+output of the auxiliary contact of a contactor or relay for a dynamic brake.
+Machine tool builders can use these contacts when designing a safety
+device or the like. The contacts correspond to MC1 and MC2 of a C series
+amplifier. The output from the contacts of some models differs from that
+of the C series amplifier.
+
+Ã
+Ã
+Ã
+Ã
+
+Ã
+Ã
+
+L1
+
+L2
+
+L3
+
+L1 (R)
+
+L2 (S)
+
+L3 (T)
+
+T1 –2
+
+T1–3
+
+T1–4
+
+RL2 (RL3)
+
+T1–7
+
+T1–8
+
+RL1 (RL2)
+
+Power supply contacts
+
+Coil
+
+Coil
+
+Auxiliary contact of
+contactor or relay for
+dynamic brake circuit
+
+Internal condi-
+tion circuit
+
+SVU/SVUC
+
+Safety device for
+monitoring the
+servo amplifier
+power supply
+
+����� 9.3.15 MCC Monitoring Contact
+
+Auxiliary contact
+(while the power
+
+supply is shut off)
+
+Terminal
+block Signal name
+
+C series amplifier b contact (closed) T1 (7–8) MC1–MC2
+
+SVUs and SVUCs
+except SVU1–130
+or SVUC1–130
+
+b contact (closed) T1 (7–8) RL1–RL2
+
+SVU1–130,
+SVUC1–130
+
+a contact (open) T1 (7–8) RL2–RL3
+
+For details of the contact ratings, see Chapter 3, ”Specification.”
+
+9.3.15
+Monitoring Contact
+Output
+
+
+
+B–65192EN/02
+
+10. COMPATIBILITY WITH THE C
+SERIES SERVO AMPLIFIER
+
+99
+
+10
+COMPATIBILITY WITH THE C SERIES SERVO
+AMPLIFIER
+
+����� 10.1 Comparison between SVU/SVUC and C series Amplifier
+
+Item SVUC SVU
+
+External shape and
+mounting 
+provisions
+
+Same as C series am-
+plifier
+
+Same as C series am-
+plifier
+
+� NC interface TYPE A interface
+TYPE B interface
+
+Type A interface
+Type B interface
+
+� Emergency stop inter-
+face
+
+Same as C series am-
+plifier (100 VAC)
+
+24 VDC (connector
+CX4)
+
+� Surge absorber for in-
+put protection
+
+Same as C series am-
+plifier
+
+Not provided 
+(An external device is
+required.)
+
+� MCC monitoring con-
+tact
+
+a–contact output for
+SVUC1–130 only
+
+a–contact output for
+SVU1–130 only
+
+TUV Non–compliant Fully compliant
+
+UL/CSA Fully compliant Fully compliant
+
+Wiring, cable Same as C series am-
+plifier
+
+Same as C series am-
+plifier, except for emer-
+gency stop interface
+
+� Connector positions Almost same as C se-
+ries amplifier
+
+Almost same as C se-
+ries amplifier
+
+Terminal block posi-
+tions
+
+Same as C series am-
+plifier
+
+Same as C series am-
+plifier
+
+Combination with an S
+series motor
+
+Possible Impossible
+
+� Power shut–off method Two–phase shut–off Two–phase shut–off
+
+� NC interface
+
+This unit supports both the TYPE B interface and the TYPE A
+interface, only the latter being featured by the C series amplifier.
+The C series amplifier uses connectors CN1(L) and CN1M for the
+TYPE A interface. The corresponding connectors on the SVU/SVUC
+are JV1B and JV2B.
+
+� ESP interface
+
+SVU: Uses 24 VDC in the amplifier. The power connection is made
+using a connector, not a terminal block.
+
+SVUC: Uses 100 VAC, in the same way as the C series amplifier.
+
+Model Signal Terminal Signal name
+
+C series amplifier 1φ 100 VAC T1 (5–6) 100A – 100B
+
+SVU 24 VDC CX4 (2–3) ESP – +24
+
+SVUC 1φ 100 VAC T1 (5–6) 100A – 100B
+
+10.1
+COMPARISON
+BETWEEN SVU/SVUC
+AND C SERIES
+AMPLIFIER
+
+
+
+10. COMPATIBILITY WITH THE C
+ SERIES SERVO AMPLIFIER B–65192EN/02
+
+100
+
+� Surge absorber
+
+SVU: Does not have a built–in surge absorber, so as to conform to
+European standards. An external surge absorber is required.
+For details, see Subsec. 9.3.13.
+
+SVUC: Contains a surge absorber in the same way as the C series
+amplifier. An external surge absorber is not required.
+
+� The specifications of the monitoring contact have been partly
+modified.
+
+The monitoring contacts of the C series amplifier provide the output
+for the auxiliary contact of the magnetic contactor used to shut off the
+main circuit. The monitoring contacts of the SVU/SVUC provide the
+output for the auxiliary contact of a DB relay or contactor. For details,
+see Subsec. 9.3.15.
+
+� Connector positions
+
+The SVU/SVUC has connectors for both the TYPE–B interface and
+the conventional TYPE–A interface.
+
+
+
+B–65192EN/02
+
+10. COMPATIBILITY WITH THE C
+SERIES SERVO AMPLIFIER
+
+101
+
+Name Interface
+Connector name
+
+Name Interface
+C series amplifier SVU/SVUC
+
+�
+NC interface con-
+nector: L–axis
+
+TYPE A CN1 (L) JV1B
+
+�
+NC interface con-
+nector: M–axis
+
+TYPE A CN1M JV2B
+
+�
+NC interface con-
+nector: L–axis
+
+TYPE B JS1B
+
+�
+NC interface con-
+nector: M–axis
+
+TYPE B JS2B
+
+�
+
+Connector for
+pulse coder con-
+nection: L–axis
+
+TYPE B JF1
+
+�
+
+Connector for
+pulse coder con-
+nection: M–axis
+
+TYPE B JF2
+
+NOTE
+For details of the SVU/SVUC connectors, see Subsec.
+9.2.3.
+
+� Power shut–off
+
+The C series amplifier shuts off all three phases of the input by means
+of the internal magnetic contactor. The SVU/SVUC, however, shuts
+off only two phases using the internal power relay. This two–phase
+shut–off enables effective shut–off of the power. If three–phase
+shut–off (complete separation of the potential) is necessary, use an
+externally mounted MCC.
+
+NOTE
+To gain approval to affix the CE marking (machinery
+directive), an external MCC satisfying European safety
+requirements is necessary. For details, see Subsec. 9.1.2.
+
+
+
+10. COMPATIBILITY WITH THE C
+ SERIES SERVO AMPLIFIER B–65192EN/02
+
+102
+
+(1) Switch setting
+Some switches have been added on the front of the amplifier. The
+following switches must be set:
+– Interface setting (SW1)
+– SVU/SVUC mode setting (SW2)
+– Protection setting for regenerative discharge resistor (SW3, SW4)
+Set these switches as described in Section 3.4.
+
+(2) MCC monitoring contact output
+The conventional b–contact output has been changed to the a–contact
+output in the case of the SVUC1–130 only. For details, see Subsec.
+9.3.15.
+
+(3) Cable and connector
+The connector names of the � series are the same as those of the NC,
+but different from those of the C series amplifier. JV1B and JV2B of
+the SVUC correspond to CN1(L) and CN1M of the C series amplifier.
+
+(4) Maintenance fuse
+The maintenance fuse of the C series amplifier cannot be used with
+the SVUC because of a difference in ratings. As the SVUC
+maintenance fuse, designate A06B–6089–K250.
+� C series amplifier maintenance fuse
+
+Control power fuse (HM32 fuse) : A06B–6066–K207
+Fan motor fuse (for H008, P405H fuse) : A06B–6066–K208
+
+� SVUC maintenance fuse (HM32 fuse)
+Control power fuse (HM32 fuse) : A06B–6089–K250
+Fan motor fuse (for H008, HM32 fuse) : A06B–6089–K250
+
+(5) Connector positions
+Connectors are provided for the TYPE A and TYPE B interfaces. For
+details, see Section 10.1.
+
+(6) Separate regenerative discharge resistor
+A06B–6089–H*** has been modified from A06B–6066–H*** such
+that it complies with VDE 0160.  Their specifications (characteristics
+and external dimensions) are, however, the same.  A06B–6066–H***
+can, therefore, be used in place of A06B–6089–H***.
+
+NOTE
+A06B–6066–H*** does not comply with VDE 0160.
+
+10.2
+NOTES ON
+REPLACING A C
+SERIES AMPLIFIER
+WITH THE SVUC
+
+
+
+IndexB–65192EN/02
+[A]
+
+AC Line Fileter, 45
+
+AC Line Filter, 19
+
+AC Line Filter and Separate Regenerative Discharge
+Unit, 18
+
+Altitude, 35
+
+Ambient Temperature, 35
+
+Atmosphere, 35
+
+[B]
+Basic connection, 57
+
+Battery Case, 51
+
+[C]
+Calculating the Amount of Regenerative Discharge,
+
+22
+
+Capacity of Three–phase Power Supply, 27
+
+Cautions for Installation, 36
+
+Circuit breaker and magnetic contactor, 31
+
+Comparison between SVU/SVUC and C series Ampli-
+fier, 99
+
+Compatibility with the C Series Servo Amplifier, 99
+
+Connection, 56
+
+Connection Example for SVU, 57
+
+Connection Example for SVUC, 61
+
+Connector and Terminal (T1) , 63
+
+[D]
+Detailed connection, 65
+
+Detailed Connection of Cable K1, 65
+
+Detailed Connection of Cable K10 , 92
+
+Detailed Connection of Cable K11, 93
+
+Detailed Connection of Cable K12, 94
+
+Detailed Connection of Cable K2, 70
+
+Detailed Connection of Cable K3, 77
+
+Detailed Connection of Cable K4, 79
+
+Detailed Connection of Cable K5, 87
+
+Detailed Connection of Cable K6, 88
+
+Detailed Connection of Cable K7, 88
+
+Detailed Connection of Cable K8, 89
+
+Detailed Connection of Cable K9, 91
+
+[E]
+Environmental Conditions, 35
+
+ESP Signal Connection for Use of Two or more SVUs
+or SVUCs, 97
+
+[F]
+For installation of the Lightning Surge Protector, 95
+
+[G]
+Ground, 39
+
+[H]
+Heat Generation, 32
+
+How to Select a Ground Fault Interrupter, 37
+
+How to Select a Transformer, 30
+
+Humidity, 35
+
+[I]
+Input power supply, 26
+
+Installation Conditions and Cautions, 35
+
+Interface with the NC, 56
+
+[M]
+Measures for Noise, 38
+
+Monitoring Contact Output, 98
+
+[N]
+Normal Operation Mode, 14
+
+Notes on Replacing a C series Amplifier with the
+SVUC, 102
+
+[O]
+Othes, 5
+
+Outline Drawings and Area of Maintenance, 41
+
+Outline drawings and area of maintenance, 41
+
+[P]
+Panel cutout drawing, 52
+
+
+
+Index B–65192EN/02
+
+Power Requirements, 27
+
+Power Supply, 25
+
+Power Transformer for Export, 47
+
+Power Transformers for Exports, 29
+
+Protection and Error Detection Function, 12
+
+[R]
+Regenerative Discharge Capacity of Regenerative
+
+Discharge Resistor (Built–in and Separate Types),
+24
+
+[S]
+Safety Standards, 56
+
+Separate Regenerative Discharge Unit, 21, 48, 54
+
+Servo Amplifier Unit, 41, 52
+
+Signal Line Separation, 38
+
+Single–phase Input for Control Circuit, 28
+
+Specification, 8, 9, 29
+
+SVU Grounding for CE Marking (EC Machinery Di-
+rective), 40
+
+SVU Types, 3
+
+SVUC Types, 4
+
+Switch Setting, 15
+
+[T]
+Type of Unit and Designation, 3
+
+[V]
+Vibration, 35
+
+
+
+R
+ev
+
+is
+io
+
+n 
+R
+
+ec
+or
+
+d
+
+FA
+N
+
+U
+C
+
+C
+O
+
+N
+T
+
+R
+O
+
+L 
+M
+
+O
+TO
+
+R
+ A
+
+M
+P
+
+LI
+F
+
+IE
+R
+
+ �
+ s
+
+er
+ie
+
+s 
+(S
+
+E
+R
+
+V
+O
+
+ A
+M
+
+P
+LI
+
+F
+IE
+
+R
+ U
+
+N
+IT
+
+) 
+D
+
+E
+S
+
+C
+R
+
+IP
+T
+
+IO
+N
+
+S
+ (
+
+B
+–6
+
+51
+92
+
+E
+N
+
+)
+
+02
+Ju
+
+n.
+, ’
+
+96
+S
+
+ec
+tio
+
+n 
+”S
+
+af
+et
+
+y 
+P
+
+re
+ca
+
+ut
+io
+
+ns
+” 
+
+ha
+s 
+
+be
+en
+
+ a
+dd
+
+ed
+.
+
+S
+om
+
+e 
+de
+
+sc
+rip
+
+tio
+ns
+
+ r
+el
+
+at
+in
+
+g 
+to
+
+ th
+e 
+
+S
+V
+
+U
+C
+
+ h
+av
+
+e 
+be
+
+en
+ a
+
+dd
+ed
+
+.
+
+01
+F
+
+eb
+., 
+
+’9
+5
+
+R
+ev
+
+is
+io
+
+n
+D
+
+at
+e
+
+C
+on
+
+te
+nt
+
+s
+R
+
+ev
+is
+
+io
+n
+
+D
+at
+
+e
+C
+
+on
+te
+
+nt
+s
+
+
+
+Alpha Series Control Motor Amplifier
+
+Servo Amplifier Unit SVU3
+
+Descriptions Manual, GFZ-65192EN/02-01
+
+
+
+GE Fanuc Automation
+
+Computer Numerical Control Products
+
+Alpha Series Control Motor Amplifier
+Servo Amplifier Unit SVU3
+
+Descriptions Manual
+
+GFZ-65192EN/02-01 June 1996
+
+
+
+GFL-001
+
+Warnings, Cautions, and Notes
+as Used in this Publication
+
+Warning
+
+Warning notices are used in this publication to emphasize that hazardous voltages, currents,
+temperatures, or other conditions that could cause personal injury exist in this equipment or
+may be associated with its use.
+
+In situations where inattention could cause either personal injury or damage to equipment, a
+Warning notice is used.
+
+Caution
+
+Caution notices are used where equipment might be damaged if care is not taken.
+
+Note
+Notes merely call attention to information that is especially significant to understanding and
+operating the equipment.
+
+This document is based on information available at the time of its publication.  While efforts
+have been made to be accurate, the information contained herein does not purport to cover all
+details or variations in hardware or software, nor to provide for every possible contingency in
+connection with installation, operation, or maintenance.  Features may be described herein
+which are not present in all hardware and software systems.  GE Fanuc Automation assumes
+no obligation of notice to holders of this document with respect to changes subsequently made.
+
+GE Fanuc Automation makes no representation or warranty, expressed, implied, or statutory
+with respect to, and assumes no responsibility for the accuracy, completeness, sufficiency, or
+usefulness of the information contained herein.  No warranties of merchantability or fitness for
+purpose shall apply.
+
+©Copyright 1997 GE Fanuc Automation North America, Inc.
+All Rights Reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alpha Series Control Motor Amplifier
+
+Servo Amplifier Unit Model C (SVUC)
+
+Descriptions Manual, GFK-1278A
+
+
+
+GE Fanuc Automation
+
+Computer Numerical Control Products
+
+AlphaSeries Control Motor Amplifier
+Servo Amplifier Unit Model C  (SVUC)
+Descriptions Manual
+
+Supplement to GFZ-65192EN
+
+GFK - 1278A March 1996
+
+
+
+GFL-001
+
+Warnings, Cautions, and Notes
+as Used in this Publication
+
+Warning
+
+Warning notices are used in this publication to emphasize that hazardous voltages, currents,
+temperatures, or other conditions that could cause personal injury exist in this equipment or
+may be associated with its use.
+
+In situations where inattention could cause either personal injury or damage to equipment, a
+Warning notice is used.
+
+Caution
+
+Caution notices are used where equipment might be damaged if care is not taken.
+
+Note
+Notes merely call attention to information that is especially significant to understanding and
+operating the equipment.
+
+This document is based on information available at the time of its publication.  While efforts
+have been made to be accurate, the information contained herein does not purport to cover all
+details or variations in hardware or software, nor to provide for every possible contingency in
+connection with installation, operation, or maintenance.  Features may be described herein
+which are not present in all hardware and software systems.  GE Fanuc Automation assumes
+no obligation of notice to holders of this document with respect to changes subsequently made.
+
+GE Fanuc Automation makes no representation or warranty, expressed, implied, or statutory
+with respect to, and assumes no responsibility for the accuracy, completeness, sufficiency, or
+usefulness of the information contained herein.  No warranties of merchantability or fitness for
+purpose shall apply.
+
+©Copyright 1997 GE Fanuc Automation North America, Inc.
+All Rights Reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+·  No part of this manual may be
+reproduced in any form.
+
+·  All specifications and designs
+are subject to change without
+notice.
+
+
+	SAFETY PRECAUTIONS
+	Warnings, Cautions, and Notes
+	Mounting
+	Pilot Run
+	Maintenance
+
+	TABLE OF CONTENTS
+	OVERVIEW
+	CONFIGURATION
+	Type of Unit and Designation
+	SVU Types
+	SVUC Types
+	Others
+
+
+	SPECIFICATION
+	Specification
+	Protection and Error Detection Function
+	Normal Operation Mode
+	Switch Setting
+
+	AC LINE FILTER AND SEPARATE REGENERATIVE DISCHARGE UNIT
+	AC Line Filter
+	Separate Regenerative Discharge Unit
+	Calculating the Amount of Regenerative Discharge
+	Regenerative Discharge Capacity of the Regenerative Discharge Resistor
+
+
+	POWER SUPPLY
+	Input Power Supply
+	Power Requirements
+	Capacity of Three-Phase Power Supply
+	Single-Phase Input for Control Circuit
+
+	Power Transformers for Exports
+	Specification
+	Selecting a Transformer
+
+	Circuit Breaker and Magnetic Contactor
+
+	HEAT GENERATION
+	INSTALLATION CONDITIONS AND CAUTIONS
+	Environmental Conditions
+	Ambient Temperature
+	Humidity
+	Altitude
+	Vibration
+	Atmosphere
+	Cautions
+
+	Selecting a Ground Fault Interrupter
+	Measures for Noise
+	Signal Line Separation
+	Ground
+	SVU Grounding for CE Marking (EC Machinery Directive)
+
+
+	OUTLINE DRAWINGS AND AREA OF MAINTENANCE
+	Outline Drawings and Area of Maintenance
+	Servo Amplifier Unit
+	AC Line Filter
+	Power Transformer for Export
+	Separate Regenerative Discharge Unit
+	Battery Case
+
+	Panel Cutout Drawing
+	Servo Amplifier Unit
+	Separate Regenerative Discharge Unit
+
+
+	CONNECTION
+	Overview
+	Interface with the NC
+	Safety Srandards
+
+	Basic Connection
+	Connection Example for SVU
+	Connection Example for SVUC
+	Connector and Terminal (T1)
+
+	Detailed Connection
+	Cable K1
+	Cable K2
+	Cable K3
+	Cable K4
+	Cable K5
+	Cable K6
+	Cable K7
+	Cable K8
+	Cable K9
+	Cable K10
+	Cable K11
+	Cable K12
+	For Installation of the Lightning Surge Protector
+	ESP Signal Connection for Use of Two or More SVUs or SVUCs
+	Monitoring Contact Output
+
+
+	COMPATIBILITY WITH THE C SERIES SERVO AMPLIFIER
+	Comparison between SVU/SVUC and C Series Amplifier
+	Notes on Replacing a C Series Amplifier with the SVUC
+
+	INDEX
+	REVISION RECORD
+	SERVO AMPLIFIER UNIT SVU3
+	Descriptions Manual, GFZ-65192EN/02-01
+	Contents
+	Overview
+	Configuration
+	Types of Units and Designation
+
+	Specifications
+	Specifications
+	Protection and Error Detection Functions
+	Normal Operating Mode
+	Switch Setting
+
+	AC Line Filter and Separate Regenerative Discharge Unit
+	AC Line Filter
+	Separate Regenerative Discharge Unit
+
+	Power Supply
+	Input Power Supply
+	Power Requirements
+	Power Transformers for Exports
+
+	Heat Generation
+	Installation Conditions and Cautions
+	Environmental Conditions
+	Selecting a Group Fault Interrupter
+	Measures for Noise
+	Signal Line Separation
+	Ground
+	Connection of Ground Cable of Motor (for CE Marking)
+
+
+	Outline Drawings and Maintenance
+	Connection
+	Overview
+	Interface with the NC
+	Safety Standards
+
+	Basic Connection
+	Interface Type B without External MCC
+	Interface Type B with External MCC
+	Connector and Terminal (T1)
+
+	Detailed Connection
+	Cables K1 through K9
+	Cables K10 and K11
+	For Installation of the Lightning Surge Protector
+	ESP Signal Connector fo rUse of Two or More SVUs
+
+
+	Appendix
+	Check Pin Board
+
+
+
+	SERVO AMPLIFIER UNIT MODEL C (SVUC)
+	Descriptions Manual, GFK-1278A
+	Features
+	Compatibility of the C Series Amplifier
+	Order Numbers
+	Cross-Reference of Catalog Numbers
+	Connection Diagram (Standard Connection - UL, CSA)
+	SVUC Series Servo Amplifier (Replacement for C Series)
+	Outline Drawings and Maintenance
+	Maintenance-Level Parts
+
+
+

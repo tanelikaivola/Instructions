@@ -1,0 +1,86 @@
+
+Metcalin käyttöohjeet
+
+Labilla on käytössä Metcalin juotosasema MFR2200 [3]. Kyseinen asema on
+sieltä paremmasta päästä, ja sen käyttö on hyvinkin yksinkertaista: paina vir-
+tanappia ja kolvi lämpenee. Alhaalla olevasta kytkimestä voit säätää kumpi
+kolvi on päällä, jättämällä kytkimen keskiasentoon molemmat kolvit lämpiävät.
+
+Kuva 1: Juotosasema
+
+Lämpötila säätyy automaattisesti kärjen mukaan. Kärkien nimen toinen kir-
+jain ilmoittaa lämpötilan:
+
+Taulukko 1: Kärkien lämpötila [4, p. 32]
+
+Nimi (SxV) Lämpötila
+T = temperature sensitive 365 ◦C
+F = FR4 / Glass Fiber 421 ◦C
+C = Ceramic 460 ◦C
+
+Käytössämme on T- ja F-sarjan kärkiä. Suosittelemme T-sarjan kärkien
+käyttämistä, F-sarjan kärjet on tarkoitettu lähinnä lyijyttömien juotosten tekemiseen.
+Kärjet erottaa toisistaan helposti, F-sarjan kärjissä on vihreä rengas.
+
+Kärki vaihdetaan kytkemällä kyseinen kolvi pois päältä, toista voi käyttää
+vaihdon aikana. Ota kolvin johtoon kytketyllä alustalla kärjestä kiinni ja vedä
+kärki ulos. Laita kärki kolvin telineen takana olevaan pitimeen ja työnnä uusi
+kärki syvälle kolviin.
+
+Pöydän alla on Metcalin käryimuri BVX-200 [1]. Juottamisessa syntyvät
+käryt ovat terveydelle vaarallisia, etenkin jos käytät fluxia ja kuumaa kolvin
+kärkeä. Imurin saa päälle painamalla juotosaseman vieressä olevaa vihreää nap-
+pulaa. Imu tulee pöydän reunoihin kiinnitetyistä käsivarsista. Käsivarren voi
+taivuttaa työskentelyalueelle.
+
+1
+
+
+
+Kuva 2: Käryimuri
+
+1 Vikatilanteet
+
+Jos kolvi ei lämpiä, tarkista nämä kohdat Wirallisesta Ohjekirjasta [2, p. 3].
+
+Taulukko 2: Vianetsintä [4, p. 32]
+
+Tilanne Korjaus
+Virtaled on punainen. Kytke kolvi maadoitettuun pistorasiaan. ◦C
+Kolvin led on punainen Aseta kärki kolvin pohjalle. ◦C
+Kolvin led on yhä edelleen punainen Kärki on rikki. Ilmoita asiasta sähköpostitse tilavastaavalle. ◦C
+Käryimuri ei käynnisty Varmista että imurin kotelossa oleva virtanäppäin on asennossa 1
+
+Viitteet
+
+[1] Metcal. BVX-200. http://www.testequipmentdepot.com/
+ok-international/pdf/bvx-200_series.pdf.
+
+[2] Metcal. MFR-1100 SERIES MFR-2200 SERIES. http://www.
+testequipmentdepot.com/metcal/pdf/mfr1100-mfr2200_manual.pdf.
+
+[3] Metcal. MFR-2200. http://www.okinternational.com/
+hand-soldering-systems/id-MFR-2220/Dual_Output_Soldering_
+
+_Rework_System_-_Tip_Hand-piece.
+
+[4] Metcal. Tips and Cartridges. http://www.scanditron.com/sites/
+default/files/material/oki_tips.pdf.
+
+LATEX
+
+2
+
+http://www.testequipmentdepot.com/ok-international/pdf/bvx-200_series.pdf
+http://www.testequipmentdepot.com/ok-international/pdf/bvx-200_series.pdf
+http://www.testequipmentdepot.com/metcal/pdf/mfr1100-mfr2200_manual.pdf
+http://www.testequipmentdepot.com/metcal/pdf/mfr1100-mfr2200_manual.pdf
+http://www.okinternational.com/hand-soldering-systems/id-MFR-2220/Dual_Output_Soldering__Rework_System_-_Tip_Hand-piece
+http://www.okinternational.com/hand-soldering-systems/id-MFR-2220/Dual_Output_Soldering__Rework_System_-_Tip_Hand-piece
+http://www.okinternational.com/hand-soldering-systems/id-MFR-2220/Dual_Output_Soldering__Rework_System_-_Tip_Hand-piece
+http://www.scanditron.com/sites/default/files/material/oki_tips.pdf
+http://www.scanditron.com/sites/default/files/material/oki_tips.pdf
+
+	Vikatilanteet
+	Viitteet
+

@@ -1,0 +1,1059 @@
+
+ 
+ 
+
+ 
+ BVX-200Fume Extraction System 
+
+ 
+
+99 Washington Street 
+Melrose, MA 02176 
+Phone 781-665-1400
+Toll Free 1-800-517-8431
+
+ Visit us at www.TestEquipmentDepot.com
+ 
+
+ 
+
+       
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+  
+Metcal BVX-200 System User Guide……………….  page 3 
+
+ 
+ 
+ 
+ 
+
+ 
+
+http://www.metcal.com/
+http://www.testequipmentdepot.com/
+
+
+Operations Manual & User Guide 
+ 
+Congratulations on your purchase of the Metcal BVX-200 Fume 
+Extraction System. It is designed to protect your health from hazardous 
+and irritating air pollution, you may have at your work area. It has been 
+designed and manufactured to the highest quality standards. We 
+appreciate your confidence and pledge the highest level of support and 
+customer service to you. 
+
+ 
+This document has been prepared to guide you with the setup, 
+operation, and user maintenance of your system. We recommend that 
+you review it to optimize performance and for your safety. 
+ 
+
+October 2003 
+ 
+Contents                                                                Page No. 
+ 
+ 
+1.0 Please Observe The Following 
+ 
+
+1.1 Emphasized Section............................................... 4 
+1.2 For Your Safety....................................................... 4 
+1.3 Unpacking and Inspection ...................................... 5 
+1.4 Items Supplied........................................................ 5 
+1.5 Feature ................................................................... 5 
+1.6 Usage ..................................................................... 6 
+
+ 
+2.0 Description........................................................................ 7 
+ 
+3.0 Technical Data .................................................................. 8 
+ 
+4.0 Installation ........................................................................ 8 
+ 
+5.0 Maintenance and Cleaning .............................................. 9 
+ 
+6.0 Troubleshooting ............................................................... 12 
+ 
+7.0 Part Numbers .................................................................... 13 
+ 
+8.0 Warranty ............................................................................ 14 
+ 
+9.0 Contact Information ......................................................... 63 
+
+
+
+1.0      Please Observe The Following 
+ 
+1.1 Emphasized Sections 
+
+  Warning! 
+Refers to safety regulations and requires safety measures that protect the operator or 
+other persons from injury. 
+
+ Caution! 
+Emphasizes what must be done or avoided so that the unit or other property is not 
+damaged. 
+
+  Notice: 
+Gives recommendations for better handling of the unit during operation or adjustment 
+as well as for service activities. 
+ 
+1.2  For Your Safety 
+
+  WARNING!  
+For safe and successful operation of the unit, read these instructions completely. If the 
+instructions are not observed, the manufacturer can assume no responsibility. Retain 
+this manual for future reference. 
+
+  WARNING!  
+Consult your “safety department” when using the unit on flammable gases. This unit is 
+not explosion safe and can only be used for the extraction of vapors, which have 
+concentration levels well below the lower explosive limits. 
+
+  WARNING!  
+Do not use the Unit to extract corrosive substances. 
+
+  WARNING!  
+Do not expose the connecting cable to heat, oil, or sharp edges. 
+
+  WARNING!  
+Make sure the Unit stands stable and secure. 
+
+  WARNING!  
+Use only original equipment filters. 
+
+  WARNING!  
+Do not operate the Unit without filter inserts. Contaminants in the 
+Extracted air will damage the blower. 
+
+  WARNING!  
+Always disconnect the power supply before servicing the unit. 
+
+Test Equipment Depot - 800.517.8431 - 99 Washington Street Melrose, MA 02176
+
+FAX 781.665.0780 - TestEquipmentDepot.com 
+
+
+
+  WARNING! 
+Never cover exhaust openings. 
+
+  WARNING!  
+Never cover all air inlet openings simultaneously.            
+Exception: One opening sealed off for single station operation. 
+
+ WARNING!  
+ This system is equipped with automatic reset overload protection, which may cause 
+the unit to restart automatically. 
+
+  WARNING!  
+Observe general safety regulations for the handling of chemicals such as adhesives 
+and sealants. Observe the manufacturer’s instructions as stated in the Material Safety 
+Data Sheet (MSDS). 
+ 
+  While under warranty, the unit may be repaired only by an  
+
+       Authorized Metcal Service Representative.  
+ 
+1.3 Unpacking and Inspection 
+  
+Carefully unpack the Metcal Fume Extraction System and examine the items 
+contained in the Carton. Inspect the unit for any damage that might have 
+occurred in transit. If such damage is present, notify the carrier immediately. 
+Claims for damage must be made by the consignee to the carrier and should 
+be reported to the manufacturer. 
+ 
+1.4   Items supplied 
+
+ 
+1 Filter Unit with filters installed 
+1 Power Cord 
+1    Operating Manual 
+
+ 
+1.5   Features 
+ 
+• On/Off switch with “soft-start” feature 
+• Low noise level 
+• High suction force and airflow 
+• Compact and portable 
+• HEPA Efficiency at 99.95%  (Model BVX-201) 
+• Deep-bed gas filter  (Model BVX-203) 
+• Connects to 50mm(2”) or 63mm(2.5”) hoses or exhaust arms 
+• ESD safe housing 
+• UL & CSA listed, CE certified  
+ 
+ 
+
+
+
+ 
+1.6 Usage 
+ 
+The Metcal Fume Extraction System is a portable, two-station filtration system 
+for the removal of fumes, light dust or vapors at the work place. The filter set 
+supplied with the filter unit depends on the model ordered. 
+ 
+Model BVX-201 supplied with a pre-filter and a main filter. The main-filter is a 
+combo-filter consisting of a HEPA filter with an efficiency of 99.95% at 0.3 
+micron and an activated carbon filter. This model is designed for applications 
+such as solder fumes from solder irons, solder pots, etc. 
+ 
+Model BVX-203 supplied with a pre-filter and a deep-bed gas filter (activated 
+carbon).  This model is designed for applications such as cleaning with 
+solvents, conformal coating, etc.  
+ 
+ 
+ 
+
+   WARNING!  
+Consult your “safety department” when using the unit on flammable gases. This unit is 
+not explosion safe and only used for the extraction of vapors, which have 
+concentration levels well below the lower explosive limits. 
+
+ 
+ 
+
+ 
+
+Deep-bed 
+Carbon Filter
+
+Pre-filter mat 
+
+Model BVX-203
+
+Pre-filter mat 
+
+Model BVX-201 
+
+HEPA w/ Carbon 
+Filter 
+
+Airflow
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+2.0 Description 
+ 
+2.1 Operating Elements and Construction 
+
+ 
+ 
+
+ 
+Air Inlets: 
+63mm OD 
+50mm ID 
+
+ESD Safe 
+
+Filter Cover Latch (front 
+and back). 
+Pull from bottom to open.
+
+On/Off Switch with 
+Red ON Indication 
+
+Power 
+Supply 
+
+  
+ 
+2.2 Theory of Operation 
+ 
+The efficient removal of hazardous fumes at your workplace is a two-step 
+process: fume capture and filtration. The filter unit is supplied with a set of 
+filters already installed.  
+ 
+To capture the fumes, Metcal recommends use of optional exhaust arms and 
+accessories (purchased separately). The exhaust arms need to be set up 
+properly (instruction supplied with exhaust arm) and the nozzle positioned in a 
+way to optimize the fume capture. 
+ 
+Air extracted from your work area will be purified when passing through the 
+filters inside the unit and then is returned into your work area.   
+ 
+Contact your local Metcal representative if there are any questions regarding 
+the proper selection of filters for your application. 
+ 
+
+ 
+ 
+ 
+
+Test Equipment Depot - 800.517.8431 - 99 Washington Street Melrose, MA 02176
+
+FAX 781.665.0780 - TestEquipmentDepot.com 
+
+
+
+3.0 Technical Data 
+ 
+Max. airflow, free blowing.....................................250m3/h (150cfm) 
+Flow rate...............................................................2 x 75 m3/h (45cfm)                          
+Static pressure......................................................850 Pa (3.5”WC) 
+Noise level (approx.) ............................................< 55dBA                                            
+Voltage .................................................................100 – 240 VAC, 1 phase 
+Frequency.............................................................50-60 Hz 
+Motor rating ..........................................................85 Watts 
+Safety compliance ................................................UL, CSA, CE 
+Dimensions W/D/Hmm .........................................508 x 254 x 388 
+Dimensions W/D/H in. ..........................................20” x 10” x 15.3” 
+Weight (approx.) ...................................................20 lbs. / 9 kg 
+ 
+4.0 Installation 
+ 
+Remove Metcal Fume Extraction System from packing materials and place on 
+the floor under workbench or near your work area where fume extraction is 
+required. Make sure you have access to the unit for filter maintenance. 
+ 
+Connect the unit power cord into the outlet on the side of the system. Plug the 
+power cord into a grounded wall socket. 
+ 
+
+  Warning!   
+To provide protection against the risk of electrical shock, connect to properly 
+grounded outlets only. 
+ 
+Connect the unit to exhaust arms (optional) per installation instructions. 
+To power up system, depress the power switch, located on the bottom right of 
+the unit. (Red indicates “Power On” position) Operator can expect a delay of a 
+few seconds before hearing fan running. This is due to a built-in motor “Soft-
+start feature”. 
+ 
+Position the exhaust arms to optimize the fume capture. 
+ 
+Follow maintenance procedures below. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+5.0 Maintenance and Cleaning  
+ 
+5.1 Filter Unit - Maintenance and Safety 
+ 
+The Metcal Fume Extraction System is designed with low maintenance in 
+mind. The housing is ESD safe plastic. Here are a few tips to keep your 
+system running in top shape: 
+ 
+To clean, use a light wipe with a gentle cleaner to prevent build up of 
+particulate and flux residue (be sure unit is turned off while cleaning). 
+ 
+
+ Do not block the exhaust outlets; this will cause the operating temperature of 
+the system to rise, potential damaging the unit, and drop in performance. 
+ 
+
+ Do not defeat the filter interlock switch. Running the system without a filter 
+will allow particulate and flux residue to adhere to the blower and decrease the life of 
+the system and increase noise. 
+ 
+
+ Do not lift system while operating 
+ 
+ Be sure to handle filters with care. 
+
+ 
+5.2 Filter Replacement Timing 
+ 
+Model BVX-201 
+When fumes are filtered inside the unit, the particulates captured will start 
+clogging the filter over time. The coarse particles are collected in the pre-filter 
+while fine particles will be collected in the HEPA filter.  The clogging will result 
+in a reduction of the airflow, which may reduce the amount of fumes extracted 
+from the work area.  This condition may not necessarily require filter 
+replacement. One step is to move the optional extraction arms closer to 
+application if possible. If the fumes are not extracted any longer to previous 
+satisfaction level, filter replacement is required.  
+ 
+Initially replace the pre-filter only.  If this step does not sufficiently improve the 
+airflow, then replace the main filter (HEPA/Carbon).  
+ 
+
+  Warning!  Do not attempt to clean filters. Attempted cleaning can 
+damage filters and cause potential risk to health and equipment. 
+ 
+
+ Notice:    Metcal recommends replacement of filters annually as a minimum. 
+Use only original Metcal replacement filters. 
+ 
+
+
+
+ 
+Model BVX-203 
+This model features a deep-bed gas filter, which generally does not clog and 
+reduce airflow as common with HEPA filters.  Replace both filters, pre-filter 
+and carbon filter as soon as odors become noticeable. 
+ 
+
+ Notice: Replace filters at least every 6 months, as most gas-phase filter media 
+achieve saturation by adsorbing moisture from ambient air. Use only original Metcal 
+replacement filters. 
+  
+ 
+ 
+ 
+
+Safety Switch
+
+Filter Alignment 
+Pins 5.3 Safety Interlock 
+
+ 
+The safety switch is an interlock which 
+turns off the fan when the main filter is 
+removed and when the fan inlet opening 
+is exposed.  The safety switch also 
+prevents the system from operating 
+without filters in which case the 
+impurities would contaminate the 
+internal unit. 
+   
+ 
+
+WARNING! Do not bypass safety interlock. Bypassing safety interlock could 
+result in injury to persons. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Test Equipment Depot - 800.517.8431 - 99 Washington Street Melrose, MA 02176
+
+FAX 781.665.0780 - TestEquipmentDepot.com 
+
+
+
+ 
+ 
+5.4 Filter Replacement Procedure: 
+ 
+1. Turn unit off. 
+2. Disconnect the power cord. 
+3. Unlatch the filter cover (see illustration on right).  
+4. Remove filter cover. 
+5. Replace the filters. (Pre-filter/main filter). Ensure to place main filter inside 
+
+the alignment pins so that interlock switch is depressed. 
+6. Replace filter cover and ensure proper fit on bottom housing. Hook both 
+
+latches into filter cover and press down carefully.   
+ Caution!  Do not use force. If latches do not close, check proper 
+
+seating of filter cover on bottom housing. 
+7. Reconnect power cord and turn system on. 
+8. If unit does not operate, refer to troubleshooting section. 
+ 
+
+  Notice: Always use new replacement filters!  
+ 
+ 
+ 
+ 
+ 
+ Step 2:
+
+Unhook
+Latch
+
+ 
+ 
+ Step 1:
+
+Pull & Lift
+Latch
+
+ 
+ 
+
+Filter  
+ Place Filter inside 
+
+the Alignment Pins 
+ 
+ 
+ 
+
+On/Off 
+Switch 
+
+Latch 
+
+
+
+ 
+5.5 Filter Disposal 
+ 
+The gas filter collects some organic materials and care in disposal may be 
+required. The filter may contain toxic materials and inhalation of dust particles 
+or exposure to skin must be avoided. Please consult the MSDS Sheets for the 
+material used at your facility and follow the prescribed handling instructions. 
+ 
+ 
+6.0 Troubleshooting 
+
+ 
+Problem Possibly Cause Check and Correction 
+No air flow No Power Check On/Off Switch 
+
+Check power outlet 
+Check power cord    
+Check for filter 
+Check safety interlock switch 
+
+Little air flow Air leak Check hose/arm for leaks  
+Check hose/arm for proper installation 
+Check hose/arm for partial clogging 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+7.0   Part Numbers 
+ 
+7.1 Filter Units 
+ 
+BVX-201 ....................................Filter Unit for 2 Station, Pre / HEPA / Gas 
+  
+BVX-203 .....................................Filter Unit for 2 Station, Pre / Deep Bed Gas 
+ 
+
+7.2 Replacement Filters Model BVX-201 
+Model 
+
+BVX-203 
+ 
+FP-BVX200 .................Pre-Filter (Pack of 5)     
+
+ 
+yes 
+
+ 
+yes 
+
+ 
+FG-BVX200 .................Deep-Bed Gas Filter           
+
+ 
+no 
+
+ 
+yes 
+
+ 
+FM-BVX200 Main Filter, HEPA 99.95%  / Carbon  
+
+ 
+yes 
+
+ 
+no 
+
+ 
+ 
+7.3 Optional Kits and Accessories 
+ 
+BVX-ARM-K1 .. Kit consisting of BVX-ARM, BVX-CH01, BVX-TB01  
+BVX-ARML...... Exhaust Arm, flexible, 1220mm (48") x 50mm (2"), ESD Safe 
+BVX-ARM........ Exhaust Arm, flexible, 710mm  (28") x 50mm (2"), ESD Safe. 
+BVX-TB01 ....... Table Bracket with 2 each C-Clamps 
+BVX-CH01....... Connection Hose, 1800mm (6') x 50mm (2") 
+BVX-CH02....... Connection Hose, 3600mm (12') x 50mm (2") 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+8.0     WARRANTY 
+ 
+Please visit OK International's Metcal products web page
+where you will find available information on systems, accessories, technical 
+notes, and more. You may also contact your local Metcal representative for 
+pricing and availability. 
+ 
+OK International warrants the BVX-200 Series against any defects in 
+materials or workmanship for one (1) year from the date of purchase by the 
+original owner. This Warranty excludes normal maintenance and shall not 
+apply to any opened, misused, abused, altered or damaged items. If the 
+product should become defective within the warranty period, OK International 
+will repair or replace it free of charge at its sole option. The repaired or 
+replacement item(s) will be shipped, freight prepaid, to the original purchaser. 
+The warranty period will start from the date of purchase. If the date of 
+purchase cannot be substantiated the date of manufacture will be used as the 
+start of the warranty period. 
+ 
+For the repair or return of a unit a Return Material Authorization Number 
+(RMA #) needs to be obtained. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Test Equipment Depot - 800.517.8431 - 99 Washington Street Melrose, MA 02176
+
+FAX 781.665.0780 - TestEquipmentDepot.com 
+
+
+	Operations Manual & User Guide
+	1.5 Feature5
+	1.6 Usage6
+	1.0      Please Observe The Following
+	Emphasized Sections
+	
+	Warning!
+	Caution!
+	Notice:
+
+
+	For Your Safety
+	
+	WARNING!
+	WARNING!
+	WARNING!
+	WARNING!
+	WARNING!
+	WARNING!
+	WARNING!
+	WARNING!
+	WARNING!
+	WARNING!
+	WARNING!
+
+
+	1.3 Unpacking and Inspection
+	1.4   Items supplied
+	1.5   Features
+	1.6 Usage
+
+	2.0 Description
+	2.1 Operating Elements and Construction
+	3.0 Technical Data
+	
+	Flow rate2 x 75 m3/h (45cfm)
+	Static pressure850 Pa \(3.5”WC\)
+
+
+	4.0 Installation
+	5.0 Maintenance and Cleaning
+	
+	
+	Caution! Do not use force. If latches do not close, check proper seating of filter cover on bottom housing.
+
+
+
+	6.0 Troubleshooting
+	
+	
+	Possibly Cause
+	Check and Correction
+
+
+
+	7.0   Part Numbers
+	7.1 Filter Units
+	BVX-201 Filter Unit for 2 Station, Pre / HEPA / Gas
+	BVX-203Filter Unit for 2 Station, Pre / Deep Bed Gas
+	7.2 Replacement Filters
+	BVX-201
+	BVX-203
+	FG-BVX200Deep-Bed Gas Filter
+	no
+	yes
+	FM-BVX200 Main Filter, HEPA 99.95%  / Carbon
+	yes
+	no
+	8.0     WARRANTY
+	
+	
+	
+	
+	
+	
+	Mode d'emploi & Guide de l'utilisateur
+
+
+
+
+
+
+
+	1.5 Caractéristiques17
+	1.6 Utilisation18
+	1.0Veuillez suivre les indications ci-après
+	1.1Remarques importantes
+	
+	Avertissement !
+	Attention !
+	Remarque :
+
+
+	1.2Pour votre sécurité
+	
+	AVERTISSEMENT !
+	AVERTISSEMENT !
+	AVERTISSEMENT !
+	AVERTISSEMENT !
+	AVERTISSEMENT !
+	AVERTISSEMENT !
+	AVERTISSEMENT !
+	AVERTISSEMENT !
+	AVERTISSEMENT !
+	AVERTISSEMENT !
+	AVERTISSEMENT !
+
+
+	1.3Déballage et inspection
+	1.4Éléments fournis
+	1.5Caractéristiques
+	1.6Utilisation
+
+	2.0Description
+	2.1Éléments fonctionnels et construction
+	3.0Caractéristiques techniques
+	
+	Débit d’air avec filtre HEPA2 x 75 m3/h \(45cfm�
+	Pression statique \(force d’aspiration\)850 Pa�
+
+
+	4.0Installation
+	5.0Maintenance et nettoyage
+	
+	
+	Attention ! Ne forcez pas. Si les verrous ne se f
+
+
+
+	6.0Dépannage
+	
+	
+	Cause possible
+	Contrôles et correction
+
+
+
+	7.0Références des pièces
+	7.1Unités de filtration
+	BVX-201 Unité de filtration pour deux postes, Pr�
+	BVX-203Unité de filtration pour deux postes, Pré
+	7.2    Filtres de remplacement
+	BVX-201
+	BVX-203
+	FG-BVX200Filtre à gaz charbon
+	non
+	oui
+	FG-BVX200 Filtre principal, HEPA 99,95%  / charbon actif
+	oui
+	non
+	8.0Garantie
+	1.5 Leistungsmerkmale29
+	1.6 Einsatzbereich30
+	1.0Bitte beachten
+	1.1Wichtige Hinweise
+	
+	Warnung!
+	Achtung!
+	Hinweis:
+
+
+	Zu Ihrer Sicherheit
+	
+	WARNUNG!
+	WARNUNG!
+	WARNUNG!
+	WARNUNG!
+	WARNUNG!
+	WARNUNG!
+	WARNUNG!
+	WARNUNG!
+	WARNUNG!
+	WARNUNG!
+	WARNUNG!
+
+
+	1.3Auspacken und Überprüfung
+	1.4Lieferumfang
+	1.5Leistungsmerkmale
+	1.6Einsatzbereich
+
+	2.0Beschreibung
+	2.1Bedienelemente und Aufbau
+	3.0Technische Daten
+	
+	Durchflussrate2 x 75 m³/h \(45cfm\)
+	Statischer Druck850 Pa \(3.5”WC\)
+
+
+	4.0Installation
+	5.0Wartung und Reinigung
+	
+	
+	Achtung! Keine Gewalt einsetzen! Prüfen Sie den �
+
+
+
+	6.0Fehlerbehebung
+	
+	
+	Mögliche Ursache
+	Prüfung und Behebung
+
+
+
+	7.0Artikelnummern
+	7.1Filtereinheiten
+	BVX-201 Filtereinheit für 2 Stationen Vor-/HEPA-�
+	BVX-203Filtereinheit für 2 Stationen Vor-/Gasfil�
+	7.2Filterwechsel
+	BVX-201
+	BVX-203
+	FG-BVX200..............Gasfilter
+	nein
+	ja
+	FM-BVX200 Hauptfilter, HEPA 9995% / Kohlenstoff
+	ja
+	nein
+	8.0Gewährleistung
+	1.5 Caratteristiche41
+	1.6 Utilizzo42
+	1.0Si prega di osservare quanto segue
+	1.1Avvertenze importanti
+	
+	Avvertenza!
+	Attenzione!
+	Avviso:
+
+
+	Per la sicurezza dell’operatore
+	
+	AVVERTENZA!
+	AVVERTENZA!
+	AVVERTENZA!
+	AVVERTENZA!
+	AVVERTENZA!
+	AVVERTENZA!
+	AVVERTENZA!
+	AVVERTENZA!
+	AVVERTENZA!
+	AVVERTENZA!
+	AVVERTENZA!
+
+
+	1.3Disimballaggio e controllo
+	1.4Contenuto della fornitura
+	1.5Caratteristiche
+	1.6Utilizzo
+
+	2.0Descrizione
+	2.1Elementi di funzionamento e struttura
+	3.0Dati tecnici
+	
+	Portata2 x 75 m3/h (45cfm)
+	Pressione statica850 Pa \(3.5”WC\)
+
+
+	4.0Installazione
+	5.0Manutenzione e pulizia
+	
+	
+	Attenzione! Non forzare le chiusure. Se i due gan
+
+
+
+	6.0Localizzazione guasti
+	
+	
+	Possibili cause
+	Verifica e correzione
+
+
+
+	7.0Codici articolo
+	7.1 Unità filtranti
+	BVX-201 …………………….Unità filtranti per 2 stazioni, Pre �
+	BVX-203……………………..Unità filtranti per 2 stazioni, Pre �
+	7.2 Sostituzione filtri
+	BVX-201
+	BVX-203
+	FG-BVX200Filtro gas “deep-bed”
+	no
+	sì
+	FM-BVX200 Filtro principale, HEPA 99,95%  / carbone
+	sì
+	no
+	8.0GARANZIA
+	
+	
+	
+	
+	
+	
+	Manual de Operación y Guía del Usuario
+
+
+
+
+
+
+
+	1.5 Características53
+	1.6 Uso54
+	1.0 Sírvase Tener en Cuenta lo Siguiente:
+	1.1Secciones Enfatizadas
+	
+	¡Advertencia!
+	¡Precaución!
+	Aviso:
+
+
+	1.2 Para Su Seguridad
+	
+	¡ADVERTENCIA!
+	¡ADVERTENCIA!
+	¡ADVERTENCIA!
+	¡ADVERTENCIA!
+	¡ADVERTENCIA!
+	¡ADVERTENCIA!
+	¡ADVERTENCIA!
+	¡ADVERTENCIA!
+	¡ADVERTENCIA!
+	¡ADVERTENCIA!
+
+
+	1.3 Desempaque e Inspección
+	1.4 Artículos Suministrados
+	1.6 Uso
+
+	2.0 Descripción
+	2.1 Elementos Operativos y Construcción
+	3.0 Datos Técnicos
+	
+	Caudal2 x 75 m3/h (45cfm)
+	Presión estática850 Pa \(3,5” columna de agua\
+
+
+	4.0 Instalación
+	5.0 Mantenimiento y Limpieza
+	
+	
+	¡Precaución!No recurra a la fuerza. Si los sujet
+
+
+
+	6.0 Solución de Problemas Prácticos
+	
+	
+	Causa Posible
+	Verificación y Corrección
+
+
+
+	7.0 Números de Pieza
+	7.1 Unidades de Filtro
+	BVX-201 Unidad de Filtro para 2 Estaciones, Pre / HEPA / Gas
+	BVX-203Unidad de Filtro para 2 Estaciones, Pre / Gas de Lecho Profundo
+	7.2 Filtros de Repuesto
+	BVX-201BVX-201
+	BVX-203BVX-203
+	FG-BVX200Filtro de Gas de Lecho Profundo
+	no
+	sí
+	Filtro Principal FM-BVX200, HEPA 99,95% / Carbón
+	sí
+	no
+	8.0 GARANTÍA
+
+	bb: 
+	ok logo: 
+
+

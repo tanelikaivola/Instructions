@@ -1,0 +1,1645 @@
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 144 -
+
+3.4 SPINDLE AMPLIFIER MODULE
+This section uses the following format for describing parameter
+numbers:
+
+FS0 FS15i FS16i/16, PM-D/F Description
+6582 3082 4082 Setting of acceleration/deceleration
+
+time
+
+The items of FS15i cover FS15.  For a parameter number of FS15
+different from FS15i, the item is described separately.
+FS18i, 20i, 21i, PMi-D, 18, 20, and 21 are covered by the items of
+FS16i/16.
+
+3.4.1 α Series and α (HV) Series Spindle Amplifier Module
+If an alarm occurs in the spindle amplifier module, the ALM LED
+lights red in the STATUS display, and the two-digit 7-segment LEDs
+indicate the alarm code.
+
+The ALM LED
+lights red.
+
+Alarm code A0, A1, 01 or above is indicated.
+
+status
+
+3.4.1.1 Alarm codes A, A0 to A4, and other Ax (x for representing an
+arbitrary number)
+
+A, A0 : The SPM control program is not operating.
+A1, A2, Ax : An error was detected in SPM control program
+
+processing.
+A3 : An error was detected in the clock of the SPM control
+
+printed circuit board.
+A4 : A parity error was detected in the SRAM on the SPM
+
+control printed circuit board.
+
+(1) If an alarm is issued when the power to the PSM is turned on
+(a) The ROM is not installed correctly, no ROM is installed, or
+
+the ROM specification is incorrect
+If the ROM on the SPM control printed circuit board is once
+replaced, check the following:
+<1> Installation direction
+<2> Occurrence of a bent lead and so forth
+<3> Matching of the ROM series with the unit.  Check
+
+Subsection 2.2.3 of Part I.
+(b) Printed circuit board failure
+
+Replace the SPM or SPM control printed circuit board.
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 145 -
+
+(2) If an alarm is issued during motor activation
+(a) Influence of noise
+
+Referring to Chapter 5, "Installation," of "FANUC SERVO
+AMPLIFIER α series Descriptions (B-65162E)," check the
+GND-related wiring.  If the signal cable of the spindle sensor
+is bundled with the power line of the servo motor, separate
+them from each other.
+
+3.4.1.2 Alarm code 01
+
+The inside temperature of the motor is higher than the specified
+temperature.
+
+(1) If this alarm is issued during cutting (the motor temperature is
+high)
+(a) Check the cooling state of the motor.
+
+<1> If the cooling fan of the spindle motor is stopped, check
+the power supply of the cooling fan.  If the cooling fan
+is still inoperative, replace it with a new one.
+
+<2> When a liquid-cooled motor is used, check the cooling
+system.
+
+<3> When the ambient temperature of the spindle motor is
+higher than the specified temperature, lower the
+ambient temperature to satisfy the specification.
+
+(b) If this alarm is issued even when the load meter fluctuates in
+a limited range, check the short-period rating.  If the
+specified value is exceeded, reduce the load.
+
+(2) If this alarm is issued under a light load (the motor temperature is
+high)
+(a) When the frequency of acceleration/deceleration is too high
+
+Set such a use condition that the average including output at
+acceleration/deceleration does not exceed the continuous
+rating.
+
+(b) The parameters specific to the motor are not set correctly.
+Refer to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)."
+
+(3) If this alarm is issued when the motor temperature is low
+(a) The spindle sensor feedback cable is faulty.
+
+Replace the cable.
+(b) The SPM control printed circuit board is faulty.
+
+Replace the SPM control printed circuit board or SPM.
+(c) The motor (internal thermostat) is faulty.
+
+Replace the motor.
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 146 -
+
+3.4.1.3 Alarm code 02
+
+The actual motor speed is largely deviated from the commanded speed.
+
+(1) If this alarm is issued during motor acceleration
+(a) The parameter setting of acceleration/deceleration time is
+
+incorrect.
+In the following parameter, set the value equivalent to the
+spindle inertia plus some margin:
+
+FS0 FS15i FS16i/16, PM-D/F Description
+6582 3082 4082 Setting of acceleration/deceleration
+
+time
+(b) The parameter for the speed detector is not set correctly.
+
+Referring to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)," set a correct value.
+
+(2) If this alarm is issued during cutting
+(a) The cutting load has exceeded the motor output power.
+
+Check the load meter indication, and review the use
+condition.
+
+(b) The parameters for output restriction are not set correctly.
+Check that the settings of the following parameters satisfy
+the machine and motor specifications:
+
+FS0 FS15i FS16i/16, PM-D/F Description
+6528 3028 4028 Output restriction pattern setting
+6529 3029 4029 Output restriction value
+
+(c) The parameters specific to the motor are not correctly.
+Refer to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)."
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 147 -
+
+3.4.1.4 Alarm code 03
+
+The fuse of the DC link has blown.  (The voltage at the DC link is
+insufficient.)  This alarm is checked when emergency stop is cancelled.
+
+(1) If this alarm is issued during spindle operation (rotation)
+The fuse of the DC link inside the SPM has probably blown.  So,
+replace the SPM.  This alarm may be caused by the following:
+<1> Power line short-circuited to ground
+<2> Motor winding short-circuited to ground
+<3> IGBT or IPM module failure
+
+(2) If the PSM input magnetic contactor is once turned on and is
+turned off with this alarm when emergency stop is cancelled or the
+CNC is started (When two spindles are connected, the magnetic
+contactor may not be turned off.)
+(a) The DC link wire is not connected.
+
+Check the DC link (TB1) wiring for errors.
+(b) A cable is faulty.
+
+Pin 9 of the interface cable (JX1B-JX1A) between the PSM
+and SPM may be short-circuited to 0V.  Replace the cable.
+
+(c) The fuse of the DC link inside the SPM has blown.
+Replace the SPM.
+
+3.4.1.5 Alarm code 04
+
+It is detected that the 3-phase input to the main circuit of the PSM has
+an open phase.
+
+(1) If the PSM indicates alarm code 6
+Troubleshoot according to the description of alarm code 6
+provided in Section 3.1 of Part II.
+
+(2) If the PSM indicates no alarm
+(a) A cable is faulty.
+
+The connection cable between the PSM (JX1B) and SPM
+(JX1A) is faulty.  Replace the cable.
+
+(b) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 148 -
+
+3.4.1.6 Alarm code 07
+
+The motor rotates at a speed exceeding 115% (standard setting) of the
+maximum allowable speed.
+
+(1) If this alarm is issued during spindle synchronization
+If the activation (SFR, SRV) of the motor on one side is turned off
+then back on in the spindle synchronization mode, the spindle
+motor is accelerated to correct a position error built up during the
+period, thus causing this alarm.  Modify the ladder so that SFR
+and SRV are not turned off in the spindle synchronization mode.
+
+(2) If this alarm is issued while the motor is stopped
+(a) The connection cable of the spindle sensor is faulty.
+
+Check if the cable of the spindle sensor built into the motor
+(BZ sensor when a built-in motor is used) is disconnected,
+and replace the cable as required.
+
+(b) The spindle sensor built into the motor is not adjusted
+correctly.
+Adjust the sensor according to Subsection 4.3.4 of Part I.
+
+3.4.1.7 Alarm code 09
+
+The temperature of the heat sink of the SPM main circuit has risen to
+the set value.  This alarm is issued for SPM-15 and up or SPM-15HV
+and later.  With SPM-2.2 to SPM-11 and SPM-11HV, however, alarm
+code 12 is issued for the same cause.
+
+(1) If this alarm is issued during cutting (the heat sink temperature is
+high)
+(a) If this alarm is issued when the load meter reads a value
+
+below the continuous rating of the amplifier, check the
+cooling state of the heat sink.
+<1> If the cooling fan is stopped, check the power supply
+
+(connector CX1A/B).  If the cooling fan is still
+inoperative, replace the SPM with a new one.
+
+<2> When the ambient temperature is higher than the
+specified temperature, lower the ambient temperature
+to satisfy the specification.
+
+(b) When this alarm is issued because the load meter reads a
+value above the continuous rating of the amplifier, improve
+the use method.
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 149 -
+
+(c) When the heat sink on the back of the amplifier is too dirty,
+clean the heat sink, for example, by blowing air.  Consider
+the use of a structure that prevents the heat sink from being
+directly exposed to coolant.
+
+(2) If this alarm is issued under a light load (the heat sink temperature
+is high)
+(a) When the frequency of acceleration/deceleration is too high
+
+Set such a use condition that the average including output at
+acceleration/deceleration does not exceed the continuous
+rating.
+
+(b) The parameters specific to the motor are not set correctly.
+Refer to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)."
+
+(3) If this alarm is issued when the heat sink temperature is low
+Replace the SPM.
+
+3.4.1.8 Alarm code 11
+
+The PSM detected that the DC link voltage was excessively high.
+
+(1) If the PSM indicates alarm code 7
+Troubleshoot according to the description of alarm code 7
+provided in Section 3.1 of Part II.
+
+(2) If the PSM indicates no alarm
+(a) A cable is faulty.
+
+The connection cable between the PSM (JX1B) and SPM
+(JX1A) is faulty.  Replace the cable.
+
+(b) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 150 -
+
+3.4.1.9 Alarm code 12
+
+An excessively large current flowed into the DC link of the main
+circuit.
+
+With SPM-2.2 to SPM-11 and SPM-11HV, this alarm indicates that the
+power module (IPM) of the main circuit detected an error such as an
+excessive load, overcurrent, or low control supply voltage.
+
+(1) If this alarm is issued on SPM-2.2 to SPM-11 and SPM-11HV
+Check alarm code 09 as well.
+
+(2) If this alarm is issued immediately after a spindle rotation
+command is specified
+(a) The motor power line is faulty.
+
+Check for a short circuit between motor power lines and
+short-circuit to ground, and replace the power line as
+required.
+
+(b) The motor winding has an insulation failure.
+If the motor is short-circuited to ground, replace the motor.
+
+(c) The parameters specific to the motor are not set correctly.
+Refer to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)."
+
+(d) The SPM is faulty.
+A power element (IGBT, IPM) may be destroyed.  Replace
+the SPM.
+
+(3) If this alarm is issued during spindle rotation
+(a) A power element is destroyed.
+
+A power element (IGBT, IPM) may be destroyed.  Replace
+the SPM.
+If the amplifier setting condition is not satisfied, or cooling is
+insufficient because the heat sink is dirty, the power
+elements may be destroyed.
+When the heat sink on the back of the amplifier is too dirty,
+clean the heat sink, for example, by blowing air.  Consider
+the use of a structure that prevents the heat sink from being
+directly exposed to coolant.
+For the setting condition, refer to "FANUC SERVO
+AMPLIFIER α series Descriptions (B-65162E)."
+
+(b) The parameters specific to the motor are not set correctly.
+Referring to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)," check the parameters
+specific to the motor.
+
+(c) Speed sensor signal error
+Check the spindle sensor signal waveform according to
+Subsection 4.3.4 of Part I.  If an error is found, make an
+adjustment or replace the detector as required.
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 151 -
+
+3.4.1.10 Alarm code 13
+
+The memory inside the CPU is faulty.  A check is made when the power
+is turned on.
+
+If this alarm is issued, replace the SPM or SPM control printed circuit
+board.
+
+3.4.1.11 Alarm code 15
+
+In output switching control or spindle switching control, the switching
+operation sequence was not executed correctly.
+This alarm is issued if one second or more elapses from the transition of
+a switch request signal (SPSL or RSL) until a power line state check
+signal (MCFN, MFNHG, RCH, or RCHHG) makes a transition.
+
+Troubleshooting when this alarm is issued
+(a) The magnetic contactor (switch unit) for power line
+
+switching is faulty.
+If the contact is inoperative, check the power supply of the
+magnetic contactor.  If the magnetic contactor is still
+inoperative, replace the magnetic contactor.
+
+(b) The I/O unit or wiring for checking the contact of the
+magnetic contactor is faulty.
+If a defect is found in the I/O unit or wiring, replace the I/O
+unit or wiring.
+
+(c) The sequence (ladder) is incorrect.
+Modify the sequence so that switching is completed within 1
+second.  For details of the signals, refer to Chapter 10,
+"Interface Signals," in "FANUC SERVO AMPLIFIER α series
+Descriptions (B-65162E)."
+
+3.4.1.12 Alarm code 16
+
+The memory (RAM) is faulty.  A check is made when the power is
+turned on.
+
+If this alarm is issued, replace the SPM or SPM control printed circuit
+board.
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 152 -
+
+3.4.1.13 Alarm codes 19 and 20
+
+The offset voltage of the phase U (alarm code 19) or phase V (alarm
+code 20) current detection circuit is excessively high.  A check is made
+when the power is turned on.
+
+If this alarm is issued, replace the SPM.  If this alarm is issued
+immediately after the SPM control printed circuit board is replaced,
+check the plugging of the connectors (CN1, CN3, and CN4) between
+the power unit and SPM control printed circuit board.
+
+3.4.1.14 Alarm code 24
+
+The power to the CNC is turned off.  (This symptom does not represent
+an error.)  Serial communication data transferred between the CNC and
+spindle amplifier module contains an error.
+
+Troubleshooting when this alarm is issued
+(a) Noise occurring between the CNC and spindle amplifier
+
+module (connected via an electric cable) caused an error in
+communication data.
+Check the condition for maximum wiring length.
+Referring to Chapter 9, "Connection," in "FANUC SERVO
+AMPLIFIER α series Descriptions (B-65162E)," check the
+condition of electric cable connection.
+
+(b) Noise exercises an influence because a communication cable
+is bundled with the power line.
+If a communication cable is bundled with the power line for
+the motor, separate them from each other.
+
+(c) A cable is faulty.
+Replace the cable.
+If an optical I/O link adapter is used, the optical link adapter
+or optical cable may be faulty.
+
+(d) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+(e) The CNC is faulty.
+Replace the board or module related to the serial spindle.
+
+3.4.1.15 Alarm code 25
+
+Serial communication between the CNC and spindle amplifier module
+stopped.
+
+Troubleshoot as in the case of alarm code 24.
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 153 -
+
+3.4.1.16 Alarm code 26
+
+The sensor signal (for speed control) for Cs contour control has an
+error.
+<1> When a high-resolution magnetic pulse coder is used with SPM
+
+TYPE2 (using both of the JY2 and JY5 connectors), the amplitude
+of the sensor signal on the high-resolution side (1000 λ) of the
+high-resolution magnetic pulse coder built into the motor on the
+JY2 side is excessively small.
+
+<2> When a built-in motor is used with SPM TYPE2 (using only the
+JY5 connector), the amplitude of the sensor signal on the high-
+resolution side (1000 to 3000 λ) of the high-resolution magnetic
+pulse coder is excessively small.
+
+<3> When SPM TYPE4 is used, the amplitude of the spindle sensor
+(MZ sensor) built into the motor connected to JY2 is excessively
+small.
+
+(1) If this alarm is issued when the motor is deactivated
+(a) The setting of a parameter is incorrect.
+
+Referring to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)," check the parameter for
+sensor setting.
+
+(b) The sensor is not adjusted correctly, or the cable is
+disconnected.
+Adjust the sensor signal according to Subsection 4.3.4 of
+Part I of this manual.  If the signal is not observed, replace
+the cable and sensor.
+
+(c) The printed circuit board is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+(2) If this alarm is issued when the cable is moved (as in the case
+where the spindle moves)
+(a) The connector has a bad contact, or the cable is
+
+disconnected.
+The conductor may be broken.  Replace the cable.  If coolant
+has penetrated into the connector, clean the connector.
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 154 -
+
+(3) If this alarm is issued when the motor rotates
+(a) The shielding of the cable between the preamplifier or MZ
+
+sensor (for TYPE4) and the SPM is faulty.
+Referring to Chapter 9, "Connection," in "FANUC SERVO
+AMPLIFIER α series Descriptions (B-65162E)," check the
+shielding of the cable.
+
+(b) The signal cable is bundled with the servo motor power line.
+If the cable between the preamplifier or MZ sensor (for
+TYPE4) and the SPM is bundled with the servo motor power
+line, separate them from each other.
+
+(c) Improve the cable routing between the motor and
+preamplifier.
+If the cables (including those within a terminal box)
+extending from the motor to the preamplifier are close to the
+power line, separate the cables from the power line.
+
+S
+P
+MS
+
+en
+so
+
+r
+
+The cable is
+connected to the
+pin specified in the
+specifications on
+the sensor side.
+
+The cable is
+connected to
+pin 10 on the
+SPM side.
+
+Shielded cable
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 155 -
+
+3.4.1.17 Alarm code 27
+
+The sensor signal (position coder signal) for position control is
+abnormal.
+<1> The signal of the α position coder is disconnected (for all types).
+<2> When an MZ or BZ sensor is used with SPM TYPE1 (using the
+
+JY2 connector), the amplitude of the sensor signal is excessively
+small.
+
+<3> When a separate built-in sensor is used with SPM TYPE2 (using
+the JY2 and JY5 connectors), the amplitude of the spindle sensor
+signal on the JY2 side is excessively small.
+
+<4> When a high-resolution magnetic pulse coder is used with SPM
+TYPE2 (using the JY2 and JY5 connectors), the amplitude of the
+sensor signal on the low-resolution side (128 to 384 λ) on the JY5
+side is excessively small.
+
+<5> When SPM TYPE4 is used, the amplitude of the spindle sensor
+signal connected to JY5 is excessively small.
+
+(1) If this alarm is issued when the motor is deactivated
+(a) The setting of a parameter is incorrect.
+
+Referring to Chapter 2 of "FANUC AC SPINDLE MOTOR
+α series Parameter Manual (B-65160E)," check the
+parameter for sensor setting.
+
+(b) The cable connected to JY4 is disconnected.  (α position
+coder)
+When the α position coder is used, adjustment is impossible.
+Replace the cable.
+
+(c) The sensor is not adjusted correctly.
+Adjust the sensor signal according to Subsection 4.3.4 of
+Part I of this manual.  If the sensor signal cannot be adjusted
+correctly, or the sensor signal is not observed, replace the
+connection cable and sensor.
+
+(d) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+(2) If this alarm is issued when the cable is moved (as in the case
+where the spindle moves)
+(a) The connector has a bad contact, or the cable is
+
+disconnected.
+The conductor may be broken.  Replace the cable.  If coolant
+has penetrated into the connector, clean the connector.
+
+S
+P
+MSe
+
+ns
+or
+
+Connected to the frame
+ground via a cable clamp.
+
+Shielded cable
+
+α position coder
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 156 -
+
+(3) If this alarm is issued when the motor rotates
+(a) The shielding of the cable between the sensor and the SPM is
+
+faulty.
+Referring to Chapter 9, "Connection," in "FANUC SERVO
+AMPLIFIER α series Descriptions (B-65162E)," check the
+shielding of the cable.
+
+(b) The signal cable is bundled with the servo motor power line.
+If the cable between the sensor and the SPM is bundled with
+the servo motor power line, separate them from each other.
+
+3.4.1.18 Alarm code 28
+
+The sensor signal (for position control) for Cs contour control is
+abnormal.
+<1> When a high-resolution magnetic pulse coder is used with SPM
+
+TYPE2 (using both of the JY2 and JY5 connectors), the amplitude
+of the sensor signal on the high-resolution side (1000 to 3000 λ) of
+the high-resolution magnetic pulse coder on the JY5 side is
+excessively small.
+
+<2> When SPM TYPE4 is used, the amplitude of the spindle sensor
+(MZ sensor) built into the motor connected to JY5 is excessively
+small.
+
+Troubleshoot as in the case of alarm code 26.
+
+S
+P
+MSe
+
+ns
+or
+
+The cable is
+connected to the
+pin specified in the
+specifications on
+the sensor side.
+
+The cable is
+connected to
+pin 10 on the
+SPM side.
+
+Shielded cable
+
+Other sensors
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 157 -
+
+3.4.1.19 Alarm code 29
+
+An excessive load (standard setting: load meter reading of 9 V) has
+been applied continuously for a certain period (standard setting: 30
+seconds).
+
+(1) If this alarm is issued during cutting
+Check the load meter, and review the cutting condition.
+
+(2) If this alarm is issued during a stop
+(a) The spindle is locked.
+
+Check the sequence to see if the spindle is locked when a
+command for very slow movement is specified or orientation
+is specified for the spindle.
+
+(3) If the spindle does not rotate as specified (the spindle rotates at a
+very low speed) and this alarm is issued
+(a) The setting of a parameter is incorrect.
+
+Referring to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)," check the parameter for
+sensor setting.
+
+(b) The phase sequence of the motor power line is incorrect.
+(c) The feedback cable of the motor has a problem.
+
+Check if the phase A/B signals are connected correctly.
+(d) The feedback cable of the motor is faulty.
+
+Rotate the motor manually to see if a speed is indicated in the
+item of motor speed on the CNC diagnosis screen or on the
+spindle check board.  If no speed indication is provided,
+replace the cable or spindle sensor (or motor).
+
+(4) If the spindle does not rotate as specified (the spindle does not
+rotate at all) and this alarm is issued
+(a) The power line is abnormal.
+
+Check if the motor power line is connected normally.  If
+spindle switching or output switching is performed, check if
+the magnetic contactor is on.
+
+(b) The SPM is faulty.
+Replace the SPM.
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 158 -
+
+3.4.1.20 Alarm code 30
+
+An excessively large current is detected at the input of the 3-phase main
+circuit of the PSM.
+
+(1) If the PSM indicates alarm code 1
+Troubleshoot according to the description of alarm code 1
+provided in Section 3.1 of Part II.
+
+(2) If the PSM indicates no alarm
+(a) A cable is faulty.
+
+The connection cable between the PSM (JX1B) and SPM
+(JX1A) is faulty.  Replace the cable.
+
+(b) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+3.4.1.21 Alarm code 31
+
+The motor failed to rotate as specified, and has stopped or is rotating at
+a very low speed.
+
+(1) If the motor rotates at a very low speed and this alarm is issued
+(a) The setting of a parameter is incorrect.
+
+Referring to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)," check the parameter for
+sensor setting.
+
+(b) The motor phase sequence is incorrect.
+Check if the motor phase sequence is correct.
+
+(c) The feedback cable of the motor has a problem.
+Check if the phase A/B signals are connected correctly.
+
+(d) The feedback cable of the motor is faulty.
+Rotate the motor manually to see if a speed is indicated in the
+item of motor speed on the CNC diagnosis screen or on the
+spindle check board.  If no speed indication is provided,
+replace the cable or spindle sensor (or motor).
+
+(2) If the motor does not rotate at all and this alarm is issued
+(a) The sequence for locking the spindle is incorrect.
+
+Check the sequence to see if the spindle is locked.
+(b) The power line is faulty.
+
+Check if the power line is connected to the motor correctly.
+If spindle switching or winding switching is performed,
+check if the magnetic contactor is on.
+
+(c) The SPM is faulty.
+Replace the SPM.
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 159 -
+
+3.4.1.22 Alarm code 32
+
+LSI memory for serial communication is abnormal.  A check is made
+when the power is turned on.
+
+If this alarm is issued, replace the SPM or SPM control printed circuit
+board.
+
+3.4.1.23 Alarm code 33
+
+The PSM could not be charged within a specified time.
+PSM input has an open phase.
+
+(1) If the PSM indicates alarm code 5
+Troubleshoot according to the description of alarm code 5
+provided in Section 3.1 of Part II.
+
+(2) If the PSM indicates no alarm
+(a) A cable is faulty.
+
+The connection cable between the PSM (JX1B) and SPM
+(JX1A) is faulty.  Replace the cable.
+
+(b) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+3.4.1.24 Alarm code 34
+
+Parameter data outside the specifiable range was set.
+
+Troubleshooting when this alarm is issued
+Connect the spindle check board.
+The spindle check board displays "AL-34" and "F-xxx"
+alternately.  "F-xxx" indicates a parameter number outside the
+specifiable range.  For the correspondence between the CNC
+parameter numbers and "F-xxx," refer to "FANUC AC SPINDLE
+MOTOR α series Parameter Manual (B-65160E)."
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 160 -
+
+3.4.1.25 Alarm code 35
+
+The gear ratio set in a parameter exceeds the value range allowable for
+internal processing.  This alarm is issued with a parameter related to
+orientation of magnetic sensor type.
+
+Troubleshooting when this alarm is issued
+(a) The gear ratio set in a parameter is incorrect.
+
+Check if an excessively large gear ratio is set.
+
+FS0 FS15i FS16i/16, PM-D/F Description
+6556
+
+to
+6559
+
+3056
+to
+
+3059
+
+4056
+to
+
+4059
+
+Gear ratio between the spindle and
+motor
+
+6560
+to
+
+6563
+
+3060
+to
+
+3063
+
+4060
+to
+
+4063
+
+Position gain at orientation
+
+3.4.1.26 Alarm code 36
+
+The error counter overflowed.
+
+(1) The setting of a parameter is incorrect.
+(a) The gear ratio set in a parameter is incorrect.
+
+Check if an excessively large gear ratio is set.
+(b) The setting of a position gain is incorrect.
+
+If the gear ratio data is correct, increase the position gain.
+(c) The setting of a position detector mounting direction or the
+
+setting of spindle and motor rotation directions is incorrect.
+
+FS0 FS15i FS16i/16, PM-D/F Description
+6556
+
+to
+6559
+
+3056
+to
+
+3059
+
+4056
+to
+
+4059
+
+Gear ratio between the spindle and
+motor
+
+6565
+to
+
+6568
+
+3065
+to
+
+3068
+
+4065
+to
+
+4068
+
+Position gain in the servo
+mode/spindle synchronization
+
+6569
+to
+
+6572
+
+3069
+to
+
+3072
+
+4069
+to
+
+4072
+
+Position gain in Cs contour control
+
+(2) Sequence error
+(a) Check if the motor is deactivated (by turning off SFR/SRV)
+
+in a position control mode (rigid tapping, Cs contour control,
+or  spindle synchronization).
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 161 -
+
+3.4.1.27 Alarm code 37
+
+After emergency stop signal input, the motor is accelerated without
+being decelerated.  This alarm is issued also when the motor is not
+deactivated (the motor is not decelerated completely) when the
+acceleration/deceleration time (initial parameter setting: 10 seconds)
+has elapsed after emergency stop signal input.
+
+Troubleshooting when this alarm is issued
+(a) The parameter setting of the speed detector is incorrect.
+
+Referring to Chapter 1 in "FANUC AC SPINDLE MOTOR
+α series Parameter Manual (B-65160E)," set a correct time.
+
+(b) The parameter setting of an acceleration/deceleration time is
+not proper.
+Check the parameter-set value and actual acceleration/
+deceleration time, then set an actual acceleration/
+deceleration time plus some margin.
+
+FS0 FS15i FS16i/16, PM-D/F Description
+6582 3082 4082 Acceleration/deceleration time
+
+setting
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 162 -
+
+3.4.2 Alarm Code 39
+The position where the one-rotation signal for Cs contour control is
+generated is incorrect.  This alarm is not issued when the parameter
+indicated below is not set.
+<1> When SPM TYPE2 is used, phase A/B/Z on the high-resolution
+
+(1000 to 3000 λ) side of the high-resolution magnetic pulse coder
+on the spindle side has a problem.
+
+<2> When SPM TYPE4 is used, the spindle sensor connected to JY5 is
+faulty.
+Troubleshoot as in the case of alarm code 41.
+
+FS0 FS15i FS16i/16, PM-D/F Description
+6516#5 3016#5 4016#5 Whether the function for detecting
+
+the one-rotation signal of the
+detector for Cs contour control is
+provided
+1:  The function is provided.
+
+Troubleshooting when this alarm is issued (at the time of reference
+position return on the Cs axis)
+
+(a) The setting of a parameter is incorrect.
+Referring to Chapter 2 in "FANUC AC SPINDLE MOTOR
+α series Parameter Manual (B-65160E)," check the
+parameter for sensor setting.
+
+(b) The sensor is not adjusted correctly.
+Adjust the sensor according to Subsection 4.3.4 of Part I of
+this manual.  If the signal is not observed, replace the sensor.
+
+(c) The shielding of the cable between the preamplifier and
+SPM is faulty.
+Referring to Chapter 9, "Connection," in "FANUC SERVO
+AMPLIFIER α series Descriptions (B-65162E)," check the
+shielding of the cable.
+
+(d) The signal cable is bundled with the servo motor power line.
+If the cable between the preamplifier and SPM is bundled
+with the servo motor power line, separate them from each
+other.
+
+(e) Improve the cable routing between the motor and
+preamplifier.
+If the cables (including those within a terminal box)
+extending from the motor to the preamplifier are close to the
+power line, separate the cables from the power line.
+
+(f) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+S
+P
+MS
+
+en
+so
+
+r
+
+The cable is
+connected to the
+pin specified in the
+specifications on
+the sensor side.
+
+The cable is
+connected to
+pin 10 on the
+SPM side.
+
+Shielded cable
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 163 -
+
+3.4.2.1 Alarm code 40
+
+The one-rotation signal for Cs contour control is not generated.
+<1> When SPM TYPE2 is used, phase A/B/Z on the high-resolution
+
+(1000 to 3000 λ) side of the high-resolution magnetic pulse coder
+on the spindle side has a problem.
+
+<2> When SPM TYPE4 is used, the spindle sensor connected to JY5 is
+faulty.
+Troubleshoot as in the case of alarm code 42.
+
+Troubleshooting when this alarm is issued (at the time of reference
+position return on the Cs axis)
+
+(a) The setting of a parameter is incorrect.
+Referring to Chapter 2 in "FANUC AC SPINDLE MOTOR
+α series Parameter Manual (B-65160E)," check the
+parameter for sensor setting.
+
+(b) The sensor is not adjusted correctly.
+Adjust the sensor according to Subsection 4.3.4 of Part I of
+this manual.  If the signal is not observed, replace the sensor.
+
+(c) The cable is disconnected.
+Check the check pin PSD on the check board.  If the signal is
+not observed per sensor rotation, replace the cable.
+
+(d) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 164 -
+
+3.4.2.2 Alarm code 41
+
+<1> The position where the one-rotation signal of the α position coder
+is generated is incorrect.
+
+<2> The position where the one-rotation signal of the MZ sensor or BZ
+sensor is generated is incorrect.
+
+<3> The position where the one-rotation signal of α position coder S is
+generated is incorrect.
+
+(1) If orientation based on the external one-rotation method is used
+(a) The settings of parameters are incorrect.
+
+Check that the gear ratio data matches the specification of
+the machine.
+
+FS0 FS15 FS15i FS16i/16, PM-D/F Description
+6935
+6937
+
+3315
+3317
+
+3171
+3173
+
+4171
+4173
+
+Number of teeth on the spindle
+side
+
+6936
+6938
+
+3316
+3318
+
+3172
+3174
+
+4172
+4174
+
+Number of teeth on the position
+detector side
+
+(b) Slippage between the spindle and motor
+Check that there is no slippage between the spindle and
+motor.  Orientation based on the external one-rotation
+method is not applicable to V-belt connection.
+
+(2) Troubleshooting in other cases
+(a) The setting of a parameter is incorrect.
+
+Referring to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)," check the parameter for
+sensor setting.
+
+(b) A sensor (MZ sensor or BZ sensor) is not adjusted correctly.
+Adjust the sensor according to Subsection 4.3.4 of Part I of
+this manual.  If the signal is not observed, replace the sensor.
+
+(c) The α position coder is faulty.
+Check the check pin PSD on the spindle check board.  If the
+signal is not generated per rotation, replace the position
+coder.
+
+(d) The shielding of the cable between the sensor and SPM is
+faulty.
+Referring to Chapter 9, "Connection," in "FANUC SERVO
+AMPLIFIER α series Descriptions (B-65162E)," check the
+shielding of the cable.
+
+(e) The signal cable is bundled with the servo motor power line.
+If the cable between the sensor and SPM is bundled with the
+servo motor power line, separate them from each other.
+
+(f) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+S
+P
+MSe
+
+ns
+or
+
+The cable is
+connected to the
+pin specified in
+the specifications
+on the sensor
+side.
+
+The cable is
+connected to
+pin 10 on the
+SPM side.
+
+Shielded cable
+
+MZ or BZ sensor
+
+S
+P
+MSe
+
+ns
+or
+
+Connected to the frame
+ground via a cable clamp.
+
+Shielded cable
+
+α position coder
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 165 -
+
+3.4.2.3 Alarm code 42
+
+<1> The one-rotation signal of the α position coder is not generated.
+<2> The one-rotation signal of the MZ sensor or BZ sensor is not
+
+generated.
+<3> The one-rotation signal of α position coder S is not generated.
+
+Troubleshooting when this alarm is issued
+(a) The setting of a parameter is incorrect.
+
+Referring to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)," check the parameter for
+sensor setting.
+
+(b) The MZ sensor or BZ sensor is not adjusted correctly.
+Adjust the sensor according to Subsection 4.3.4 of Part I of
+this manual.  If the sensor cannot be adjusted or the signal is
+not observed, replace the connection cable and sensor.
+
+(c) The α position coder is faulty.
+Check the check pin PSD on the spindle check board.  If the
+signal is not generated per rotation, replace the connection
+cable and position coder.
+
+(d) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+3.4.2.4 Alarm code 43
+
+The position coder signal of the spindle on the mater side used in the
+differential speed mode is disconnected.
+
+Troubleshoot as in the case of alarm code 27.
+
+3.4.2.5 Alarm code 44
+
+An error occurred in the A/D converter.
+
+When this alarm is issued, replace the SPM or SPM control printed
+circuit board.
+
+3.4.2.6 Alarm code 46
+
+The one-rotation signal of the position coder cannot be detected
+normally during thread cutting.
+
+Troubleshoot as in the case of alarm code 41.
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 166 -
+
+3.4.2.7 Alarm code 47
+
+<1> The count value of α position coder signal pulses is abnormal.
+<2> The pulse count value of the MZ sensor or BZ sensor is abnormal.
+
+Phases A and B for the position coder have a feedback pulse count of
+4096 p/rev per spindle rotation.  The SPM checks the pulse counts of
+phases A and B equivalent to the position coder each time a one-
+rotation signal is generated.  The alarm is issued when a pulse count
+beyond the specified range is detected.
+
+(1) If this alarm is issued when the cable is moved (as in the case
+where the spindle moves)
+(a) The connector has a bad contact, or the cable is
+
+disconnected.
+The conductor may be broken.  Replace the cable.  If coolant
+has penetrated into the connector, clean the connector.
+
+(2) Troubleshooting in other cases
+(a) The setting of a parameter is incorrect.
+
+Referring to "FANUC AC SPINDLE MOTOR α series
+Parameter Manual (B-65160E)," check the parameter for
+sensor setting.
+
+(b) A sensor (MZ sensor or BZ sensor) is not adjusted correctly.
+Adjust the sensor according to Subsection 4.3.4 of Part I of
+this manual.
+
+(c) The shielding of the cable between the sensor and SPM is
+faulty.
+Referring to Chapter 9, "Connection," in "FANUC SERVO
+AMPLIFIER α series Descriptions (B-65162E)," check the
+shielding of the cable.
+
+(d) The signal cable is bundled with the servo motor power line.
+If the cable between the sensor and SPM is bundled with the
+servo motor power line, separate them from each other.
+
+(e) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+S
+P
+MSe
+
+ns
+or
+
+The cable is
+connected to the
+pin specified in
+the specifications
+on the sensor
+side.
+
+The cable is
+connected to
+pin 10 on the
+SPM side.
+
+Shielded cable
+
+MZ or BZ sensor
+
+S
+P
+MSe
+
+ns
+or
+
+Connected to the frame
+ground via a cable clamp.
+
+Shielded cable
+
+α position coder
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 167 -
+
+3.4.2.8 Alarm code 49
+
+In the differential speed mode, the spindle speed on the master side
+(remote) converted to a motor speed on the slave side (local) exceeded
+the maximum allowable speed of the motor.
+
+Troubleshooting when this alarm is issued
+A differential speed is calculated by multiplying the speed on the
+target speed by a gear ratio.
+Ensure that the maximum allowable speed of the motor is not
+exceeded.
+
+3.4.2.9 Alarm code 50
+
+A value obtained by internal calculation in spindle synchronization
+exceeded the allowable range.
+
+Troubleshooting when this alarm is issued
+(a) The setting of parameters for gear ratio setting is incorrect.
+
+Check if an excessively large gear ratio is set.
+(b) Position gain setting limit
+
+If correct gear ratio data is set, increase the position gain
+value in spindle synchronization.
+
+FS0 FS15i FS16i/16, PM-D/F Description
+6556
+
+to
+6559
+
+3056
+to
+
+3059
+
+4056
+to
+
+4059
+
+Gear ratio between the spindle and
+motor
+
+6565
+to
+
+6568
+
+3065
+to
+
+3068
+
+4065
+to
+
+4068
+
+Position gain in the servo
+mode/spindle synchronization
+
+3.4.2.10 Alarm code 51
+
+The PSM detected that the DC link voltage was excessively low.
+
+(1) If the PSM indicates alarm code 4
+Troubleshoot according to the description of alarm code 4
+provided in Section 3.1 of Part II.
+
+(2) If the PSM indicates no alarm
+(a) A cable is faulty.
+
+The connection cable between the PSM (JX1B) and SPM
+(JX1A) is faulty.  Replace the cable.
+
+(b) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 168 -
+
+3.4.2.11 Alarm codes 52 and 53
+
+The synchronization signal (ITP) in communication data transferred to
+and from the CNC stopped.
+
+Troubleshooting when this alarm is issued
+(a) The SPM is faulty.
+
+Replace the SPM or SPM control printed circuit board.
+(b) The CNC is faulty.
+
+Replace the board or module related to the serial spindle.
+
+3.4.2.12 Alarm code 54
+
+A large current flowing in the motor for a long time was detected.
+
+Troubleshoot as in the case of alarm code 29.
+
+3.4.2.13 Alarm code 55
+
+In spindle switching control or output switching control, a mismatch
+between the switching request signal (SPSL or RSL) and the power line
+state check signal (MCFN, MFNHG, RCH, or RCHHG) continues
+during motor activation.
+
+Troubleshooting when this alarm is issued
+(a) The magnetic contactor (switch unit) for power line
+
+switching is faulty.
+If the contact is inoperative, check the power supply of the
+magnetic contactor.  If the magnetic contactor is still
+inoperative, replace the magnetic contactor.
+
+(b) The I/O unit or wiring for checking the contact of the
+magnetic contactor is faulty.
+If a defect is found in the I/O unit or wiring, replace the I/O
+unit or wiring.
+
+(c) The sequence (ladder) is incorrect.
+Modify the sequence so that switching is not performed
+during activation.  For details of the signals, refer to Chapter
+10, "Interface Signals," in "FANUC SERVO AMPLIFIER α
+series Descriptions (B-65162E)."
+
+
+
+3. TROUBLESHOOTING
+B-65165E/02 TROUBLESHOOTING                     AND ACTION              
+
+- 169 -
+
+3.4.2.14 Alarm code 56
+
+The cooling fan of the control circuit stopped.
+
+When this alarm is issued, replace the SPM or the internal cooling
+fan of the SPM.  When replacing the internal cooling fan, see
+Chapter 4.
+
+3.4.2.15 Alarm code 57
+
+The temperature of the regenerative resistance of the PSM (resistance
+regenerative type) is excessively high.  The PSM is faulty.
+
+(1) If the PSM indicates alarm code 8 or above
+Troubleshoot according to the description of alarm code 8 (or the
+pertinent code) provided in Section 3.1 of Part II.
+
+(2) If the PSM indicates no alarm
+(a) A cable is faulty.
+
+The connection cable between the PSM (JX1B) and SPM
+(JX1A) is faulty.  Replace the cable.
+
+(b) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+3.4.2.16 Alarm code 58
+
+The temperature of the main circuit-cooling fan of the PSM is
+abnormally high.
+
+(1) If the PSM indicates alarm code 3
+Troubleshoot according to the description of alarm code 3
+provided in Section 3.1 of Part II.
+
+(2) If the PSM indicates no alarm
+(a) A cable is faulty.
+
+The connection cable between the PSM (JX1B) and SPM
+(JX1A) is faulty.  Replace the cable.
+
+(b) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+
+
+3. TROUBLESHOOTING
+    AND ACTION TROUBLESHOOTING B-65165E/02
+
+- 170 -
+
+3.4.2.17 Alarm code 59
+
+The internal cooling fan of the PSM stopped.
+
+(1) If the PSM indicates alarm code 2
+Troubleshoot according to the description of alarm code 2
+provided in Section 3.1 of Part II.
+
+(2) If the PSM indicates no alarm
+(a) A cable is faulty.
+
+The connection cable between the PSM (JX1B) and SPM
+(JX1A) is faulty.  Replace the cable.
+
+(b) The SPM is faulty.
+Replace the SPM or SPM control printed circuit board.
+
+

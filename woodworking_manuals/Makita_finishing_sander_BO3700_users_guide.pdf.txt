@@ -1,0 +1,935 @@
+
+I N S T R U C T I O N  M A N U A L
+
+WARNING:
+For your personal safety, READ and UNDERSTAND before using.
+SAVE THESE INSTRUCTIONS FOR FUTURE REFERENCE.
+
+w w w . m a k i t a t o o l s . c o m
+
+Finishing Sander
+MODEL BO3700
+
+003271
+
+DOUBLE
+INSULATION
+
+
+
+2
+
+SPECIFICATIONS
+
+• Manufacturer reserves the right to change specifications without notice.
+
+• Specifications may differ from country to country.
+
+GENERAL SAFETY RULES USA002-2
+
+(For All Tools)
+
+WARNING:
+Read and understand all instructions. Failure to follow all
+instructions listed below, may result in electric shock, fire and/or
+serious personal injury.
+
+SAVE THESE INSTRUCTIONS
+Work Area
+
+1. Keep your work area clean and well lit.
+Cluttered benches and dark areas invite acci-
+dents.
+
+2. Do not operate power tools in explosive
+atmospheres, such as in the presence of
+flammable liquids, gases, or dust. Power
+tools create sparks which may ignite the dust
+or fumes.
+
+3. Keep bystanders, children, and visitors
+away while operating a power tool. Distrac-
+tions can cause you to lose control.
+
+Electrical Safety
+
+4. Double insulated tools are equipped with
+a polarized plug (one blade is wider than
+the other.) This plug will fit in a polarized
+outlet only one way. If the plug does not fit
+fully in the outlet, reverse the plug. If it
+still does not fit, contact a qualified elec-
+trician to install a polarized outlet. Do not
+change the plug in any way. Double insula-
+
+tion  eliminates the need for the three wire
+grounded power cord and grounded power
+supply system.
+
+5. Avoid body contact with grounded sur-
+faces such as pipes, radiators, ranges and
+refrigerators. There is an increased risk of
+electric shock if your body is grounded.
+
+Model BO3700
+
+Pad size 93 mm x 185 mm (3 - 5/8” x 7 - 1/4”)
+
+Orbits per minute 10,000
+
+Overall length 254 mm (10”)
+
+Net weight 1.4 kg (3.1 lbs)
+
+
+
+3
+
+6. Do not expose power tools to rain or wet
+conditions. Water entering a power tool will
+increase the risk of electric shock.
+
+7. Do not abuse the cord. Never use the cord
+to carry the tools or pull the plug from an
+outlet. Keep cord away from heat, oil,
+sharp edges or moving parts. Replace
+damaged cords immediately. Damaged
+cords increase the risk of electric shock.
+
+8. When operating a power tool outside, use
+an outdoor extension cord marked “W-A”
+or “W”. These cords are rated for outdoor
+use and reduce the risk of electric shock.
+
+Personal Safety
+
+9. Stay alert, watch what you are doing and
+use common sense when operating a
+power tool. Do not use tool while tired or
+under the influence of drugs, alcohol, or
+medication. A moment of inattention while
+operating power tools may result in serious
+personal injury.
+
+10. Dress properly. Do not wear loose cloth-
+ing or jewelry. Contain long hair. Keep
+your hair, clothing, and gloves away from
+moving parts. Loose clothes, jewelry, or long
+hair can be caught in moving parts.
+
+11. Avoid accidental starting. Be sure switch
+is off before plugging in. Carrying tools with
+your finger on the switch or plugging in tools
+that have the switch on invites accidents.
+
+12. Remove adjusting keys or wrenches
+before turning the tool on. A wrench or a
+key that is left attached to a rotating part of
+the tool may result in personal injury.
+
+13. Do not overreach. Keep proper footing
+and balance at all times. Proper footing and
+balance enables better control of the tool in
+unexpected situations.
+
+14. Use safety equipment. Always wear eye
+protection. Dust mask, non-skid safety
+shoes, hard hat, or hearing protection must
+be used for appropriate conditions. Ordinary
+eye or sun glasses are NOT eye protection.
+
+Tool Use and Care
+
+15. Use clamps or other practical way to
+secure and support the workpiece to a
+stable platform. Holding the work by hand or
+against your body is unstable and may lead
+to loss of control.
+
+16. Do not force tool. Use the correct tool for
+your application. The correct tool will do the
+job better and safer at the rate for which it is
+designed.
+
+17. Do not use tool if switch does not turn it
+on or off. Any tool that cannot be controlled
+with the switch is dangerous and must be
+repaired.
+
+18. Disconnect the plug from the power
+source before making any adjustments,
+changing accessories, or storing the tool.
+Such preventive safety measures reduce the
+risk of starting the tool accidentally.
+
+19. Store idle tools out of reach of children
+and other untrained persons. Tools are
+dangerous in the hands of untrained users.
+
+20. Maintain tools with care. Keep cutting
+tools sharp and clean. Properly maintained
+tools with sharp cutting edges are less likely
+to bind and are easier to control.
+
+21. Check for misalignment or binding of
+moving parts, breakage of parts, and any
+other condition that may affect the tools
+operation. If damaged, have the tool ser-
+viced before using. Many accidents are
+caused by poorly maintained tools.
+
+22. Use only accessories that are recom-
+mended by the manufacturer for your
+model. Accessories that may be suitable for
+one tool, may become hazardous when used
+on another tool.
+
+SERVICE
+
+23. Tool service must be performed only by
+qualified repair personnel. Service or main-
+tenance performed by unqualified personnel
+could result in a risk of injury.
+
+
+
+4
+
+24. When servicing a tool, use only identical
+replacement parts. Follow instructions in
+the Maintenance section of this manual.
+
+Use of unauthorized parts or failure to follow
+Maintenance instructions may create a risk of
+electric shock or injury.
+
+USE PROPER EXTENSION CORD: Make sure your extension cord is in good condition.
+When using an extension cord, be sure to use one heavy enough to carry the current your
+product will draw. An undersized cord will cause a drop in line voltage resulting in loss of
+power and overheating. Table 1 shows the correct size to use depending on cord length and
+nameplate ampere rating. If in doubt, use the next heavier gage. The smaller the gage num-
+ber, the heavier the cord.
+
+SPECIFIC SAFETY RULES USB040-4
+
+DO NOT let comfort or familiarity with product (gained from
+repeated use) replace strict adherence to sander safety rules. If
+you use this tool unsafely or incorrectly, you can suffer serious
+personal injury.
+1. Hold tool by insulated gripping surfaces
+
+when performing an operation where the
+cutting tool may contact hidden wiring or
+its own cord. Contact with a “live” wire
+will make exposed metal parts of the tool
+“live” and shock the operator.
+
+2. Always use safety glasses or goggles.
+Ordinary eye or sun glasses are NOT
+safety glasses.
+
+3. Hold the tool firmly.
+
+4. Do not leave the tool running. Operate the
+tool only when hand-held.
+
+5. This tool has not been waterproofed, so
+do not use water on the workpiece sur-
+face.
+
+6. Ventilate your work area adequately when
+you perform sanding operations.
+
+7. Use of this tool to sand some products,
+paints and wood could expose user to
+dust containing hazardous substances.
+Use appropriate respiratory protection.
+
+Table 1: Minimum gage for cord
+
+Ampere Rating
+Volts Total length of cord in feet
+120 V 25 ft. 50 ft. 100 ft. 150 ft.
+
+More Than Not More Than AWG
+
+0 6 18 16 16 14
+6 10 18 16 14 12
+
+10 12 16 16 14 12
+12 16 14 12 Not Recommended
+
+
+
+5
+
+SAVE THESE INSTRUCTIONS
+
+WARNING:
+MISUSE or failure to follow the safety rules stated in this
+instruction manual may cause serious personal injury.
+
+SYMBOLS USD205-1
+The followings show the symbols used for tool.
+
+V ....................... volts
+
+A ....................... amperes
+
+Hz ..................... hertz
+
+................alternating current
+
+....................no load speed
+
+....................Class II Construction
+
+.../min................orbits per minute
+
+n
+˚
+
+
+
+6
+
+FUNCTIONAL 
+DESCRIPTION
+
+CAUTION:
+• Always be sure that the tool is switched off and
+
+unplugged before adjusting or checking function on the
+tool.
+
+Switch action
+
+CAUTION:
+• Before plugging in the tool, always check to see that the
+
+switch trigger actuates properly and returns to the “OFF”
+position when released.
+
+• Switch can be locked in “ON” position for ease of
+operator comfort during extended use. Apply caution
+when locking tool in “ON” position and maintain firm
+grasp on tool.
+
+To start the tool, simply pull the switch trigger. Release the
+switch trigger to stop.
+For continuous operation, pull the switch trigger and then
+push in the lock button.
+To stop the tool from the locked position, pull the switch trig-
+ger fully, then release it.
+
+ASSEMBLY
+CAUTION:
+
+• Always be sure that the tool is switched off and
+unplugged before carrying out any work on the tool.
+
+Installing or removing abrasive paper
+
+For conventional type of abrasive paper with pre-
+punched holes (standard equipment):
+
+Press the clamper. Insert the paper end into the clamper,
+aligning the holes in the paper with those in the pad. Then
+release the clamper to secure the paper. Repeat the same
+process for the other end of the base, maintaining the proper
+paper tension.
+
+1. Lock button
+2. Switch trigger
+
+1
+
+2
+
+003281
+
+1. Clamper
+2. Abrasive paper with pre-punched 
+
+holes
+
+1
+
+2
+
+003308
+
+
+
+7
+
+For conventional type of abrasive paper without pre-
+punched holes (available on the market):
+
+Press the clamper. Insert the paper end into the clamper,
+aligning the paper edges even and parallel with the sides of
+the base. Then release the clamper to secure the paper.
+Repeat the same process for the other end of the base,
+maintaining the proper paper tension.
+Place the punch plate (optional accessory) over the paper so
+that the guide of the punch plate is flush with the sides of the
+base. Then press the punch plate to make holes in the paper.
+
+For hook-and-loop type of abrasive paper with pre-
+punched holes (optional accessory):
+
+Remove the pad for the conventional type of abrasive paper
+from the tool with a screwdriver. Install the pad for the hook-
+and-loop type of abrasive paper (optional accessory) on the
+tool. Tighten the screws firmly to secure the pad.
+
+Remove all dirt or foreign matter from the pad. Attach the
+paper to the pad, aligning the holes in the paper with those in
+the pad.
+
+CAUTION:
+• Always use hook-and-loop type of abrasive papers.
+
+Never use pressure-sensitive abrasive paper.
+
+Dust bag
+Attach the dust bag onto the dust spout. The dust spout is
+tapered. When attaching the dust bag, push it onto the dust
+spout firmly as far as it will go to prevent it from coming off
+during operation.
+
+For the best results, empty the dust bag when it becomes
+approximately half full, tapping it lightly to remove as much
+dust as possible.
+
+1. Abrasive paper without pre-
+punched holes
+
+2. Punch plate
+
+1
+
+2
+
+003310
+
+1. Screws
+2. Screwdriver
+3. Pad
+
+1
+2
+
+3
+
+003312
+
+1. Hook-and-loop type of abrasive 
+paper with pre-punched holes
+
+2. Pad
+
+1
+
+2
+
+003313
+
+1. Dust spout
+2. Dust bag
+
+1
+
+2
+
+003318
+
+
+
+8
+
+NOTE:
+
+• If you connect a Makita vacuum cleaner to this tool,
+more efficient and cleaner operations can be performed.
+
+OPERATION
+Sanding operation
+
+CAUTION:
+• Never run the tool without the abrasive paper. You may
+
+seriously damage the pad.
+
+• Never force the tool. Excessive pressure may decrease
+the sanding efficiency, damage the abrasive paper or
+shorten tool life.
+
+Hold the tool firmly. Turn the tool on and wait until it attains
+full speed. Then gently place the tool on the workpiece sur-
+face. Keep the pad flush with the workpiece and apply slight
+pressure on the tool.
+
+MAINTENANCE
+CAUTION:
+
+• Always be sure that the tool is switched off and
+unplugged before attempting to perform inspection or
+maintenance.
+
+To maintain product SAFETY and RELIABILITY, repairs, car-
+bon brush inspection and replacement, any other mainte-
+nance or adjustment should be performed by Makita
+Authorized or Factory Service Centers, always using Makita
+replacement parts.
+
+003332
+
+
+
+9
+
+ACCESSORIES
+CAUTION:
+
+• These accessories or attachments are recommended for
+use with your Makita tool specified in this manual. The
+use of any other accessories or attachments might
+present a risk of injury to persons. Only use accessory
+or attachment for its stated purpose.
+
+If you need any assistance for more details regarding these
+accessories, ask your local Makita service center.
+
+• Abrasive papers (with pre-punched holes)
+
+• Abrasive papers (without pre-punched holes)
+
+• Hook-and-loop type abrasive papers (with pre-punched
+holes)
+
+• Punch plate
+
+• Backing pad (for use with hook-and-loop abrasive paper)
+
+• Dust bag
+
+
+
+Memo
+
+10
+
+
+
+Memo
+
+11
+
+
+
+Memo
+
+12
+
+
+
+13
+
+First-Class
+Postage
+Required
+
+Post Office will
+not deliver
+
+without proper
+postage.
+
+Makita U.S.A., Inc.
+14930 Northam Street
+La Mirada, CA 90638-5753
+
+Fold
+
+C
+ut
+
+
+
+14
+
+1. This product was purchased from:
+
+Home Center
+
+Hardware/Lumber Store
+
+Tool Distributor
+
+Industrial Supply
+
+Construction Supply
+
+Other (                     )
+
+3. How did you learn about this product:
+
+Magazine
+
+From Dealer
+
+Newspaper
+
+Store Display
+
+Catalog
+
+Radio
+
+Exhibition
+
+From Friend
+
+Previous Usage
+
+Other (                     )
+
+2. Use of the product is intended for:
+
+Construction Trade
+
+Industrial Maintenance
+
+Home Maintenance
+
+Hobby
+
+Other (                     )
+
+4. Most favored points are:
+
+Repair Service
+
+Durability
+
+Power
+
+Other (                     )
+
+Design
+
+Features
+
+Size
+
+Price
+
+Makita Brand
+
+5. Any comments:
+
+MAIL THIS PORTION
+Your answers to the following questions are appreciated.
+
+BE SURE TO COMPLETE THE CUSTOMER’S PORTION OF THIS FORM AND RETAIN FOR YOUR RECORDS.
+
+DATE PURCHASED MODEL NO.
+
+SERIAL NO.
+
+INTL. LAST NAME / COMPANY NAME
+
+STREET ADRESS
+
+CITY
+
+STATE
+
+AGE:
+
+ZIP CODE PHONE
+
+AREA
+CODE
+
+STATUS
+Married
+
+SEX
+M FSingle
+
+MONTH DAY YEAR
+
+Under 19 20-29 30-39 40-49 50-60 Over 60
+
+Please return this portion by facsimile or mail.
+Facsimile No: (714) 522-8133
+
+Paste Paste Paste Paste Paste Paste Paste Paste
+
+P
+as
+
+te
+P
+
+as
+te
+
+P
+as
+
+te
+P
+
+as
+te
+
+P
+as
+
+te
+P
+
+as
+te
+
+P
+as
+
+te
+P
+
+as
+te
+
+P
+as
+
+te
+P
+
+as
+te
+
+P
+as
+
+te
+P
+
+as
+te
+
+
+
+15
+
+FACTORY SERVICE CENTERS
+1-800-4-MAKITA
+
+RETAIN THIS PORTION FOR YOUR RECORDS
+
+ARIZONA
+3707 E. Broadway Rd., Ste. 6 
+Phoenix, AZ 85040 
+(602) 437-2850
+
+CALIFORNIA
+41850 Christy St. 
+Fremont, CA 94538-5107 
+(510) 657-9881
+
+14930 Northam St. 
+La Mirada, CA 90638-5753 
+(714) 522-8088
+
+1970 Fulton Avenue 
+Sacramento, CA 95825 
+(916) 482-5197
+
+7674 Clairemont Mesa Blvd. 
+San Diego, CA 92111 
+(858) 278-4471
+
+16735 Saticoy St., Ste. 105 
+Van Nuys, CA 91406 
+(818) 782-2440
+
+COLORADO
+11839 E. 51st Ave. 
+Denver, CO 80239-2709
+(303) 371-2850
+
+FLORIDA
+750 East Sample Road
+Pompano Beach, FL 33064
+(954) 781-6333
+
+GEORGIA
+4680 River Green Parkway NW 
+Duluth, GA 30096
+(770) 476-8911
+
+ILLINOIS
+1450 Feehanville Dr.
+Mt. Prospect, IL 60056-6011
+(847) 297-3100
+
+MARYLAND
+7397 Washington Boulevard,
+Suite 104 Elkridge, MD 21075
+(410) 796-4401
+
+MASSACHUSETTS
+232 Providence Hwy.
+Westwood, MA 02090
+(781) 461-9754
+
+MINNESOTA
+6427 Penn Ave. South 
+Richfield, MN 55423 
+(612) 869-5199
+
+MISSOURI
+9876 Watson Road 
+St. Louis, MO 63126-2221 
+(314) 909-9889
+
+NEBRASKA
+4129 S. 84th St. 
+Omaha, NE 68127 
+(402) 597-2925
+
+NEVADA
+3375 S. Decatur Blvd. 
+Suites. 22 - 24 
+Las Vegas, NV 89102 
+(702) 368-4277
+
+NEW JERSEY
+251 Herrod Blvd. 
+Dayton, NJ 08810-1539 
+(609) 655-1212
+
+NEW YORK
+4917 Genessee Street 
+Cheektowaga, NY 14225 
+(716) 685-9503
+
+OREGON
+828 19th Avenue, N.W. 
+Portland, OR 97209 
+(503) 222-1823
+
+PENNSYLVANIA
+1704 Babcock Blvd. 
+Pittsburgh, PA 15209
+(412) 822-7370
+
+PUERTO RICO
+200 Guayama St. 
+Hato Rey, PR 00917 
+(787) 250-8776
+
+TENNESSEE 
+1120 Elm Hill P.
+Suile 170 Nashville, TN 372
+(615) 248-3321
+
+TEXAS
+12801 Stemmons Fwy Ste. 809 
+Farmers Branch, TX 75234
+(972) 243-1150
+
+12701 Directors Dr. 
+Stafford, TX 77477-3701 
+(281) 565-8665
+
+3453 IH-35 North, Ste. 101
+San Antonio, TX 78219
+(210) 228-0676
+
+WISCONSIN
+Lincoln Plaza Shopping Ctr. 
+2245 S. 108th St. West Allis, WI 
+53227 
+(414) 541-4776 
+
+CUSTOMER’S RECORD
+
+When you need service: Send
+complete tool (prepaid) to one
+of the Makita Factory Service
+Centers listed, or to an Authorized
+Makita Service Center. Be sure
+to attach a letter to the outside of
+the carton detailing the problem
+with your tool.
+
+Date Purchased
+
+Dealer’s Name & Address
+
+Model No.
+
+Serial No.
+
+
+
+WARNING
+Some dust created by power sanding, sawing, grinding, drilling, and other
+construction activities contains chemicals known to the State of California
+to cause cancer, birth defects or other reproductive harm. Some examples
+of these chemicals are:
+• lead from lead-based paints, 
+• crystalline silica from bricks and cement and other masonry products, and
+• arsenic and chromium from chemically-treated lumber.
+
+Your risk from these exposures varies, depending on how often you do this
+type of work.  To reduce your exposure to these chemicals: work in a well
+ventilated area, and work with approved safety equipment, such as those
+dust masks that are specially designed to filter out microscopic particles.  
+
+MAKITA LIMITED ONE YEAR WARRANTY
+Warranty Policy
+
+Every Makita tool is thoroughly inspected and tested before leaving the factory.  It is warranted to be free of 
+defects from workmanship and materials for the period of ONE YEAR from the date of original purchase.  
+Should any trouble develop during this one year period, return the COMPLETE tool, freight prepaid, to one of 
+Makita’s Factory or Authorized Service Centers. If inspection shows the trouble is caused by defective 
+workmanship or material, Makita will repair (or at our option, replace) without charge.
+
+This Warranty does not apply where:
+
+• repairs have been made or attempted by others:
+
+• repairs are required because of normal wear and tear:
+
+• the tool has been abused, misused or improperly maintained:
+
+• alterations have been made to the tool.
+
+IN NO EVENT SHALL MAKITA BE LIABLE FOR ANY INDIRECT, INCIDENTAL OR CONSEQUENTIAL 
+DAMAGES FROM THE SALE OR USE OF THE PRODUCT.  THIS DISCLAIMER APPLIES BOTH DURING 
+AND AFTER THE TERM OF THIS WARRANTY.
+
+MAKITA DISCLAIMS LIABILITY FOR ANY IMPLIED WARRANTIES, INCLUDING IMPLIED WARRANTIES OF 
+“MERCHANTABILITY” AND “FITNESS FOR A SPECIFIC PURPOSE,” AFTER THE ONE YEAR TERM OF THIS 
+WARRANTY.
+
+This Warranty gives you specific legal rights, and you may also have other rights which vary from state to state.  
+Some states do not allow the exclusion or limitation of incidental or consequential damages, so the above 
+limitation or exclusion may not apply to you.  Some states do not allow limitation on how long an implied 
+warranty lasts, so the above limitation may not apply to you.
+
+Makita Corporation
+Anjo, Aichi, Japan
+
+Made in China
+Nan Zi Road, Kunshan Export Processing Zone Jiangsu, P.R. China
+
+884274C061
+
+

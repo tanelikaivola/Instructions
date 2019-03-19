@@ -1,0 +1,3296 @@
+
+ 
+
+ 
+ 
+
+Mx1100 UMI Serial BTR 
+
+Installation & User’s Manual 
+ 
+
+For Fanuc Tape Readers 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Copyright © 2013 All rights reserved. 
+ 
+
+Memex Automation Inc. 
+200 – 3425 Harvester Rd., 
+
+Burlington, Ontario 
+Canada L7N 3N1
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+       
+ 
+
+Mx1100 UMI Serial Fanuc BTR 
+
+
+
+    Contents _III 
+
+Table of Contents 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Introduction............................................................................VII 
+
+ About This Manual............................................................VII 
+
+ History of the BTR............................................................VII 
+
+Installation Instructions......................................................... 1 
+
+ Package Contents........................................................…...1 
+
+ Installing the Mx1100 UMI BTR...................................... 2 
+
+ Operating The BTR........................................................... 5 
+
+ Layout Diagram of the Mx1100 UMI Serial BTR............ 6 
+
+Reference................................................................................. 7 
+
+ General Troubleshooting................................................... 7 
+
+ Memex Technical Support & Service............................. 11 
+
+ User’s Notes.................................................................... 12 
+
+Glossary................................................................................. 13 
+
+Appendix A: Configuration & Settings………………….. 17 
+
+ DNC Software Configuration Information...................... 17 
+
+ Mx1100 Option Jumper Settings..................................... 17 
+
+ Mx1100 Serial Port Pin Configuration............................ 18 
+
+ Serial Data Cable Configurations.................................... 18 
+
+Appendix B: ASCII Code Reference Table........................ 19
+
+
+
+    Contents _IV 
+
+
+
+Introduction_ V 
+
+Introduction 
+ 
+
+Thank you for purchasing the Mx1100 UMI (Universal Machine 
+
+Interface) BTR. At Memex we invest a great deal of effort in the 
+
+design, manufacture and testing of each unit we build, and back it 
+
+with a three-year limited warranty. We are confident you will find 
+
+the Mx1100 an important component of your shop floor 
+
+communications system. 
+
+ 
+
+About this Manual 
+
+ 
+
+This manual explains how to install and operate the Mx1100, and 
+
+consists of the following sections: 
+
+ 
+
+Installation Instructions explains how to install the 
+
+Mx1100 UMI BTR interface board. 
+
+ 
+
+Reference contains a troubleshooting section, notes area 
+
+and contact information for customer service and technical 
+
+support. 
+
+ 
+
+Appendix A, Configuration & Settings provides 
+
+information for software (DNC) configuration, BTR jumper 
+
+settings and serial cable configuration (“pin-out”) charts. 
+
+ 
+
+Appendix B, ASCII Table lists ASCII values in both 
+
+Decimal and Hex formats, their corresponding symbol, and 
+
+keyboard key where applicable. This may be helpful in 
+
+configuring DNC software in some cases. 
+
+ 
+
+ 
+
+The History of the BTR 
+
+ 
+
+The “Behind the Tape Reader” board, or BTR as it is commonly 
+
+called, is an electronic signal processor designed to emulate the 
+
+function of a paper Tape Reader and provide an RS232 serial port as 
+
+an alternate method of data entry to an NC or CNC control. RS232 is 
+
+an international standard for electronic communications, and is a 
+
+faster and more reliable means of data input than using punch tape or 
+
+Manual Data Input (MDI). Originally, the only one way that a part 
+
+program (the “G-code”) could be entered into a machine tool was 
+
+through MDI mode, which allowed the program to be input using a 
+
+keypad at the control. The MDI process was fine for small programs, 
+
+but it was time consuming and error prone for longer programs. It 
+
+
+
+Introduction_ VI 
+
+took time to set up and to prove the MDI code before operation could 
+
+commence. Machine flexibility was low, since each new program 
+
+required time to input. With all the wasted time and lack of 
+
+flexibility, it was not very long before someone invented an alternate 
+
+form of control input, the paper Tape Reader. 
+
+ 
+
+The paper Tape Reader provided a faster, more reliable form of data 
+
+input to the numerical control. However, these Tape Readers were 
+
+mechanical in nature, and required regular maintenance and care to 
+
+perform properly. Tape Readers allowed data and programs that were 
+
+punched out on a paper tape to be read in by the control at a rate of 
+
+approximately 300 to 400 characters per second. A few problems 
+
+inherent in the Tape Reader are: it has limited ability to accept 
+
+commands and inform the operator of problems and status; it is prone 
+
+to mechanical problems; it requires cleaning, lubrication and other 
+
+maintenance; it has a limited capacity of 1000 feet (305 metres) of 
+
+tape. It was commonly suggested that a busy shop keep a spare 
+
+reader in inventory in preparation for the time when one broke down. 
+
+ 
+
+ 
+ 
+
+The process of punching data tapes (whether paper, Mylar or metal) 
+
+was expensive, time-consuming and brought up storage concerns. 
+
+Because of the absolute nature of a punched tape, the process had to 
+
+be redone for every program revision. The programmer and operator 
+
+had to work closely together to keep the tape accurate and up to date. 
+
+Old tapes had to be filed or destroyed and the latest version had to be 
+
+carefully marked and stored. Finally, the tape itself had to be handled 
+
+with care since it was prone to damage.  
+
+  
+
+Later machine controls had a new mode of operation that allowed 
+
+their Tape Reader’s “endless” spool of tape to surmount memory 
+
+constraints. Originating on Numerical Controls (NC) that had no 
+
+memory, Direct Numeric Control (DNC) allowed execution of a 
+
+program while it was being read. This “drip-feed” method meant that 
+
+the program was limited in size only by the length of tape used. This 
+
+
+
+Introduction_ VII 
+
+type of operation was very much appreciated later on with the advent 
+
+of Computerized Numeric Controls (CNC). 
+
+ 
+
+With true onboard memory the CNC had much greater capabilities 
+
+and inevitably programs got longer and the need for more memory 
+
+grew. With control memory being expensive and limited, DNC has 
+
+remained the only way some modern manufacturers can operate. 
+
+Tape Readers are still commonplace on modern controls today. 
+
+However, thanks to serial DNC capabilities, many shops use Tape 
+
+Readers for backup purposes only. 
+
+ 
+
+The modern equivalent of a Tape Reader is the BTR interface board, 
+
+which emulates paper Tape Readers. The Mx1100 UMI BTR is a 
+
+microcontroller-based interface board that allows communications 
+
+with a machine control for the purposes of loading programs into 
+
+memory or running DNC. BTRs generally connect to a computer and 
+
+permit a programmer to send a complete, formatted program to the 
+
+machine control. The machine then loads the program as if from 
+
+tape, either to memory for later execution, or for immediate block-
+
+by-block execution (DNC). Because the Mx1100 UMI BTR emulates 
+
+the Tape Reader, the control really has no way of knowing that the 
+
+source of the program is a computer port instead of a tape. 
+
+  
+
+The Mx1100 UMI BTR eliminates punching of tape, has no moving 
+
+parts, can handle transfer speeds that exceed that of a Tape Reader, 
+
+uses the programmed (source) file, is less expensive than a Tape 
+
+Reader, allows the Tape Reader to still be used, supports the use of 
+
+the control’s punch capability, and does not require maintenance. It’s 
+
+no wonder that the BTR, in combination with DNC software, has 
+
+become the preferred alternative to using the Tape Reader and (in 
+
+many cases) to upgrading CNC memory. 
+
+  
+
+While the Memex BTR gives the machine control the ability to 
+
+receive programs from a PC, it has nothing to do with the specifics of 
+
+what is being sent to the control. DNC software, or at the very least 
+
+some form of serial communications software, is responsible for 
+
+transmitting the data to the control, and the control expects that data 
+
+to be in a specific format. The part program must be formatted just as 
+
+it would be for punching to tape, and the DNC software must be 
+
+configured to send it as if it were a tape. The BTR acts only as a 
+
+gateway or port to the control. The required program format is 
+
+usually described in the control’s Operations Manual. Please consult 
+
+the manual for information on how to configure the part code 
+
+programs for the control.  
+
+ 
+
+
+
+Chapter 1: Installation Instructions _ 1 
+
+Installation Instructions 
+ 
+
+Unpacking the Mx1100 UMI BTR 
+ 
+
+Package Contents 
+
+ 
+
+ 1 x  Memex Mx1100 UMI Serial BTR........Supplied 
+
+ 1 x  Fanuc Ribbon Interface Cable.............. Supplied 
+
+ 1 x  Installation & User’s Manual................ Supplied 
+ 
+
+Optional Items 
+
+ 
+
+ Facit 4070 Punch Port Interface Cable....… Optional 
+(Memex SKU-5100: Punch Cable for Fanuc only) 
+
+ Serial Interface Cable (PC – BTR).............. Optional 
+
+ Serial Transfer (DNC) Software…….......... Optional 
+ 
+
+Before You Begin 
+
+ 
+
+Please read all instructions before proceeding. We recommended first 
+
+making a temporary installation, becoming familiarized with the 
+
+components and orientation of the assembly, testing the functionality, 
+
+and then making the installation permanent by mounting the BTR and 
+
+routing and securing the cables where they are out of harm’s way. 
+
+ 
+
+ 
+A shot of our old Mx1000 BTR (now built into the Mx1100) 
+
+connected to Fanuc 6 (with punch) & to a laptop running Multi-DNC.
+
+
+
+Chapter 1: Installation Instructions _ 2 
+ 
+
+Installing the Mx1100 UMI BTR 
+ 
+
+General 
+
+ 
+
+The Memex Mx1100 UMI BTR installation procedure is 
+
+straightforward and relatively easy to complete – connect the BTR to 
+
+the CNC where the Tape Reader was connected, optionally connect 
+
+the Tape Reader to the BTR, and mount the BTR on the inside of the 
+
+Tape Reader door. All the hardware and accessories are provided. All 
+
+that’s needed are some basic skills and hand tools. Estimated time 
+
+required: 45 minutes. 
+
+ 
+
+1. Prepare the site. 
+Ensure that the Tape Reader and control are working properly 
+
+before beginning the installation. When ready, turn OFF all power 
+
+to the control, machine and computer system. 
+
+ 
+
+2. Access the Tape Reader. 
+Locate the panel on the control that has the Tape Reader mounted 
+
+on it. Open this door to gain access to the back of the Reader. 
+
+ 
+
+3. Disconnect the Tape Reader. 
+Locate the Tape Reader printed circuit board directly behind the 
+
+Reader. It has two 50-pin connectors, labelled CNT1 and CNT2. 
+
+The second (CNT2) has wires going to the Tape Reader head. The 
+
+cable on CNT1 is a 50-conductor ribbon cable that goes to the 
+
+CNC. Note which side of this connector the cable’s red stripe 
+
+goes on. Disconnect this cable from CNT1. 
+
+ 
+
+4. Connect the BTR. 
+Connect the cable disconnected in Step 3 to the BTR’s 50-pin 
+
+connector at top right*, labelled “FANUC CONTROL A”, 
+
+without twisting the cable. Make sure the cable’s red stripe is on 
+
+the left, where Pin 1 is marked with a white square (see diagram, 
+
+page 6). This connects the BTR’s Fanuc control port to the 
+
+control. 
+
+ 
+
+Caution 
+
+ It is very important that the cables are installed 
+
+properly with the correct orientation. If one of the 
+
+cables is plugged in upside down, severe damage will 
+
+occur to the BTR, to the Tape Reader and to the 
+
+control’s Master Board. 
+
+
+
+Chapter 1: Installation Instructions _ 3 
+ 
+
+5. Mount the BTR. 
+
+Locate a safe spot on the back of the door and magnetically 
+
+mount the Mx1100 UMI BTR.  
+
+ 
+
+6. Option: Connect the Tape Reader to the BTR. 
+If you wish to enable the paper Tape Reader, take the new 50-
+
+conductor ribbon cable and plug it onto the JP5 connector 
+
+(labelled “FANUC TAPE READER A”) at the bottom right of 
+
+the BTR.*  The red side of the cable goes on pin 1 of the 
+
+connector  (see diagram, page 6). Plug the other end of the cable 
+
+onto the CNT1 connector on the Fanuc Tape Reader board, from 
+
+which the cable was removed in Step 3 – ensuring the red wire on 
+
+the ribbon cable goes on pin 1 of the connector, as noted in Step 
+
+3. 
+
+ 
+
+7. Option: Punch Cable. 
+If you would like to punch part programs, parameters, etc. from 
+
+the control to the computer, and you have purchased the optional 
+
+Fanuc Facit 4070 Punch Cable, connect the control’s punch port 
+
+to the BTR. Locate the punch port on the control. It’s usually a 
+
+blue rectangular 20-pin (Honda) connector. Plug the Punch Cable 
+
+into this port. Plug the 26-pin end onto the BTR’s JP4 connector, 
+
+labelled “PUNCH IN”. The red stripe goes on the side with Pin 1 
+
+(see diagram on page 6). Remove the JP17 jumper (labelled 
+
+“PUNCH DISABLE”) in the upper right corner of the BTR. 
+
+ 
+
+8. Configure the BTR. 
+Set the jumpers on the BTR to configure the communications 
+
+parameters required for your DNC system. The option jumpers, 
+
+listed on page 17, include the following: 
+
+ 
+
+Jumper A1 and A2 set the Baud rate. Typically 9600 baud 
+
+(both jumpers ON) is used unless your cable doesn’t support 
+
+that rate reliably. The RS232 specification supports 9600 
+
+Baud (Even parity, 7 data bits and 1 stop bit) with a cable 
+
+length up to 50 feet (15 metres), but it is often possible to 
+
+exceed that. It’s important to use cable specifically designed 
+
+for RS232 serial data, 22 AWG, twisted pair, stranded wire 
+
+(not solid), shielded, low capacitance (a rating of 11 to 15 pF 
+
+per foot) is best. If you have a long cable run or are have 
+
+unreliable data transmission, try lowering the Baud rate.     
+Note: 
+
+ 
+
+ In our opinion, CAT3 or CAT5 UTP Ethernet cable is not suitable for 
+
+reliable machine tool serial communications. Use shielded cable. 
+
+ 
+
+
+
+Chapter 2: Operating the Mx1100 _ 4 
+ 
+
+Jumper A3 OFF adds hardware (RTS/CTS) handshaking. 
+
+A3 ON is software (Xon/Xoff) only. Generally it is preferable 
+
+to use both, which means setting A3 OFF and making sure 
+
+your cable supports hardware handshaking (see Note 6 on p 9). 
+
+ 
+
+Jumper A4 OFF uses the standard Xoff character, $13 Hex. 
+
+Set A4 ON if your terminal software uses $93 Hex for Xoff. 
+
+ 
+
+Jumper A5 OFF uses the standard Xon/Xoff handshaking 
+
+method (a Single Xoff). Setting A5 ON sends a continuous 
+
+stream of Xoff back to the computer until the next Xon. This 
+
+enables the BTR to be used with some terminal programs that 
+
+were intended for use with a modem, such as PROCOMM ™ 
+
+although we recommend the use of proper DNC software. 
+
+ 
+
+Jumper A6 OFF will echo incoming data back to the PC for 
+
+diagnostic purposes. On reset, the software version is 
+
+outputted for instance. Set A6 ON for normal use. 
+
+ 
+
+Jumper A7 OFF is ISO data, and ON converts incoming ISO 
+
+data to EIA format for controls that require EIA data. 
+
+ 
+
+Jumper A8 overrides the Tape Reader’s selection of BTR or 
+
+Tape mode. If the Tape Reader wasn’t reconnected to the 
+
+BTR, or if the Tape Reader isn’t intended to be used often and 
+
+the BTR will usually in Tape mode, set A8 ON. (Remember to 
+
+remove it when a tape needs to be read.) 
+
+__________________________________________________ 
+
+SG JMPR OFF = COM1 Signal Ground surge suppression. 
+
+ 
+
+PWR P9 DBL ON activates power output on COM1’s pin 9, 
+
+for use with devices such as buffers (see note on page 18). 
+
+ 
+
+Punch Disable – if you are not using a Facit 4070 punch port 
+
+(SKU-5100 cable), keep this jumper ON. 
+
+ 
+
+9. Connect to the Computer. 
+Connect a serial cable from the 9-pin COM1 on the BTR to the 
+
+computer’s serial port (see page 18 for cable configurations). 
+
+ 
+
+10. Test the Functionality. 
+Refer to “Operating the Mx1100 UMI BTR” (page 5), and if 
+
+necessary, “Reference” (page 7). 
+
+ 
+
+  
+
+
+
+Chapter 2: Operating the Mx1100 _ 5 
+ 
+
+Operating the Mx1100 UMI BTR 
+ 
+
+ 
+
+To use the control’s new serial port: 
+
+Make sure the cables are connected correctly and prepare your DNC 
+
+software. Press Reset on the Fanuc control to reset the BTR and ensure 
+
+that no residual data is present in its input buffer. If BTR option jumper 
+
+A8 is OFF (switch enabled), and the Tape Reader is connected, switch 
+
+the BTR into BTR mode either by turning off the Tape Reader or by 
+
+switching the Tape Reader to Release mode. Start an upload to the 
+
+control from your DNC software, and then load a program at the 
+
+control as if from tape. You can put the control in Tape mode and press 
+
+READ or INPUT to load the program into memory (if it will fit), or put 
+
+the control in DNC (or External) mode and press Cycle Start to run it in 
+
+DNC mode – also known as “drip feeding”. (These mode names and 
+
+key names will vary according to the control model.) 
+
+ 
+
+If you have any difficulty or concerns, please refer to “General 
+
+Troubleshooting” on page 7. 
+
+ 
+
+ 
+
+ 
+
+Helpful hints 
+
+ 
+
+ Adding a couple of Carriage Returns to the end of the file will 
+ensure that the entire file is transmitted. Some combinations of 
+
+DNC software and CNC control sometimes miss the end of a 
+
+file, so it’s a good idea to provide some harmless extra 
+
+characters as a buffer. 
+
+ 
+
+ The BTR responds to the Break character by resetting and 
+clearing its buffer. The Break character is ASCII value 3, or 
+
+HEX 03 (see Appendix B, page 19). If your DNC software can 
+
+be configured to send control codes, it’s a good idea to have it 
+
+send a Break character at the beginning of every g-code 
+
+program it sends. This will guarantee that the BTR buffer is 
+
+reset and ready for a new program each time, regardless of 
+
+whether the CNC didn’t properly finish reading the previous 
+
+one. (The Break character will not be passed through to the 
+
+CNC, and the start of the program following it will wait while 
+
+the BTR is resetting.) 
+
+ 
+
+ 
+
+
+
+Chapter 2: Operating the Mx1100 _ 6 
+ 
+
+ 
+
+J
+7
+
+, 
+P
+
+o
+w
+
+e
+r 
+
+T
+e
+rm
+
+in
+a
+l
+
+S
+P
+
+1
+M
+
+o
+d
+e
+ S
+
+w
+it
+c
+h
+
+C
+o
+n
+n
+e
+c
+to
+
+r
+
+C
+o
+n
+
+fi
+g
+
+u
+ra
+
+ti
+o
+
+n
+
+J
+u
+
+m
+p
+
+e
+rs
+
+ A
+1
+-A
+
+8
+
+C
+O
+
+M
+ 1
+
+C
+o
+n
+n
+e
+c
+t 
+to
+
+C
+o
+m
+
+p
+u
+te
+
+r
+
+R
+e
+
+s
+e
+
+t
+J
+P
+
+3
+3
+, 
+P
+
+W
+R
+
+ P
+9
+ D
+
+B
+L
+
+E
+n
+a
+b
+
+le
+ p
+
+o
+w
+
+e
+r 
+
+o
+u
+tp
+
+u
+t 
+o
+n
+
+C
+O
+
+M
+1
+ p
+
+in
+ 9
+
+J
+P
+
+4
+, 
+
+P
+U
+
+N
+C
+
+H
+ I
+
+N
+2
+6
+-p
+
+in
+ h
+
+e
+a
+d
+e
+
+r 
+- 
+
+C
+o
+n
+
+n
+e
+c
+t
+
+to
+ C
+
+N
+C
+
+'s
+ p
+
+u
+n
+
+c
+h
+
+ p
+o
+rt
+
+P
+in
+
+ 1
+ i
+n
+
+d
+ic
+
+a
+to
+
+r:
+ C
+
+a
+b
+
+le
+'s
+
+ r
+e
+d
+
+ s
+tr
+
+ip
+e
+ a
+
+lw
+a
+y
+s
+
+g
+o
+e
+
+s
+ o
+
+n
+ w
+
+h
+ic
+
+h
+e
+
+v
+e
+r 
+
+s
+id
+
+e
+ h
+
+a
+s
+ t
+
+h
+is
+
+ m
+a
+
+rk
+
+J
+P
+
+8
+, 
+
+F
+A
+
+N
+U
+
+C
+ C
+
+O
+N
+
+T
+R
+
+O
+L
+
+ A
+5
+0
+-p
+
+in
+ h
+
+e
+a
+d
+e
+
+r 
+- 
+
+C
+o
+n
+
+n
+e
+c
+t 
+to
+
+ C
+N
+
+C
+
+J
+P
+
+1
+7
+
+P
+u
+n
+c
+h
+
+ D
+is
+
+a
+b
+le
+
+C
+a
+b
+
+le
+ k
+
+e
+y
+w
+
+a
+y
+.
+
+If
+ c
+
+a
+b
+le
+
+ h
+a
+s
+ n
+
+o
+ k
+
+e
+y
+,
+
+b
+e
+
+ e
+x
+tr
+
+a
+ c
+
+a
+re
+
+fu
+l
+
+o
+ri
+e
+n
+ti
+n
+g
+ t
+h
+e
+ c
+
+a
+b
+le
+
+  
+J
+
+P
+1
+
+8
+, 
+
++
+5
+
+T
+R
+
+  
+5
+ V
+
+o
+lt
+ s
+
+e
+le
+
+c
+to
+
+r
+J
+P
+
+5
+, 
+
+F
+A
+
+N
+U
+
+C
+ T
+
+a
+p
+e
+
+ R
+e
+
+a
+d
+
+e
+r 
+
+A
+5
+0
+-p
+
+in
+ h
+
+e
+a
+d
+e
+
+r 
+- 
+
+C
+o
+n
+
+n
+e
+c
+t 
+to
+
+ T
+a
+p
+e
+
+R
+e
+
+a
+d
+e
+r 
+
+(O
+p
+ti
+o
+n
+a
+l)
+
+P
+in
+
+ 1
+ i
+n
+
+d
+ic
+
+a
+to
+
+r:
+ C
+
+a
+b
+le
+
+'s
+ r
+
+e
+d
+
+ s
+tr
+
+ip
+e
+ a
+
+lw
+a
+y
+s
+
+g
+o
+e
+
+s
+ o
+
+n
+ w
+
+h
+ic
+
+h
+e
+
+v
+e
+r 
+
+s
+id
+
+e
+ h
+
+a
+s
+ t
+
+h
+is
+
+ m
+a
+
+rk
+
+S
+ta
+
+tu
+s
+ L
+
+E
+D
+
+s
+J
+
+P
+1
+
+0
+, 
+
+R
+E
+
+G
+ E
+
+N
+B
+
+L
+2
+4
+ V
+
+o
+lt
+ r
+
+e
+g
+u
+la
+
+to
+r
+
+J
+P
+
+1
+6
+
+, 
++
+
+2
+4
+
+T
+R
+
+2
+4
+ V
+
+o
+lt
+ s
+
+e
+le
+
+c
+to
+
+r
+
+P
+o
+w
+
+e
+r
+
+S
+ta
+
+tu
+s
+
+1 1
+
+1
+
+M
+E
+
+M
+E
+
+X
+  E
+
+T
+H
+
+E
+R
+
+N
+E
+
+T
+  M
+
+O
+D
+
+U
+LE
+
+COM1 RE
+S
+
+E
+T
+
+LO
+A
+
+D
+
++7-24V
+
++5V
+
+-GND
+
+J7
+
+JP
+22
+
+S
+G
+
+  J
+M
+
+P
+R
+
++24TR
+
+JP16
+
+P
+W
+
+R
+ P
+
+9 
+D
+
+B
+L
+
+R
+E
+
+G
+  E
+
+N
+B
+
+L
+
+JP
+10
+
+PWR ON
+
+STATUS
+TX
+
+RX
+
+RTS
+
+CTS
+
+TX
+
+RX
+
+RTS
+
+CTS
+
+C
+O
+
+M
+1
+
+C
+O
+
+M
+2
+
+T
+A
+
+P
+E
+
+  
+R
+
+E
+A
+
+D
+E
+
+R
+  
+B
+
+F
+A
+
+N
+U
+
+C
+  
+T
+
+A
+P
+
+E
+  
+R
+
+E
+A
+
+D
+E
+
+R
+  
+A
+
+F
+A
+
+N
+U
+
+C
+  
+C
+
+O
+N
+
+T
+R
+
+O
+L
+  
+A
+
+C
+O
+
+N
+T
+
+R
+O
+
+L
+  
+B
+
+U
+N
+
+IV
+E
+
+R
+S
+
+A
+L 
+
+ M
+A
+
+C
+H
+
+IN
+E
+
+  I
+N
+
+T
+E
+
+R
+F
+
+A
+C
+
+E
+M
+
+X
+11
+
+00
+   
+
+ R
+3
+
+M
+A
+
+D
+E
+
+  I
+N
+
+  C
+A
+
+N
+A
+
+D
+A
+
+W
+W
+
+W
+.M
+
+E
+M
+
+E
+X
+
+.C
+AP
+
+U
+N
+
+C
+H
+
+ D
+IS
+
+A
+B
+
+LE
+
+S
+/N
+
+: 
+ 0
+
+3
+0
+3
+0
+1
+-
+
+JP
+17
+
+JP
+8
+
+JP
+7
+
+M
+E
+
+M
+E
+
+X
+  E
+
+LE
+C
+
+T
+R
+
+O
+N
+
+IC
+S
+
+  I
+N
+
+C
+.
+
+(C
+)2
+
+0
+0
+3
+
+JP18
+
++5TR
+
+11
+
+1
+
+PUNCH  INJP4
+
+1
+
+TAPE  INJP13
+
+A
+1
+
+A
+2
+
+A
+3
+
+A
+4
+
+A
+5
+
+A
+6
+
+A
+7
+
+A
+8
+
+SP1JP3
+
+JP
+5
+
+IM
+P
+
+O
+R
+
+T
+A
+
+N
+T
+
+: 
+ I
+
+f 
++
+
+5
+T
+
+R
+ i
+
+s
+ O
+
+N
+, 
+
+th
+e
+
+n
+ b
+
+o
+th
+
++
+2
+
+4
+T
+
+R
+ a
+
+n
+d
+ R
+
+E
+G
+
+ E
+N
+
+B
+L
+ m
+
+u
+s
+t 
+b
+e
+ O
+
+F
+F
+
+;
+
+If
+ +
+
+5
+T
+
+R
+ i
+s
+ O
+
+F
+F
+
+, 
+th
+
+e
+n
+ b
+
+o
+th
+
+ +
+2
+
+4
+T
+
+R
+ a
+
+n
+d
+ R
+
+E
+G
+
+ E
+N
+
+B
+L
+
+m
+u
+s
+t 
+b
+e
+ O
+
+N
+. 
+  
+ (
+
+S
+e
+e
+ N
+
+o
+te
+
+ 1
+ o
+
+n
+ P
+
+a
+g
+e
+ 7
+
+.)
+
+IM
+P
+
+O
+R
+
+T
+A
+
+N
+T
+
+: 
+ I
+
+f 
+p
+
+u
+n
+
+c
+h
+
+ c
+a
+
+b
+le
+
+ i
+s
+ c
+
+o
+n
+
+n
+e
+
+c
+te
+
+d
+, 
+
+J
+P
+
+1
+7
+
+ m
+u
+
+s
+t
+
+b
+e
+ O
+
+F
+F
+
+; 
+If
+ p
+
+u
+n
+c
+h
+ c
+
+a
+b
+
+le
+ i
+s
+ n
+
+o
+t 
+c
+o
+
+n
+n
+e
+c
+te
+
+d
+, 
+J
+P
+
+1
+7
+ m
+
+u
+s
+t 
+b
+e
+ O
+
+N
+.
+
+J
+P
+
+2
+2
+, 
+S
+
+G
+ J
+
+M
+P
+
+R
+D
+
+is
+a
+b
+le
+
+s
+ S
+
+ig
+n
+a
+l
+
+G
+ro
+
+u
+n
+d
+ S
+
+u
+rg
+
+e
+
+S
+u
+p
+p
+
+re
+s
+s
+io
+
+n
+ o
+
+n
+ C
+
+O
+M
+
+1
+
+JP
+6
+
+1
+
+Layout of the Mx1100 UMI Serial BTR 
+
+
+
+Chapter 2: Operating the Mx1100 _ 7 
+ 
+
+Reference 
+ 
+
+ 
+
+ 
+
+This chapter contains troubleshooting hints and information about 
+
+Memex Technical Support and Service. 
+
+ 
+
+ 
+
+General Troubleshooting 
+
+ 
+
+The Mx1100 UMI BTR is designed to install easily and quickly. 
+
+However, if experiencing difficulty in the procedures, please check the 
+
+following to isolate and resolve the problem: 
+
+ 
+
+1. Check that the “PWR ON” LED on the BTR (leftmost LED in 
+the LED block at bottom centre*) is on and bright. 
+The RTS LED for COM1 should also be on. If there is no power to 
+
+the BTR, ensure that the cables from the Control (and from the 
+
+Tape Reader if connected) are oriented properly and are well 
+
+secured. Also, check that one of the following is true: 
+
+a) The “+5TR” jumper (JP18 at bottom right) is ON and the 
+“+24TR” jumper (JP16 at middle left) and “REG ENBL” 
+
+(JP10 near middle bottom) are OFF;  -or- 
+
+b) The “+5TR” jumper (JP18) is OFF and the “+24TR” jumper 
+(JP16) and “REG ENBL” (JP10) are ON 
+
+In case “a” above, the BTR is sourcing 5 volts from the CNC; in 
+
+case “b” it is sourcing 24 volts and reducing it to 5 volts. 
+
+Typically 5V (setting “a”) is used with a Fanuc control. 
+
+ 
+
+NOTE: The default power source setting is “a” above, 5 volts. 
+
+However, in some CNCs the 5-volt supply has faded to below the 
+
+threshold that will power the BTR. If the BTR won’t power on, try 
+
+using 24 volts by setting the jumpers as in “b” above. 
+
+ 
+
+2.    Alternate source of power 
+
+If the PWR LED still does not come on, carefully find a source of        
+
+power on the control between 7 and 24VDC and wire it in to 
+
+screw-down terminal block J7 at the lower left corner of the BTR 
+
+When power is brought in through the terminal block, the jumpers 
+
+must be set as in “b” above. 
+
+ 
+
+ 
+Note: 
+
+
+
+Chapter 2: Operating the Mx1100 _ 8 
+ 
+
+3. Check that the BTR is working properly. 
+When the control is powered up or reset, the BTR’s STATUS LED 
+
+(2
+nd
+
+ LED in LED block at middle bottom) should blink. One blink 
+
+indicates that the Mx1100 is in BTR Mode. This means that it is 
+
+ready to receive information through the serial port and to send it 
+
+to the control. Two blinks indicate that the Mx1100 is in TAPE 
+
+Mode. This means that it is ready to pass information through the 
+
+BTR from the Tape Reader to the Control. (The leftmost TX LED 
+
+will also blink, as the BTR sends out a status message on its 
+
+COM1 port during power up.) With most Tape Readers, turning 
+
+the Tape Reader on/off or switching it between Load and Release 
+
+will switch the BTR between modes. 
+
+ 
+
+4. Check the status message. 
+When the BTR is powered on or reset, it sends a short message on 
+
+its COM1 port, indicating which mode it’s in. The STATUS and 
+
+first TX LEDs will blink during output. If the computer is properly 
+
+connected, and your DNC software is configured to match the 
+
+BTR communication settings and is set to receive a file, it should 
+
+be possible to capture and read the status message. If the message 
+
+is clearly readable then the BTR’s communications are good, and 
+
+so is the cable, the settings, the computer and the DNC software. 
+
+NOTE: Some versions of the BTR require the A6 Jumper to be 
+
+off (echo enabled) for the status message to be sent back to the 
+
+PC on Power Up 
+
+ 
+
+5. The Status and Tx LEDs flash but there is no status message.  
+First the computer has to be watching for the status message with 
+
+DNC software, or at least with a terminal program or utility. After 
+
+installing your software, verify that the correct communication 
+
+parameters are set and check that the correct computer COM port 
+
+is being used. Check that the BAUD RATE is properly set and 
+
+matches the baud rate on the BTR (check option jumpers A1 and 
+
+A2 – see pg. 17) and that the STOP BITS are set to 1. Make sure 
+
+that the cable connecting the BTR to the computer is a properly 
+
+configured RS-232 serial data cable and that it is properly 
+
+connected (see Step 6 below). Also verify that the PC’s COM port 
+
+is functioning properly. 
+
+ 
+
+
+
+Chapter 2: Operating the Mx1100 _ 9 
+ 
+
+6. Check the serial data cable and handshaking settings. 
+First, make sure the cable matches the appropriate diagram under 
+
+“Mx1100 UMI BTR Cable Configurations” (page 18). 
+
+ 
+
+Second, make sure the cable, BTR settings and software settings 
+
+match with regard to handshaking method. If using software 
+
+handshaking (Xon/Xoff) only (see table A on page 18), make sure 
+
+that BTR Jumper A3 is ON and your DNC software is set for 
+
+Xon/Xoff handshaking only. If using hardware handshaking (see 
+
+table B on page 18), make sure that BTR Jumper A3 is OFF, your 
+
+DNC software is set for RTS/CTS and Xon/Xoff handshaking, and 
+
+the cable supports it by having the wires for RTS and CTS 
+
+connected for a total of five wires connected at each end. (Note: 
+
+Software handshaking can be used with a hardware handshaking 
+
+cable, but not the other way around.) 
+
+ 
+
+Third, make sure every wire connection at each end of the cable is 
+
+solid, there are no breaks in the wires, no wire insulation is pulled 
+
+back far enough to allow bare wire to touch another wire or any 
+
+other metal parts, and no solder or debris is touching more than 
+
+one pin. If everything looks good at the ends, it may be necessary 
+
+to use a multi-meter to determine whether there is a break or a 
+
+short in the wires somewhere along the length of the cable. 
+
+If a hardware handshaking cable is being used, the leftmost CTS 
+
+LED (in the STATUS LED bank at bottom centre of the BTR) will 
+
+light up when a properly configured cable is connected between 
+
+the BTR and a computer and both are powered on. The leftmost 
+
+RTS LED will always be on, indicating that the BTR is active and 
+
+the port is ready. Regardless of which type of handshaking is being 
+
+used, the leftmost RX LED will blink when data is sent to the 
+
+BTR, and the leftmost TX LED will blink during any Xon/Xoff 
+
+handshaking that might occur during the send.  
+
+ 
+
+7. The whole file sends before pressing Cycle Start. 
+The most common cause of this is incorrect handshaking settings. 
+
+Refer to Note 6 above. In addition, some terminal programs expect 
+
+the XOFF character, normally Hex 13, to include even parity, 
+
+making it Hex 93. Try setting jumper A4 ON (see page 17). 
+
+ 
+
+
+
+Chapter 2: Operating the Mx1100 _ 10 
+ 
+
+8. A CNC error occurs shortly after pressing “Cycle Start”. 
+Try removing the CR (carriage return) characters from the 
+
+program. Some controls only accept “pure” ISO or EIA code, 
+
+which does not contain CR characters. Also try changing BTR 
+
+jumper A7 in case it’s a matter of ISO / EIA format mismatch. 
+
+ 
+
+9. The control generates a Tape Vertical (TV) alarm. 
+Tape Vertical checking was a way that controls verified the 
+
+accuracy of the program code they read in through the Tape 
+
+Reader. It is usually an option and does not apply when you are 
+
+using a BTR. Turn this option off in the control’s parameters. 
+
+ 
+
+10. The control generates a Tape Horizontal (TH) alarm. 
+Tape Horizontal is equivalent to Even parity. Use Even parity 
+
+when sending the programs from the terminal or PC. Also see 
+
+Notes 7 and 8 above – jumper A4 and/or A7 may resolve this. 
+
+ 
+
+11. The Power LED lights but the STATUS LED doesn’t flash. 
+Check the supply voltage to the BTR. If using a 5VDC supply and 
+
+it is less than 4.6VDC, the BTR may actually be protecting itself 
+
+from under-voltage. Find a better 5V supply, or switch to 24V (see 
+
+Note 1 “b”) or use the screw-down terminal in the bottom left 
+
+corner with a supply of 7 to 24VDC. Always be sure to set up the 
+
+power jumpers correctly (see Notes 1 and 2). 
+
+ 
+
+12. Other machine errors 
+Ensure that the proper tape codes are being used at the beginning 
+
+and/or end of the program. Some machines require a “%” (percent 
+
+sign) as the first and/or last character in the program. Check the 
+
+CNC Operator’s Manual for any termination characters that may 
+
+be required. 
+
+ 
+
+13. What if the BTR “Locks Up”? 
+Near the upper left corner of the BTR are the four pins labelled 
+
+RESET and LOAD. Of those four pins, the top two are the reset 
+
+pins. Momentarily shorting the two RESET pins by touching them 
+
+with a metal object such as a screwdriver or coin (while the power 
+
+is on) will reset the BTR and make the STATUS LED flash. This 
+
+action is the equivalent of pressing the reset button on a PC. This 
+
+should not have to be done on a regular basis, but, as with anything 
+
+electronic, lockup can happen. 
+
+ 
+
+
+
+Chapter 2: Operating the Mx1100 _ 11 
+ 
+
+Memex Technical Support & Service 
+ 
+
+ 
+
+ 
+
+In case of technical difficulty with the Mx1100 UMI BTR, be sure to 
+
+review the troubleshooting section of this manual prior to calling for 
+
+technical support. If the issue cannot be resolved after reading through 
+
+the troubleshooting section, please contact Memex Automation 
+
+Technical Support at 1-905-635-3042.   Page 12 of this manual may be 
+
+used to record technical information, service advice, etc. as needed. 
+
+ 
+
+ 
+
+ 
+
+If you have any other questions or concerns, need answers to technical 
+
+questions, or need information about Memex products and/or services, 
+
+please contact your local Memex dealer or us at:  
+
+ 
+
+ 
+
+ 
+
+ 
+
+Memex Automation Inc. 
+200 – 3425 Harvester Rd., 
+
+Burlington, Ontario 
+
+Canada L7N 3N1 
+
+ 
+
+ 
+
+Phone: 905-635-1540 
+
+Fax: 905-631-9640 
+
+Web: www.memex.ca 
+
+Email: sales@memex.ca 
+
+ support@memex.ca 
+
+ 
+
+
+
+Chapter 2: Operating the Mx1100 _ 12 
+ 
+
+Notes: 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+Glossary _ 13 
+
+Glossary: 
+ 
+
+ 
+
+ 
+
+ANSI   American National Standards Institute.  The official US 
+
+agency and voting representative for ISO. This institute develops 
+
+information exchange standards above 50 Mbps. 
+
+ 
+
+ASCII   American Standard Code for Informational Interchange.  A 
+
+seven bit alphanumeric code used extensively in data communications. 
+
+A parity bit is often added to the seven-bit code for error detection. 
+
+See Appendix B, page 19 for a table of ACSII values. 
+
+ 
+
+ASYNCHRONOUS TRANSMISSION   The transmission of 
+
+characters separated by time intervals that vary in length, usually in 
+
+accordance with the key entries of a terminal operator. Start and stop 
+
+bits are used to identify (frame) the beginning and end of the 
+
+asynchronously transmitted character. 
+
+ 
+
+BAUD RATE   The rate at which a signal is changed or modulated. 
+
+Refers to the number of bits transmitted per second. 
+
+ 
+
+BTR   Behind the Tape Reader.  An electronic input device that 
+
+emulates a Tape Reader’s signals on a machine control, usually 
+
+converting serial communications to parallel Tape Reader signals. 
+
+ 
+
+CNC   Computerized Numerical Control.  An industrial computer that 
+
+is used to control the movement of a machine. A CNC usually uses 
+
+programs coded with G-codes and M-codes. 
+
+ 
+
+CONTROL  Refers to a Computerized Numerical Control (CNC). 
+
+ 
+
+CTS   Clear To Send.  One of the control lines used in RS232 
+
+communication. Found on pin 4 or 5 on a DB25 and pin 7 or 8 on a 
+
+DB9 depending whether the port is DTE or DCE. 
+
+ 
+
+DCE   Data Communication Equipment.  Typically a modem or data 
+
+set used to interface a terminal or computer to the telephone lines. 
+
+Glossary _ 13 
+
+
+
+Glossary _ 14 
+
+DNC   Direct/Distributed Numeric Control.  A means of 
+
+communicating or “drip feeding” a program to a CNC through a Tape 
+
+Reader or serial interface. The program code is immediately executed, 
+
+block by block, as it is read by the control. 
+
+ 
+
+DTE   Data Terminal Equipment.  In data communications, it is an 
+
+end user or termination circuit, typically a terminal or computer. 
+
+ 
+
+ECHO   A reflected signal. Information is sent back to the transmitter 
+
+from the receiver, often for verification purposes. 
+
+ 
+
+EIA   Electronic Industries Alliance.  A United States organization of 
+
+manufacturers that establishes and recommends industrial standards. 
+
+They developed the EIA standard code used in early NC and CNC 
+
+communications. Also refers to a form of 7 bit ASCII with data 
+
+encryption and Odd parity, used largely on CNCs. 
+
+ 
+
+FRAMING   The procedure used to identify the beginning and end of a 
+
+group of data bits. 
+
+ 
+
+FRAMING ERROR   An error that occurs when a receiver loses 
+
+synchronism to the incoming data. 
+
+ 
+
+G CODE   The instructions used to dictate the movement of a machine. 
+
+A list of these codes is commonly called a “part program”. 
+
+ 
+
+HANDSHAKING   A process that regulates the flow of data between 
+
+two devices. Also called “flow control”. 
+
+ 
+
+HARDWARE HANDSHAKING   Handshaking (flow control) by use 
+
+of the RTS and CTS control lines on an RS232 serial interface. 
+
+ 
+
+ISO   International Standards Organization.  One of the world’s 
+
+largest standards organizations. Also refers to a form of 7 bit ASCII 
+
+with data encryption and Even parity, used largely on CNCs. 
+
+ 
+
+LOCAL ECHO   Refers to when a terminal is configured to internally 
+
+route its transmitted character around to its receiver section for display. 
+
+
+
+Glossary _ 15 
+
+ 
+
+MODEM   A contraction of modulator/demodulator. The modem 
+
+converts a computer’s digital bit stream into an analog signal suitable 
+
+for telephone lines and vice versa. 
+
+ 
+
+PAPER TAPE   A media of part program storage. Holes were punched 
+
+in a one-inch paper tape to represent G codes. These tapes were then 
+
+read through a Tape Reader to be loaded into machine control memory. 
+
+ 
+
+PARITY   An error detection method whereby a single bit is added to a 
+
+group of bits to make the total number of 1 bits either even or odd 
+
+(depending on the type of parity; even or odd). 
+
+ 
+
+PART PROGRAM   A list of G codes that control the movement of 
+
+the machine. May be typed into the machine control or produced as a 
+
+computer text file and transmitted to the control. 
+
+ 
+
+PARITY ERROR   Indicates that the total number of 1 bits in a 
+
+received character does not agree with the type of parity expected. 
+
+ 
+
+RS232-C   An asynchronous serial interface standard that specifies an 
+
+electrical, functional, and mechanical interface specification between 
+
+data communication devices. 
+
+ 
+
+RTS   Request To Send.  One of the control lines used in RS232 
+
+communication. Found on pin 4 or 5 on a DB25 and pin 7 or 8 on a 
+
+DB9 connector depending on whether the port is DCE or DTE. 
+
+ 
+
+RTS/CTS   Hardware handshaking (flow control) using the RTS and 
+
+CTS control lines. 
+
+ 
+
+Rx   Receive Data.  Refers to the input for the data signal. 
+
+ 
+
+SG   Signal Ground. Refers to the ground for the data signal. Not the 
+
+same as the cable’s shield ground or a device’s frame ground. 
+
+ 
+
+START BIT   The first bit used to frame an asynchronously 
+
+transmitted character. Its logic level is a 0 (space). 
+
+
+
+Glossary _ 16 
+
+STOP BIT   The last bit used to frame an asynchronously transmitted 
+
+character. Its logic level is a 1 (mark). 
+
+ 
+
+SYNCHRONOUS TRANSMISSION   High-speed communication 
+
+whereby data characters are sent in direct succession to each other 
+
+without the use of Start and Stop bits. 
+
+ 
+
+TAPE READER   An input device used on CNC Machines and other 
+
+industrial equipment. Used to read coded data on a punched tape. Older 
+
+Tape Readers were a mechanical device, whereas newer ones use 
+
+optical devices that sense light passing through the holes in the tape. 
+
+ 
+
+TERMINAL   An input/output device used by an operator to 
+
+communicate with a host computer. It consists of a keyboard and a 
+
+display to monitor alphanumeric characters entered at the keyboard or 
+
+received from a remote device. 
+
+ 
+
+TERMINAL SOFTWARE   Computer software that enables a 
+
+computer to act as a terminal, usually used with modems. Can be used 
+
+to exchange data over a serial cable between two computers or a 
+
+computer and a machine control, but does not provide the level of flow 
+
+control necessary to prevent dangerous miscommunications with a 
+
+machine control. Specific purpose DNC software is highly preferable. 
+
+ 
+
+TIME-OUT ERROR   An error that occurs when a device fails to 
+
+respond to a message within an expected period of time. 
+
+ 
+
+Tx   Transmit Data.  Refers to the output for the data signal. 
+
+ 
+
+XOFF   Transmit Off.  A device control character (DC3 or $13 hex) 
+
+used to control the flow of data between two devices. XOFF is used 
+
+together with XON as a handshake. 
+
+ 
+
+XON   Transmit On.  A device control character (DC1 or $11 hex) 
+
+used to control the flow of data between two devices. XON is used 
+
+together with XOFF as a handshake. 
+
+ 
+
+XON/XOFF   Software handshaking using the XON and XOFF control 
+
+characters. 
+
+
+
+Appendix A: Configuration & Settings _ 17 
+
+Appendix A: Configuration & Settings 
+ 
+ 
+
+ 
+
+Mx1100 UMI BTR Serial Configuration 
+
+ 
+
+ Baud Rate...................... 9600 (default; set by jumpers A1 & A2) 
+ Parity............................. Even 
+ Data Bits........................ 7 
+ Stop Bits......................... 1 
+ Handshake...................... See note 6, page 9 
+ 
+If using terminal software, these settings may also apply: 
+ 
+
+ Duplex............................. FULL 
+ ASCII transfer options…. Strip the High Bit = ON 
+ 
+
+ 
+
+Option Jumpers on the Mx1100 UMI Serial BTR 
+
+ 
+
+ A1 
+  = 1200 = 2400 = 4800 = 9600 * 
+ A2    Baud    Baud    Baud    Baud 
+ 
+ A3 Add CTS/RTS flow control Xon/Xoff flow control * 
+ 
+ A4 Xoff = $13 hex  Xoff = $93 hex 
+ 
+ A5 Single Xoff  Continuous (strobed) Xoff 
+ 
+ A6 Echo  No Echo * 
+ 
+ A7 No conversion  ISO – EIA conversion 
+ 
+ A8 BTR Mode controlled by Force BTR mode 
+  Tape Reader Switch 
+  
+
+ +24TR JP16 Enable 24V power from Tape Reader 
+
+ +5TR JP18 Enable 5V power from Tape Reader 
+
+ REG ENBL JP10 Enable 5V Power Regulator 
+
+ Punch Disable JP17 * Use if Punch Port not connected 
+
+ SG JMPR JP22 Disable COM1 signal ground surge suppression 
+
+ PWR P9 DBL JP23 Enable power output on COM1 pin 9 ** 
+ 
+* Default Settings (9600, E71, XON/XOFF, no Echo, no punch) 
+ 
+ 
+NOTE: 
+
+ 
+ = NO Jumper = Jumper ON
+
+
+
+Appendix A: Configuration & Settings _ 18 
+
+Mx1100 9-pin RS232-C Serial Port Pin Functions 
+
+ 
+
+ Pin 2.........................................................…………...… Receive Data 
+
+ Pin 3.............................................................…………. Transmit Data 
+ Pin 4.………….........................................................……….….. DTR 
+
+ Pin 5.............................................................……….... Signal Ground 
+
+ Pin 7...............................................................…......………......... RTS 
+ Pin 8................................................................................……….. CTS 
+
+ Pin 9..................................................….………...... DC Power Out ** 
+ 
+
+Note: ** Memex has enabled Pin 9 to be a power source for external devices. It is enabled by 
+
+jumpering JP33, “PWR P9 DBL” (see diagram, page 6). The output voltage depends how the 
+
+BTR is being powered: 5V from CNC or Tape Reader = no output; 24V from CNC or TR = 
+
+24V output; input from screw-down terminal J7 = same voltage output on pin 9. 
+
+ 
+
+Mx1100 UMI Serial BTR Cable Configurations 
+ 
+
+A – Software Handshaking Only 
+
+ 
+
+Computer 
+25-pin Female 
+
+Mx1100 BTR 
+9-pin Female 
+
+Tx – 2 2 – Rx 
+
+Rx – 3 3 – Tx 
+
+SG – 7 5 – SG 
+
+FG – 1 No Connection 
+
+9-pin Female 9-pin Female 
+
+Tx – 3 2 – Rx 
+
+Rx – 2 3 – Tx 
+
+SG – 5 5 – SG 
+
+FG – (D-shell) No Connection 
+
+ 
+
+B - Hardware Handshaking Enabled 
+
+ 
+
+Computer 
+25-pin Female 
+
+Mx1100 BTR 
+9-pin Female 
+
+Tx – 2 2 – Rx 
+
+Rx – 3 3 – Tx 
+
+RTS – 4 8 – CTS 
+
+CTS – 5 7 – RTS 
+
+SG – 7 5 – SG 
+
+FG – 1 No Connection 
+
+9-pin Female 9-pin Female 
+
+Tx – 3 2 – Rx 
+
+Rx – 2 3 – Tx 
+
+RTS – 7 8 – CTS 
+
+CTS – 8 7 – RTS 
+
+SG – 5 5 – SG 
+
+FG – (D-shell) No Connection 
+
+ 
+NOTE: The cable’s shield should be grounded at one end of the cable and not at the 
+other, so it does provide a noise drain but does not form a ground loop. On 25-pin 
+
+connectors, Pin 1 is a Frame Ground. On 9-pin connectors, there is no Frame Ground so 
+
+the D-shell or other ground may be used (but not the Signal Ground). 
+
+
+
+ 
+
+Appendix A: Configuration & Settings _ 19 
+
+Appendix B: ASCII Table 
+ 
+
+ 
+
+ 
+
+DEC HEX SYM KEY DEC HEX SYM DEC HEX SYM 
+0 0 NUL ctrl @ 43 2B + 86 56 V 
+1 1 SOH ctrl A 44 2C , 87 57 W 
+2 2 STX ctrl B 45 2D - 88 58 X 
+3 3 ETX ctrl C 46 2E . 89 59 Y 
+4 4 EOT ctrl D 47 2F / 90 5A Z 
+5 5 ENQ ctrl E 48 30 0 91 5B [ 
+6 6 ACK ctrl F 49 31 1 92 5C \ 
+7 7 BEL ctrl G 50 32 2 93 5D ] 
+8 8 BS ctrl H 51 33 3 94 5E ^ 
+9 9 HT ctrl I 52 34 4 95 5F _ 
+10 A LF ctrl J 53 35 5 96 60 ` 
+11 B VT ctrl K 54 36 6 97 61 a 
+12 C FF ctrl L 55 37 7 98 62 b 
+13 D CR ctrl M 56 38 8 99 63 c 
+14 E SO ctrl N 57 39 9 100 64 d 
+15 F SI ctrl O 58 3A : 101 65 e 
+16 10 DLE ctrl P 59 3B ; 102 66 f 
+17 11 DC1 ctrl Q 60 3C < 103 67 g 
+18 12 DC2 ctrl R 61 3D = 104 68 h 
+19 13 DC3 ctrl S 62 3E > 105 69 i 
+20 14 DC4 ctrl T 63 3F ? 106 6A j 
+21 15 NAK ctrl U 64 40 @ 107 6B k 
+22 16 SYN ctrl V 65 41 A 108 6C l 
+23 17 ETB ctrl W 66 42 B 109 6D m 
+24 18 CAN ctrl X 67 43 C 110 6E n 
+25 19 EM ctrl Y 68 44 D 111 6F o 
+26 1A SUB ctrl Z 69 45 E 112 70 p 
+27 1B ESC ctrl [ 70 46 F 113 71 q 
+28 1C FS ctrl \ 71 47 G 114 72 r 
+29 1D GS ctrl ] 72 48 H 115 73 s 
+30 1E RS ctrl ^ 73 49 I 116 74 t 
+31 1F US ctrl _ 74 4A J 117 75 u 
+32 20 SP  75 4B K 118 76 v 
+33 21 !  76 4C L 119 77 w 
+34 22 “  77 4D M 120 78 x 
+35 23 #  78 4E N 121 79 y 
+36 24 $  79 4F O 122 7A z 
+37 25 %  80 50 P 123 7B { 
+38 26 &  81 51 Q 124 7C | 
+39 27 ‘  82 52 R 125 7D } 
+40 28 (  83 53 S 126 7E ~ 
+41 29 )  84 54 T 127 7F DEL 
+42 2A *  85 55 U    
+
+ 
+
+
+
+ 
+
+Appendix A: Configuration & Settings _ 20 
+
+
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Memex Automation Inc. 
+200 – 3425 Harvester Rd., 
+
+Burlington, Ontario 
+Canada L7N 3N1 
+
+Phone: 905-635-1540 Fax: 905-631-9640 
+www.memex.ca 
+
+ 
+Support – (905) 635-3042 
+
+support@memex.ca 
+ 
+
+Sales – (905) 635-3041 
+sales@memex.ca 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Thank you for choosing Memex for your  
+Manufacturing Connectivity Solutions™ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+\ISO9000\DOCs\Current Manuals\M100707D - Mx1100 Serial BTR for Fanuc.doc 
+
+http://www.memex.ca/
+mailto:support@memex.ca
+mailto:sales@memex.ca
+

@@ -1,0 +1,203 @@
+
+Copyright © 2007 Memex Automation Inc. 
+Page 1 of 6 
+
+ Memex Automation Inc.
+, 
+
+Burlington, Ontario Canada  L7N 1 
+                    http://www.memex.ca 
+
+ 
+
+Fanuc 0 M/T Model C Serial (RS232) 
+Connection Guide
+
+ 
+The Fanuc 0-C control has two RS-232 interfaces. Interface number 1 (M5) can be wired to the 
+external DB25 female connector or wired to a built-in tape reader interface (at 4800 baud). 
+Interface number 2 (M74) is an option and can be wired to the external DB25 female connector. 
+The baud rate and other parameters are set in NC parameters (see below). For cable and signal 
+descriptions see our  Fanuc RS232 Communications page or document at www.memex.ca. 
+
+ 
+
+Applicable Memory Cards (0-C and 0-4PC)  
+
+Memory Cards  A16B-1212-0210  Analog Spindle  
+(MEM-A3)  A16B-2201-0103  Analog Spindle  
+
+   A16B-1212-0215  16 bit, Serial Spindle  
+   A16B-1212-0216  32 bit, Serial Spindle  
+   A16B-2201-0101  32 bit, Serial Spindle  
+
+Sample “C” Software Versions: 460,462,465,660,662,690,665,880,135… 
+
+
+
+Copyright © 2007 Memex Automation Inc. 
+Page 2 of 6 
+
+ 
+
+                                            *See our MxBRU to replace the Fanuc battery pack 
+ 
+Communications Parameters   
+
+On the SETTINGS screen, set the following: 
+
+   TVON = 0 
+
+   ISO = 1 
+
+   I/O = 0 (if using port 1), I/O = 2 (if using port 2) 
+
+   PWE = 1 
+
+   TAPEF = 0 
+
+        
+
+   
+
+CNC 
+Parameter 
+
+Port 1 
+(M5) 
+
+Port 2 
+(M74) 
+
+0002 1xxxxxx1 - - 
+0050 - - 1xxxxxx1 
+0038 01xxxxxx xx01xxxx 
+0552 10 - - 
+0253 - - 10  
+
+   - - means that this parameter has no effect for this port. X means that this bit is a "don't care" setting. Either 1 or 0 is OK 
+
+  
+
+
+
+Copyright © 2007 Memex Automation Inc. 
+Page 3 of 6 
+
+  
+NB: Baud rate default here is 4800 (10), with protocol of E,7,2.  
+
+
+
+Copyright © 2007 Memex Automation Inc. 
+Page 4 of 6 
+
+ 
+
+ 
+
+Note also that Parameter 2  
+
+Punching Procedure 
+
+Punch NC Parameters   -       EDIT mode, PARAM screen, EOB + OUTPUT/START  
+Punch PC Parameters    -       EDIT mode, DGNOS screen, OUTPUT/START  
+Punch All Programs       -       EDIT mode, PRGRM screen, 0-9999, OUTPUT/START  
+Tool Offsets                  -       EDIT mode, OFFSET screen, OUTPUT/START  
+
+Reading Procedure 
+
+Load NC Parameters      -       EDIT mode, PARAM screen, EOB + INPUT  
+Load PC Parameters       -       EDIT mode, DGNOS screen, INPUT  
+Load All Programs         -        EDIT mode, PRGRM screen, INPUT  
+Load Tool Offsets          -        EDIT mode, OFSET screen, INPUT  
+
+
+
+Copyright © 2007 Memex Automation Inc. 
+Page 5 of 6 
+
+Clearing Procedure 
+
+Delete All memory          -       Power On holding RESET + DELETE keys with PWE=1  
+Delete Parameters         -       Power On holding RESET key with PWE = 1  
+Delete Programs            -       Power On holding DELETE key with PWE = 1  
+   
+NB: PWE = Parameter Write Enable bit at Parameter 8000.0 in SETTING Page  
+
+Standard Fanuc Serial Port: (DB-25 Female & Honda) 
+
+ 
+
+1 = Frame Ground              6 =  Data Set Ready  
+2 = Transmit Data              7 =  Signal Ground  
+3 = Receive Data               8 =  Carrier Detect  
+4 = Ready To Send            20 = Error (Data Terminal Ready)  
+5 = Clear To Send             25 = +24 Volts  
+
+The usual software handshaking cable configuration with a DB25 has 2, 3 crossed & 7 connected 
+straight through with Pins 4&5 jumpered  (or brought through if hardware handshaking is enable 
+which we recommend by the way), and lastly pins 6,8 & 20 jumpered on the control side only.  
+
+The Fanuc Honda Connector (M5 or M74) is wired as such: 
+
+9 = Transmit Data              17 = GND  
+8 = Receive Data               10 = FG or Shield  
+20 = RTS                          14 = +24VDC  
+19 = CTS  
+5 = DTR   ---\  
+18 = DSR ----|    <-- Can be brought out or jumpered directly to prevent 86 CD Alarms  
+16 = CD   ---/  
+
+The usual software handshaking cable configuration with a DB25 has 2, 3 crossed & 7 connected 
+straight through (with 4&5 jumpered  - or used if hardware handshake lines are preferred) and 
+pins 6,8 & 20 jumpered on the control side only.  
+
+
+
+Copyright © 2007 Memex Automation Inc. 
+Page 6 of 6 
+
+Fanuc ISO Protocol: (E,7,x)  
+
+The standard protocol for Fanuc controls is 4800 or 9600 Baud, “Even parity”, “7 data bits” and 
+either “1 or 2 stop bits” using DC1-4 Codes (XON/XOFF, PUNCH ON/OFF). See Parameters 
+above.  
+
+Determination of Fanuc 0 Model Types  
+
+To determine the version of the Fanuc 0 series CNC Control, check the master board number 
+and/or the software version. The Master board number is found on the top left side of the main 
+circuit board, usually mounted in the control cabinet that has the daughter card attached. It should 
+not be confused with “A02B-????-????” numbers, which are Fanuc’s ordering numbers and are 
+usually found on a sticker above the master board.    
+
+You can determine the software version by powering-up the control with E-stop active (button 
+depressed). The control should hang on the software version screen (in the lower right corner of 
+this screen, you will see the servo version number as well). Please note that Memex has a 
+MxBRU (Battery Replacement Unit) available that provides a maintenance-free rechargeable 
+Lithium battery backup for this control.  
+
+1985 / 1986  Fanuc 0-MA and Fanuc 0-TA 120M maximum battery backed resident memory.  
+
+1987 / 1989  Fanuc 0-MB and Fanuc 0-TB  320M maximum battery backed resident memory.  
+
+1990 / 1998  Fanuc 0- MC and Fanuc 0-TC 320M maximum battery backed resident memory.  
+
+Fanuc 0 DNC Drip-Feeding Note 
+
+Most machine tool builders enabled the ability for the CNC to run in drip feed mode (also called 
+"Tape" mode, or "Auto" mode with a switch or keep relay set). You can determine if your machine 
+supports running files of any length in this mode that executed each line directly if you can make 
+the "DNCI" bit in the Diagnostics area go to a "1". The "DNCI" bit is G127.5 (or Diagnostic bit 127 
+= xx1x xxxx). If you have a switch, keep relay (found in the Diagnostic section by the way) then 
+you are good to go. Put the machine in DNC mode, make sure you are in AUTO mode, get your 
+PC ready to send the file and hit Cycle Start to start executing code. The code never goes into 
+the part program memory, so code of any length can be run. Make sure you have a good DNC 
+setup as any data loss (due to bad cabling or faulty flow control) can cause a crash. Try our 
+NetDNC software for a reliable communications link available as a free demo on our website.  
+
+(Note: If you have a Fanuc 0-M Model A (Digital)  with a A16B-1010-0210 masterboard 
+and software version 412-08, we have a special DNC solution for you). 
+
+

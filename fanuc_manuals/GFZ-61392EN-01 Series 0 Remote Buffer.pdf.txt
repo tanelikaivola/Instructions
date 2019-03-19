@@ -1,0 +1,4423 @@
+
+GE Fanuc Automation
+
+Computer Numerical Control Products
+
+Series 0
+Series 00
+
+Descriptions Manual  (Remote Buffer)
+
+GFZ-61392EN-1/01 July 1997
+
+
+
+GFL-001
+
+Warnings, Cautions, and Notes
+as Used in this Publication
+
+Warning
+
+Warning notices are used in this publication to emphasize that hazardous voltages, currents,
+temperatures, or other conditions that could cause personal injury exist in this equipment or
+may be associated with its use.
+
+In situations where inattention could cause either personal injury or damage to equipment, a
+Warning notice is used.
+
+Caution
+
+Caution notices are used where equipment might be damaged if care is not taken.
+
+Note
+Notes merely call attention to information that is especially significant to understanding and
+operating the equipment.
+
+This document is based on information available at the time of its publication.  While efforts
+have been made to be accurate, the information contained herein does not purport to cover all
+details or variations in hardware or software, nor to provide for every possible contingency in
+connection with installation, operation, or maintenance.  Features may be described herein
+which are not present in all hardware and software systems.  GE Fanuc Automation assumes
+no obligation of notice to holders of this document with respect to changes subsequently made.
+
+GE Fanuc Automation makes no representation or warranty, expressed, implied, or statutory
+with respect to, and assumes no responsibility for the accuracy, completeness, sufficiency, or
+usefulness of the information contained herein.  No warranties of merchantability or fitness for
+purpose shall apply.
+
+©Copyright 1997 GE Fanuc Automation North America, Inc.
+All Rights Reserved.
+
+
+
+B–61392EN–1/01 DEFINITION OF WARNING, CAUTION, AND NOTE
+
+s–1
+
+DEFINITION OF WARNING, CAUTION, AND NOTE
+
+This manual includes safety precautions for protecting the user and preventing damage to the
+machine.  Precautions are classified into Warning and Caution according to their bearing on safety.
+Also, supplementary information is described as a Note.  Read the Warning, Caution, and Note
+thoroughly before attempting to use the machine.
+
+WARNING
+
+Applied when there is a danger of the user being injured or when there is a damage of both the user
+being injured and the equipment being damaged if the approved procedure is not observed.
+
+CAUTION
+
+Applied when there is a danger of the equipment being damaged, if the approved procedure is not
+observed.
+
+NOTE
+
+The Note is used to indicate supplementary information other than Warning and Caution.
+
+� Read this manual carefully, and store it in a safe place.
+
+
+
+B–61392EN–1/01 PREFACE
+
+p–1
+
+�������
+
+The models covered by this manual, and their abbreviations are :
+
+Product Name Abbreviations
+
+FANUC Series 0–TC 0–TC
+
+FANUC Series 0–TF 0–TF
+
+FANUC Series 0–MC 0–MC
+Series 0
+
+FANUC Series 0–MF 0–MF
+Series 0
+
+FANUC Series 0–GCC 0–GCC
+
+FANUC Series 0–GSC 0–GSC
+
+FANUC Series 00–TC 00–TC
+
+FANUC Series 00–MC 00–MC Series 00
+
+FANUC Series 00–GCC 00–GCC
+
+Applicable models
+
+
+
+B–61392EN–1/01 Table of Contents
+
+c–1
+
+DEFINITION OF WARNING, CAUTION, AND NOTE s–1. . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+PREFACE p–1. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+1. GENERAL 1. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+2. INTERFACE BETWEEN REMOTE BUFFER AND HOST COMPUTER 2. . . . . . . 
+2.1 ELECTRICAL INTERFACE 3. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+2.2 SOFTWARE INTERFACE 4. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+3. ELECTRICAL INTERFACE 5. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+3.1 TRANSMISSION SYSTEM 6. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+3.2 RS–232–C INTERFACE 7. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+3.3 RS–422 INTERFACE 9. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+4. PROTOCOL A 11. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+4.1 MESSAGE FORMAT 12. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+4.2 CODE SYSTEM 13. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+4.3 COMMUNICATION SYSTEM 14. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+4.4 COMMAND 16. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+4.4.1 Command Table 16. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+4.4.2 Description of Data Part 17. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+4.5 PARAMETER TABLE 20. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+4.6 ERROR PROCESS 21. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+4.7 STATUS TRANSITION 22. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+5. EXPANSION PROTOCOL A 23. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+5.1 COMMUNICATION SYSTEM 24. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+5.2 DATA PACKET FORMAT 25. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+5.3 MONITOR PACKET FORMAT 27. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+5.4 COMMUNICATION EXAMPLE 28. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+6. PROTOCOL B 36. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+6.1 COMMUNICATION MODES 37. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+6.2 RECEIVING DATA 40. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+6.3 CONTROL CODE 41. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+6.4 BUFFER CONTROL 42. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+6.5 CNC ALARM AND RESET 42. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+7. DATA INTERFACE 43. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+7.1 DATA PART 44. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+7.2 INTERFACE OF DATA PART 45. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+8. DISTRIBUTION PROCESSING FUNCTION 
+(HIGH–SPEED REMOTE BUFFER B FUNCTION) 46. . . . . . . . . . . . . . . . . . . . . . . . . 
+
+
+
+B–61392EN–1/01Table of Contents
+
+c–2
+
+8.1 NC PROGRAM FORMAT 47. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+8.2 COMMANDS IN HIGH–SPEED MACHINING SECTIONS 48. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+8.3 MODAL MANAGEMENT 48. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+8.4 FEEDRATE OVERRIDE 49. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+8.5 NOTES 49. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+9. BINARY INPUT OPERATION FUNCTION 
+(HIGH–SPEED REMOTE BUFFER) 50. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+9.1 DESCRIPTIONS 51. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+9.2 TRANSFER SPEED 53. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+9.3 CAUTIONS 54. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+10.PARAMETERS 55. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+11.ALARMS 57. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+12.CONNECTION 58. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+12.1 OUTLINE 59. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+12.2 INSTALLING TO THE P.C. BOARD 61. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+12.2.1 Installing to the P.C. Board in Case of Control Unit A 61. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+12.2.2 Installing to the P.C. Board in Case of Control Unit B 61. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+12.3 OUTLINE DRAWING 62. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+12.3.1 Outline Drawing in Case of Control Unit A 62. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+12.3.2 Outline Drawing in Case of Control Unit B 63. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+12.4 REMOTE BUFFER INTERFACE (RS–232–C) 64. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+12.5 REMOTE BUFFER INTERFACE (RS–422) 66. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+12.6 CONNECTION TO BATTERY UNIT 69. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+
+
+B–61392EN–1/01 1. GENERAL
+
+1
+
+1 GENERAL
+The remote buffer for Series 0/00 is an option and is used to allow a large
+number of data to be continuously supplied to the CNC at high speed by
+connecting it to the host computer or I/O device through a serial interface.
+
+Series 0
+Series 00
+
+Remote
+buffer
+
+RS–232–C/RS–422 Host 
+computer
+
+I/O 
+device
+
+The followings can be performed by the remote buffer.
+
+1) It is used to perform DNC operation at high speed and with high
+reliability by performing on–line connection to the host computer.
+
+2) It is used to download the NC program and parameters from the host
+computer.
+
+3) It is used to perform DNC operation and download various kinds of
+data by connecting to the I/O device. The following I/O devices can
+be connected.
+
+(1) FANUC PPR
+
+(2) FANUC BUBBLE CASSETTE
+
+(3) FANUC FLOPPY CASSETTE
+
+(4) FANUC PROGRAM FILE
+
+(5) FANUC PROGRAM FILE Mate
+
+(6) FANUC Handy File
+
+Hereafter, the destination where the remote buffer is connected to be
+called “Host computer” for ease of explanation.
+
+
+
+2. INTERFACE BETWEEN REMOTE BUFFER AND 
+    HOST COMPUTER B–61392EN–1/01
+
+2
+
+2 INTERFACE BETWEEN REMOTE BUFFER AND HOSTCOMPUTER
+
+
+
+B–61392EN–1/01
+2. INTERFACE BETWEEN REMOTE BUFFER AND
+
+HOST COMPUTER
+
+3
+
+The following two interfaces are provided as standard specifications.
+
+1) RS–232–C interface
+
+2) RS–422 interface (Note)
+
+RS–232–C RS–422
+
+Interface Serial voltage interface 
+(start–stop system)
+
+Balance transmission serial interface 
+(start–stop system)
+
+Baud rate 50–19200 baud rate 50–76800 baud rate (Note)
+
+Cable length 
+(MAX.)
+
+100 m (4800 baud or less)
+50 m (9600 baud)
+It differs depending on I/O
+devices.
+
+Approximately 800 m 
+(9600 baud or less)
+50 m (19200 baud or more)
+
+NOTE
+When the baud rate exceeding 38400 BPS is used, the
+synchronization of reception clock is required. Prepare the
+TT (*TT) and RT (*RT) signals.
+
+2.1
+ELECTRICAL
+INTERFACE
+
+
+
+2. INTERFACE BETWEEN REMOTE BUFFER AND 
+    HOST COMPUTER B–61392EN–1/01
+
+4
+
+The following three protocols for communication between the remote
+buffer and host computer are provided. The protocol meeting the
+requirement of specifications of connection device can be selected by
+setting a parameter.
+
+Protocol Features of protocol Interfaceused
+Transfer rate 
+
+(Max.)
+
+Protocol 
+A
+
+It is the handshake system where trans-
+mit/receive is repeated between the
+
+RS–232–C 19200 BPS
+A mit/receive is re eated between the
+
+both. RS–422 76800 BPS
+
+Expansion
+protocol 
+
+A
+
+It is nearly the same as the protocol A.
+However, the NC program can be trans-
+ferred at high–speed so that it can be
+applied to the high–speed DNC opera-
+tion.
+
+RS–422 76800 BPS
+
+Protocol 
+B
+
+It is the system for controlling the com-
+munication between the both by the
+
+RS–232–C 19200 BPS
+y
+
+control code output from the remote
+buffer. RS–422 76800 BPS
+
+NOTE
+The average data transfer speed becomes smaller than the
+maximum transfer speed.
+
+2.2
+SOFTWARE
+INTERFACE
+
+
+
+B–61392EN–1/01 3. ELECTRICAL INTERFACE
+
+5
+
+3 ELECTRICAL INTERFACE
+
+
+
+3. ELECTRICAL INTERFACE B–61392EN–1/01
+
+6
+
+It is the start–stop system for adding the start bit before and stop bit sfter
+the information bits, respectively.
+
+The format for adding one parity bit to each byte of data to be transmitted
+is also allowed.
+
+1) Format with no parity bit
+
+1 character
+
+Start bit Stop bitData bit
+
+ON
+
+OFF
+b1 b2 b3 b4 b5 b6 b7 b8
+
+LSB MSB
+
+Data bit is sent starting form the LSB.
+
+2) Format with parity bit
+
+b1 b2 b3 b4 b5 b6 b7 b8 p
+
+LSB MSB
+
+1 character
+
+Start bit Stop bitData bit
+
+ON
+
+OFF
+
+Parity bit
+
+Data bit is sent starting from the LSB.
+
+Parameter STP2 (bit 0 of No. 0051) specifies the number of stop bits.
+
+In the format with a parity bit, a parity bit is used so that the total
+number of 1s in the data bits and parity bit is an even number.
+
+Parameter PARTY (bit 1 of No. 0051) specifies whether the parity bit
+is provided.
+
+3.1
+TRANSMISSION
+SYSTEM
+
+
+
+B–61392EN–1/01 3. ELECTRICAL INTERFACE
+
+7
+
+1) Connection between devices
+
+M77 (in the CNC cabinet)
+
+MR–20RMD (Male)
+
+14
+
+15
+
+16 CD
+
+17 ER
+
+18 DR
+
+19 CS
+
+20 RS
+
+8 RD
+
+9 SD
+
+10
+
+11
+
+12
+
+13
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7 SG
+
+H20. F
+
+Cable 1
+Host
+computer
+
+NC side
+
+Output
+
+Input
+
+I/O device side
+SD
+
+RD
+
+RS
+
+CS
+
+ER
+
+DR
+
+CD
+
+SG
+
+FG
+
+9
+
+8
+
+20
+
+19
+
+17
+
+18
+
+16
+
+7
+
+SD
+
+RD
+
+RS
+
+CS
+
+ER
+
+DR
+
+CD
+
+SG
+
+FG
+
+When no CS is used, short–circuit it with the RS. However, when the
+protocol A or expansion protocol A is used, perform connecting as shown
+in the figure above for use as busy control.
+
+When DR is not used, short–circuit is with ER.
+
+Always short–circuit CD to ER.
+
+3.2
+RS–232–C
+INTERFACE
+
+
+
+3. ELECTRICAL INTERFACE B–61392EN–1/01
+
+8
+
+2) Signal description
+
+Signal 
+name
+
+RS–232–C 
+circuit number
+
+Input/ 
+output Description
+
+SD 103 Output Send data See “3.1” for the bit 
+
+RD 104 Input Receive data configuration.
+
+RS 105 Output Request to send
+It is used to inform whether the remote
+buffer is ready to receive data or not. When
+the ER signal is on and this signal is on, the
+remote buffer is ready to receive data.
+
+CS 106 Input Clear to send
+It is used to know the busy status at the host
+computer. When the DR signal is on and
+this signal is on, the host computer is
+regarded as being ready to receive data.
+
+DR 107 Input Data set ready
+When this signal is on, it is considered that
+the preparation at the host computer has
+been completed. Generally, it is connected
+to the ER signal of the host computer. When
+this signal is off during data transmission,
+an alarm occurs.
+Always connect it to the ER signal of CNC
+side when this signal is not used.
+
+ER 108.2 Output Data terminal ready
+When this signal is on, it is considered that
+the remote buffer is in ready condition.
+In general, it is connected to the ER signal
+at the host computer. If it is turned off during
+transmission of data, an alarm occurs. If
+this signal is not used, always connect this
+to the ER signal at the CNC side.
+
+CD 109 Input Received line signal detector
+This signal is not used for connection to the
+host computer. Thus, connect it to the ER
+signal of remote buffer side.
+
+SG 102 Grounding for signal
+
+FG 101 Grounding for protection
+
+–3V or less +3V or more
+
+Function OFF ON
+
+Signal Condition Marking Spacing
+
+NOTE
+Turn on or off signal according to the following:
+
+
+
+B–61392EN–1/01 3. ELECTRICAL INTERFACE
+
+9
+
+1) Connection between devices
+
+M73 (in the CNC cabinet)
+
+MR–20RMD (Male)
+
+14 CS
+
+15 *CS
+
+16
+
+17
+
+18 RT
+
+19 *RT
+
+20
+
+8 TT
+
+9 *TT
+
+10 RD
+
+11 *RD
+
+12 RR
+
+13 *RR
+
+1 SD
+
+2 *SD
+
+3 TR
+
+4 *TR
+
+5 RS
+
+6 *RS
+
+7 SG
+
+H20. F
+
+Cable 3
+Host
+computer
+
+Simplified figure showing the signal connection
+
+Remote buffer Host computer
+1
+
+2
+
+10
+
+11
+
+5
+
+6
+
+14
+
+15
+
+12
+
+13
+
+16
+
+17
+
+3
+
+4
+
+8
+
+9
+
+18
+
+19
+
+7
+
+SD
+
+*SD
+
+RD
+
+*RD
+
+RS
+
+*RS
+
+CS
+
+*CS
+
+RR
+
+*RR
+
+DM
+
+*DM
+
+TR
+
+*TR
+
+TT
+
+*TT
+
+RT
+
+*RT
+
+SG
+
+FG
+
+SD
+
+*SD
+
+RD
+
+*RD
+
+RS
+
+*RS
+
+CS
+
+*CS
+
+RR
+
+*RR
+
+DM
+
+*DM
+
+TR
+
+*TR
+
+TT
+
+*TT
+
+RT
+
+*RT
+
+SG
+
+FG
+
+3.3
+RS–422 INTERFACE
+
+
+
+3. ELECTRICAL INTERFACE B–61392EN–1/01
+
+10
+
+2) Signal description
+
+Signal 
+name
+
+RS–232–C 
+circuit number
+
+Input/ 
+output Description
+
+SD 103 Output Transmission data See “3.1” for the bit
+
+RD 104 Input Reception data configuration.
+
+RS 105 Output Transmission request
+It is used to inform whether the remote
+buffer is ready to receive data or not. When
+the TR signal is on and this signal is on, the
+remote buffer is ready to receive data.
+
+CS 106 Input ???
+It is used to know the busy status at the host
+computer. When the DM signal is on and
+this signal is on, the host computer is
+regarded as being ready to receive data.
+
+TR 108.2 Output Terminal Ready
+When this signal is on, it is considered that
+the operation of remote buffer has been
+completed. In general, it is connected to the
+ER signal at the host computer. If it is turned
+off during transmission of data, an alarm
+results. If this signal is not used, always
+connect this to the ER signal at the CNC
+side.
+
+RR 109 Input Receiver Ready
+When this signal is on, it indicates that the
+host computer is ready to transmit data to the
+remote buffer. If this signal is not used, always
+connect it to the TR signal at the remote buffer
+side.
+
+TT 113 Output Transmission timing
+Transmission clock transmission terminal
+at the remote buffer side. When 38400 baud
+or more is used, always connect it to theRT
+signal at the host computer side.
+
+RT 115 Input Reception timing
+Reception clock input terminal at the
+remote buffer side. When 38400 baud or
+more is used, always connect it to the TT
+signal at the host computer side.
+
+SG 102 Grounding for signal
+
+FG 101 Grounding for protection
+
+A<B A>B
+
+Function OFF ON
+
+Signal Condition Marking Spacing
+
+Driver
+
+Receiver
+
+A
+
+B
+
+A
+
+B
+
+NOTE
+The signal turn on/off according to the following:
+
+
+
+B–61392EN–1/01 4. PROTOCOL A
+
+11
+
+4 PROTOCOL A
+It is used for the handshake system where the communication between the
+remote buffer and host computer repeats transmission/reception each
+other.
+
+
+
+4. PROTOCOL A B–61392EN–1/01
+
+12
+
+The information (character–string) exchanged between the remote buffer
+and host computer is called “message”. The general type of message is
+shown as below:
+
+Message
+
+2 byte 3 byte 1 byte
+Variable length
+
+(it can be omitted.)
+
+Sum Command Data part ETX
+
+Field Byte length
+Abbre–
+viation Meaning Remarks
+
+Checksum 2 No It is used to indicate the lower 8 bits of binary sum of all bytes
+from the command field to end code by two–digit hexadecimal
+number (0 to 9 and A to F).
+
+Transmit the MSB before
+the LSB.
+
+Command 3 No It is used to display the type of message (functions) and to
+specify the operation and response of the partner.
+
+Data 0 to n Yes It is the data part corresponding to a command. Abbreviate it
+when a command without data part is used. Details are
+described later.
+
+SAT, SET, DAT, RTY, SDI,
+SDO
+
+End code
+(ETX)
+
+1 No It indicates the end of message. Not transmit a code which is
+the same as an end code to data part.
+
+4.1
+MESSAGE FORMAT
+
+
+
+B–61392EN–1/01 4. PROTOCOL A
+
+13
+
+The communication codes between the remote buffer and host computer
+are described below:
+
+Field Command Code Relatedparameters
+
+Checksum ––– ISO/ASCII No.0055#0
+(ASCII)
+
+Command name ––– ISO/ASCII No.0055#0
+(ASCII)
+
+Data part DAT ISO/ASCII/EIA/Bin No.0051#3
+(RSASC)
+
+Commands other than DAT ISO/ASCII No.0055#0
+(ASCII)
+
+End code ––– CR ISO/ASCII No.0055#0
+(ASCII)
+
+EXT ISO/ASCII
+
+( )
+No.0055#1
+
+(EXT)
+
+4.2
+CODE SYSTEM
+
+
+
+4. PROTOCOL A B–61392EN–1/01
+
+14
+
+It is used to perform communication between the remote buffer and host
+computer.
+
+When the both are ready to operate after power on, the communication
+starts from the transmission of remote buffer and reception of host
+computer and then the transmission/reception is repeated.
+
+ER
+
+RS
+
+CS
+
+SD
+
+RD
+
+Approximately 2 seconds
+
+SD
+
+CS
+
+RS
+
+RD
+
+t1 � Ti n1 � 3
+
+t2 n2 t3
+
+0 � t2 � To n2 � No Tx � t3 � Tp
+
+(1) Approximately two seconds are required for the first request after
+both of remote buffer and host computer are ready. However, when
+the CS signal is off, the first transmission is performed after turning
+on the CS signal.
+
+4.3
+COMMUNICATION
+SYSTEM
+
+
+
+B–61392EN–1/01 4. PROTOCOL A
+
+15
+
+(2) The minimum time period between bytes is determined by the
+parameter Ti (msec) of SET command. There is no prescription of
+minimum time period between reception bytes.
+
+(3) Switching from transmission to reception
+Immediately the remote buffer side can be ready to receive signal.
+Start transmission within the parameter setting time (To sec) at the
+host computer side. When no response is obtained for the time period
+(To or more), an error occurs in the host computer. (Overtime)
+
+(4) Switching from reception to transmission
+The remote buffer waits for Tx msec (parameter setting time) and
+moves to the transmission process after completion of reception.
+When there is no transmission after waiting another parameter (Tp
+seconds), it is considered that an error occurred in the remote buffer.
+
+(5) Overrun on reception
+When the RS signal is turned off by the remote buffer on reception
+of signal, stop the transmission within the overrun parameter number
+bytes by the host computer. Request for retransmission is transmitted
+when the above number is exceeded.
+
+(6) Overrun on transmission
+When the CS is turned off on transmission of remote buffer, the
+transmission is suspended within 3 bytes including that which is
+currently being transmitted.
+
+
+
+4. PROTOCOL A B–61392EN–1/01
+
+16
+
+Commands used in the protocol A are described below:
+
+Origin station R: Remote buffer H: Host computer
+
+Command Originstation Functions Data part
+Executed
+
+command at
+CNC side
+
+SYN R Initialization command
+It is used to command the initialization of host.
+
+Meaningless SYN
+
+H Response of SYN
+Response when the initialization does not end yet
+Initialization command
+It is command to initialize the remote buffer.
+
+Meaningless
+
+RDY R Notice of initialization end
+The host should respond the RDY in the case of end of initializa-
+tion or the SYN when the initialization has not ended.
+
+Meaningless RDY, SYN
+
+H Notice of initialization end
+It is used to notice that the initialization of host has ended.
+
+Meaningless
+
+RST R Notice of CNC reset
+Immediately after the CNC is reset, transmit this command when
+it is possible to transmit signal.
+
+Meaningless ARS
+
+ARS H Response corresponding to the RST Meaningless
+
+ALM R Notice of CNC alarm occurrence
+When an alarm occurs in CNC, transmit this command when it
+is possible to transmit immediately after that.
+
+Meaningless AAL
+
+AAL H Response corresponding to the ALM Meaningless
+
+SAT R Notice of remote buffer status
+It is used to notice the status of remote buffer by transmitting it
+when there is no data to be especially transmitted while the Tp
+sec has passed after receiving the command.
+
+Status SET ���  Normal
+CLB
+RDI
+SDO
+SYN
+
+SET H Response corresponding to the SAT
+It is used to modify the setting parameter of remote buffer by
+specifying the data part.
+
+Modification
+parameter
+
+GTD R Transmit command of NC data
+Transmit this command when the space of remote buffer
+exceeds Nb bytes of parameter setting value in the remote
+operation status.
+
+Meaningless DAT ���  Normal
+EOD ���  End
+WAT ���  Busy
+RDI
+SDO
+
+DAT H Response corresponding to the GTD
+Transmit this command with the NC data.
+
+NC data
+
+WAT H Response corresponding to the GTD
+Transmit this command if the NC data cannot be transmitted
+within to when the GTD has been received.
+The GTD is transmitted again by the remote buffer after a
+parameter setting time of Tw.
+
+Meaningless
+
+EOD H Response corresponding to GTD
+Transmit this command when the GTD has been received while
+the transmission of NC data has been completed.
+
+Meaningless
+
+CLB H Buffer clear
+It can be transmitted as the response of SAT when the buffer at
+the remote buffer side is to be cleared.
+
+Meaningless
+
+4.4
+COMMAND
+
+4.4.1
+Command Table
+
+
+
+B–61392EN–1/01 4. PROTOCOL A
+
+17
+
+Command
+Executed
+
+command at
+CNC side
+
+Data partFunctionsOriginstation
+
+RDI H DI reading request
+It is used to request transmission of image of specified 8–bit DI.
+The DI image at that time is responded by the SDI command in
+the remote buffer.
+This command can be transmitted as responses of SAT and
+GTD.
+
+Meaningless
+
+SDI R Notice of DI
+It is used to transmit the signal status of DI as the response of
+RDI command.
+The host should transmit the response of command received
+immediately before transmitting the RDI after receiving this com-
+mand.
+
+DI image Response corre-
+sponding to the
+DAT/SAT
+
+SDO H Do output request
+It is used to command that the 8–bit image of data part should
+be output to the DO.
+It can be transmitted as responses of SAT, GTD, and SDI.
+
+DO image
+
+RTY R/H Request of retransmission
+It is used to request the retransmission of the same message as
+before.
+Immediately transmit this command when a transmit error is
+detected during reception of messages.
+
+Reason for
+retransmission
+
+Command trans-
+mitted immedi-
+ately before
+
+Data part of message is of variable length. Up to 4096 and 72 bytes can
+be received/transmitted in the case of <DAT> and the others, respectively.
+
+1) Data part of SAT
+
+Byte 
+position Meaning and code
+
+Default value 
+(hexadecimal)
+
+1 Switching of remote/tape operations
+According to parameter RMSTS (No. 0055#7) setting.
+
+0
+
+2 Status of remote buffer
+0 : Non–completion status of operation preparation
+1 : Reset status
+2 : Operation status
+3 : Alarm status
+4 : Open line
+
+0
+
+3 Causes of shift to alarm status
+0 : NC alarm
+1 : Checksum error (retry over)
+6 : Reception of unexpected response 
+
+(command error)
+A: Overrun error (retry over)
+
+0
+
+4 Not used –––
+
+5 to 8 Number of bytes currently stored in the buffer
+(Four–digit hexadecimal number)
+
+0000
+
+9 to 12 Current value of parameter Nb
+Empty area limit of buffer
+(Four–digit hexadecimal number)
+
+07D0
+
+13 to 16 Current value of parameter No
+Amount of maximum overrun on reception
+(Four–digit hexadecimal number)
+
+0032
+
+17 to 20 Current value of parameter Ne
+Number of times of retry on detecting a transmission
+error
+(Four–digit hexadecimal number)
+
+000A
+
+4.4.2
+Description of Data
+Part
+
+
+
+4. PROTOCOL A B–61392EN–1/01
+
+18
+
+Byte 
+position
+
+Default value 
+(hexadecimal)Meaning and code
+
+21 to 24 Current value of parameter Tp
+Polling time interval
+(Four–digit hexadecimal number)
+
+0005
+
+25 to 28 Current value of parameter To
+Time–out time
+(Four–digit hexadecimal number)
+
+0014
+
+29 to 32 Current value of parameter Ti
+Minimum time interval between bytes transmitted
+(Four–digit hexadecimal number)
+
+000A
+
+33 to 36 Current value of parameter Tx
+Minimum switching time from reception to transmission
+(Four–digit hexadecimal number)
+
+0064
+
+37 to 40 Current value of parameter Tw
+Waiting time on reception of (WAT)
+(Four–digit hexadecimal number)
+
+0005
+
+41 to 44 Always set 0.
+(Four–digit hexadecimal number)
+
+0000
+
+45 to 46 Code to be converted
+(Two–digit hexadecimal number)
+
+00
+
+47 to 48 Code after conversion
+(Two–digit hexadecimal number)
+
+00
+
+49 to 54 Reserve –––
+
+55 to 56 Packet length parameter n of expansion protocol A
+(Two–digit hexadecimal number)
+00: Normal protocol A
+01: Expansion protocol A
+
+NC data length = 256 bytes
+Packet length = 260 bytes
+
+02: Expansion protocol A
+NC data length = 512 bytes
+Packet length = 516 bytes
+
+04: Expansion protocol A
+NC data length = 1024 bytes
+Packet length = 1028 bytes
+
+00
+
+57 to 72 Not used –––
+
+2) Data part of SET
+
+The format of data part of command <SET> is the same as that of data
+part of <SAT> except the following points.
+
+Data part can be abbreviated when no parameter is modified.
+
+Byte 
+position Meaning and code Remarks
+
+1 Switching request of remote/tepe operations
+
+2 Status of host computer Ignore
+
+3 to 8 Not used
+
+9 to 48 Modifies value of parameter
+
+49 to 54 Not used
+
+55 to 56 Parameter for expansion protocol
+
+57 to 72 Not used
+
+
+
+B–61392EN–1/01 4. PROTOCOL A
+
+19
+
+3) Data part of DAT
+
+Up to 4096 bytes of NC data can be received at the data part of
+command <DAT>.
+
+In general, the number of NC data bytes should be less than or equal
+to the value specified with parameter Nb–No of the SET command.
+
+Transmit the NC data depending on the specifications of NC since no
+data process is performed in the remote buffer other than the
+conversion code set by the parameter.
+
+Also, always add the EOR code to the end of NC program.
+
+4) Data part of SDI
+
+Byte 
+position Meaning
+
+1 to 2 2–byte hexadecimal display of 8–bit contents of DI
+(PMC address: G239)
+
+3 to 72 Not used (it can be omitted.)
+
+5) Data part of SDO
+
+Byte 
+position Meaning
+
+1 to 2 2–byte hexadecimal display of 8–bit contents of DO
+(PMC address: F289)
+
+3 to 72 Not used (it can be omitted.)
+
+6) Data part of RTY
+
+Byte 
+position Meaning
+
+1 Reason for requesting retransmission
+1 : Checksum error
+3 : Overrun error
+
+2 to 72 Not used (it can be omitted.)
+
+7) Data part of other commands
+
+Byte 
+position Meaning
+
+1 to 72 Not used (it is generally omitted.)
+
+
+
+4. PROTOCOL A B–61392EN–1/01
+
+20
+
+Parameters which can be set in the data part of SET command are shown
+as below:
+
+Parameter Meaning Unit Range On turningon power
+
+Nb Number of bytes of minimum buffer
+empty area on transmission of
+GTD
+
+Byte 1 to 4000 2000
+
+No Maximum amount of overrun on
+reception of data
+
+Byte 2 to 2000 50
+
+Ne Number of retry times on detection
+of transmission error
+
+Times 0 to 100 10
+
+Tp Polling time interval Sec 1 to 99 5
+
+To Time–out time Sec 1 to 999 20
+
+Ti Minimum time interval between
+transmission bytes
+
+msec 0 to 10
+(Note)
+
+10
+
+Tx Minimum switching time from
+reception to transmission
+
+msec 0 to 100 100
+
+Tw Wait time on reception of WAT Sec 0 to Tp 5
+
+NOTE
+2 msec step
+
+4.5
+PARAMETER TABLE
+
+
+
+B–61392EN–1/01 4. PROTOCOL A
+
+21
+
+1) Open–line error
+
+When the following error occurs, it may be an open line error. Restart
+the initialization of remote buffer for recovering the line.
+
+When the line is recovered, it waits for transmission of SYN and is
+SYN wait status.
+
+The procedures are the same as those of initialization on power on
+other than continuation of SYN of host computer.
+
+(1) Framing error
+
+(2) Overrun error
+
+(3) Parity error
+
+(4) Data Set Ready off
+
+(5) Buffer full (the transmission stop request is unacceptable.)
+
+(6) Time out
+
+(7) Number of retry times has been exceeded.
+
+2) Reception error
+
+Ignore the reception data and restart the reception of SAT command
+at the remote buffer side when the following errors occurs.
+
+(1) Number of retry times exceeded
+Number of RTY reception times + Number of retransmission by
+checksum error > Ne
+
+(2) Command error
+Message format error
+Reception of undefined command
+Reception of unexpected command
+
+(3) Overrun
+This results if the transmission stop request is not accepted and
+the reception buffer is overflown.
+
+3) Reception during transmission
+
+Data received during transmission is ignored.
+
+4.6
+ERROR PROCESS
+
+
+
+4. PROTOCOL A B–61392EN–1/01
+
+22
+
+The status transition diagram of remote buffer is shown as below:
+
+Turning on power
+
+Non–completed 
+status of operation
+
+preparation
+0
+
+SYN reception
+
+Line error (Note 1)
+
+After 2 msec
+
+Reset 
+status 
+
+1
+
+Open line
+status 
+
+4
+
+NC reset
+NC reset
+EOD reception Reception
+
+error 
+NC alarm
+
+GTD 
+transmission
+
+Line error Line error 
+(Note 1)
+
+Remote operation
+status 
+
+2
+Alarm 
+status 
+
+3Reception error
+NC alarm
+ (Note 2)
+
+RDY reception
+
+NOTE
+1 Causes of line error
+
+(1) DR off
+(2) Number of retry times over
+(3) Time out
+(4) Buffer full
+
+2 Reception error
+(1) Undefined command
+(2) Unexpected command
+(3) Number of retry times over by sum error
+(4) Overrun
+
+4.7
+STATUS TRANSITION
+
+
+
+B–61392EN–1/01 5. EXPANSION PROTOCOL A
+
+23
+
+5 EXPANSION PROTOCOL A
+It allows the NC data between the remote buffer and host computer to be
+efficiently transferred by adding the high–speed reception function to the
+protocol A.
+
+
+
+5. EXPANSION PROTOCOL A B–61392EN–1/01
+
+24
+
+The expansion protocol A is the same as the protocol A excluding the
+transmission of NC data.
+
+The expansion protocol A mode is initiated after the <GTD> is output to
+the host computer by the remote buffer according to the data request from
+the CNC side.
+
+The communication system is performed in the full duplex mode in the
+expansion protocol A. The NC data transmitted is packeted and is
+transmitted to the remote buffer by the host computer. Also, perform the
+reception process of monitor packet from the remote buffer.
+
+Protocol 
+A 
+
+mode
+
+GTD transmission
+
+End packet
+
+Mode transition
+
+Expansion
+protocol A
+
+mode
+
+Packet transmission/
+reception
+
+5.1
+COMMUNICATION
+SYSTEM
+
+
+
+B–61392EN–1/01 5. EXPANSION PROTOCOL A
+
+25
+
+The NC data is transferred to the remote buffer using the following format
+by the host computer after receiving the <GTD>.
+
+When the NC data transmitted becomes multiple packets, the packets can
+be transmitted in order without waiting the response from the remote
+buffer by the host computer.
+
+NC data
+(”256*n” byte)
+
+Packet
+No.
+
+(1 byte)
+
+Checksum
+(2 byte)
+
+End
+code
+
+(1 byte)
+
+Calculation range of checksum
+
+1) NC data
+
+The NC data is the fixed length of “256*n” bytes and the n is specified
+with the parameter (byte position 55 to 56) by the <SET> command.
+
+The default value of n is 0. In the case of “ = 0”, the normal protocol
+A is used.
+
+n = 0: Normal protocol A
+
+N = 1, 2, 4: Expansion protocol A
+
+CAUTION
+Note that n is set to 0 automatically even if n is set to the
+values other than listed above.
+
+2) Packet No.
+
+a) Effective packet: 30h – 39h (ASCII code)
+
+Always set the first packet No. to 30h. In other cases, the packet
+No. 30h is transmitted to the host computer with the monitor
+packet <NAK> of retransmission request by the remote buffer.
+
+When data is sent by only one packet, set the packet No. to OFFh
+(end packet).
+
+Hereafter, the value incremented by 1 should be the packet No.
+
+However, the value next to 39h becomes 30h.
+
+Also, when the loss or improper order of packet No. is detected,
+the improper packet No. is transmitted to the host computer slong
+with the monitor packet <NAK>.
+
+When the checksum error is detected, the improper packet No. is
+transmitted to the host computer with the monitor packet <NAK>
+of retransfer request by the remote buffer.
+
+b) End packet: FFh
+
+The end packet is transmitted by setting the packet No. to FFh.
+The data part of end packet is considered to be the effective data.
+However, the end packet received after transmitting <CAN>
+ignores the data part.
+
+This allows the expansion protocol A mode to be ended and the
+normal protocol A mode is initiated.
+
+However, when the checksum error is detected at the end packet, the
+before packet No. +1 is transmitted as the end packet No. to the host
+computer with monitor packet <NAK> of retransmission request.
+
+5.2
+DATA PACKET
+FORMAT
+
+
+
+5. EXPANSION PROTOCOL A B–61392EN–1/01
+
+26
+
+The host computer should shift to the protocol A when the
+command of protocol A is received after transmitting the end
+packet.
+
+c) Invalid packet: Other than above
+
+Transmit this invalid packet with the dummy data of “256*n”
+bytes when the time out may occur since time is required for
+editing of NC data transmitted by the host computer.
+
+The remote buffer is processed as an invalid packet.
+
+3) Checksum
+
+The checksum is obtained by adding the NC data to the packet No.
+in units of byte and then expressing the 1 byte data produced by
+neglecting the overflow above 8 bits out of the total value above using
+ASCII 2–byte code.
+
+4) End code
+
+The end code should be the ASCII code CR (0Dh).
+
+
+
+B–61392EN–1/01 5. EXPANSION PROTOCOL A
+
+27
+
+The monitor packets transmitted from the remote buffer to the host
+computer are shown as below. All packets have the fixed length consisting
+of 5 bytes.
+1) Stop request
+
+CAN 
+(18h)
+
+Meaningless 
+(20h)
+
+Checksum 
+(2 byte)
+
+End Code 
+(0Dh)
+
+The stop request is transmitted to the host computer by the remote
+buffer when resetting the NC and stopping data reception by an alarm.
+Transmit the end packet (the NC is dummy) after transmitting the
+packet which is currently being transmitted and move to the normal
+protocol A mode when this packet is received by the host computer.
+When the packet being transferred is the end packet, an additional end
+packet need not be transferred for acknowledgment of the CAN signal.
+Transmit the end packet even in the DC3 reception status.
+
+2) Retransmission request
+
+NAK 
+(15h)
+
+Packet No. 
+(1 byte)
+
+Checksum 
+(2 byte)
+
+End Code 
+(0Dh)
+
+When a check sum error is detected in the received packet, the
+retransmission request corresponding to the packet is transmitted by
+the remote buffer.
+The host computer should perform retransmission from the
+corresponding packet immediately after ending the transmission of
+packet which is currently being transmitted when it receives this packet.
+
+3) Interruption request
+
+DC3 
+(93h)
+
+Meaningless 
+(20h)
+
+Checksum 
+(2 byte)
+
+End Code 
+(0Dh)
+
+The interruption request is transmitted to the host computer by the
+remote buffer when the reception buffer may become overflown.
+The host computer should interrupt the transmission and wait until the
+next monitor packet is received after completing the transmission of
+packet which is currently being transmitted when it receives this packet.
+
+4) Restart request
+
+DC1 
+(11h)
+
+Meaningless 
+(20h)
+
+Checksum 
+(2 byte)
+
+End Code 
+(0Dh)
+
+The restart request is transmitted to the host computer by the remote
+buffer when there is space in the reception buffer after requesting
+interruption.
+The host computer should restart the transmission from the next
+packet following the interrupted one when this packet is received.
+
+NOTE
+If the end packet is currently being transmitted, end packet
+transmission in response to CAN is not necessary.
+
+5.3
+MONITOR PACKET
+FORMAT
+
+
+
+5. EXPANSION PROTOCOL A B–61392EN–1/01
+
+28
+
+1) Normal
+
+Remote buffer Host computer
+
+2) Stop request
+
+Remote buffer Host computer
+
+RESET
+
+5.4
+COMMUNICATION
+EXAMPLE
+
+
+
+B–61392EN–1/01 5. EXPANSION PROTOCOL A
+
+29
+
+3) Retransmission (i)
+
+Remote buffer Host computer
+
+Checksum error
+detection
+
+Retransmit from
+the packet (1)
+
+
+
+5. EXPANSION PROTOCOL A B–61392EN–1/01
+
+30
+
+3) Retransmission (ii)
+
+Remote buffer Host computer
+
+Checksum error
+detection
+
+
+
+B–61392EN–1/01 5. EXPANSION PROTOCOL A
+
+31
+
+3) Retransmission (iii)
+
+Remote buffer Host computer
+
+Packet No. 
+Out–of–order
+detection
+
+Packet No. 
+Out–of–order
+detection
+
+
+
+5. EXPANSION PROTOCOL A B–61392EN–1/01
+
+32
+
+4) Interruption –> Restart
+
+Remote buffer Host computer
+
+Empty buffer
+Remaining
+one block
+
+Empty buffer
+Remaining
+three block
+
+
+
+B–61392EN–1/01 5. EXPANSION PROTOCOL A
+
+33
+
+5) Interruption –> Stop
+
+Remote buffer Host computer
+
+Empty buffer
+Remaining
+one block
+
+RESET
+
+Transmit the end
+packet for ending the
+expansion protocol A
+although the DC3 is
+currently being
+received.
+
+
+
+5. EXPANSION PROTOCOL A B–61392EN–1/01
+
+34
+
+6) Interruption –> Retransmission
+
+Remote buffer Host computer
+
+Empty buffer
+Remaining
+one block
+
+Checksum
+error detection
+
+Empty buffer
+Remaining
+two blocks
+
+Transmit only an error
+packet since the DC3
+is receiving data.
+Restart transmission
+of packets following
+this after receiving
+DC1.
+
+
+
+B–61392EN–1/01 5. EXPANSION PROTOCOL A
+
+35
+
+7) Time–out detection
+
+Remote buffer Host computer
+
+Time–out
+detection
+
+NOTE
+The time–out monitoring period lasts until the next one
+packet is received immediately after output of <GTD>. After
+that, it is the time between reception of one packet and that
+of another.
+
+
+
+6. PROTOCOL B B–61392EN–1/01
+
+36
+
+6 PROTOCOL B
+Protocol B controls the communication between a remote buffer and a
+host computer with control codes.
+
+One of two communication modes can be selected by setting parameter
+SYNAK (bit 2 of No. 0051).
+
+
+
+B–61392EN–1/01 6. PROTOCOL B
+
+37
+
+1) When parameter SYNAK is set to 0
+
+The remote buffer turns on the ER signal and sends the DC1 code to
+receive data from the host computer when the DNC operation starts
+or NC programs start to be entered. When the buffer receives the EOR
+code, it sends the DC3 code and turns off the ER signal to terminate
+the data receiving process.
+
+While the remote buffer receives data, if an alarm is issued in the NC
+unit or if the NC unit is reset, the buffer sends the DC3 code and turns
+off the ER signal to terminate the data receiving process.
+
+a) Timing chart when SYNAK is set to 0
+
+Receiving data starts
+10 ms or more
+
+100 ms or more
+
+ER (Output)
+
+RS (Output)
+
+SD (Output)
+
+RD (Input)
+
+DR (Input)
+
+CD (Input)
+
+CS (Input)
+
+DC1 DC3 DC1 DC3
+
+Data
+Excess data
+
+1 ms or more
+
+NOTE
+The CD signal is checked only when the RS–232C interface
+is used and when parameter NCKCD (No. 0051#4) is set
+properly.
+
+(1) The remote buffer transmits the DC1 code.
+
+(2) The host computer starts to transmit the DC3 code to the
+remote buffer by the DC1 code,
+
+(3) When the empty area of remote buffer area becomes the value
+specified, the DC3 code is transmitted.
+
+(4) The host computer should stop transmission to the remote
+buffer by the DC3 code. The overrun value is specified later.
+
+6.1
+COMMUNICATION
+MODES
+
+
+
+6. PROTOCOL B B–61392EN–1/01
+
+38
+
+(5) The remote buffer transmits the DC1 code when the
+remainder of buffer data becomes less than the level specified
+and requests the host computer to start transmitting data.
+
+(6) The host computer should start transmitting data again by the
+DC1 code. The transmission data is a continuation of
+previous data.
+
+(7) The remote buffer transmits the DC3 code when the data read
+is completed.
+The end of data read is indicated by the detection of ER or NC
+reset.
+
+(8) The host computer stops transmission of data.
+
+2) When parameter SYNAK is set to 1
+
+When the remote buffer becomes ready after the power is turned on,
+the buffer turns on the ER signal, which remains in the on state until
+the power is turned off.
+
+While the remote buffer does not receive data, and when the host
+computer is ready for receiving signals, i.e. signals DR, CD and CS
+are on, the buffer sends a signal as follows: If an alarm is issued in the
+NC unit, the buffer sends the NAK code to the host computer. If the
+NC unit is reset, the buffer sends the SYN code to the computer.
+
+When the situation described above occurs while the remote buffer
+is receiving data, the buffer sends the DC3 code to the host computer
+before it sends the NAK or SYN code.
+
+a) Timing chart when the NAK or SYN code is sent
+
+CNC power on
+
+ER (Output)
+
+RS (Output)
+
+SD (Output)
+
+RD (Output)
+
+DR (Input)
+
+CD (Input)
+
+CS (Input)
+
+Alarm reset Alarm reset
+
+Ignored
+
+NAK or SYN
+
+
+
+B–61392EN–1/01 6. PROTOCOL B
+
+39
+
+b) Timing chart when the NAK or SYN code is sent while the buffer
+is receiving data
+
+Receiving data starts Alarm reset
+
+ER (on) 
+(Output)
+
+RS (Output)
+
+SD (Output)
+
+RD (Input)
+
+DR (Input)
+
+CD (Input)
+
+CS (Input)
+
+DC1 NAK or SYN
+
+Data
+
+DC3
+
+
+
+6. PROTOCOL B B–61392EN–1/01
+
+40
+
+(1) The remote buffer transmits the DC1 code.
+
+(2) The host computer starts to transmit the DC3 code to the remote
+buffer by the DC1 code,
+
+(3) When the empty area of remote buffer area becomes the value
+specified, the DC3 code is transmitted.
+
+(4) The host computer should stop transmission to the remote buffer by
+the DC3 code. The overrun value is specified later.
+
+(5) The remote buffer transmits the DC1 code when the remainder of
+buffer data becomes less than the level specified and requests the host
+computer to start transmitting data.
+
+(6) The host computer should start transmitting data again by the DC1
+code. The transmission data is a continuation of previous data.
+
+(7) The remote buffer transmits the DC3 code when the data read is
+completed.
+The end of data read is indicated by the detection of ER or NC reset.
+
+(8) The host computer stops transmission of data.
+
+6.2
+RECEIVING DATA
+
+
+
+B–61392EN–1/01 6. PROTOCOL B
+
+41
+
+The control code is as shown below regardless of the ISO, EIA, and
+Binary data:
+
+Code (Hexadecimal)
+Control code Function Parameter ASCII 
+
+(No. 0055#0) = 0
+Parameter ASCII 
+(No. 0055#0) = 1
+
+DC1 Host transmission start 11H 11H
+
+DC3 Host transmission stop 93H 13H
+
+NAK Information of NC alarm 95H 15H
+
+SYN Information of NC reset 96H 16H
+
+6.3
+CONTROL CODE
+
+
+
+6. PROTOCOL B B–61392EN–1/01
+
+42
+
+The buffer control method for the remote buffer is as follows:
+
+DC3 transmission condition
+
+Free b\loch\f19 uffer space � 1024 characters
+
+DC1 transmission condition
+
+Free buffer space � 2048 characters
+
+Allowable overrun
+
+Less than 1024 characters
+
+If the CNC enters the alarm or reset condition, the remote buffer transmits
+the DC3 code, then clears the entire contents of the buffer.
+
+6.4
+BUFFER CONTROL
+
+6.5
+CNC ALARM AND
+RESET
+
+
+
+B–61392EN–1/01 7. DATA INTERFACE
+
+43
+
+7 DATA INTERFACE
+
+
+
+7. DATA INTERFACE B–61392EN–1/01
+
+44
+
+Data received from the host computer is largely classified into two parts,
+namely the control part and data part.
+
+With the protocol B/expansion protocol B, all data received from the host
+computer become the data part.
+
+See the following figure for the data part of protocol A/expansion protocol
+A.
+
+1) Protocol A
+
+Packet configuration of <DAT>
+
+Control part
+
+Sum Command Data ETX
+
+ETXData part
+
+2) Expansion protocol A
+
+Configuration of response packet for <GTD>
+
+Data part
+
+Data ETX
+
+Control part
+
+SumNo.
+
+7.1
+DATA PART
+
+
+
+B–61392EN–1/01 7. DATA INTERFACE
+
+45
+
+The interface of data part is in conformity the provisions of data which can
+be handled through the serial port by the Series 0/00.
+
+The end of data part is judged by the detection of EOR code. Also, all data
+after EOR code is ignored.
+
+In general, the data part configuration is as shown below. However, in the
+case of DNC operaiton , the data already received will be lost by the CNC
+reset.
+
+Significant information
+
+%; Program–1 M02; Program–2 M02; .....; Program–N M02; %
+
+The remote buffer performs the following processes by the parameter
+setting for the data of data part.
+
+Protocol Process outline
+
+Protocol B
+Expansion protocol B
+
+The Remote buffer supplies the received
+data to the CNC without machining it at all.
+It is completely.
+
+Protocol A
+Expansion protocol A
+
+Converting the code specified with bytes 45
+and 46 in the <SET> data section to the
+code specified with bytes 47 and 48.
+
+7.2
+INTERFACE OF DATA
+PART
+
+
+
+8. DISTRIBUTION PROCESSING FUNCTION 
+(HIGH–SPEED REMOTE BUFFER B FUNCTION) B–61392EN–1/01
+
+46
+
+8 DISTRIBUTION PROCESSING FUNCTION (HIGH–SPEEDREMOTE BUFFER B FUNCTION)
+In distribution processing, the remote buffer converts the NC program,
+received from the host computer, to distribution data, then supplies the
+converted distribution data to the CNC.  The use of this function enables
+the high–speed DNC operation of an NC program which contains
+consecutive commands specifying a minute amount of travel.
+
+The remote buffer can perform distribution processing for up to three
+axes.
+
+Only the M series supports this function.  It cannot be used with the T
+series.
+
+
+
+B–61392EN–1/01
+8. DISTRIBUTION PROCESSING FUNCTION
+
+(HIGH–SPEED REMOTE BUFFER B FUNCTION)
+
+47
+
+This function uses the same format as that for ordinary NC programs.
+Some sections of a program are, however, to be subjected to distribution
+processing while other sections are passed directly to the CNC.
+
+The sections to be subjected to distribution processing are called
+high–speed machining sections.  High–speed machining sections are
+defined using the following commands:
+
+Command Description
+
+G05P1; Start of high–speed machining section
+
+G05P0; End of high–speed machining section
+
+NOTE
+Each of these commands must be specified using a single
+separate block.
+
+8.1
+NC PROGRAM
+FORMAT
+
+
+
+8. DISTRIBUTION PROCESSING FUNCTION 
+(HIGH–SPEED REMOTE BUFFER B FUNCTION) B–61392EN–1/01
+
+48
+
+The following table lists the commands which can be specified in
+high–speed machining sections.  During distribution processing (within
+a distribution section), any addresses other than those listed in the table
+are ignored.
+
+Command address Description
+
+G00 Stop of distribution processing\loch\f19  (Note 2)
+
+G01 Restart of distribution processing
+
+First–axis address Amount of travel along the first axis
+
+Second–axis address Amount of travel along the second axis
+
+· ·
+
+Nth–axis address Amount of travel along the Nth axis
+
+F Cutting feedrate (Note 3)
+
+NOTE
+1 N � 3
+2 Even in a high–speed machining section, specifying G00
+
+stops distribution processing until G01 is specified.
+3 F � 1500 mm/min or F � 600 inch/min
+
+Decimal places are ignored.
+
+O1234 ;
+�
+
+G05P1 ;
+X__Y__Z__F__ ;
+
+�
+
+�
+
+G00 X__Y__Z__ ;
+�
+
+�
+
+�
+
+G01 F__ ;
+X__Y__Z__ ;
+
+�
+
+�
+
+G05P0 ;
+�
+
+M02 ;
+
+Start high–speed machining
+
+Stop high–speed machining
+
+Restart high–speed machining
+
+Distribution
+section
+
+Distribution
+section
+
+High–speed
+machining section
+
+Any modal command specified in a distribution section is valid only
+within that distribution section, with the exception of the feedrate.  After
+the end of the high–speed machining section (G05P0;), therefore, specify
+a command for restoring the modal information.
+
+(1) Absolute/incremental
+
+All move commands in a distribution section are assumed to be
+incremental commands.
+
+(2) Any command executed while distribution is stopped can vary the
+modal state.
+
+(3) Normal modal management is applied to the feedrate.
+
+8.2
+COMMANDS IN
+HIGH–SPEED
+MACHINING
+SECTIONS
+
+[Program example]
+
+8.3
+MODAL
+MANAGEMENT
+
+
+
+B–61392EN–1/01
+8. DISTRIBUTION PROCESSING FUNCTION
+
+(HIGH–SPEED REMOTE BUFFER B FUNCTION)
+
+49
+
+(1) Feedrate
+
+When distribution by the remote buffer is used, the following
+restrictions are imposed on the feedrate command:
+
+1. Maximum cutting feedrate
+Metric system : 1500 mm/min
+Inch system : 600 inch/min
+
+2. Any decimal places are ignored.
+
+(2) Override
+
+The cutting feedrate override is valid.  The override, however,
+requires slightly longer to become effective because a buffer exists
+between the remote buffer and CNC.  If such a delay would cause a
+problem, the override should not be modified during operation.
+
+(1) Single block stop cannot be specified in a high–speed machining
+section.
+
+(2) When the high–speed remote buffer function is used, the TV check
+setting parameter must be set to disable TV check, regardless of
+whether high–speed machining will be performed.
+
+8.4
+FEEDRATE
+OVERRIDE
+
+8.5
+NOTES
+
+
+
+9. BINARY INPUT OPERATION FUNCTION 
+    (HIGH–SPEED REMOTE BUFFER) B–61392EN–1/01
+
+50
+
+9 BINARY INPUT OPERATION FUNCTION (HIGH–SPEED REMOTE BUFFER)
+
+
+
+B–61392EN–1/01
+9. BINARY INPUT OPERATION FUNCTION 
+
+(HIGH–SPEED REMOTE BUFFER)
+
+51
+
+Command the “G05;” single block by the normal NC command format
+without any other NC commands in the block, and then command the
+move data and auxiliary functions using the following format to perform
+the binary input operation function. Set the “0” to both the move distance
+of all axes and auxiliary functions to return to the normal NC command
+format thereafter.
+
+� Binary input operation On: G05;
+� Binary input operation Off: Sets the move distance of all axes to and
+
+auxiliary functions ”0”.
+
+CNC 
+(Series 0/00)
+
+Remote buffer
+
+Host 
+computer
+
+(RS–232–C)
+
+or (RS–422)
+
+� Data format for binary input operation
+
+Order of data
+
+byte
+
+High byte
+
+Low byte
+
+High byte
+
+Low byte
+
+High byte
+
+Low byte
+
+Check byte
+
+1st axis
+
+2nd axis
+
+Nth axis
+
+1) Layout the move distance per unit time for each axis (2 bytes) to all
+axes starting from the 1st axis and then add check byte (1 byte). (The
+data length of one block should be (2*N+1) bytes.)
+
+2) Select the unit time (ms) using parameters.
+
+3) Indicate all data in binary format.
+
+4) Command the move distance of each axis using the following units.
+(The negative move distance is indicated using 2’s compliment.)
+
+Setting unit IS–B IS–C Unit
+
+Machine using mm system 0.001 0.0001 mm
+
+Machine using inch system 0.0001 0.00001 inch
+
+Also, the move distance data fromat is as below. (Command the move
+distance per unit time using the “*” bit.)
+
+15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+
+* * * * * * * 0 * * * * * * * 0
+
+9.1
+DESCRIPTIONS
+
+
+
+9. BINARY INPUT OPERATION FUNCTION 
+    (HIGH–SPEED REMOTE BUFFER) B–61392EN–1/01
+
+52
+
+Example) when the move distance is 700 µ per unit time (mm system
+setting unit IS–B):
+
+15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+
+0 0 0 0 1 0 1 0 0 1 1 1 1 0 0 0
+
+5) The check byte is obtained by adding the other bytes, namely (2 * N),
+in units of bytes and then by discarding the overflow exceeding the
+7th bit.
+
+
+
+B–61392EN–1/01
+9. BINARY INPUT OPERATION FUNCTION 
+
+(HIGH–SPEED REMOTE BUFFER)
+
+53
+
+The CNC reads the data for 2 * N + 1 bytes (N: number of axes) from the
+remote buffer. Thus, the transfer BAUD rate between the host and remote
+buffer should be at least (2 * N + 1) * 11 / T * 1000 BAUD (T: unit time)
+for the NC unit to continue machining without stopping halfway.
+
+For example, the BAUD rate which is at least required when the unit time
+is set to 16 ms is as shown below:
+
+(2 * N + 1) bytes * 11 / 16 ms * 1000 (BAUD)
+
+9.2
+TRANSFER SPEED
+
+
+
+9. BINARY INPUT OPERATION FUNCTION 
+    (HIGH–SPEED REMOTE BUFFER) B–61392EN–1/01
+
+54
+
+1) All modal commands are invalid during binary input operatin mode.
+Only the linear interpolation based on the command data format can
+be executed (it is equivalent to the linear incremental command).
+
+2) An alarm results when the G05 is commanded during cutter
+compensation mode.
+
+3) An alarm results when the G05 is commanded during custom macro
+interruption mode.
+
+4) The single block, feedrate override, and cutting feed maximum speed
+clamp are invalid.
+
+5) The feed hold and interlock are valid.
+
+6) The mirror image is valid in the status of the time when the G05 is
+commanded and the on/off during binary input operation mode is
+invalid (modification during feed hold stop is valid).
+
+7) The program restart, block restart, and high–speed machining
+function cannot be used.
+
+8) No registration to memory can be made.
+
+9) To perform binary input operation with a unit time of 2 ms:
+
+– The total number of controlled axes must not exceed 3.
+
+– The system must have a sub–CPU.
+
+10)In binary input operation mode, acceleration and deceleration at the
+start and end of movement are as follows:
+
+Acceleration/deceleration
+Unit time : 8 ms:  Same as cutting feed mode (G01)
+
+4 ms or less:  No acceleration or deceleration
+
+9.3
+CAUTIONS
+
+
+
+B–61392EN–1/01 10. PARAMETERS
+
+55
+
+10 PARAMETERS
+Setting parameter
+
+I/O = 3:  Remote buffer channel selection
+#7
+
+0038
+#6 #5 #4 #3 #2
+
+RSCMD3
+
+#1
+DEVFL3
+
+#0
+
+RSCMD3, DEVFL3 Devices connected to remote buffer
+0 0 FANUC Bubble Cassette
+
+0 1 FANUC Floppy Cassette (B1/B2)
+
+FANUC Program File
+
+1 0 FANUC PPR
+
+1 1 FANUC Program File Mate
+
+FANUC FA Card Adapter
+
+NOTE
+Set this parameter if any FANUC device is connected to the
+remote buffer.  Otherwise, set both RSCMD3 and DEVFL3
+to 0.
+
+#7
+0051
+
+#6 #5
+ECLK
+
+#4
+NCKCD
+
+#3
+RSASC
+
+#2
+SYNAK
+
+#1
+PARTY
+
+#0
+STP2
+
+ECLK 0 : The internal clock signal is used for the RS–422 interface connection.
+1 : External synchronization is used for the RS–422 interface
+
+connection.  (Use external synchronization if the RS422 interface is
+used at 38400 bps or higher. Signals IT, *TT, RT and *RT are
+required.)
+
+NCKCD 0 : Control signal CD used in the RS–232C interface is checked.  If the 
+CD signal switches to 0 during transfer, alarm P/S 086 is issued.
+
+1 : Control signal CD used in the RS–232C interface is not checked.
+
+RSASC 0 : The ISO or EIA code is used in the NC data sent from the host 
+computer.
+
+1 : The ASCII code is used in the NC data sent from the host computer.
+
+SYNAK 0 : In protocol B, if the NC unit is reset or if an alarm is issued in the NC 
+unit, neither event is reported to the host computer.
+
+1 : In protocol B, if the NC unit is reset, the SYN code is sent.  If an alarm
+is issued in the NC unit, the NAK code is sent.
+
+PARTY 0 : The parity bit is not added.
+1 : The parity bit is added.  Even parity is used.
+
+STP2 0 : One stop bit is used.
+1 : Two stop bits are used.
+
+
+
+10. PARAMETERS B–61392EN–1/01
+
+56
+
+#7
+RMSTS0055
+
+#6
+IT2
+
+#5
+IT1
+
+#4
+IT0
+
+#3
+RS42
+
+#2
+PROTA
+
+#1
+EXT
+
+#0
+ASCII
+
+RMSTS 0 : In protocol A, data 0 is always sent by the SAT command for the state 
+of remote/tape operation.
+
+1 : In protocol A, the state of remote/tape operation reported by the SET
+command is sent by the SAT command.
+
+IT2, IT1, IT0 Interpolation period for high–speed remote buffer A/B
+1 0 0 G05 data is interpolated every 16 ms.
+
+0 0 0 G05 data is interpolated every 8 ms.
+
+0 1 0 G05 data is interpolated every 4 ms.
+
+0 0 1 G05 data is interpolated every 2 ms.
+
+0 1 1 G05 data is interpolated every 1 ms.
+
+RS42 0 : The RS–232C interface is used.
+1 : The RS–422 interface is used.
+
+PROTA 0 : Protocol B is used.
+1 : Protocol A or extended protocol A is used.
+
+EXT 0 : The end code used in protocol A or extended protocol A is the CR 
+code.  The other codes are specified in parameter ASCII.
+
+1 : The end code used in protocol A or extended protocol A is the EXT 
+code.  The other codes are specified in parameter ASCII.
+
+ASCII 0 : The ISO code is used except for NC data.
+1 : The ASCII code is used except for NC data.
+
+  * Protocol A is used for transferring the sum, end code, data, and
+commands except for the DAT command.
+Protocol B is used for transferring the SYN and NAK codes, as well as
+codes DC1, DC2, and DC3.
+
+0251 Remote buffer baud rate
+
+1 :
+4 :
+7 :
+
+10 :
+13 :
+
+50 BPS
+150 BPS
+600 BPS
+
+4800 BPS
+38400 BPS
+
+2 :
+5 :
+8 :
+
+11 :
+14 :
+
+100 BPS
+200 BPS
+
+1200 BPS
+9600 BPS
+
+76800 BPS
+
+3 :
+6 :
+9 :
+
+12 :
+
+110 BPS
+300 BPS
+
+2400 BPS
+19200 BPS
+
+0597 Number of controlled axes for high–speed remote buffer
+
+
+
+B–61392EN–1/01 11. ALARMS
+
+57
+
+11 ALARMS
+No. Message Description
+
+085 COMMUNICATION ERROR An excess data error, parity error, or
+framing error occurred while the remote
+buffer was reading data. The number of
+input bits is incorrect, or the baud rate is
+not specified correctly.
+
+086 DR SIGNAL OFF The line was disconnected while the
+remote buffer was reading data.
+Signals DR and DCD went off.
+
+087 BUFFER OVERFLOW Data continued to be input beyond the
+allowable number of characters even
+when stopping reading data was speci-
+fied while the remote buffer was reading
+data.
+
+177 CHECK SUM ERROR (G05 MODE) The check sum error occurred for binary
+data in the high–speed remote buffer
+operation.
+
+178 G05 NOT ALLOWED IN G41/G42
+MODE
+
+The command (G05) for high–speed
+remote buffer operation was specified
+while in the cutter compensation mode
+(G41/G42).
+
+179 PARAM (NO. ????) SETTING ERROR The number of controlled axes specified
+in parameter 597 exceeded the maxi-
+mum number of controlled axes.
+
+180 COMMUNICATION ERROR 
+(REMOTE BUF)
+
+An error related to the line used by the
+remote buffer occurred. (Remote buffer
+alarm in protocol A)
+
+
+
+B–61392EN–1/0112. CONNECTION
+
+58
+
+12 CONNECTION
+
+
+
+B–61392EN–1/01 12. CONNECTION
+
+59
+
+The remote buffer is an optional function used to supply a large amount
+of data to the CNC continuously and at high speed.  The remote buffer is
+connected to the host computer or an input/output device via a serial
+interface.
+
+Table 12.1 (a) lists the types of remote buffer printed circuit boards.  Three
+types are available, according to their location in the control unit.
+
+Table 12.1 (a)  Types of remote buffer printed circuit boards
+
+Type Name Remarks Connectionslot
+
+A SUB CPU card
+(A16B–2200–0320)
+
+Included in the multiaxis
+card.  The fifth and sixth
+axes can be controlled
+as PMC axes.
+
+Supported only by con-
+trol unit B.
+
+Software :
+A02B–0098–J542#0692
+
+SUB
+
+Remote buffer card for
+control unit B
+(A16B–1211–0930)
+
+The fifth and sixth axes
+cannot be connected.
+
+Supported only by con-
+trol unit B.
+
+Software :
+A02B–0091–J542#0643
+
+B Remote buffer card for
+control unit A/B
+(A16B–2200–0770:16bit)
+(A16B–2200–0775:32bit)
+
+Can also be used for the
+DNC2 interface.
+
+Type B requires a metal
+plate for mounting.
+
+Expansion 
+connector 
+JA1, JA2
+
+(Control unit A)
+
+C Software :
+A02B–0098–J543#0689
+
+SP
+(Control unit B)
+
+Table 12.1 (b) lists three remote buffer software functions.
+
+12.1
+OUTLINE
+
+
+
+B–61392EN–1/0112. CONNECTION
+
+60
+
+Table 12.1 (b)  Software functions of remote buffer
+
+Remote buffer High–speedremote buffer A
+High–speed
+
+remote buffer B
+
+Protocol A Available Available Available
+
+Extended protocol A Available Available Available
+
+Protocol B Available Available Available
+
+Data format NC format data Binary data NC format data
+
+Interface
+RS–232–C
+or RS–422
+
+RS–422 RS–422
+
+RS–232–C baud rate 50 bps to 19.2 kbps
+
+RS–422 baud rate 50 bps to 76.8 kbps 50 bps to 76.8 kbps 50 bps to 768 kbps
+
+Maximum cable length
+
+For RS–232–C
+100m (4800 bps max.)
+50m (9600 bps min.)
+
+For RS–422
+800m (9600 bps max.)
+50m (19.2 kbps min.)
+
+For RS–422
+800m (9600 bps max.)
+50m (19.2 kbps min.)
+
+For RS–422
+800m (9600 bps max.)
+50m (19.2 kbps min.)
+
+Maximum machining speed
+(for execution of 1–mm con-
+tinuous block commands)
+
+Same as the speed when
+using memory
+
+15m/min 12m/min
+
+NOTE
+1 Protocol A is the handshake system that repeats data transfer between two communicating
+
+devices.
+2 Extended protocol A is almost the same system as protocol A except that it can transfer the NC
+
+program at high speed.
+3 Protocol B is the system that controls communication between two devices by control codes
+
+output from the remote buffer.
+
+
+
+B–61392EN–1/01 12. CONNECTION
+
+61
+
+As shown in the figure below, install the remote buffer card into the left
+side of the master printed circuit board.  The (A02B–0098–K121) flat
+metal bracket for the remote buffer card (A02B–0098–K121) contains the
+two flat cables and bracket.
+
+JB1
+
+JB2
+
+JA2 JA1
+
+Remote buffer card
+
+Master printed circuit
+board
+
+Install the remote buffer card to the slot SP (CS1) according to above
+mentioned Table 12.1 (a).
+
+12.2
+INSTALLING TO THE 
+P.C. BOARD
+
+12.2.1
+Installing to the P.C.
+Board in Case of
+Control Unit A
+
+12.2.2
+Installing to the P.C.
+Board in Case of
+Control Unit B
+
+
+
+B–61392EN–1/0112. CONNECTION
+
+62
+
+The following illustration is an outline drawing for installing the remote
+buffer card into controller A.
+
+Installation hole
+for 6–M
+
+5
+R
+
+em
+ote buffer card
+
+12.3
+OUTLINE DRAWING
+
+12.3.1
+Outline Drawing in
+Case of Control Unit A
+
+
+
+B–61392EN–1/01 12. CONNECTION
+
+63
+
+R
+em
+
+ote buffer card for control
+unit B
+
+ (Type C
+)
+
+(R
+em
+
+ote buffer)
+R
+
+em
+ote buffer card for control
+
+unit B
+ (Type A
+
+) or S
+U
+
+B
+ C
+
+P
+U
+
+ card
+
+S
+lot S
+
+U
+B
+
+S
+lot S
+
+P
+
+12.3.2
+Outline Drawing in
+Case of Control Unit B
+
+
+
+B–61392EN–1/0112. CONNECTION
+
+64
+
+Remote buffer card
+
+Conceptional diagram of signal connection
+
+SD
+
+RD
+
+SD
+
+RD
+
+RS
+
+CS
+
+RS
+
+ER
+
+DR
+
+CD
+
+SG
+
+1
+
+2
+
+3
+
+4
+11
+
+12
+
+13
+
+14
+
+5
+
+6
+
+7 SG
+
+8 RD
+15
+
+16 CD
+
+17 ER
+
+18 DR
+
+9 SD
+
+19 CS
+
+M77:MR20MH
+
+10
+
+20 RS
+
+1 FG
+
+2 SD
+
+3 RD
+
+4 RS
+
+5 CS
+
+6 DR
+
+7 SG
+
+8 CD
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20 ER
+
+21
+
+22
+
+23
+
+24
+
+25
+
+Host computer (ex)
+
+DBM–25S
+
+CNC side
+output
+Input
+
+Host side
+
+CS
+
+ER
+
+DR
+
+CD
+
+SG
+
+FG
+
+HONDA TSUSHIN
+MR20FH
+
+JAPAN AVIATION ELECTRONICS
+Connector:DB–25P
+Cover:DB–C2–J9
+
+NOTE
+When using the FANUC DNC2 interface with an IBM PC–AT as the host computer, the host
+computer negates its RS (to low) upon transition to the reception phase.  In this case, therefore,
+CS on the CNC side must be connected to ER on the CNC side.
+
+12.4
+REMOTE BUFFER 
+INTERFACE
+(RS–232–C)
+
+
+
+B–61392EN–1/01 12. CONNECTION
+
+65
+
+Cable wiring
+
+8 2
+RD SD
+
+18 20
+DR ER
+
+19 4
+CS RS
+
+16 8
+CD CD
+
+9 3
+SD RD
+
+Shield
+
+17 6
+ER DR
+
+20 5
+RS CS
+
+1
+FG
+
+7 7
+SG SG
+
+Connect CS to RS if CS is not used.  However, when protocol A or
+expanded protocol A is used, connect as shown above because CS is used
+for busy control.  Connect DR to ER when DR is not used.  Be sure to
+connect CD to ER.
+
+The M77 connector is also used for the RS–422 interface.  Those pins for
+which nothing is indicated in the connector table must be left open.
+
+
+
+B–61392EN–1/0112. CONNECTION
+
+66
+
+Remote buffer card
+
+M73:MR20MH
+1 FG
+
+2
+
+3
+
+4 SD
+
+5
+
+6 RD
+
+7 RS
+
+8 RT
+
+9 CS
+
+10
+
+11 DM
+
+12 TR
+
+13
+
+14
+
+15
+
+16
+
+17 TT
+
+18
+
+19 SG
+
+20
+
+21
+
+22 *SD
+
+23
+
+24 *RD
+
+25 *RS
+
+Host computer (Ex.)
+
+26 *RT
+
+27 *CS
+
+28
+
+29 *DM
+
+30 *TR
+
+31
+
+32
+
+33
+
+34
+
+35 *TT
+
+36
+
+37
+
+1 SD
+
+2 *SD
+
+3 TR(ER)
+
+4 *TR(*ER)
+11 *RD
+
+12 DM(DR)
+
+13 *DM(*DR)
+
+14 CS
+
+5 RS
+
+6 *RS
+
+7 SG
+
+8 TT
+15 *CS
+
+16
+
+17
+
+18 RT
+
+9 *TT
+
+19 *RT
+
+10 RD
+
+20
+
+M77:MR20MH
+
+1 SD
+
+2 *SD
+
+3 TR(ER)
+
+4 *TR(*ER)
+11 *RD
+
+12 DM(DR)
+
+13 *DM(*DR)
+
+14 CS
+
+5 RS
+
+6 *RS
+
+7 SG
+
+8
+15 *CS
+
+16
+
+17
+
+18
+
+9
+
+19
+
+10 RD
+
+20
+
+HONDA TSUSHIN
+MR20FH
+
+JAPAN AVIATION ELECTRONICS
+Connector:DC–37–P
+Cover:DC–C1–J16
+
+The figure below shows a signal connection between CNC and host
+computer.  Since signals other than FG and SG perform differential signal
+transmission standard RS–422, two wires of signal lines are used for those
+signals.
+
+Conceptional diagram of signal connection
+
+SD
+
+RD
+
+SD
+
+RD
+
+RS
+
+CS
+
+RS
+
+TR
+
+DM
+
+RT
+
+SG
+
+CNC side
+Output
+Input
+
+Host side
+
+CS
+
+TR
+
+DM
+
+RT
+
+SG
+
+FG
+
+TT TT
+
+12.5
+REMOTE BUFFER 
+INTERFACE (RS–422)
+
+Conceptional diagram of
+signal connection
+
+
+
+B–61392EN–1/01 12. CONNECTION
+
+67
+
+Cable wiring
+
+10
+
+11
+
+4
+
+22
+RD
+
+*RD
+
+SD
+
+*SD
+18
+
+19
+
+17
+
+35
+RT
+
+*RT
+
+TT
+
+*TT
+14
+
+15
+
+7
+
+25
+CS
+
+*CS
+
+RS
+
+*RS
+12
+
+13
+
+12
+
+30
+DM
+
+*DM
+
+TR
+
+*TR
+7 19
+
+SG SG
+
+1
+
+2
+
+6
+
+24
+SD
+
+*SD
+
+RD
+
+*RD
+
+Shield
+
+8
+
+9
+
+8
+
+26
+TT
+
+*TT
+
+RT
+
+*RT
+5
+
+6
+
+9
+
+27
+RS
+
+*RS
+
+CS
+
+*CS
+3
+
+4
+
+11
+
+29
+TR
+
+*TR
+
+DM
+
+*DM
+1
+
+FG
+
+NOTE
+1 Be sure to use twisted pair cable.
+2 The connection of TT, *TT, RT, and *RT is required only
+
+when an external clock is used.
+3 When using an external clock, connect the cable to the M73
+
+connector.  Either the M73 or M77 connector can be used
+if an external clock is not used.
+
+4 The M77 connector is also used for the RS–232C interface.
+Those pins for which nothing is indicated in the connector
+table must be left open.
+
+Actual example of
+RS–422 signal wiring
+
+
+
+B–61392EN–1/0112. CONNECTION
+
+68
+
+Signal name RS–422 circuit No. Input/output Description
+
+SD 103 Output Transmitted data
+
+RD 104 Input Received data
+
+RS 105 Output Request to send
+The remote buffer uses this signal to post reception en-
+abled status.  The remote buffer can receive data while
+both this signal and the TR signal are set to ON.
+
+CS 106 Input Clear to send
+This signal is used to check whether the host computer is
+busy.  The remote buffer assumes that the host computer
+can receive data if both this signal and the DM signal are
+set to ON.
+
+TR 108.2 Output Terminal ready
+This signal, if set to ON, indicates that the remote buffer
+is ready for operation.  In other words, the SD signal is val-
+id only while this signal is set to ON.
+
+RR 109 Input Receiver ready
+This signal, if set to ON, indicates that the host computer
+can transmit data to the remote buffer.  When this signal
+is not used, always connect it to the TR signal on the re-
+mote buffer.
+
+TT 113 Output Transmission timing
+The transmission clock for the remote buffer is output us-
+ing this signal.  When a baud rate of 38400 or higher is
+used, always connect this signal to the RT signal on the
+host computer.
+
+RT 115 Input Reception timing
+The reception clock for the remote buffer is input using
+this signal.  When a baud rate of 38400 or higher is used,
+always connect this signal to the TT signal on the host
+computer.
+
+SG 102 Signal ground
+
+FG 101 Protective ground
+
+NOTE
+The ON and OFF states of the signals are defined as follows:
+
+Function
+
+Signal Condition
+
+A <  B A >  B
+
+OFF ON
+
+Marking Spacing
+
+Driver
+Å
+
+Receiver
+A
+
+B
+
+A
+
+B
+ÅÅ
+
+� Description of RS–422
+interface signals
+
+
+
+B–61392EN–1/01 12. CONNECTION
+
+69
+
+The remote buffer of type A is required to connect to a buttery unit.
+
+Battery unit
+
++
+
+4.5V
+
+�
+
+0V
+
+M4 screw terminal
+
+1 2
+
+0V
+
+CPA8
+
+3
+
+4.5V
+
+Remote buffer
+
+Japan FCI
+SMS3PWS-5
+
+Connect the remote buffer to the battery unit on the memory printed
+circuit board, using the supplied cable.
+
+CAUTION
+The terminal block on the battery unit uses screw terminals.
+To connect the battery cable for the remote buffer to these
+terminals, first disconnect the battery cable for the memory
+printed circuit board or other components, with the CNC
+power turned on.  Disconnecting the battery cable while the
+CNC power is turned off will result in the loss of the data,
+such as programs, stored on the memory printed circuit
+board.
+
+12.6
+CONNECTION TO 
+BATTERY UNIT
+
+
+
+IndexB–61392EN–1/01
+
+i–1
+
+[A]
+Alarms, 57
+
+[B]
+Binary Input Operation Function (High–Speed Re-
+
+mote Buffer), 50
+
+Buffer Control, 42
+
+[C]
+Cautions, 54
+
+CNC Alarm and Reset, 42
+
+Code System, 13
+
+Command, 16
+
+Command Table, 16
+
+Commands in High–Speed Machining Sections, 48
+
+Communication Example, 28
+
+Communication Modes, 37
+
+Communication System, 14, 24
+
+Connection, 58
+
+Connection to battery unit, 69
+
+Control Code, 41
+
+[D]
+Data Interface, 43
+
+Data Packet Format, 25
+
+Data Part, 44
+
+Definition of Warning, Caution, and Note, 1
+
+Description of Data Part, 17
+
+Descriptions, 51
+
+Distribution Processing Function (High–speed Remote
+Buffer B Function), 46
+
+[E]
+Electrical Interface, 3, 5
+
+Error Process, 21
+
+Expansion Protocol A, 23
+
+[F]
+Feedrate Override, 49
+
+[I]
+Installing to the P.C. board, 61
+
+Installing to the P.C. board in case of control unit A,
+61
+
+Installing to the P.C. board in case of control unit B,
+61
+
+Interface Between Remote Buffer and Host Computer,
+2
+
+Interface of Data Part, 45
+
+[M]
+Message Format, 12
+
+Modal Management, 48
+
+Monitor Packet Format, 27
+
+[N]
+NC Program Format, 47
+
+Notes, 49
+
+[O]
+Outline drawing, 62
+
+Outline drawing in case of control unit A, 62
+
+Outline drawing in case of control unit B, 63
+
+[P]
+Parameter Table, 20
+
+Parameters, 55
+
+Protocol A, 11
+
+Protocol B, 36
+
+[R]
+Receiving Data, 40
+
+Remote buffer interface (RS–232–C), 64
+
+Remote buffer interface (RS–422), 66
+
+RS–232–C Interface, 7
+
+RS–422 Interface, 9
+
+
+
+B–61392EN–1/01 Index
+
+i–2
+
+[S]
+Software Interface, 4
+
+Status Transition, 22
+
+[T]
+Transfer Speed, 53
+
+Transmission System, 6
+
+
+
+R
+ev
+
+is
+io
+
+n 
+R
+
+ec
+or
+
+d
+
+FA
+N
+
+U
+C
+
+ S
+er
+
+ie
+s 
+
+0/
+00
+
+ S
+up
+
+pl
+em
+
+en
+t f
+
+or
+ R
+
+em
+ot
+
+e 
+B
+
+uf
+fe
+
+r 
+D
+
+E
+S
+
+C
+R
+
+IP
+T
+
+IO
+N
+
+S
+ (
+
+B
+–6
+
+13
+92
+
+E
+N
+
+–1
+)
+
+01
+Ju
+
+l.,
+ ’9
+
+7
+
+E
+di
+
+tio
+n
+
+D
+at
+
+e
+C
+
+on
+te
+
+nt
+s
+
+E
+di
+
+tio
+n
+
+D
+at
+
+e
+C
+
+on
+te
+
+nt
+s
+
+
+
+·  No part of this manual may be
+reproduced in any form.
+
+·  All specifications and designs
+are subject to change without
+notice.
+
+
+	WARNINGS, CAUTIONS, AND NOTES
+	PREFACE
+	Applicable Models
+
+	TABLE OF CONTENTS
+	GENERAL
+	INTERFACE BETWEEN REMOTE BUFFER AND HOST COMPUTER
+	Electrical Interface
+	Software Interface
+
+	ELECTRICAL INTERFACE
+	Transmission System
+	RS-232C Interface
+	RS-422 Interface
+
+	PROTOCOL  A
+	Message Format
+	Code System
+	Communication System
+	Commands
+	Command Table
+	Data Part
+
+	Parameter Table
+	Error Process
+	Status Transition
+
+	EXPANSION PROTOCOL  A
+	Communication System
+	Data Packet Format
+	Monitor Packet Format
+	Communication Example
+
+	PROTOCOL  B
+	Communication Modes
+	Receiving Data
+	Control Code
+	Buffer Control
+	CNC Alarm and Reset
+
+	DATA INTERFACE
+	Data Part
+	Interface of Data Part
+
+	DISTRIBUTION PROCESSING
+	NC Program Format
+	High-Speed Machining Sections
+	Modal Management
+	Feed Rate Override
+	Notes
+
+	BINARY INPUT OPERATION
+	Descriptions
+	Transfer Speed
+	Cautions
+
+	PARAMETERS
+	ALARMS
+	CONNECTION
+	Outline
+	Installing to the PC Board
+	Control Unit A
+	Control Unit B
+
+	Outline Drawing
+	Control Unit A
+	Control Unit B
+
+	Remote Buffer Interface
+	RS-232C
+	RS-422
+
+	Connection to the Battery Unit
+
+	INDEX
+	REVISION RECORD
+

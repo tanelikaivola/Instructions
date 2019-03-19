@@ -1,0 +1,13438 @@
+
+O W N E R ’ S  M A N U A L
+
+PREMIUM LIVE ANALOG MIXERS
+w/PERKINS EQ & ONYX MIC PREAMPS
+
+���������
+
+
+
+2 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s
+
+1. Read these instructions.  
+2. Keep these instructions.
+3. Heed all warnings.
+4. Follow all instructions.
+5. Do not use this apparatus near water.
+6. Clean only with dry cloth.
+7. Do not block any ventilation openings. Install in accordance with the 
+
+manufacturer’s instructions.
+
+8. Do not install near any heat sources such as radiators, heat registers, 
+stoves, or other apparatus (including amplifiers) that produce heat.
+
+9. Do not defeat the safety purpose of the polarized or grounding-type 
+plug. A polarized plug has two blades with one wider than the other. 
+A grounding-type plug has two blades and a third grounding prong. 
+The wide blade or the third prong are provided for your safety. If the 
+provided plug does not fit into your outlet, consult an electrician for 
+replacement of the obsolete outlet.
+
+10. Protect the power cord from being walked on or pinched particularly at 
+plugs, convenience receptacles, and the point where they exit from the 
+apparatus.
+
+11. Only use attachments/accessories specified by the manufacturer.
+12. Use only with a cart, stand, tripod, bracket, or table specified by the 
+
+manufacturer, or sold with the apparatus. When a cart is used, use 
+caution when moving the cart/apparatus combination to avoid injury 
+from tip-over.
+
+13. Unplug this apparatus during lightning storms or when unused for long 
+periods of time.
+
+14. Refer all servicing to qualified service personnel. Servicing is required 
+when the apparatus has been damaged in any way, such as power-
+supply cord or plug is damaged, liquid has been spilled or objects have 
+fallen into the apparatus, the apparatus has been exposed to rain or 
+moisture, does not operate normally, or has been dropped.
+
+15. This Onyx mixer has been designed with Class-I construction and must 
+be connected to a mains socket outlet with a protective earthing con-
+nection (the third grounding prong).
+
+16. This Onyx mixer has been equipped with an all-pole, rocker-style AC 
+mains power switch. This switch is located on the rear panel and 
+should remain readily accessible to the user.
+
+17. This apparatus does not exceed the Class A/Class B (whichever is 
+applicable) limits for radio noise emissions from digital apparatus as 
+set out in the radio interference regulations of the Canadian Department 
+of Communications.
+
+ATTENTION — Le présent appareil numérique n’émet pas de bruits 
+radioélectriques dépassant las limites applicables aux appareils numériques de 
+class A/de class B (selon le cas) prescrites dans le réglement sur le brouillage 
+radioélectrique édicté par les ministere des communications du Canada.
+
+18. Exposure to extremely high noise levels may cause permanent hearing 
+loss. Individuals vary considerably in susceptibility to noise-induced 
+hearing loss, but nearly everyone will lose some hearing if exposed to 
+sufficiently intense noise for a period of time. The U.S. Government’s 
+Occupational Safety and Health Administration (OSHA) has specified 
+the permissible noise level exposures shown in the following chart.
+
+ According to OSHA, any exposure in excess of these permissible limits 
+could result in some hearing loss. To ensure against potentially danger-
+ous exposure to high sound pressure levels, it is recommended that all 
+persons exposed to equipment capable of producing high sound pres-
+sure levels use hearing protectors while the equipment is in operation. 
+Ear plugs or protectors in the ear canals or over the ears must be worn 
+when operating the equipment in order to prevent permanent hearing 
+loss if exposure is in excess of the limits set forth here. 
+
+Important Safety Instructions
+
+WARNING — To reduce the risk of fire or 
+electric shock, do not expose this apparatus 
+
+to rain or moisture.
+
+Duration Per Day  Sound Level dBA, Typical 
+ In Hours Slow Response Example
+
+ 8 90 Duo in small club
+
+ 6 92  
+
+ 4 95 Subway Train
+
+ 3 97
+
+ 2 100 Very loud classical music
+
+   1.5 102
+
+ 1 105 Tami screaming at Adrian about deadlines
+
+ 0.5  110
+
+  0.25 or less 115 Loudest parts at a rock concert
+
+PORTABLE CART WARNING
+
+Carts and stands - The
+Component should be used
+only with a cart or stand
+that is recommended by
+the manufacturer.
+A Component and cart
+combination should be
+moved with care.  Quick
+stops, excessive force, and
+uneven surfaces may cause
+the Component and cart
+combination to overturn.
+
+CAUTION    AVIS
+RISK OF ELECTRIC SHOCK 
+
+DO NOT OPEN
+RISQUE DE CHOC ELECTRIQUE
+
+NE PAS OUVRIR
+
+CAUTION: TO REDUCE THE RISK OF ELECTRIC SHOCK
+DO NOT REMOVE COVER (OR BACK)
+
+NO USER-SERVICEABLE PARTS INSIDE
+REFER SERVICING TO QUALIFIED PERSONNEL
+
+ATTENTION: POUR EVITER LES RISQUES DE CHOC
+ELECTRIQUE, NE PAS ENLEVER LE COUVERCLE.  AUCUN
+
+ENTRETIEN DE PIECES INTERIEURES PAR L'USAGER.  CONFIER
+L'ENTRETIEN AU PERSONNEL QUALIFIE.
+
+AVIS: POUR EVITER LES RISQUES D'INCENDIE OU
+D'ELECTROCUTION, N'EXPOSEZ PAS CET ARTICLE 
+
+A LA PLUIE OU A L'HUMIDITE
+
+   The lightning flash with arrowhead symbol within an equilateral 
+triangle is intended to alert the user to the presence of uninsulated
+"dangerous voltage" within the product's enclosure, that may be 
+of sufficient magnitude to constitute a risk of electric shock to persons.
+
+   Le symbole éclair avec point de flèche à l'intérieur d'un triangle 
+équilatéral est utilisé pour alerter l'utilisateur de la présence à 
+l'intérieur du coffret de "voltage dangereux" non isolé d'ampleur 
+suffisante pour constituer un risque d'éléctrocution.
+
+   The exclamation point within an equilateral triangle is intended to 
+alert the user of the presence of important operating and maintenance 
+(servicing) instructions in the literature accompanying the appliance.
+
+   Le point d'exclamation à l'intérieur d'un triangle équilatéral est 
+employé pour alerter les utilisateurs de la présence d'instructions 
+importantes pour le fonctionnement et l'entretien (service) dans le 
+livret d'instruction accompagnant l'appareil.
+
+
+
+Part No. 0015958-00  Rev. A  1/06 
+©2006 LOUD Technologies Inc. All Rights Reserved.
+
+3Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+Don’t forget to visit our website at www.mackie.com for more 
+information about this and other Mackie products.
+
+R
+
+Table of Contents
+Introduction ................................................................................................................4
+
+Getting Started ..........................................................................................................5
+Zero the Controls .......................................................................................................................................5
+
+Connections .................................................................................................................................................5
+
+Set the Levels ..............................................................................................................................................5
+
+Instant Mixing .............................................................................................................................................5
+
+Hookup Diagrams ..................................................................................................... 6
+
+Onyx 4•Bus Features ...............................................................................................10
+Mono Channel Strips ...............................................................................................................................10
+
+Stereo Channel Strips ............................................................................................................................. 13
+
+Matrix, Compressor, and Metering Section ...................................................................................... 15
+
+Phones/Monitor, Solo, Mono, and Talkback Section ....................................................................17
+
+Auxiliary Section ......................................................................................................................................18
+
+Group Section ..........................................................................................................................................20
+
+Rear Panel ...................................................................................................................................................21
+
+Appendix A: Service Information ........................................................................25
+Warranty Service ......................................................................................................................................25
+
+Troubleshooting .......................................................................................................................................25
+
+Repair .........................................................................................................................................................26
+
+Appendix B: Connections ......................................................................................27
+
+Appendix C: Technical Info .................................................................................. 30
+Onyx 4•Bus Specifications .................................................................................................................... 30
+
+Onyx 4•Bus Dimensions ......................................................................................................................... 31
+
+Onyx 4•Bus Block Diagram ....................................................................................................................32
+
+Onyx 4•Bus Gain Structure Diagram ................................................................................................. 34
+
+Onyx 4•Bus Limited Warranty .............................................................................35
+
+http://www.mackie.com
+
+
+4 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s Introduction
+
+Thank you for choosing a Mackie Onyx 4•Bus profes-
+sional live mixing console. The Onyx 4•Bus mixers fea-
+ture all-new analog circuitry and the latest technologies 
+for live sound reinforcement in a durable, road-worthy 
+package.
+
+The Onyx 4•Bus mixing consoles replace the legend-
+ary SR24•4 and SR32•4 VLZ PRO mixers. The new Onyx 
+versions of these mixers maintain the same physical 
+size, channel count and features of the originals, while 
+adding a variety of new and improved features.
+
+The Onyx 4•Bus consoles are equipped with our new 
+premium precision-engineered, studio-grade Onyx mic 
+preamps. Mackie is renowned for the high-quality mic 
+preamps used in our mixers, and the Onyx mic pre’s are 
+better than ever, with specifications rivaling expensive 
+stand-alone boutique mic preamplifiers.
+
+Each mono channel strip features an individual phan-
+tom power switch, low-cut filter, mic input pad, pre-EQ 
+channel insert, and an all new four-band EQ design with 
+sweepable mids and EQ bypass switch.
+
+All mono channels have six Aux sends, Pan, Mute, PFL 
+Solo, 100 mm Fader, Group and Main Mix assign, and 
+four signal-level indicators. In addition, balanced direct 
+outputs are provided on DB-25 connectors (eight chan-
+nels per connector) for multitrack recording.
+
+The master section features two Stereo Returns, six 
+Master Aux sends, four Group Masters, a 6x2 Matrix, a 
+Phones/Monitor section, and a Talkback section with 
+routing switches that allow you to communicate through 
+the Aux Sends and the L/R mix. 
+
+A new feature with the Onyx 4•Bus mixers is an analog 
+stereo compressor/limiter that can be inserted at the out-
+put of the L/R main mix, or the Group 1/2 or 3/4 outputs.
+
+HOW TO USE THIS MANUAL
+We know that many of you can’t wait to get your new 
+
+mixing console hooked up, and you’re probably not going 
+to read the manual first (sigh!). So the next section is a 
+Quick-Start Guide to help you get the mixer set up fast 
+so you can start using it right away. Right after that are 
+the ever popular hook-up diagrams that show typical 
+mixer setups for live sound, recording and mixdown.
+
+Then, when you have time, read the Features Descrip-
+tion section. This describes every knob, button, and 
+connection point on the Onyx 4•Bus, roughly following 
+the signal flow through the mixer.
+
+Throughout this section you’ll find illustrations with 
+each feature numbered. If you want to know more about 
+a feature, simply locate it on the appropriate illustra-
+tion, notice the number attached to it, and find that 
+number in the nearby paragraphs.
+
+This icon marks information that is 
+critically important or unique to the 
+Onyx 4•Bus. For your own good, read 
+them and remember them. They will 
+be on the final test.
+
+This icon leads you to in-depth 
+explanations of features and practi-
+cal tips. While not mandatory, they 
+usually have some valuable nugget of 
+information.
+
+A PLUG FOR THE CONNECTOR SECTION
+Appendix B is a section on connectors: XLR connec-
+
+tors, balanced connectors, unbalanced connectors, and 
+special hybrid connectors.
+
+More resources on our website at www.mackie.com.
+Click on Support to find answers to many of your ques-
+
+tions. The FAQ (Frequently Asked Questions) section is 
+filled with answers to many of the questions our Techni-
+cal Support staff has fielded over the years.
+
+Check out the glossary for explanations of many of the 
+pro-audio terms used in our manuals.
+
+Visit our forums to seek help from our online commu-
+nity of Mackie users.
+
+ 
+
+Please write your serial number here for future 
+reference (i.e., insurance claims, tech support, 
+return authorization, etc.) 
+ 
+ 
+ 
+Purchased at: 
+ 
+ 
+ 
+Date of purchase:
+
+http://www.mackie.com
+
+
+5Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+Getting Started
+READ THIS PAGE!!
+
+Even if you’re one of those people 
+who never read manuals, all we ask 
+is that you read this page now before 
+you begin using the Onyx 4•Bus. 
+You’ll be glad you did!
+
+Zero the Controls
+1. Turn down the channel GAIN, AUX, and Fader con-
+
+trols, and center the channel EQ and PAN controls.
+
+2. Set all push button switches to their “out” positions.
+
+3. In the Master section, turn all the rotary knobs 
+“down,” the switches “out,” and the faders down.
+
+4. Turn the POWER switch off.
+
+Connections
+If you already know how you want to connect the Onyx 
+
+4•Bus mixing console, go ahead and connect the inputs 
+and outputs the way you want them. If you just want to 
+get sound through the mixer, follow these steps:
+
+1. Plug a microphone or other signal source into chan-
+nel 1’s MIC or LINE input [73/74]. 
+
+2. Plug in the detachable linecord, connect it to an AC 
+outlet, and turn on the Onyx 4•Bus’ POWER switch 
+[90].
+
+3. Connect cables from the Onyx 4•Bus’ MAIN OUTS 
+[82] (XLR connectors or 1/4" TRS connectors on 
+the rear panel) to your amplifier or active speakers.
+
+4. Hook up speakers to the amp and turn it on. If the 
+amplifier has level controls, set them however the 
+manufacturer recommends (usually all the way up).
+
+Set the Levels
+To set the channel GAIN controls, it’s not even neces-
+
+sary to hear what you’re doing at the outputs of the 
+mixer. If you want to listen while you work, plug head-
+phones into the PHONES jack [46] on the front panel, 
+then set the PHONES knob [47] about one-quarter of 
+the way up and the SOLO LEVEL [49] about halfway up.
+
+The following steps must be performed one channel at 
+a time.
+
+1. Push in the channel’s PFL [18] solo switch.
+
+2. Play something into the selected input. This could 
+be an instrument, a singing or speaking voice, or 
+a line input such as a CD player or tape recorder 
+
+output. Be sure that the volume of the input source 
+is the same as it would be during normal use. If it 
+isn’t, you might have to readjust these levels during 
+the middle of the set.
+
+3. Adjust the channel’s GAIN [4] control so that the 
+LEDs on the Left MAIN MIX meter stay around “0” 
+and never go higher than “+10.”
+
+4. If you’d like to apply some EQ, do so now and return 
+to step 3. Remember to push in the EQ IN/OUT 
+[11] switch or the EQ controls won’t do anything.
+
+5. Disengage that channel’s PFL solo switch.
+
+6. Repeat for each channel.
+
+Instant Mixing
+1. Leave the microphone plugged into channel 1 and 
+
+connect a keyboard, guitar or other instrument to 
+channel 2. Be sure to “Set the Levels” for channel 2 
+as described above.
+
+2. To get sound out of the speakers, push in the MAIN 
+MIX assign switch [17] next to the faders on chan-
+nels 1 and 2, turn up channel 1 and 2 faders [15] to 
+the “U” mark and slowly turn up the MAIN MIX [72] 
+fader to a comfortable listening level.
+
+3. Sing and play. You’re a star! Adjust the faders for 
+channels 1 and 2 to bring your voice and your 
+instrument up and down to create your own mix.
+
+Other Nuggets of Wisdom
+•  For optimum sonic performance, the channel and 
+
+MAIN MIX faders should be set near the “U” (unity 
+gain) markings.
+
+•  Always turn the MAIN MIX faders, GROUP faders, 
+and MONITOR knob down before making connec-
+tions to and from your Onyx 4•Bus.
+
+•  When you shut down your equipment, turn off the 
+amplifiers first. When powering up, turn on the 
+amplifiers last.
+
+•  Never listen to loud music for prolonged periods. 
+Please see the Safety Instructions on page 2 for 
+information on hearing protection.
+
+•  Save the shipping box! You may need it someday, 
+and you don’t want to have to pay for another one.
+
+That’s it for the “Getting Started” section. Next comes 
+the “Hookup” section that shows you some typical ways 
+that you might use the Onyx 4•Bus in real applications. 
+After that, take the grand tour of the mixer, with de-
+scriptions of every knob, button, input, and output. We 
+encourage you to take the time to read all of the feature 
+descriptions, but at least you know it’s there if you have 
+any questions.
+
+
+
+6 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s Hookup Diagrams
+
+Onyx 24•4 Live Club Mix and Multitrack Recording
+
+This hookup diagram demonstrates how you can 
+make a live multitrack recording using the DIRECT 
+OUTs. The DIRECT OUTs provide an analog balanced 
+direct output for each channel, pre-EQ. The Matrix 
+outputs are used to create a stereo recording for 
+backup.
+
+Aux Send 4 is used for stage monitors, and a graphic 
+EQ is connected to the Aux 4 Insert jack, serving as 
+a dedicated in-line EQ for the monitors. Aux Sends 
+5 and 6 are used to drive a stereo IEM system. Aux 
+Send 3 drives a stereo effects processor, whose stereo 
+signal is returned via the Stereo Returns jacks.
+
+Stereo Compressor 
+
+Mono Compressor 
+
+Multi Effect 
+Processor
+
+Keyboard or Synth
+
+Vocal Mics
+
+Out 
+In 
+
+Out 
+In 
+
+Out 
+In 
+
+Stereo Guitar Effects
+
+Bass Guitar
+
+Bass Amp
+
+Guitar Amp
+
+MP3 Player
+
+Line Out
+
+Electric Guitar
+
+Electric Guitar
+DI Box
+
+Line Out
+DI Box
+
+DI Box
+
+DI Box
+
+Headphones
+
+Digital Multitrack  
+Hard Disk Recorder 
+
+SELECT SELECT SELECT SELECT 
+
+Stereo Power 
+Amplifier
+
+In (record)
+
+Subwoofers PA Speaker
+
+Stereo Crossover
+
+Stereo Power 
+AmplifierStereo Recorder
+
+Out 
+In 
+
+Out
+In
+
+Out 
+In 
+
+Mono Power
+Amplifier
+
+Stage Monitors
+
+Mono EQ
+
+Stereo In-Ear Monitor
+System (IEM)
+
+Stereo EQ
+
+10 
+
+16 
+16 
+
+15 
+
+14 
+
+15 
+
+13 
+
+14 
+
+9 
+
+7 
+
+8 
+
+6 
+
+5 
+
+20 
+
+19 
+
+17 
+
+18 
+
+16 
+
+15 
+
+3 
+
+4 
+
+2 
+
+1 
+
+13 
+
+14 
+
+12 
+
+11 
+
+13 
+
+12 
+12 
+
+11 
+
+10 
+
+11 
+
+9 
+
+10 
+
+9 
+
+8 
+8 
+
+7 
+
+6 
+
+7 
+
+5 
+
+6 
+
+5 
+
+4 
+4 
+
+3 
+
+2 
+
+3 
+
+1 
+
+2 
+
+1 
+
+21 22 
+
+23 24 
+
+20 
+20 
+
+19 
+
+18 
+
+19 
+
+17 
+
+18 
+
+17 
+
+CH
+AN
+
+NE
+L 
+
+IN
+SE
+
+RT
+S 
+
+CHANNEL INPUTS 
+STEREO RETURNS 
+
+M
+ON
+
+O 
+OU
+
+T 
+
+PHONES 
+OUT 
+
+3 
+
+1
+
+2
+
+1 
+
+2 
+
+3
+
+M
+AI
+
+N 
+OU
+
+T 
+
+M
+ONTIOR 
+OUT 
+
+M
+ATRIX 
+OUT 
+
+M
+AI
+
+N 
+OU
+
+T 
+DI
+
+RE
+CT
+
+ O
+UT
+
+ 
+9-
+
+16
+ 
+
+DIRECT OUT 
+1-8 
+
+L 
+
+R 
+
+M
+AI
+
+N 
+IN
+
+SE
+RT
+
+S L 
+
+R 
+
+DI
+RE
+
+CT
+ O
+
+UT
+ 
+
+17
+-2
+
+4 
+
+6
+
+4 
+
+5 
+
+4
+
+5
+
+6 A
+UX
+
+ S
+EN
+
+D
+AU
+
+X 
+SE
+
+ND
+ IN
+
+SE
+RT
+
+S
+
+1
+
+2
+
+1 
+
+2 
+
+3 
+
+4 
+
+3
+
+4
+
+GR
+OU
+
+P 
+OU
+
+TS
+
+L 
+
+R 
+
+A 
+
+B 
+
+1 
+L 
+
+R 
+2 
+L 
+
+R 
+
+L R 
+
+L R 
+
+IN-TAPE-OUT 
+
+GR
+OU
+
+P 
+OU
+
+T
+IN
+
+SE
+RT
+
+S
+
+
+
+7Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+Onyx 24•4 Stage Monitor Mix
+
+This drawing shows the flexibility of the Onyx 4•Bus for creating different monitor 
+mixes. Auxes 1-4 provide separate monitor mixes for four floor wedges. Auxes 5-6 
+provide a stereo monitor mix for an in-ear monitor (IEM). The Aux Inserts can be 
+used for in-line graphic EQ for each monitor send. A listen wedge is connected to 
+the Monitor Out, allowing you to solo and listen to each monitor mix. The Talkback 
+Mic lets you talk to the talent through the monitors (Aux Sends).
+
+Stereo Compressor 
+
+Mono Compressor 
+
+Keyboard or Synth
+
+Vocal Mics
+
+Out 
+In 
+
+Out 
+In 
+
+Out 
+In 
+
+Stereo Guitar Effects
+
+Bass Guitar
+
+Bass Amp
+
+Guitar Amp
+
+Line Out
+
+Electric Guitar
+
+Electric Guitar
+DI Box
+
+Line Out
+DI Box
+
+DI Box
+
+DI Box
+
+Out
+In
+
+Mono Power
+Amplifier
+
+Mono Power
+Amplifier
+
+Mono Power
+Amplifier
+
+Stage Monitor
+
+Mono EQ
+
+Stage Monitor
+
+Stage Monitor
+
+Mono Power
+Amplifier
+
+Stage Monitor
+
+Mono Power
+Amplifier
+
+Listen WedgeTalkback Mic
+
+Stereo In-Ear Monitor
+System (IEM)
+
+10 
+
+16 
+16 
+
+15 
+
+14 
+
+15 
+
+13 
+
+14 
+
+9 
+
+7 
+
+8 
+
+6 
+
+5 
+
+20 
+
+19 
+
+17 
+
+18 
+
+16 
+
+15 
+
+3 
+
+4 
+
+2 
+
+1 
+
+13 
+
+14 
+
+12 
+
+11 
+
+13 
+
+12 
+12 
+
+11 
+
+10 
+
+11 
+
+9 
+
+10 
+
+9 
+
+8 
+8 
+
+7 
+
+6 
+
+7 
+
+5 
+
+6 
+
+5 
+
+4 
+4 
+
+3 
+
+2 
+
+3 
+
+1 
+
+2 
+
+1 
+
+21 22 
+
+23 24 
+
+20 
+20 
+
+19 
+
+18 
+
+19 
+
+17 
+
+18 
+
+17 
+
+CH
+AN
+
+NE
+L 
+
+IN
+SE
+
+RT
+S 
+
+CHANNEL INPUTS 
+STEREO RETURNS 
+
+TALKBACK
+M
+
+IC
+
+M
+ON
+
+O 
+OU
+
+T 
+
+PHONES 
+OUT 
+
+3 
+
+1
+
+2
+
+1 
+
+2 
+
+3
+
+M
+AI
+
+N 
+OU
+
+T  
+
+M
+ONTIOR 
+OUT 
+
+M
+ATRIX 
+OUT 
+
+M
+AI
+
+N 
+OU
+
+T 
+DI
+
+RE
+CT
+
+ O
+UT
+
+ 
+9-
+
+16
+ 
+
+DIRECT OUT 
+1-8 
+
+L 
+
+R 
+
+M
+AI
+
+N 
+IN
+
+SE
+RT
+
+S L 
+
+R 
+
+DI
+RE
+
+CT
+ O
+
+UT
+ 
+
+17
+-2
+
+4 
+
+6
+
+4 
+
+5 
+
+4
+
+5
+
+6 A
+UX
+
+ S
+EN
+
+D
+AU
+
+X 
+SE
+
+ND
+ IN
+
+SE
+RT
+
+S
+
+1
+
+2
+
+1 
+
+2 
+
+3 
+
+4 
+
+3
+
+4
+
+GR
+OU
+
+P 
+OU
+
+TS
+
+L 
+
+R 
+
+A 
+
+B 
+
+1 
+L 
+
+R 
+2 
+L 
+
+R 
+
+L R 
+
+L R 
+
+IN-TAPE-OUT 
+
+GR
+OU
+
+P 
+OU
+
+T
+IN
+
+SE
+RT
+
+S
+
+
+
+8 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s
+
+Onyx 24•4 Computer Recording
+
+Stereo Compressor 
+
+Mono Compressor 
+
+Keyboard or Synth
+
+Vocal Mics
+
+Out 
+In 
+
+Out 
+In 
+
+Out 
+In 
+
+Stereo Guitar Effects
+
+Bass Guitar
+
+Bass Amp
+
+Guitar Amp
+
+Line Out
+
+Electric Guitar
+
+Electric Guitar
+DI Box
+
+Line Out
+DI Box
+
+DI Box
+
+DI Box
+
+Out
+In
+
+Out
+In
+
+To Desktop
+or
+
+Laptop Computer
+
+Powered
+Studio Monitors
+
+for Studio
+
+Audio I/O for Workstation
+
+Headphone Distribution
+Amp
+
+Headphones
+for StudioStereo EQ
+
+10 
+
+16 
+16 
+
+15 
+
+14 
+
+15 
+
+13 
+
+14 
+
+9 
+
+7 
+
+8 
+
+6 
+
+5 
+
+20 
+
+19 
+
+17 
+
+18 
+
+16 
+
+15 
+
+3 
+
+4 
+
+2 
+
+1 
+
+13 
+
+14 
+
+12 
+
+11 
+
+13 
+
+12 
+12 
+
+11 
+
+10 
+
+11 
+
+9 
+
+10 
+
+9 
+
+8 
+8 
+
+7 
+
+6 
+
+7 
+
+5 
+
+6 
+
+5 
+
+4 
+4 
+
+3 
+
+2 
+
+3 
+
+1 
+
+2 
+
+1 
+
+21 22 
+
+23 24 
+
+20 
+20 
+
+19 
+
+18 
+
+19 
+
+17 
+
+18 
+
+17 
+
+CH
+AN
+
+NE
+L 
+
+IN
+SE
+
+RT
+S 
+
+CHANNEL INPUTS 
+STEREO RETURNS 
+
+M
+ON
+
+O 
+OU
+
+T 
+
+PHONES 
+OUT 
+
+3 
+
+1
+
+2
+
+1 
+
+2 
+
+3
+
+M
+AI
+
+N 
+OU
+
+T  
+
+M
+ONTIOR 
+OUT 
+
+M
+ATRIX 
+OUT 
+
+M
+AI
+
+N 
+OU
+
+T  
+DI
+
+RE
+CT
+
+ O
+UT
+
+ 
+9-
+
+16
+ 
+
+DIRECT OUT 
+1-8 
+
+L 
+
+R 
+
+M
+AI
+
+N 
+IN
+
+SE
+RT
+
+S  L 
+
+R 
+
+DI
+RE
+
+CT
+ O
+
+UT
+ 
+
+17
+-2
+
+4 
+
+6
+
+4 
+
+5 
+
+4
+
+5
+
+6 A
+UX
+
+ S
+EN
+
+D
+AU
+
+X 
+SE
+
+ND
+ IN
+
+SE
+RT
+
+S
+
+1
+
+2
+
+1 
+
+2 
+
+3 
+
+4 
+
+3
+
+4
+
+GR
+OU
+
+P 
+OU
+
+TS
+
+L 
+
+R 
+
+A 
+
+B 
+
+1 
+L 
+
+R 
+2 
+L 
+
+R 
+
+L R 
+
+L R 
+
+IN-TAPE-OUT 
+
+GR
+OU
+
+P 
+OU
+
+T
+IN
+
+SE
+RT
+
+S
+
+In this hookup diagram, the Direct Outs for channels 9-24 
+are connected to the analog audio interface for your DAW or 
+laptop for tracking. The drum microphones are subgrouped 
+to Groups 1-4 and routed to the analog audio interface for 
+recording.
+
+A 2-track return is provided by the DAW (or laptop) to the 
+Stereo Returns on the Onyx 24•4 for playback of the master 
+mix.
+
+Auxes 5-6 provide a stereo monitor mix for a headphone 
+distribution amplifier (Aux 5-6 Inserts are connected 
+to a stereo graphic EQ to provide equalization for the 
+headphone mixes).
+
+
+
+9Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+Onyx 24•4 House of Worship
+
+In a House of Worship application, the Onyx 4•Bus provides plenty of Aux Sends 
+for stage monitors, stereo in-ear monitoring, and assistive listening systems. The 
+MONO output is used to provide front-fill for the first few rows not covered by the 
+main PA speakers. A stereo graphic EQ is connected to the Main Inserts (the built-
+in compressor/limiter provides system limiting for the Main Mix). Aux 6 is used 
+as a subwoofer feed (a low-pass filter is built in to either the power amplifier or 
+subwoofer). The Matrix A and B outputs provide additional custom mixes for the 
+balcony and the nursery.
+
+Subwoofer
+
+Stereo Compressor 
+
+Mono Compressor 
+
+Keyboard or Synth
+
+Vocal Mics
+
+Out 
+In 
+
+Out 
+In 
+
+Out 
+In 
+
+Stereo Guitar Effects
+
+Bass Guitar
+
+Bass Amp
+
+Guitar Amp
+
+Line Out
+
+Electric Guitar
+
+Electric Guitar
+DI Box
+
+Line Out
+DI Box
+
+DI Box
+
+DI Box
+
+Headphones
+
+Digital Multitrack  
+Hard Disk Recorder 
+
+SELECT SELECT SELECT SELECT 
+
+Stereo Recorder
+
+Out 
+In 
+
+Out
+In
+
+Out 
+In 
+
+Mono Power
+Amplifier
+
+Stage Monitors
+
+Mono EQ
+
+Stereo In-Ear Monitor
+System (IEM)
+
+Stereo EQ
+
+Mono EQ
+
+Power Amp
+Mono Mode
+
+Nursery Zone Speaker
+
+Mono EQ
+
+Power Amp
+Mono Mode
+
+Balcony Seating Speaker
+
+Power Amp
+Mono Mode
+
+Left PA Speaker Right PA Speaker
+
+Mono EQ
+
+Power Amp
+Mono Mode
+
+Front Fill PA Speaker
+
+Power Amp
+Mono Mode
+
+Power Amp
+Mono Mode
+
+Assistive Listening
+System
+
+10 
+
+16 
+16 
+
+15 
+
+14 
+
+15 
+
+13 
+
+14 
+
+9 
+
+7 
+
+8 
+
+6 
+
+5 
+
+20 
+
+19 
+
+17 
+
+18 
+
+16 
+
+15 
+
+3 
+
+4 
+
+2 
+
+1 
+
+13 
+
+14 
+
+12 
+
+11 
+
+13 
+
+12 
+12 
+
+11 
+
+10 
+
+11 
+
+9 
+
+10 
+
+9 
+
+8 
+8 
+
+7 
+
+6 
+
+7 
+
+5 
+
+6 
+
+5 
+
+4 
+4 
+
+3 
+
+2 
+
+3 
+
+1 
+
+2 
+
+1 
+
+21 22 
+
+23 24 
+
+20 
+20 
+
+19 
+
+18 
+
+19 
+
+17 
+
+18 
+
+17 
+
+CH
+AN
+
+NE
+L 
+
+IN
+SE
+
+RT
+S 
+
+CHANNEL INPUTS 
+STEREO RETURNS  
+
+M
+ON
+
+O 
+OU
+
+T 
+
+PHONES 
+OUT 
+
+3 
+
+1
+
+2
+
+1 
+
+2 
+
+3
+
+M
+AI
+
+N 
+OU
+
+T 
+
+M
+ONTIOR 
+OUT 
+
+M
+ATRIX 
+OUT 
+
+M
+AI
+
+N 
+OU
+
+T 
+DI
+
+RE
+CT
+
+ O
+UT
+
+ 
+9-
+
+16
+ 
+
+DIRECT OUT 
+1-8 
+
+L 
+
+R 
+
+M
+AI
+
+N 
+IN
+
+SE
+RT
+
+S L 
+
+R 
+
+DI
+RE
+
+CT
+ O
+
+UT
+ 
+
+17
+-2
+
+4 
+
+6
+
+4 
+
+5 
+
+4
+
+5
+
+6 A
+UX
+
+ S
+EN
+
+D
+AU
+
+X 
+SE
+
+ND
+ IN
+
+SE
+RT
+
+S
+
+1
+
+2
+
+1 
+
+2 
+
+3 
+
+4 
+
+3
+
+4
+
+GR
+OU
+
+P 
+OU
+
+TS
+
+L 
+
+R 
+
+A 
+
+B 
+
+1 
+L 
+
+R 
+2 
+L 
+
+R 
+
+L R 
+
+L R 
+
+IN-TAPE-OUT 
+
+GR
+OU
+
+P 
+OU
+
+T
+IN
+
+SE
+RT
+
+S
+
+
+
+10 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s Onyx 4•Bus Features
+
+Mono Channel Strips
+The Onyx 24•4 has 20 mono channel strips and two 
+
+stereo channels, and the Onyx 32•4 has 28 mono channel 
+strips and two stereo channels. Each mono channel has a 
+mic and line input connector and an insert jack for con-
+necting an external signal processor.
+
+1. PAD Switch 
+
+In most cases, you will leave the PAD switch out. How-
+ever, you may have a microphone that produces a higher 
+output signal than usual, which may require you to turn 
+the GAIN control way down. If that is the case, push in 
+the PAD switch to insert a 20 dB pad at the input to the 
+mic preamp, to prevent overloading the microphone pre-
+amp and provide better gain control.
+
+2. Low-Cut Switch
+
+The Low-Cut switch, often referred to as a high-pass 
+filter, cuts bass frequencies below 100 Hz at a rate of 18 dB 
+per octave.
+
+We recommend that you use the Low-Cut switch on 
+every microphone application except kick drum, bass 
+guitar, bassy synth patches, or recordings of earth-
+quakes. These aside, there isn’t much down there that 
+you want to hear, and filtering it out makes the low stuff 
+you do want much more crisp and tasty. Not only that, 
+but the Low-Cut switch can help reduce the possibility 
+of feedback in live situations and it helps to conserve 
+amplifier power.
+
+Another way to use the Low-Cut switch 
+is in combination with the LOW EQ on 
+vocals during live performances. Many 
+times, bass shelving EQ can really ben-
+efit voices. Trouble is, adding LOW EQ 
+also boosts stage rumble, mic handling 
+
+clunks, and breath pops. Low Cut removes all those prob-
+lems so you can add LOW EQ without losing a woofer.
+
+Here’s what the combination of LOW EQ and Low Cut 
+looks like in terms of frequency curves.
+
+3. 48V Phantom Power Switch 
+
+Most professional condenser mi-
+crophones require phantom power, 
+which is a low-current DC voltage 
+delivered to the microphone on 
+pins 2 and 3 of the XLR microphone 
+connector. Push in the 48V switch 
+if your microphone needs phantom 
+power. An LED lights just above the 
+switch to indicate that phantom 
+power is active on that channel.
+
+Dynamic microphones, like 
+Shure’s SM57 and SM58, do not 
+require phantom power. However, 
+phantom power will not harm most 
+dynamic microphones should you 
+accidentally plug one in while the 
+phantom power is turned on. Be 
+careful with older ribbon micro-
+phones. Check the manual for your 
+microphone to find out for sure 
+whether or not phantom power can 
+damage it.
+
+Note: Be sure the MAIN MIX fader 
+[72] is turned down when connect-
+ing microphones to the MIC Inputs, 
+especially when phantom power is 
+turned on, to prevent pops from get-
+ting through to the speakers.
+
+4. GAIN Control
+
+If you haven’t already, please read 
+“Set the Levels” on page 5.
+
+The GAIN control adjusts the input 
+sensitivity of the mic and line inputs. 
+This allows the signal from the out-
+side world to be adjusted to optimal 
+internal operating levels.
+
+If the signal is plugged into the 
+XLR jack, there is 0 dB of gain 
+(unity gain) with the knob turned 
+all the way down, ramping up to 60 
+dB of gain fully up (–20 dB to +40 
+dB with the PAD switch pushed in).
+
+When connected to the 1/4" jack, there is 20 dB of 
+attenuation all the way down, and 40 dB of gain fully up, 
+with a “U” (unity gain) mark at about 10:00.20Hz 100Hz 1kHz 10kHz 20kHz
+
+–15
+
+–10
+
+–5
+
+0
+
++5
+
++10
+
++15
+
+Low Cut with Low EQ Boosted
+
+10 
+
+dB 
+
+30 
+
+20 
+
+10 
+
+O O 
+
+40 
+
+5 
+
+5 
+
+U 
+
+60 
+
+50 
+
+AUX 
+
+1 
+
+GAIN 
++ 40dB 
+
+U 
+
+- 20dB 
+U 
+
+20 
+
+30 
+
+40 
+
+60 
+
+OUT 
+IN 
+
+EQ 
+
+LOW 
+80 Hz 
+
+HIGH 
+12kHz 
+
+LOW 
+MID 
+
+HIGH 
+MID 
+
+U 
+
++15 - 15 
+
+U 
+
++15 - 15 
+
+U 
+
++15 - 15 
+
+U 
+
++15 - 15 
+
+FREQ 
+
+2k 
+
+8k 400 
+
+FREQ 
+
+400 
+
+2k 1 00 
+
+4 
+
+3 
+
+2 
+
+1 
+
+5 
+
+6 
+
+O O MAX 
+
+O O MAX 
+
+O O MAX 
+
+O O MAX 
+
+O O MAX 
+
+O O MAX 
+
+L R 
+
+PAN 
+
+1 
+
+OL 
+
++ 10 
+
+0 
+
+- 20 
+
+ASSIGN 
+
+MAIN 
+MIX 
+
+1 - 2 
+
+3 - 4 
+
+PAD 
+
+48V 48V 
+
+EQ 
+
+MUTE 
+
+PFL 
+
+
+
+11Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+5. HIGH EQ
+
+This control gives you 
+up to 15 dB boost or cut at 
+12 kHz, and is flat at the 
+center detent. Use it to 
+add sizzle to cymbals, and 
+an overall sense of trans-
+parency or edge to the 
+keyboards, vocals, guitar, 
+and bacon frying. Turn it 
+
+down a little to reduce sibilance, or to hide tape hiss.
+
+6. HIGH MID EQ
+
+Short for “midrange,” 
+this knob provides 15 dB 
+of boost or cut centered 
+at the frequency deter-
+mined by its FREQ knob 
+(see HIGH MID FREQ 
+next). Midrange EQ is 
+often thought of as the 
+most dynamic because 
+
+the frequencies that define any particular sound are 
+almost always found in this range. The HIGH MID EQ 
+range (400 Hz to 8 kHz) includes the female vocal range 
+as well as the fundamentals and harmonics for many 
+instruments.
+
+7. HIGH MID FREQ
+
+This knob ranges from 
+400 Hz to 8 kHz and 
+determines the center 
+frequency for the HIGH 
+MID EQ filter. This allows 
+you to zero in on the 
+precise narrow band of 
+frequencies you want 
+to have affected by the 
+HIGH MID EQ.
+
+8. LOW MID EQ
+
+This is a second mid-
+range EQ control that 
+provides 15 dB of boost 
+or cut centered at the 
+frequency determined by 
+its FREQ knob. It extends 
+down to 100 Hz, which 
+includes the male vocal 
+range and the fundamen-
+
+tals of some lower instruments (guitar, lower brass). 
+
+9. LOW MID FREQ
+
+This knob ranges from 
+100 Hz to 2 kHz and 
+determines the center 
+frequency for the LOW 
+MID EQ filter. This allows 
+you to zero in on the 
+precise narrow band of 
+frequencies you want to 
+have affected by the LOW 
+MID EQ.
+
+10. LOW EQ
+
+This control gives you 
+up to 15 dB of boost or cut 
+at 80 Hz. The circuit is flat 
+(no boost or cut) at the 
+center detent position. 
+This frequency represents 
+the punch in bass drums, 
+bass guitar, fat synth 
+patches, and some really 
+serious male singers.
+
+Note: Used in conjunction with the Low Cut switch, 
+you can boost the LOW EQ without injecting tons of 
+infrasonic debris into the mix.
+
+11. EQ IN/OUT Switch
+
+This is a true hardware bypass of the Perkins EQ cir-
+cuitry to insure that there is no coloration of the signal 
+if the EQ is not needed. When this button is out, the EQ 
+controls have no effect on the signal. You can use this 
+switch to make an A/B comparison between the EQ’d 
+signal and the signal without EQ.
+
+We have completely redesigned the 
+EQ circuits in the Onyx Series of 
+mixers, based on the designs of Cal 
+Perkins, an industry-leader in audio 
+engineering for over three decades 
+and long-time Mackie collaborator. 
+
+This “neo-classic” design provides the sweet musicality 
+of the British EQ sound, while still maintaining 15 dB of 
+boost and cut with optimum Q and minimum phase shift 
+(in other words, it gives you plenty of control and is 
+pleasing to the ear!).
+
+The 4-band equalization has LOW shelving at 80 Hz, 
+LOW MID peaking, sweepable from 100 Hz to 2 kHz on 
+the mono channels, HIGH MID peaking, sweepable from 
+400 Hz to 8 kHz on the mono channels, and HIGH shelv-
+ing at 12 kHz. “Shelving” means that the circuitry boosts 
+or cuts all frequencies past the specified frequency. For 
+example, rotating the LOW EQ knob 15 dB to the right 
+boosts bass frequencies below 80 Hz and continuing on 
+
+20Hz 100Hz 1kHz 10kHz 20kHz
+–15
+
+–10
+
+–5
+
+0
+
++5
+
++10
+
++15
+
+High EQ
+
+20Hz 100Hz 1kHz 10kHz 20kHz
+–15
+
+–10
+
+–5
+
+0
+
++5
+
++10
+
++15
+
+High Mid EQ
+20Hz 100Hz 1kHz 10kHz 20kHz
+
+–15
+
+–10
+
+–5
+
+0
+
++5
+
++10
+
++15
+
+Low EQ
+
+���� ����� ���� ����� �����
+���
+
+���
+
+��
+
+�
+
+��
+
+���
+
+���
+
+Low Mid EQ Freq Sweep
+
+20Hz 100Hz 1kHz 10kHz 20kHz
+–15
+
+–10
+
+–5
+
+0
+
++5
+
++10
+
++15
+
+Low Mid EQ
+
+���� ����� ���� ����� �����
+���
+
+���
+
+��
+
+�
+
+��
+
+���
+
+���
+
+High Mid EQ Freq Sweep
+
+
+
+12 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s down to the lowest note you ever heard. “Peaking” means 
+
+that the frequencies around the center frequency are 
+less affected by the EQ the further away they are.
+
+12. AUX Sends
+
+These tap a portion of each channel’s signal (pre or 
+post-fader) out to either an effects processor (post-fader) 
+or for stage monitoring (pre-fader). The AUX Send lev-
+els are controlled by the channel’s AUX 1-6 knobs, and 
+by the AUX SEND MASTERS knobs [55].
+
+These are more than just effects and monitor sends. 
+They can be used to create stereo in-ear monitor mixes, 
+generate separate mixes for recording, for another zone, 
+or “mix-minuses” for broadcast.
+
+13. PAN
+
+PAN adjusts the amount of channel signal sent to the left 
+versus the right outputs.
+
+With the PAN knob hard left, the signal feeds the 
+MAIN LEFT (and GROUP 1 and 3, depending on the 
+setting of the GROUP ASSIGN switches). With the knob 
+hard right, the signal feeds the MAIN RIGHT (and 
+GROUP 2 and 4).
+
+Constant Loudness 
+
+The Onyx 4•Bus PAN control em-
+ploys a design called “Constant Loud-
+ness.” If you have a channel panned 
+hard left (or right) and then pan to 
+the center, the signal is attenuated 
+3 dB to maintain the same apparent 
+
+loudness. Otherwise, it would make the sound appear 
+much louder when panned center.
+
+14. MUTE
+
+Press this switch to mute the individual channel. This 
+disconnects the channel’s signal from all the Groups, 
+the Main Mix, and Aux Send buses (pre* and post-
+fader). You can still solo the channel (PFL) when the 
+MUTE switch is pushed in.
+
+* If the pre-fader Aux Send’s internal jumper is wired for pre-Mute 
+[56], the MUTE switch will not affect the PRE Aux Send.
+
+15. Channel Fader
+
+The fader controls the channel’s 
+level…from off to unity gain at the 
+“U” marking, on up to 10 dB of ad-
+ditional gain.
+
+“U” Like Unity Gain
+
+Mackie mixers 
+have a “U” symbol 
+on many of the 
+level controls. 
+This “U” stands 
+for “unity gain,” 
+
+meaning no change in signal level. 
+Once you have adjusted the input 
+signal to line-level, you can set the 
+controls at “U” and your signals will 
+travel through the mixer at opti-
+mal levels. What’s more, many of 
+the labels on our level controls are 
+measured in decibels (dB), so you’ll 
+know what you’re doing level-wise 
+if you choose to change a control’s 
+settings.
+
+16. Signal Level LEDs
+
+These LEDs indicate the channel’s 
+signal level after the GAIN and 
+EQ controls, but just prior to the 
+channel’s fader. So even if the fader 
+is turned down, you can see if a 
+signal is present.
+
+If you’ve followed the “Set the Lev-
+els” procedure, the –20 and 0 LEDs 
+should light frequently, the +10 
+LED should light occasionally, and 
+the OL (Overload) LED should not 
+light at all. If the OL LED is blink-
+ing frequently, the signal is probably 
+distorted from overdriving the input. 
+Either turn down the GAIN control 
+or turn down the signal at its source.
+
+10 
+
+dB 
+
+30 
+
+20 
+
+10 
+
+O O 
+
+40 
+
+5 
+
+5 
+
+U 
+
+60 
+
+50 
+
+AUX 
+
+1 
+
+GAIN 
++ 40dB 
+
+U 
+
+- 20dB 
+U 
+
+20 
+
+30 
+
+40 
+
+60 
+
+OUT 
+IN 
+
+EQ 
+
+LOW 
+80 Hz 
+
+HIGH 
+12kHz 
+
+LOW 
+MID 
+
+HIGH 
+MID 
+
+U 
+
++15 - 15 
+
+U 
+
++15 - 15 
+
+U 
+
++15 - 15 
+
+U 
+
++15 - 15 
+
+FREQ 
+
+2k 
+
+8k 400 
+
+FREQ 
+
+400 
+
+2k 1 00 
+
+4 
+
+3 
+
+2 
+
+1 
+
+5 
+
+6 
+
+O O MAX 
+
+O O MAX 
+
+O O MAX 
+
+O O MAX 
+
+O O MAX 
+
+O O MAX 
+
+L R 
+
+PAN 
+
+1 
+
+OL 
+
++ 10 
+
+0 
+
+- 20 
+
+ASSIGN 
+
+MAIN 
+MIX 
+
+1 - 2 
+
+3 - 4 
+
+PAD 
+
+48V 48V 
+
+EQ 
+
+MUTE 
+
+PFL 
+
+���� ������������� ��
+
+��
+������ ���� �����
+
+���
+������
+
+�����������
+����
+
+������
+������
+
+������������
+
+����������������
+
+���������������
+
+��������
+������
+
+������������������
+�������������������
+
+�����
+������������������ ������
+
+�����
+��
+
+�������
+
+�����
+
+������
+���
+
+�������������
+����������������
+
+�������������
+���������������
+
+
+
+13Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+17. GROUP and MAIN MIX ASSIGN Switches
+
+Alongside each channel fader are three buttons 
+referred to as channel assignment switches. Used in 
+conjunction with the channel’s PAN knob, they are used 
+to determine the destination of the channel’s signal.
+
+With the PAN knob [13] at the center detent, the left 
+and right sides receive equal signal levels (GROUPS 1-2, 
+3-4, and MAIN MIX L-R). To feed only one side or the 
+other, turn the PAN knob accordingly.
+
+If you’re doing a mixdown to a 2-track, for example, 
+simply engage the MAIN MIX switch on each channel 
+that you want to hear, and they’ll be sent to the MAIN 
+MIX bus. If you want to create a subgroup of certain 
+channels, engage either the 1-2 or 3-4 switches instead 
+of the MAIN MIX, and they’ll be sent to the appropriate 
+Group faders. From there, the groups can be sent back 
+to the MAIN MIX (using the MAIN MIX assign switches 
+[70] next to the Group faders), allowing you to use the 
+Group faders as a master control for those channels.
+
+If you’re creating new tracks or bouncing existing ones, 
+you’ll also use the GROUP ASSIGN switches, but not the 
+MAIN MIX switch. Here, you don’t want the subgroups 
+sent back into the MAIN MIX bus, but sent out, via the 
+GROUP OUTS jacks [85], to your multitrack inputs. How-
+ever, if you’re printing tracks via the DIRECT OUTS [76], 
+the channel assignment switches don’t matter because 
+the DIRECT OUTS come before the ASSIGN switches.
+
+18. PFL SOLO Switch
+
+This handy switch allows you to hear signals through 
+your headphones or monitor outputs without having to 
+route them to the MAIN or GROUP mixes. Folks use solo 
+in live work to preview channels before they are let into 
+the mix, or just to check out what a particular channel 
+is up to anytime during a session. You can solo as many 
+channels at a time as you like. It won’t affect what is 
+coming out the MAIN OUT or GROUP OUT jacks.
+
+The Onyx 4•Bus has two solo modes. PFL (Pre-Fader 
+Listen) is the default solo mode, and the mode used for 
+inputs, including soloing individual channels and the 
+Stereo Returns. AFL (After-Fader Listen) is activated 
+whenever an AFL switch is pressed on an output, includ-
+ing an Aux Send, Matrix, or Group.
+
+PFL solo mode always overrides any AFL solo mode.  
+The Rude Solo LEDS [43] below the SOLO meters indi-
+cate which solo mode is active.
+
+Soloed channels are sent to the PHONES output and 
+MONITOR outputs, and also to the MAIN MIX meters. 
+PFL mode (Pre-Fader Listen) sends the channel’s signal 
+after the GAIN and EQ controls, but before the channel 
+fader, to the PFL solo bus (and appears on the LEFT 
+meter). AFL mode (After-Fader Listen), sends the 
+signal post-fader (and appears on the LEFT and RIGHT 
+meters), making it ideal for mixdown soloing.
+
+VERY IMPORTANT: Remember, PFL 
+mode taps the channel signal before 
+the fader. If you have a channel’s fad-
+er set way below “U” (unity gain), PFL 
+solo won’t know that and will send a 
+
+unity gain signal to the MONITOR OUT and PHONES 
+output. That may result in a startling level boost at 
+these outputs when switching to PFL solo mode.
+
+Stereo Channel Strips
+The Onyx 4•Bus mixers each have 
+
+two stereo channels. The stereo 
+channels have a pair of 1/4" TRS 
+line input connectors.
+
+The stereo channels can be used 
+as mono or stereo line-input chan-
+nel strips, or to return the signal 
+from an external effects processor 
+connected to an Aux Send (if you 
+want to apply EQ or more flex-
+ible auxiliary routing to the signal 
+than is available with the Stereo 
+Returns). These versatile channel 
+strips are nearly as full-featured as 
+the mono channel strips.
+
+19. GAIN Control
+
+If you haven’t already, please 
+read “Set the Levels” on page 5.
+
+The GAIN control adjusts the 
+input sensitivity of the stereo line 
+inputs. This allows the signal from 
+the outside world to be adjusted to 
+optimal internal operating levels.
+
+There is 20 dB of attenuation with 
+the knob turned all the way down, 
+ramping up to 20 dB of gain fully up, with a “U” (unity 
+gain) mark at 12:00.
+
+20. HIGH EQ
+
+This control gives you up to 15 dB boost or cut above 
+12 kHz, and it is also flat at the center detent. Use it to 
+add sizzle to cymbals, and an overall sense of transpar-
+ency or edge to the keyboards, vocals, guitar, and bacon 
+frying. Turn it down a little to reduce sibilance, or to 
+hide tape hiss.
+
+21. HIGH MID EQ
+
+Short for “midrange,” this knob provides 15 dB of 
+boost or cut at 2.5 kHz. Midrange EQ is often thought of 
+as the most dynamic because the frequencies that de-
+fine any particular sound are almost always found in this 
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+��
+������
+
+����
+
+� �
+
+���
+
+���
+���
+�����
+
+����
+���
+������
+
+�
+
+������
+
+�
+
+������
+
+���
+��
+
+���
+����
+
+�
+
+������
+
+��
+����
+�����
+
+�
+
+������
+
+�
+
+����� �����
+
+���
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+����
+
+��
+
+���
+
+�
+
+���
+
+������
+
+����
+���
+
+���
+
+���
+
+��
+��
+
+��
+
+����
+
+���
+
+
+
+14 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s range. The HIGH MID EQ frequen-
+
+cies include the female vocal range 
+as well as the fundamentals and 
+harmonics for many instruments.
+
+22. LOW MID EQ
+
+This is a second midrange EQ 
+control that provides 15 dB of boost 
+or cut centered at 400 Hz. This 
+includes the male vocal range and 
+the fundamentals of some lower 
+instruments (guitar, lower brass). 
+
+23. LOW EQ
+
+This control gives you up to 15 
+dB of boost or cut below 80 Hz. The 
+circuit is flat (no boost or cut) at 
+the center detent position. This 
+frequency represents the punch in 
+bass drums, bass guitar, fat synth 
+patches, and some really serious 
+male singers.
+
+24. EQ IN/OUT Switch
+
+This is a true hardware bypass of 
+the Perkins EQ circuitry to insure 
+that there is no coloration of the 
+signal if the EQ is not needed. 
+When this button is out, the EQ 
+controls have no effect on the 
+signal. You can use this switch to 
+make an A/B comparison between 
+the EQ’d signal and the signal 
+without EQ.
+
+25. AUX Sends
+
+These tap a portion of each 
+channel’s signal out to an effects 
+processor or for stage monitoring. 
+The AUX Send levels are controlled 
+by the channel’s AUX 1-6 knobs, 
+and by the AUX SEND MASTERS 
+knobs [55].
+
+26. PAN
+
+PAN adjusts the amount of chan-
+nel signal sent to the left versus 
+the right outputs. On the stereo 
+channels, the PAN knob works like 
+
+the balance control on your home stereo (panning left 
+turns down the right channel, and panning right turns 
+down the left channel).
+
+27. MUTE
+
+Press this switch to mute the channel. This discon-
+nects the channel’s signal from all the Groups, the Main 
+Mix, and Aux Send buses (pre* and post-fader). You 
+can still solo the channel in PFL mode when the MUTE 
+switch is pushed in.
+
+* If the pre-fader Aux Send’s internal jumper is wired for pre-Mute 
+
+[56], the MUTE switch will not affect the PRE Aux Send.
+
+28. Stereo Fader
+
+The fader controls the stereo channel’s level, from 
+off to unity gain at the “U” marking, on up to 10 dB of 
+additional gain.
+
+29. Signal Level LEDs
+
+These LEDs indicate the sum of the channel’s left and 
+right signal levels after the GAIN and EQ controls, but 
+just prior to the channel’s fader. So even if the fader is 
+turned down, you can see if a signal is present.
+
+If you’ve followed the “Set the Levels” procedure, the 
+–20 and 0 LEDs should light frequently, the +10 LED 
+should light occasionally, and the OL (Overload) LED 
+should not light at all. If the OL LED is blinking fre-
+quently, the signal is probably distorted from overdriving 
+the input. Either turn down the GAIN control or turn 
+down the signal at its source.
+
+30. GROUP and MAIN MIX ASSIGN Switches
+
+Alongside each channel fader are three buttons 
+referred to as channel assignment switches. Used in 
+conjunction with the channel’s PAN knob, they are used 
+to determine the destination of the channel’s signal.
+
+The stereo channels are assignable to GROUPS 1-2, 
+3-4, and the MAIN MIX. With the PAN knob [26] at the 
+center detent, the left and right stereo signal is equally 
+balanced. To feed only one side or the other, turn the 
+PAN knob accordingly.
+
+31. PFL Solo Switch
+
+Like the PFL switch on the mono channels, this switch 
+allows you to hear signals through your headphones or 
+monitor outputs without having to route them to the 
+MAIN or GROUP mixes. Since this is Pre-Fader Listen, 
+you can listen to the stereo signal even when the chan-
+nel fader is turned down. Unlike the mono channel PFL, 
+the stereo channel PFL is a stereo signal (post-pan 
+control), and therefore retains its left and right stereo 
+image in the headphones and monitors, and appears on 
+both LEFT and RIGHT meters.
+
+The Rude Solo LEDS [43] below the meters indicate 
+which solo mode is active.
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+��
+������
+
+����
+
+� �
+
+���
+
+���
+���
+�����
+
+����
+���
+������
+
+�
+
+������
+
+�
+
+������
+
+���
+��
+
+���
+����
+
+�
+
+������
+
+��
+����
+�����
+
+�
+
+������
+
+�
+
+����� �����
+
+���
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+����
+
+��
+
+���
+
+�
+
+���
+
+������
+
+����
+���
+
+���
+
+���
+
+��
+��
+
+��
+
+����
+
+���
+
+
+
+15Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+Matrix, Compressor, and Metering Section
+
+tantly, auto-gain compensation that provides the ap-
+propriate amount of makeup gain based on the amount 
+of compression taking place.
+
+The following knobs and switches are used to control 
+the compressor.
+
+36. THRESHOLD
+
+Determines the level at which the compressor begins 
+to act on the incoming signal. It is calibrated in deci-
+bels, ranging from –30 to +10 dB.
+
+37. RATIO
+
+Determines the change in output level as a function of 
+the change in input level, once the threshold has been 
+exceeded. The Ratio control ranges from OFF (1:1) to 
+LIMIT (∞:1). Thus, if the ratio is 2:1, an increase in 
+input level of 10 dB (assuming the input is above the 
+threshold level) results in a 5 dB increase in output level.
+
+When set to LIMIT, the compressor acts as a peak 
+limiter. After the initial attack time, the output changes 
+very little once the input crosses the threshold.
+
+32. MATRIX A and B Input Controls
+
+The Matrix A and B controls allow you to create sepa-
+rate mixes, or a stereo mix, from Groups 1 through 4 and 
+the Left and Right Mix outputs. Simply adjust the six 
+matrix input controls to create the mix you want at the 
+MATRIX A or B outputs.
+
+33. MATRIX A and B MASTER Controls
+
+Use these controls to adjust the overall signal level at 
+the MATRIX A and B outputs.
+
+34. AFL Solo Switch
+
+The AFL switch allows you to hear the Matrix signal 
+through your headphones or monitor outputs. This 
+comes after the MATRIX MASTER, so you can hear the 
+relative signal level of each Matrix output.
+
+When you engage the AFL switch on both MATRIX A 
+and B, the soloed signal appears in stereo in the head-
+phones and monitor outputs. This is useful when you 
+want to use both Matrix outputs to create a stereo mix.
+
+Remember, PFL solo mode always overrides AFL solo 
+mode. If you engage a PFL solo switch on a mono or 
+stereo channel, the AFL solo is disconnected from the 
+headphones and monitor outputs and replaced with the 
+PFL signal. The Rude Solo LEDS below the SOLO meters 
+indicate which solo mode is active.
+
+35. COMPRESSOR/LIMITER
+
+A compressor is used to reduce or limit transient 
+peaks in a signal. As the input level to the compressor 
+increases, the output level from the compressor increas-
+es linearly until the threshold point is reached. After 
+that point, the output level no longer increases linearly. 
+Instead, it increases at a reduced rate determined by 
+the ratio setting. In other words, the greater the ratio 
+setting, the less the output level changes as a function 
+of the input level.
+
+A compressor is often used on an individual signal 
+(voice) or group of signals (drums) to smooth out tran-
+sients and allow signals to sit in the mix without harshly 
+cutting through. A limiter, on the other hand, is often 
+used between the mixer and the amplifier(s) to avoid 
+power amplifier clipping or overdriving the speakers, 
+known as system limiting.
+
+The Onyx 4•Bus design team decided the compres-
+sor/limiter functions could be carried out onboard using 
+a new integrated analog stereo compressor/limiter chip 
+designed by THAT Corporation. It provides threshold, 
+ratio, fast/slow attack control and, perhaps most impor-
+
+RUDE
+SOLO
+
+PFL AFL
+
+PHONES12V, 0.5A
+LAMP
+
+POWER
+
+PREMIUM ANALOG MIXER w /  P E R K I N S  E Q
+
+MONITOR
+
+MAIN MIX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+20
+
+15
+
+10
+
+6
+
+3
+
+0
+
+2
+
+4
+
+7
+
+10
+
+20
+
+30
+
+LEFT RIGHT
+0dB=0dBu
+
+LEVEL
+SET
+
+CLIP CLIP
+
+COMPRESSORMATRIX
+A
+
+1
+
+2
+
+3
+
+4
+
+LEFT
+
+RIGHT
+
+OO +15
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO +15
+
+MASTER
+
+B
+
+PHONES
+OO MAX OO MAX OO MAX OO MAX
+
+SOLO LEVEL
+
+TB ASSIGN
+
+STEREO
+
+MAIN
+TO MON
+
+FAST
+ATTACK
+
+BYPASS
+COMP
+
+20
+
+15
+
+10
+
+6
+
+3
+
+0
+
+2
+
+4
+
+7
+
+10
+
+20
+
+30
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+12
+
+15
+
+INPUT G.R.
+0dB=0dBu
+
+AUX
+1-2
+
+AUX
+3-4
+
+AUX
+5-6
+
+MAIN
+MIXAFL AFL
+
+COMP
+ASSIGN
+
+GRP
+
+GRP
+
+GRP
+
+GRP
+
+MONO
+
+TALKBACK
+OO MAX
+
+5:11.5:1
+
+2:1
+
+MAIN
+MIX
+
+OFF GRP3-4
+
+GRP
+1-2
+
+THRESHOLD
++10
+
+0
+
+-10
+
+-20
+
+-30
+
+LIMITOFF
+
+RATIO
+
+
+
+16 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s 38. COMP ASSIGN
+
+Use this switch to assign the compressor to either the 
+MAIN MIX, GROUP 1-2, GROUP 3-4, or OFF (not assigned).
+
+When the compressor is assigned to the MAIN MIX, it 
+is inserted in the signal flow after the MAIN MIX fader, 
+so it works as an external dynamics processor. Once the 
+signal crosses the THRESHOLD, boosting the MAIN MIX 
+fader results in little change in the output level (de-
+pending on the RATIO setting).
+
+When the compressor is assigned to one of the GROUP 
+pairs, it is inserted in the signal flow before the GROUP 
+faders. In this way, the compressor can act on a group of 
+channels assigned to the subgroup (for example, drum 
+microphones), and the overall level of the compressed 
+group can be mixed into the main mix.
+
+39. FAST ATTACK
+
+The ATTACK setting determines how fast the com-
+pressor reacts once the threshold has been exceeded. It 
+also affects the release time, which determines how fast 
+the compressor turns off once the signal falls below the 
+threshold.
+
+With the switch up, the attack and release times are 
+calibrated to respond to the overall signal level without 
+the audible “pumping” and “breathing” artifacts that are 
+sometimes associated with compressors. In 
+most cases, this is the setting you would use 
+for live sound and recording applications.
+
+There may be some situtations that 
+require a faster acting attack and release. 
+For example, mic’ing a snare drum produces 
+some fast transient peaks that may get 
+through the compressor before it can act 
+on the signal. Pushing in the FAST ATTACK 
+switch allows the compressor to react much 
+faster on quick transient peaks and release 
+the compression quickly between the peaks. 
+You can experiment with both settings to 
+determine which one works best in your 
+application.
+
+40. BYPASS COMP Switch
+
+When the BYPASS COMP switch is pushed 
+in, the signal bypasses the compressor, but 
+still allows you to see the input signal level 
+to the compressor and the amount of gain 
+reduction applied to the signal on the me-
+ters. This is useful when setting up the com-
+pressor settings prior to actually engaging 
+the compressor in a live sound application, 
+and for making A/B comparisons between 
+the compressed and uncompressed sound.
+
+41. COMPRESSOR Meters
+
+The INPUT meter indicates the signal level at the 
+input of the compressor. Use this to help determine the 
+setting of the THRESHOLD control. Once the input level 
+crosses the threshold setting, the G.R. (Gain Reduction) 
+meters begin to light (top to bottom), as they indicate 
+how much gain reduction is being applied to the signal.
+
+Note: If the COMP ASSIGN switch [38] is OFF, the 
+COMPRESSOR meters will not indicate any signal.
+
+42. LEFT/RIGHT Level Meters
+
+The Onyx 4•Bus Left and Right Level meters are 
+made up of two columns of twelve LEDs, with three 
+colors to indicate different ranges of signal level, traffic 
+light style. They range from –30 at the bottom, to 0 in 
+the middle, to +20 (CLIP) at the top.
+
+The 0 LED in the middle is labeled 0 dB = 0 dBu.
+
+You may already be an expert at the 
+world of “+4” (+4 dBu=1.23 V) and 
+“–10” (–10 dBV=0.32 V) operating 
+levels. What makes a mixer one or 
+the other is the relative 0 dB VU (or 
+0 VU) chosen for the meters. A “+4” 
+
+mixer, with +4 dBu pouring out the back will actually 
+read 0 VU on its meters. A “–10” mixer, with a –10 dBV 
+
+RUDE
+SOLO
+
+PFL AFL
+
+PHONES12V, 0.5A
+LAMP
+
+POWER
+
+PREMIUM ANALOG MIXER w /  P E R K I N S  E Q
+
+MONITOR
+
+MAIN MIX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+20
+
+15
+
+10
+
+6
+
+3
+
+0
+
+2
+
+4
+
+7
+
+10
+
+20
+
+30
+
+LEFT RIGHT
+0dB=0dBu
+
+LEVEL
+SET
+
+CLIP CLIP
+
+COMPRESSORMATRIX
+A
+
+1
+
+2
+
+3
+
+4
+
+LEFT
+
+RIGHT
+
+OO +15
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO MAX
+
+OO +15
+
+MASTER
+
+B
+
+PHONES
+OO MAX OO MAX OO MAX OO MAX
+
+SOLO LEVEL
+
+TB ASSIGN
+
+STEREO
+
+MAIN
+TO MON
+
+FAST
+ATTACK
+
+BYPASS
+COMP
+
+20
+
+15
+
+10
+
+6
+
+3
+
+0
+
+2
+
+4
+
+7
+
+10
+
+20
+
+30
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+12
+
+15
+
+INPUT G.R.
+0dB=0dBu
+
+AUX
+1-2
+
+AUX
+3-4
+
+AUX
+5-6
+
+MAIN
+MIXAFL AFL
+
+COMP
+ASSIGN
+
+GRP
+
+GRP
+
+GRP
+
+GRP
+
+MONO
+
+TALKBACK
+OO MAX
+
+5:11.5:1
+
+2:1
+
+MAIN
+MIX
+
+OFF GRP3-4
+
+GRP
+1-2
+
+THRESHOLD
++10
+
+0
+
+-10
+
+-20
+
+-30
+
+LIMITOFF
+
+RATIO
+
+
+
+17Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+signal trickling out will read, you guessed it, 0 VU on its 
+meters. So when is 0 VU actually 0 dBu? Right now!
+
+Mackie mixers show things as they really are. When 0 
+dBu (0.775 V) is at the outputs, it shows as 0 dB VU on 
+the meters. What could be easier? By the way, the most 
+wonderful thing about standards is that there are so 
+many to choose from.
+
+Thanks to the Onyx 4•Bus’ wide dynamic range, 
+you can get a good mix with peaks flashing anywhere 
+between –20 and +10 dB on the meters. Most amplifiers 
+clip at about +10 dBu, and some recorders aren’t so 
+forgiving either. For best real-world results, try to keep 
+your peaks between “0” and “+10.”
+
+Remember, audio meters are just tools to help assure 
+you that your levels are “in the ballpark.” You don’t have 
+to stare at them (unless you want to).
+
+Note: The L/R meters indicate solo levels whenever 
+an AFL or PFL solo switch is pushed in.
+
+43. RUDE SOLO Lights
+
+These LEDs flash on and off when a channel’s solo is 
+active, as an additional reminder beyond the indicating 
+LEDs next to each PFL or AFL button. The green LED 
+indicates PFL solo mode, and the amber LED indicates 
+AFL solo mode. If you work on a mixer that has a solo 
+function with no indicator lights and you happen to 
+forget you’re in solo mode, you can easily be tricked 
+into thinking that something is wrong with your mixer. 
+Hence, the RUDE SOLO lights. It’s especially handy at 
+about 3 am when no sound is coming out of your moni-
+tors but your multitrack is playing back like mad.
+
+44. POWER Indicator
+
+This LED indicates when power is applied to the Onyx 
+mixer and the POWER switch is on.
+
+45. LAMP Connector
+
+This female BNC connector provides +12 volts DC for 
+gooseneck lamps. See your Mackie dealer for gooseneck 
+lamp recommendations (12 V lamp with BNC connector).
+
+46. PHONES Jack
+
+This is where you plug in your stereo headphones. It is 
+a 1/4" TRS stereo jack and provides the same signal that 
+is routed to the MONITOR outputs [78]. The volume is 
+controlled with the PHONES knob [47].
+
+WARNING: The headphone amp is designed to drive 
+any standard headphones to a very loud level. We’re 
+not kidding! It can cause permanent hearing damage. 
+Even intermediate levels may be painfully loud with 
+some headphones. BE CAREFUL! Always start with the 
+
+PHONES level turned all the way down before connect-
+ing headphones to the PHONES jack. Keep it down until 
+you’ve put on the headphones. Then turn it up slowly. 
+Why? Always remember: “Engineers who fry their 
+ears, find themselves with short careers.”
+
+Phones/Monitor, Solo, Mono, 
+and Talkback Section
+47. PHONES Level Control
+
+This controls the signal level at the stereo headphone 
+output [46].
+
+48. MONITOR Level Control
+
+This controls the signal level at the MONITOR output 
+[78].
+
+49. SOLO LEVEL Control
+
+The SOLO LEVEL control is used to adjust the volume of 
+the solo’ed signal as it is routed to the MONITOR [78] and 
+PHONES [46] outputs. This control is independent of, and 
+prior to, the MONITOR and PHONES level controls.
+
+This controls the solo signal level for both PFL and 
+AFL solo modes. You can use the SOLO LEVEL control 
+to balance the solo levels with the main or tape levels at 
+the MONITOR or PHONES out.
+
+50. MONO Level Control
+
+In addition to the Left and Right Main Mix outputs, 
+the Onyx 4•Bus provides an independent monophonic 
+output. The Left and Right Main Mix signals are 
+summed and sent to the MONO OUT [84]. This controls 
+the signal level at the MONO output.
+
+51. MAIN TO MON Switch
+
+This switch routes the stereo L/R Main Mix signal 
+(post-fader) to both the Monitor and Phones outputs 
+when there are no solo switches engaged. The L/R Main 
+Mix signal is overridden in the Monitor and Phones 
+outputs by any PFL or AFL solo.
+
+Note: If a PFL solo switch is engaged, it overrides the 
+AFL solo mode, including MAIN TO MON/PHONES.
+
+����
+����
+
+��� ���
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+���������������
+����
+
+�����
+
+�������������������� �� � � � �� �� � � ��
+
+������������������������������
+
+���
+
+� �
+
+���
+
+� �
+
+���
+
+� �
+
+���
+
+� �
+
+����
+���
+
+�
+
+�
+
+�
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��������
+������
+
+�����
+��������������
+
+�
+
+�
+
+�
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�
+�������
+
+���
+
+���
+��
+
+���
+
+�����
+
+��
+
+���
+��
+
+���
+��
+
+�
+
+�� ���
+
+���
+
+�����
+�� ���
+
+�� ���
+
+���
+
+������
+
+���
+
+�������
+
+��������
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+���� �����
+��������
+
+�����
+���
+
+���� ����
+
+����������������
+�
+
+�
+
+�
+
+�
+
+�
+
+����
+
+�����
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+������
+
+�
+
+������
+�� ��� �� ��� �� ��� �� ���
+
+���
+
+�
+���
+
+�
+���
+
+�
+���
+
+�
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��������
+
+����������
+
+���������
+
+������
+
+������ ������
+
+����
+������
+
+����
+������
+
+������
+����
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+����� ����
+��������
+
+���
+���
+
+���
+���
+
+���
+���
+
+����
+������ ���
+
+����
+������
+
+���
+
+���
+
+���
+
+���
+
+����
+
+��������
+�� ���
+
+��������
+
+���
+
+����
+���
+
+��� ������
+
+���
+���
+
+���������
+���
+
+�
+
+���
+
+���
+
+���
+
+��������
+
+�����
+
+���� ���� ���� ����
+
+��� ��� ��� ���
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+����
+����
+
+��� ���
+
+
+
+18 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s TALKBACK Section
+
+The talkback feature allows the engineer to com-
+municate with the talent either through the AUX 1-6 
+[87] Sends, or the MAIN L/R [82] outputs. Connect an 
+external microphone to the TALKBACK MIC XLR [81] 
+connector on the rear panel to use the talkback feature.
+
+52. TALKBACK ASSIGN Switches
+
+These switches route the talkback signal to vari-
+ous outputs, including AUX 1-2, AUX 3-4, AUX 5-6, and 
+MAIN MIX outputs. You might use a pair of Aux Sends 
+to communicate with musicians on-stage through their 
+monitors during a live performance. These could be 
+floor wedges or in-ear monitors.
+
+By the way, it is okay to have more than one TB ASSIGN 
+switch pushed in at the same time. The talkback signal 
+will be routed to all the destinations you have selected. 
+But if you don’t have any of the assign switches pushed 
+in, the talkback signal won’t go anywhere, and you will 
+wonder why everyone seems to be ignoring you.
+
+53. TALKBACK Level Control
+
+Use this knob to control the level of the talkback 
+signal being routed to the AUX or MAIN L/R outputs.
+
+54. TALKBACK Switch
+
+This is a latching switch, meaning it’s always active 
+when the switch is pushed in. As long as the switch is 
+engaged, the talkback signal is routed to the outputs 
+determined by the talkback assign switches [52]. Push 
+the switch again to release it, and the talkback circuit is 
+turned off. An LED above the switch indicates when the 
+TALKBACK switch is active.
+
+Auxiliary Section
+This section includes the AUX SEND MASTERS and 
+
+the STEREO RETURNS. These can be a bit confusing 
+to the uninitiated, so here’s the whole idea behind aux 
+sends and returns: sends are outputs and returns are 
+inputs. AUX SENDs tap signals off the channels, via the 
+AUX knobs [12/25], mix these signals together, then 
+send them out the AUX SEND jacks [87].
+
+These outputs are fed to the inputs of an external 
+processor like a reverb or digital delay. From there, the 
+mono or stereo outputs of the external device are fed 
+back to the mixer’s STEREO RETURN jacks [80]. These 
+signals are sent through the STEREO RETURN LEVEL 
+controls [64], and finally delivered to the MAIN MIX 
+bus.
+
+So, the original “dry” signals go from the channels to 
+the MAIN MIX and the affected “wet” signals go from the 
+STEREO RETURNS to the MAIN MIX, and once mixed 
+together, the dry and wet signals combine to create a 
+glorious sound!
+
+The AUX SENDS can also be used to provide an-
+other mix for stage monitors. In this case, the STEREO 
+RETURNS aren’t used to return the signal. Instead, they 
+can be used as additional stereo inputs.
+
+Aux Send Masters Section
+
+55. AUX SEND MASTERS
+
+The AUX SEND MASTERS provide overall control 
+over the AUX SEND levels, just before they are delivered 
+to the AUX SEND outputs [87]. These knobs go from off 
+(∞) to +15 dB when turned all the way up.
+
+When using the Aux Send for monitors, this is usu-
+ally the knob you turn up when the lead singer glares at 
+you, points at his stage monitor, and sticks his thumb up 
+in the air. (It would follow that if the singer stuck his 
+thumb down, you’d turn the knob down, but that never 
+happens.)
+
+56. PRE/POST Switch
+
+This switch is used to select whether the Aux send 
+signal is pre-fader or post-fader. 
+
+When the PRE/POST switch is up, the Aux send 
+signal is pre-fader, which is usually used for sending to 
+monitors (stage monitor wedges or IEM, in-ear monitor 
+systems). This way, when changes are made to fader 
+levels in the front-of-house mix, it doesn’t affect the 
+monitor mix.
+
+When the PRE/POST switch is pushed in, the Aux 
+send signal is post-fader, which is usually used when 
+
+����
+����
+
+��� ���
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+���������������
+����
+
+�����
+
+�������������������� �� � � � �� �� � � ��
+
+������������������������������
+
+���
+
+� �
+
+���
+
+� �
+
+���
+
+� �
+
+���
+
+� �
+
+����
+���
+
+�
+
+�
+
+�
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��������
+������
+
+�����
+��������������
+
+�
+
+�
+
+�
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�
+�������
+
+���
+
+���
+��
+
+���
+
+�����
+
+��
+
+���
+��
+
+���
+��
+
+�
+
+�� ���
+
+���
+
+�����
+�� ���
+
+�� ���
+
+���
+
+������
+
+���
+
+�������
+
+��������
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+���� �����
+��������
+
+�����
+���
+
+���� ����
+
+����������������
+�
+
+�
+
+�
+
+�
+
+�
+
+����
+
+�����
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+������
+
+�
+
+������
+�� ��� �� ��� �� ��� �� ���
+
+���
+
+�
+���
+
+�
+���
+
+�
+���
+
+�
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��������
+
+����������
+
+���������
+
+������
+
+������ ������
+
+����
+������
+
+����
+������
+
+������
+����
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+����� ����
+��������
+
+���
+���
+
+���
+���
+
+���
+���
+
+����
+������ ���
+
+����
+������
+
+���
+
+���
+
+���
+
+���
+
+����
+
+��������
+�� ���
+
+��������
+
+���
+
+����
+���
+
+��� ������
+
+���
+���
+
+���������
+���
+
+�
+
+���
+
+���
+
+���
+
+��������
+
+�����
+
+���� ���� ���� ����
+
+��� ��� ��� ���
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+����
+����
+
+��� ���
+
+����
+����
+
+��� ���
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+���������������
+����
+
+�����
+
+�������������������� �� � � � �� �� � � ��
+
+������������������������������
+
+���
+
+� �
+
+���
+
+� �
+
+���
+
+� �
+
+���
+
+� �
+
+����
+���
+
+�
+
+�
+
+�
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��������
+������
+
+�����
+��������������
+
+�
+
+�
+
+�
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�
+�������
+
+���
+
+���
+��
+
+���
+
+�����
+
+��
+
+���
+��
+
+���
+��
+
+�
+
+�� ���
+
+���
+
+�����
+�� ���
+
+�� ���
+
+���
+
+������
+
+���
+
+�������
+
+��������
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+���� �����
+��������
+
+�����
+���
+
+���� ����
+
+����������������
+�
+
+�
+
+�
+
+�
+
+�
+
+����
+
+�����
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+������
+
+�
+
+������
+�� ��� �� ��� �� ��� �� ���
+
+���
+
+�
+���
+
+�
+���
+
+�
+���
+
+�
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��������
+
+����������
+
+���������
+
+������
+
+������ ������
+
+����
+������
+
+����
+������
+
+������
+����
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+����� ����
+��������
+
+���
+���
+
+���
+���
+
+���
+���
+
+����
+������ ���
+
+����
+������
+
+���
+
+���
+
+���
+
+���
+
+����
+
+��������
+�� ���
+
+��������
+
+���
+
+����
+���
+
+��� ������
+
+���
+���
+
+���������
+���
+
+�
+
+���
+
+���
+
+���
+
+��������
+
+�����
+
+���� ���� ���� ����
+
+��� ��� ��� ���
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+����
+����
+
+��� ���
+
+
+
+19Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+60. TO MON/PHONES Switch
+
+Press this switch to route the CD/TAPE signal to the 
+Monitor and Phones outputs when there are no solo 
+switches engaged. The Main Mix and CD/TAPE signal 
+is overridden in the Monitor and Phones outputs by any 
+PFL or AFL solo.
+
+61. BREAK (TAPE TO MAIN)
+
+Press this switch to route the CD/TAPE signal to 
+the Main outputs. This actually disconnects the Main 
+Mix signal from the Main outputs and replaces it with 
+the CD/TAPE signal. This allows you to easily start up 
+recorded music during a break without having to mute 
+or turn down the faders on all the channels.
+
+The patch point for the BREAK switch is prior to the 
+MAIN INSERTS, the COMPRESSOR (if selected), and 
+the MAIN MIX fader.
+
+62. STEREO RETURNS AUX Sends
+
+These tap a portion of the STEREO RETURNS signal 
+out to AUX 1-4. This allows you to send a processed 
+signal out to another processor if you want, or to add a 
+processed signal to a monitor mix, or to use the Stereo 
+Return as a stereo input and still be able to send the 
+signal to an external processor or stage monitor.
+
+FEEDBACK LOOP WARNING: It is 
+common to use an Aux Send to route 
+signals to an external processor, and 
+then return the signal from the pro-
+cessor via the Stereo Returns. Since 
+
+the Stereo Returns on the Onyx 4•Bus have Aux Sends 
+of their own, you could accidentally route the Stereo 
+Return signal to an Aux Send that is being returned via 
+that same Stereo Return. This will cause a feedback loop, 
+
+characterized by 
+a LOUD howl or 
+screech through 
+the sound system, 
+followed by howls 
+of discontent from 
+the audience. Be 
+careful with the 
+Aux Sends on the 
+Stereo Returns!
+
+you are using the Aux send to go to an effects processor. 
+This way, when fader changes are made, the “wet” signal 
+going to the effects processor moves up and down along 
+with the “dry” signal, maintaining a balance between 
+them.
+
+The pre-fader Aux Sends are post-EQ by default. How-
+ever, an internal jumper is provided on each channel to 
+change the pre-fader Aux Sends to pre-EQ, if desired. 
+This requires some soldering skills, so contact Tech Sup-
+port for information on how to access the pre/post-EQ 
+jumpers for the Aux Sends.
+
+57. AFL Solo Switch
+
+The AFL switch allows you to hear the Aux Send sig-
+nal through your headphones or monitor outputs. This 
+comes after the Aux Send GAIN control, so you can hear 
+the relative signal level on each Aux Send.
+
+Remember, PFL solo mode always overrides AFL solo 
+mode. If you engage a PFL solo switch on a mono or 
+stereo channel, the AFL solo is disconnected from the 
+headphones and monitor outputs and replaced with the 
+PFL signal. The Rude Solo LEDS below the SOLO meters 
+indicate which solo mode is active.
+
+58. MUTE
+
+Press this switch to mute the Aux Send output. When 
+the MUTE switch is pushed in on an Aux Send, you can 
+still solo the Aux Send.
+
+59. CD/TAPE Level Control
+
+This knob controls the level of the signals connected 
+to the left and right TAPE IN jacks. The signal is then 
+sent to the MONITOR/PHONES output (when the TO 
+MON/PHONES switch [60] is pushed in) and the MAIN 
+OUT (when the 
+BREAK switch 
+[61] is pushed 
+in). The CD/TAPE 
+level control pro-
+vides 10 dB of ad-
+ditional gain when 
+turned fully up.
+
+����
+����
+
+��� ���
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+���������������
+����
+
+�����
+
+�������������������� �� � � � �� �� � � ��
+
+������������������������������
+
+���
+
+� �
+
+���
+
+� �
+
+���
+
+� �
+
+���
+
+� �
+
+����
+���
+
+�
+
+�
+
+�
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��������
+������
+
+�����
+��������������
+
+�
+
+�
+
+�
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�
+�������
+
+���
+
+���
+��
+
+���
+
+�����
+
+��
+
+���
+��
+
+���
+��
+
+�
+
+�� ���
+
+���
+
+�����
+�� ���
+
+�� ���
+
+���
+
+������
+
+���
+
+�������
+
+��������
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+���� �����
+��������
+
+�����
+���
+
+���� ����
+
+����������������
+�
+
+�
+
+�
+
+�
+
+�
+
+����
+
+�����
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+������
+
+�
+
+������
+�� ��� �� ��� �� ��� �� ���
+
+���
+
+�
+���
+
+�
+���
+
+�
+���
+
+�
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��������
+
+����������
+
+���������
+
+������
+
+������ ������
+
+����
+������
+
+����
+������
+
+������
+����
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+����� ����
+��������
+
+���
+���
+
+���
+���
+
+���
+���
+
+����
+������ ���
+
+����
+������
+
+���
+
+���
+
+���
+
+���
+
+����
+
+��������
+�� ���
+
+��������
+
+���
+
+����
+���
+
+��� ������
+
+���
+���
+
+���������
+���
+
+�
+
+���
+
+���
+
+���
+
+��������
+
+�����
+
+���� ���� ���� ����
+
+��� ��� ��� ���
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+����
+����
+
+��� ���
+
+
+
+20 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s 63. SHIFT Switch
+
+The Stereo Returns have two Aux Send controls. 
+When the SHIFT switch is up, they route the signal to 
+Aux 1 and Aux 2, and when the switch is down, they 
+route the signal to Aux 3 and Aux 4.
+
+64. STEREO RETURNS LEVEL Control
+
+This controls the level of the Stereo Return signal 
+being sent to the Main Mix bus. It ranges from off to 
++10 dB of additional gain when turn fully clockwise.
+
+65. PFL Solo Switch
+
+Like the PFL switch on the stereo channels, this 
+switch allows you to hear signals through your head-
+phones or monitor outputs without having to route them 
+to the Main Mix. Since this is Pre-Fader Listen, you can 
+listen to the Stereo Return signal even 
+when the Stereo Returns Level control is 
+turned down. The Stereo Returns PFL is a 
+stereo signal, and therefore retains its left 
+and right stereo image in the headphones 
+and monitors, and appears on both LEFT 
+and RIGHT meters.
+
+Group Section
+There are four group masters (or sub-
+
+masters, if you prefer) that feed the four 
+group outs [85].
+
+66. PAN
+
+Note: The Group PAN control works 
+only when the MAIN MIX switch is en-
+gaged [70].
+
+PAN adjusts the amount of signal sent 
+to the left versus the right outputs.
+
+With the PAN knob hard left, the signal 
+feeds the MAIN LEFT output, and with 
+the knob hard right, the signal feeds the 
+MAIN RIGHT output.
+
+67. MUTE Switch
+
+Press this switch to mute the Group 
+output. When the MUTE switch is pushed 
+in on a Group, you can still solo the Group 
+signal (see AFL Solo Switch [71] ahead), 
+but it is muted at the Group output [85], 
+the Main output [82](when  the MAIN 
+MIX assign switch is pushed in), and the 
+Matrix output [77].
+
+68. GROUP Fader
+
+This fader controls the Group’s signal level, from off to 
+unity gain at the “U” marking, on up to 10 dB of addi-
+tional gain.
+
+69. Signal Level LEDs
+
+These LEDs indicate the Group’s signal level after 
+the Fader, but before the MUTE switch. So if the Group 
+Fader is down, the Signal Level LEDs won’t light.
+
+70. MAIN MIX Assign Switch
+
+Push in this switch to send the Group signal to the left 
+and right MAIN OUTS. When the PAN control is centered, 
+the signal is sent equally to the left and right outputs.
+
+The signal sent to the MAIN OUTS is after the Group 
+Insert, Fader, and MUTE switch.
+
+����
+����
+
+��� ���
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+��
+
+��
+
+���������������
+����
+
+�����
+
+�������������������� �� � � � �� �� � � ��
+
+������������������������������
+
+���
+
+� �
+
+���
+
+� �
+
+���
+
+� �
+
+���
+
+� �
+
+����
+���
+
+�
+
+�
+
+�
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��� �����������
+
+��������
+������
+
+�����
+��������������
+
+�
+
+�
+
+�
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�
+�������
+
+���
+
+���
+��
+
+���
+
+�����
+
+��
+
+���
+��
+
+���
+��
+
+�
+
+�� ���
+
+���
+
+�����
+�� ���
+
+�� ���
+
+���
+
+������
+
+���
+
+�������
+
+��������
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+���� �����
+��������
+
+�����
+���
+
+���� ����
+
+����������������
+�
+
+�
+
+�
+
+�
+
+�
+
+����
+
+�����
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+�� ���
+
+������
+
+�
+
+������
+�� ��� �� ��� �� ��� �� ���
+
+���
+
+�
+���
+
+�
+���
+
+�
+���
+
+�
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��
+
+�
+
+���
+
+����
+���
+
+���
+
+��������
+
+����������
+
+���������
+
+������
+
+������ ������
+
+����
+������
+
+����
+������
+
+������
+����
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+��
+
+��
+
+��
+
+��
+
+��
+
+����� ����
+��������
+
+���
+���
+
+���
+���
+
+���
+���
+
+����
+������ ���
+
+����
+������
+
+���
+
+���
+
+���
+
+���
+
+����
+
+��������
+�� ���
+
+��������
+
+���
+
+����
+���
+
+��� ������
+
+���
+���
+
+���������
+���
+
+�
+
+���
+
+���
+
+���
+
+��������
+
+�����
+
+���� ���� ���� ����
+
+��� ��� ��� ���
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+����
+����
+
+��� ���
+
+
+
+21Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+71. AFL Solo Switch
+
+The AFL switch allows you to hear the Group signal 
+through your headphones or monitor outputs. This 
+comes after the Group Fader and before the MUTE 
+switch, so you can hear the relative signal level on each 
+Group even when they are muted.
+
+When you engage the AFL switch on two consecu-
+tive odd/even Groups (i.e., 1 and 2, 3 and 4), the soloed 
+signal appears in stereo in the headphones and monitor 
+outputs. This is useful when you are using a pair of Group 
+Sends in stereo to feed an in-ear monitoring system.
+
+Remember, PFL solo mode always overrides AFL solo 
+mode. If you engage a PFL solo switch on a mono or 
+stereo channel, the AFL solo is disconnected from the 
+headphones and monitor outputs and replaced with the 
+PFL signal. The Rude Solo LEDS below the SOLO meters 
+indicate which solo mode is active.
+
+72. MAIN MIX Fader
+
+This is the master fader that control the levels at the 
+MAIN OUTS.
+
+When MAIN TO MON [51] is selected in the PHONES/
+MONITOR Section, the MAIN MIX fader also controls the 
+main mix level in the PHONES and MONITOR outputs 
+[46/78].
+
+When the fader is fully down, the MAIN MIX is off. 
+The “U” marking indicates unity gain, and fully up pro-
+vides 10 dB of additional gain. Typically, this fader is set 
+near the “U” label and left alone, but it can be used for 
+song fade-outs or quick system-wide mutes.
+
+Rear Panel
+This is where all the connections are made to the 
+
+Onyx 4•Bus (except the headphones and lamps).
+
+73. MIC Input
+
+This is a female XLR connector, which accepts a bal-
+anced microphone input from almost any type of micro-
+phone. The microphone preamps feature our new Onyx 
+design, with higher fidelity and headroom rivaling any 
+standalone mic preamp on the market today.
+
+The XLR inputs are wired as follows: 
+ Pin 1 = Shield or ground 
+ Pin 2 = Positive (+ or hot) 
+ Pin 3 = Negative (– or cold)
+
+The MIC inputs can accept a balanced line-level input 
+when the PAD [1] switch on the channel strip is pushed 
+in (the input impedance is lower than the LINE input).
+
+74. LINE Input
+
+This is a 1/4" TRS connector, which accepts a balanced or 
+unbalanced line-level input signal from almost any source.
+
+When connecting a balanced signal to the LINE inputs, 
+wire them as follows: 
+ Tip = Positive (+ or hot) 
+ Ring = Negative (– or cold) 
+ Sleeve = Shield or ground
+
+When connecting an unbalanced signal, wire them as 
+follows: 
+ Tip = Positive (+ or hot) 
+ Sleeve = Shield or ground
+
+����������������������
+�����������
+
+������� ������������� ������������������
+
+����������������������������������������������������������������������������������������������������������������������
+������������������������������������������������������������������������������������������
+
+������ ������� ������� ������� ������� ������� ������� ������� ������� ������� �������� �������� �������� �������� �������� �������� �������� �������� �������� �������������������������������������������������������� ����������
+
+�������������
+�������������
+
+�����
+��
+
+�
+
+�
+
+�������
+
+�
+
+�
+
+��
+��
+
+��
+��
+
+�
+
+�
+
+�
+
+�
+
+����
+
+������� �������
+
+���������
+
+������������������
+
+���������
+
+��������� ���������
+
+���������
+��������
+
+���������
+
+��
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� ���
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+� � � � � � � � � �
+
+�����
+
+� �
+
+����
+
+���������
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+�����
+�������
+
+�����
+����
+
+���
+�������
+
+���
+�����
+
+����
+����
+
+����
+�������
+
+����� ���� �������������������
+����� ���� ����
+
+�����
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+��������������
+
+�����������
+������������������
+
+���������� ���������� ����������
+
+������������
+
+����������
+
+�����
+
+����
+������
+
+
+
+22 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s 75. INSERT
+
+These 1/4" TRS jacks provide a send and return point 
+for each channel. Use the INSERT jacks to connect 
+serial effects devices such as compressors, equalizers, 
+de-essers, or filters to each individual channel.
+
+The INSERT points are after the GAIN and Low Cut 
+controls, but before the EQ and Fader controls. The 
+send (tip) is low-impedance, capable of driving any 
+device. The return (ring) is high-impedance and can be 
+driven by almost any device.
+
+Special insert cables are available, specially designed 
+for this kind of insert jack. They are wired as follows:
+
+“from tip”
+
+this plug connects to one of the 
+mixer’s Channel Insert jacks. “to ring”
+
+tip
+ring
+
+sleeve
+
+SEND to processor
+
+RETURN from processor
+
+(TRS plug)
+
+ Tip = Send (output to effects device) 
+ Ring = Return ( input from effects device) 
+ Sleeve = Common ground (connect shield to all  
+ three sleeves)
+
+Besides being used for inserting external devices, 
+these jacks can also be used as channel direct outputs; 
+post-GAIN, post-LOW CUT, and pre-EQ. This is an unbal-
+anced direct out, in contrast to the DIRECT OUTS on 
+the rear panel, which are balanced direct outputs, post-
+GAIN, post-INSERT, and pre-EQ.
+
+Here are three ways you use the INSERT jacks:
+
+Direct out with no signal interruption to master.
+Insert only to first “click.”
+
+Channel Insert jack
+
+Channel Insert jack
+
+Channel Insert jack
+
+Direct out with signal interruption to master.
+Insert all the way in to the second “click.”
+
+For use as an effects loop.
+(TIP = SEND to effect, RING = RETURN from effect)
+
+MONO PLUG
+
+MONO PLUG
+
+STEREO 
+PLUG
+
+76. DIRECT OUTS
+
+Each of these DB-25 connectors provides balanced 
+direct outputs for eight channels. They are designed to 
+be connected directly to a recorder’s analog inputs, and 
+use the TASCAM standard pinout for analog signal con-
+nections (the same standard used on the analog cards 
+for the Mackie D8B, DXB, and Hard Disk Recorder).
+
+The signal at the DIRECT OUTS comes after the input 
+GAIN control, Low-Cut switch, and INSERT jack, but 
+before the EQ. This way you can EQ a channel and ad-
+just the channel fader to suit your live mix, but it has no 
+effect on the signal going to the recorder. This provides 
+maximum flexibility for the mixdown stage.
+
+����������������������
+�����������
+
+������� ������������� ������������������
+
+����������������������������������������������������������������������������������������������������������������������
+������������������������������������������������������������������������������������������
+
+������ ������� ������� ������� ������� ������� ������� ������� ������� ������� �������� �������� �������� �������� �������� �������� �������� �������� �������� �������������������������������������������������������� ����������
+
+�������������
+�������������
+
+�����
+��
+
+�
+
+�
+
+�������
+
+�
+
+�
+
+��
+��
+
+��
+��
+
+�
+
+�
+
+�
+
+�
+
+����
+
+������� �������
+
+���������
+
+������������������
+
+���������
+
+��������� ���������
+
+���������
+��������
+
+���������
+
+��
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� ���
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+� � � � � � � � � �
+
+�����
+
+� �
+
+����
+
+���������
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+�����
+�������
+
+�����
+����
+
+���
+�������
+
+���
+�����
+
+����
+����
+
+����
+�������
+
+����� ���� �������������������
+����� ���� ����
+
+�����
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+��������������
+
+�����������
+������������������
+
+���������� ���������� ����������
+
+������������
+
+����������
+
+�����
+
+����
+������
+
+
+
+23Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+Internal jumpers are provided to change the DIRECT 
+OUTS to post-EQ on a channel-by-channel basis, if 
+desired. This requires some soldering skills, so contact 
+Tech Support for information on how to access the 
+pre/post-EQ jumpers for the DIRECT OUTS.
+
+See Appendix B for a wiring diagram of the DIRECT OUT 
+connectors.
+
+77. MATRIX OUT
+
+These 1/4" TRS jacks provide balanced line-level sig-
+nals for the MATRIX A and B mixes. These can be con-
+nected to the inputs of an amplifier, powered speaker, 
+headphone distribution amplifier, or recording device.
+
+81. MON(ITOR) OUT
+
+These 1/4" TRS jacks provide a balanced line-level signal 
+that can be used to provide another main mix output (with 
+MAIN TO MON [51] selected in the PHONES/MONITOR 
+Section), or to monitor soloed channels.
+
+Connect these outputs to the inputs of an amplifier, 
+powered speaker, headphone distribution amplifier, or 
+recording device.
+
+82. LEFT/RIGHT MAIN OUTS
+
+There are two sets of outputs for the Left/Right Main 
+Outputs: Male XLR connectors that provide balanced 
+line-level signals and 1/4" TRS connectors that provide 
+balanced or unbalanced line-level signals. Each XLR 
+connector is in parallel with its corresponding 1/4" TRS 
+connector, and carries exactly the same signal.
+
+This represents the end of the mixer chain, where 
+your fully mixed stereo signal enters the real world. 
+
+Connect these to the inputs of your main power ampli-
+fiers, powered speakers, or serial effects processor (like 
+a graphic equalizer, or compressor/limiter if you are not 
+using the built-in stereo compressor on the main outs).
+
+83. MAIN INSERTS
+
+These 1/4" TRS jacks are for connecting serial effects 
+such as compressors, equalizers, deessers, or filters. 
+The insert point is after the mix amps and BREAK [61] 
+switch, but before the MAIN MIX faders and the built-in 
+compressor. Refer to the description of the channel insert 
+on the previous page to see how to make this connection.
+
+84. MONO OUT
+
+This male XLR output connector provides a balanced 
+line-level signal that is a combination of the left and right 
+MAIN OUT signals (L+R). You can use this for a separate 
+mix that doesn’t require a stereo feed, or to simply test 
+the monaural compatibility of your stereo mix.
+
+85. GROUP OUTS 1-4
+
+These 1/4" TRS output connectors provide balanced 
+or unbalanced line-level signals for connecting to the 
+inputs of any line-level device.
+
+86. GROUP SEND INSERTS
+
+These 1/4" TRS jacks are for connecting serial effects 
+such as compressors, equalizers, deessers, or filters. The 
+insert point is after the mix amps, but before the Group 
+Send Masters (and before the built-in stereo compres-
+sor). Refer to the description of the channel insert on 
+the previous page to see how to make this connection.
+
+����������������������
+�����������
+
+������� ������������� ������������������
+
+����������������������������������������������������������������������������������������������������������������������
+������������������������������������������������������������������������������������������
+
+������ ������� ������� ������� ������� ������� ������� ������� ������� ������� �������� �������� �������� �������� �������� �������� �������� �������� �������� �������������������������������������������������������� ����������
+
+�������������
+�������������
+
+�����
+��
+
+�
+
+�
+
+�������
+
+�
+
+�
+
+��
+��
+
+��
+��
+
+�
+
+�
+
+�
+
+�
+
+����
+
+������� �������
+
+���������
+
+������������������
+
+���������
+
+��������� ���������
+
+���������
+��������
+
+���������
+
+��
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� ���
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+� � � � � � � � � �
+
+�����
+
+� �
+
+����
+
+���������
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+�����
+�������
+
+�����
+����
+
+���
+�������
+
+���
+�����
+
+����
+����
+
+����
+�������
+
+����� ���� �������������������
+����� ���� ����
+
+�����
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+��������������
+
+�����������
+������������������
+
+���������� ���������� ����������
+
+������������
+
+����������
+
+�����
+
+����
+������
+
+
+
+24 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s 87. AUX SENDS 1-6
+
+These 1/4" TRS output connectors provide balanced 
+or unbalanced line-level signals for connecting to the 
+inputs of effects devices or stage monitor amplifiers.
+
+88. AUX SEND INSERTS
+
+These 1/4" TRS jacks are for connecting serial effects 
+such as compressors, equalizers, deessers, or filters. 
+The insert point is after the mix amps, but before the 
+Aux Send Masters and the AFL Solo switch (so you can 
+hear the external processor when soloing the aux send). 
+Refer to the description of the channel insert on page 22 
+to see how to make this connection.
+
+89. Power Receptacle
+
+This is a standard 3-prong IEC power connector. Con-
+nect the detachable linecord (included in the box with 
+your Onyx 4•Bus) to the power receptacle, and plug the 
+other end of the linecord into an AC outlet. The Onyx 
+4•Bus has a universal power supply that can accept 
+
+����������������������
+�����������
+
+������� ������������� ������������������
+
+����������������������������������������������������������������������������������������������������������������������
+������������������������������������������������������������������������������������������
+
+������ ������� ������� ������� ������� ������� ������� ������� ������� ������� �������� �������� �������� �������� �������� �������� �������� �������� �������� �������������������������������������������������������� ����������
+
+�������������
+�������������
+
+�����
+��
+
+�
+
+�
+
+�������
+
+�
+
+�
+
+��
+��
+
+��
+��
+
+�
+
+�
+
+�
+
+�
+
+����
+
+������� �������
+
+���������
+
+������������������
+
+���������
+
+��������� ���������
+
+���������
+��������
+
+���������
+
+��
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� �����
+
+�� ��� �����
+�� ��� ���
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+����
+
+���������
+
+��
+�� ��� ���
+
+���
+
+� � � � � � � � � �
+
+�����
+
+� �
+
+����
+
+���������
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+��
+
+����
+
+���������
+
+���
+
+�����
+�������
+
+�����
+����
+
+���
+�������
+
+���
+�����
+
+����
+����
+
+����
+�������
+
+����� ���� �������������������
+����� ���� ����
+
+�����
+
+�����
+
+�
+
+�
+
+�
+
+�
+
+��������������
+
+�����������
+������������������
+
+���������� ���������� ����������
+
+������������
+
+����������
+
+�����
+
+����
+������
+
+any AC voltage ranging from 100 VAC to 240 VAC. No 
+need for voltage select switches. It will work virtually 
+anywhere in the world. That’s why we call it a “Planet-
+Earth” power supply! This also means that it is less 
+susceptible to voltage sags or spikes, providing greater 
+electromagnetic isolation and better protection against 
+AC line noise.
+
+90. POWER Switch
+
+This one is self-explanatory. When the POWER switch 
+is turned ON, power is supplied to the Onyx 4•Bus and 
+the POWER LED on the front panel lights up.
+
+
+
+25Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+Appendix A: Service Information
+Warranty Service
+Details concerning Warranty Service are spelled out in 
+the Warranty section on page 35.
+
+If you think your Onyx mixer has a problem, please 
+do everything you can to confirm it before calling for 
+service. Doing so might save you from the deprivation of 
+your Onyx mixer and the associated suffering.
+
+These may sound obvious to you, but here are some 
+things you can check. Read on.
+
+Troubleshooting
+No Power
+
+• Our favorite question: Is it plugged in?
+
+• Make sure the power cord is securely seated in the 
+IEC socket [89] and plugged all the way into the 
+AC outlet.
+
+• Make sure the AC outlet is live (check with a tester 
+or lamp).
+
+• Is the POWER [90] switch on? Make sure the 
+POWER switch on the rear panel is in the ON posi-
+tion (up).
+
+• Is the POWER LED [44] on the front panel illumi-
+nated? If not, make sure the AC outlet is live.
+
+• Are all the lights out in your building? If so, contact 
+your local power company to get power restored.
+
+• If the POWER LED is not illuminated, and you are 
+certain that the AC outlet is live, it will be necessary 
+to have your Onyx 4•Bus serviced. There are no user 
+serviceable parts inside. Refer to “Repair” at the end 
+of this section to find out how to proceed.
+
+Bad Channel
+
+• Is the MUTE button [14/27] pushed in?
+
+• Is the input GAIN control [4/19] for the channel 
+turned up?
+
+• Is the fader [15/28] turned up?
+
+• Is the signal source turned up? Make sure the 
+signal level from the selected input source is 
+high enough to light up some of the INPUT meter 
+[16/29] LEDs next to the channel’s fader.
+
+• Is the channel assigned to a bus (GROUP ASSIGN 
+or MAIN MIX button pushed in)?
+
+• Is there something plugged into the CHANNEL 
+INSERT jack [75]? Try unplugging any INSERT 
+devices.
+
+• Try the same source signal in another channel, set 
+up exactly like the suspect channel.
+
+Bad Output
+
+• Is the associated level control (if any) turned up?
+
+• If it’s one of the MAIN OUTPUTS, try unplugging all 
+the others. For example, if it’s the 1/4" LEFT MAIN 
+OUT, unplug the XLR LEFT OUTPUT. If the problem 
+goes away, it’s not the mixer.
+
+• If it’s a stereo pair, try switching them around. For 
+example, if a left output is presumed dead, switch 
+the left and right cords at the mixer end. If the 
+problem stays on the left side, it’s not the mixer.
+
+Bad Sound
+
+• Is the input connector plugged completely into the 
+jack?
+
+• Is it loud and distorted? Make sure the input GAIN 
+control for the input is set correctly. Reduce the 
+signal level on the input source if possible.
+
+• If possible, listen to the signal with headphones 
+plugged into the input source device. If it sounds 
+bad there, it’s not the Onyx 4•Bus causing the prob-
+lem.
+
+Noise/Hum
+
+• Turn down the STEREO RETURN LEVEL controls 
+[64]. If the noise disappears, it’s coming from what-
+ever is plugged into the STEREO RETURNS [80].
+
+• Turn down each channel, one by one. If the noise 
+disappears, it’s coming from whatever is plugged 
+into that channel.
+
+• Check the signal cables between the input sources 
+and the Onyx. Disconnect them one by one. When 
+the noise goes away, you’ll know which input source 
+is causing the problem.
+
+• Sometimes it helps to plug all the audio equipment 
+into the same AC circuit so they share a common 
+ground.
+
+
+
+26 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s Repair
+
+Service for Mackie products is available at a factory-
+authorized service center. Service for Mackie products 
+living outside the United States can be obtained through 
+local dealers or distributors.
+
+If your Onyx 4•Bus needs service, follow these instruc-
+tions:
+
+1. Review the preceding troubleshooting suggestions. 
+Please.
+
+2. Call Tech Support at 1-800-898-3211, 7 am to 5 pm 
+PST, to explain the problem and obtain a Service 
+Request Number. Have your serial number ready. 
+You must have a Service Request Number before 
+you can obtain service at the factory.
+
+3. Keep this owner’s manual and the detachable line-
+cord. We don’t need them to repair the mixer.
+
+4. Pack the mixer in its original package, includ-
+ing endcaps and box. This is VERY IMPORTANT. 
+Mackie is not responsible for any damage that 
+occurs due to non-factory packaging.
+
+5. Include a legible note stating your name, shipping 
+address (no P.O. boxes), daytime phone number, 
+Service Request Number, and a detailed description 
+of the problem, including how we can duplicate it.
+
+6. Write the Service Request Number in BIG PRINT on 
+top of the box. Units sent to us without the Service 
+Request Number will be refused.
+
+7. Tech Support will tell you where to ship the mixer 
+for repair. We suggest insurance for all forms of 
+cartage.
+
+8. You will need to contact the authorized service 
+center for their latest turn-around times. The mixer 
+must be packaged in its original packing box, and 
+must have the Service Request Number on the box. 
+Once it’s repaired, the authorized service center will 
+ship it back, pre-paid (if it was a warranty repair).
+
+ Note: Under the terms of the warranty, you must 
+ship or drop-off the unit to an authorized service 
+center. The return ground shipment is covered for 
+those units deemed by us to be under warranty.
+
+ Note: You must have a sales receipt from an Autho-
+rized Mackie Dealer to qualify for a warranty repair.
+
+Need Help?
+
+You can reach a technical support representative  
+Monday through Friday  
+
+from 7 AM to 5 PM PST at:
+
+1-800-898-3211
+
+After hours, visit www.mackie.com and click Support,  
+or email us at: techmail@mackie.com
+
+R
+
+http://www.mackie.com
+
+
+27Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+Appendix B: Connections
+1/4" TS Phone Plugs and Jacks
+“TS” stands for Tip-Sleeve, the two connection points 
+available on a mono 1/4" phone jack or plug. They are 
+used for unbalanced signals.
+
+SLEEVE
+
+TIP
+
+TIPSLEEVE
+
+TIP
+
+SLEEVE
+
+1/4" TS Unbalanced Wiring:
+Sleeve = Shield 
+Tip = Hot (+)
+
+RCA Plugs and Jacks
+RCA-type plugs (also known as phono plugs) and jacks 
+are often used in home stereo and video equipment and 
+in many other applications. They are unbalanced and 
+electrically equivalent to a 1/4" TS phone plug.
+
+TIPSLEEVETIPSLEEVE
+
+RCA Unbalanced Wiring:
+Sleeve = Shield 
+Tip = Hot (+)
+
+Unbalancing a Line
+In most studio, stage, and sound reinforcement situ-
+ations, there is a combination of balanced and unbal-
+anced inputs and outputs on the various pieces of 
+equipment. This usually will not be a problem in making 
+connections.
+
+• When connecting a balanced output to an unbal-
+anced input, be sure the signal high (hot) connec-
+tions are wired to each other, and that the balanced 
+signal low (cold) goes to the ground (earth) 
+connection at the unbalanced input. In most cases, 
+the balanced ground (earth) will also be connected 
+to the ground (earth) at the unbalanced input. If 
+there are ground-loop problems, this connection 
+may be left disconnected at the balanced end.
+
+XLR Connectors
+The mono channels use 3-pin female XLR connectors 
+on the MIC inputs. They are wired as follows, according 
+to standards specified by the AES (Audio Engineering 
+Society).
+
+2
+
+2
+
+3 1
+
+1
+
+SHIELD
+
+COLD
+
+HOT
+
+SHIELD
+
+COLD
+
+HOT
+
+3
+
+SHIELD
+
+COLD
+HOT
+
+3
+
+2
+
+1
+
+XLR Balanced Wiring:
+Pin 1 = Shield 
+Pin 2 = Hot (+) 
+Pin 3 = Cold (–)
+
+1/4" TRS Phone Plugs and Jacks
+“TRS” stands for Tip-Ring-Sleeve, the three connection 
+points available on a stereo 1/4" or balanced phone 
+jack or plug. TRS jacks and plugs are used for balanced 
+signals and stereo headphones:
+
+Balanced Mono
+
+SLEEVE
+
+TIPSLEEVE
+
+TIP
+
+RING
+
+RING
+
+TIP
+
+SLEEVERING
+
+1/4" TRS Balanced Mono Wiring:
+Sleeve = Shield 
+Tip = Hot (+) 
+Ring = Cold (–)
+
+Stereo Headphones
+
+SLEEVE
+
+TIPSLEEVE
+
+TIP
+
+RING
+
+RING
+
+TIP
+
+SLEEVERING
+
+1/4" TRS Stereo Unbalanced Wiring:
+Sleeve = Shield 
+Tip = Left 
+Ring = Right
+
+
+
+28 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s • When connecting an unbalanced output to a bal-
+
+anced input, be sure that the signal high (hot) 
+connections are wired to each other. The unbal-
+anced ground (earth) connection should be wired 
+to the low (cold) and the ground (earth) connec-
+tions of the balanced input. If there are ground-loop 
+problems, try disconnecting the unbalanced ground 
+(earth) connection from the balanced input ground 
+(earth) connection, leaving the unbalanced ground 
+connected to the balanced input low (cold) con-
+nection only.
+
+In some cases, you may have to make up special 
+adapters to interconnect your equipment. For example, 
+you may need a balanced XLR female connected to an 
+unbalanced 1/4" TS phone plug. Many common adapters 
+can be found at your local electronics supply store.
+
+The balanced-to-unbalanced connection has been 
+anticipated in the wiring of Mackie jacks. A 1/4" TS plug 
+inserted into a 1/4" TRS balanced input, for example, 
+will automatically unbalance the input and make all the 
+right connections. Conversely, a 1/4" TRS plug inserted 
+into a 1/4" unbalanced input will not necessarily tie the 
+ring (low or cold) to ground (earth).
+
+TRS Send/Receive Insert Jacks
+Mackie’s single-jack inserts are three-conductor 1/4" 
+
+TRS phone jacks. They are unbalanced, but have both 
+the mixer output (send) and mixer input (return) 
+signals in one connector.
+
+The sleeve is the common ground (earth) for both 
+signals. The send from the mixer to the external unit is 
+carried on the tip, and the return from the unit to the 
+mixer is on the ring.
+
+“from tip”
+
+this plug connects to one of the 
+mixer’s Channel Insert jacks. “to ring”
+
+tip
+ring
+
+sleeve
+
+SEND to processor
+
+RETURN from processor
+
+(TRS plug)
+
+Using the Send Only on an Insert Jack
+
+If you insert a 1/4" TS (mono) plug only partially (to 
+the first click) into a Mackie insert jack, the plug will 
+not activate the jack switch and will not open the insert 
+loop in the circuit (thereby allowing the channel signal 
+to continue on its merry way through the mixer).
+
+This allows you to tap out the channel’s signal at that 
+point in the circuit without interrupting normal operation.
+
+Note: Do not overload or short-circuit 
+the signal you are tapping from the 
+mixer. That will affect the internal 
+signal. 
+
+If you push the 1/4"  TS plug in to the second click, 
+you will open the jack switch and create a direct out, 
+which does interrupt the signal in that channel.
+
+Direct out with no signal interruption to master.
+Insert only to first “click.”
+
+Channel Insert jack
+
+Channel Insert jack
+
+Channel Insert jack
+
+Direct out with signal interruption to master.
+Insert all the way in to the second “click.”
+
+For use as an effects loop.
+(TIP = SEND to effect, RING = RETURN from effect)
+
+MONO PLUG
+
+MONO PLUG
+
+STEREO 
+PLUG
+
+Mults and “Y”s
+A mult or “Y” connector allows you to route one output 
+
+to two or more inputs by simply providing parallel wir-
+ing connections. You can make “Y”s and mults for the 
+outputs of both unbalanced and balanced circuits.
+
+Remember: Only mult or “Y” an 
+output into several inputs. If you need 
+to combine several outputs into one 
+input, you must use a mixer, not a 
+mult or a “Y.”
+
+Y-Cord Splitter
+
+
+
+29Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+DB25 Connectors
+The DIRECT OUTS on the back of the Onyx 4•Bus 
+
+provide balanced direct outputs for all the mono chan-
+nels on female DB25 connectors. These connectors are 
+pin-for-pin compatible with the analog (not TDIF) DB25 
+connectors found on TASCAM DTRS recorders, which has 
+become an industry standard for many professional audio 
+manufacturers. They are also the same pinout as the ana-
+log cards for the Mackie D8B and hard disk recorders.
+
+������ �� ����
+������ ������� ����
+������ �� ����
+������ �� ����
+������ ������� ����
+������ �� ����
+������ �� ����
+������ ������� ����
+������ �� ����
+������� �� ����
+������� ������� ����
+������� �� ����
+������� ����
+
+�
+��
+
+��
+�
+
+�
+��
+
+��
+��
+
+���
+�
+
+�
+��
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+��
+��
+
+�
+��
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+��
+��
+
+������� �� ����
+������� �� ����
+������� ������� ����
+������� �� ����
+������� �� ����
+������� ������� ����
+������� �� ����
+������� �� ����
+������� ������� ����
+������� �� ����
+������� �� ����
+������� ������� ����
+
+�
+��
+
+��
+�
+
+�
+��
+
+��
+��
+
+���
+�
+
+�����������������
+
+������������������������
+
+�
+�
+
+�
+�
+
+�
+��
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+��
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+��
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+��
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+��
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+��
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+��
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+�
+
+�
+��
+
+�
+�
+
+�
+�
+
+�
+�
+
+����
+����
+�����
+�����
+
+���
+
+����
+�����
+�����
+�����
+
+����
+�����
+�����
+�����
+
+����
+�����
+�����
+�����
+
+����
+�����
+�����
+�����
+
+����
+�����
+�����
+�����
+
+����
+�����
+�����
+�����
+
+����
+�����
+�����
+�����
+
+Several companies make DB25-to-DB25 cables specifi-
+cally for audio, with proper shielding to reduce crosstalk 
+and noise.
+
+DB25 cables that break out to XLR, 1/4" TRS, or TT 
+connectors for connecting to other mixers or audio gear 
+are also readily available. See your Mackie dealer for 
+details.
+
+R
+
+
+
+30 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s Appendix C: Technical Info
+
+Onyx 4•Bus Specifications
+Frequency Response 
+Mic Input to Main Output (Gain @ Unity)   
+ +0, –1 dB, <10 Hz to 80 kHz 
+ +0, –3 dB, <10 Hz to 120 kHz
+
+Distortion (THD & IMD)
+Mic Input to Main Output (@ +4 dBu) 
+ THD:   < 0.007% 20 Hz to 20 kHz  
+  0.003% @ 1kHz typical 
+ SMPTE IMD: < 0.005% (7 kHz/60 Hz, 4:1)
+
+Dynamic Range
+ >115 dB, Mic In to Main Out
+
+Noise Floor 
+Signal-to-Noise Ratio: 
+ –87 dBu (ref. +4 dBu, Mic In to Main Out,  
+ 32 channels and Main Mix levels at unity)
+
+ –89 dBu, (ref. +4 dBu, Mic In to Main Out, 
+ 24 channels and Main Mix levels at unity)
+
+Equivalent Input Noise (E.I.N.), 20 Hz to 20 kHz Bandwidth, 
+150Ω source impedance  
+ –129.5 dBu @ +60 dB gain
+
+Mic Output Noise: 
+ Direct Output: –100 dBu (minimum gain)
+
+Residual Output Noise: 
+ Main Out: –100 dBu (Channel and Main Mix levels off) 
+ Main Out:  
+  32•4: –83 dBu (32 channels and Main Mix  
+    levels at unity) 
+  24•4: –85 dBu (24 channels and Main Mix  
+    levels at unity)
+
+Common Mode Rejection Ratio (CMRR)
+Mic In:  >70 dB @ 1 kHz, Gain @ maximum
+
+Crosstalk
+Adjacent Inputs: < –95 dB @ 1 kHz 
+Input to Output: < –85 dB @ 1 kHz
+
+Input Gain Control Range
+Mic In:  0 dB to +60 dB 
+Line In:  –20 dB to + 40 dB, mono channels
+
+Phantom Power
+ +48 VDC
+
+Equalization
+Mono Channel EQ: 
+ High:  ±15 dB @ 12 kHz 
+ High Mid: ±15 dB, sweepable from 400 Hz to 8 kHz 
+ Low Mid: ±15 dB, sweepable from 100 Hz to 2 kHz 
+ Low:  ±15 dB @ 80 Hz
+
+Stereo Channel (Aux Input) EQ: 
+ High:  ±15 dB @ 12 kHz 
+ High Mid: ±15 dB @ 2.5 kHz 
+ Low Mid: ±15 dB @ 400 Hz 
+ Low:  ±15 dB @ 80 Hz
+
+Mixer Rated Output
+Main Outs:  +4 dBu 
+Aux Send:  +4 dBu 
+Group Send:  +4 dBu 
+Monitor Out:  +4 dBu 
+Matrix Out:  +4 dBu 
+Maximum Rated Output:  
+  +21 dBu @ Main XLR and TRS outputs
+
+Maximum Input Levels
+Mic Input:  +21 dBu, Gain @ unity, pad out 
+Mic Input:  +30 dBu, Gain @ unity, pad in 
+Line Input:  +21 dBu, Gain @ –20 dB 
+Tape Input:  +30 dBu 
+Stereo Return: +21 dBu
+
+Maximum Voltage Gain
+Mic Input to: 
+ Main Out:  90 dB 
+ Group Out:  80 dB 
+ Aux Sends:  86 dB 
+ Monitor Out:  103 dB 
+ Matrix Out: 105 dB 
+ Phones Out:  103 dB
+
+Line Input to:  
+ Main Out:  70 dB 
+ Group Out:  60 dB 
+ Aux Sends:  66 dB 
+ Monitor Out:  83 dB 
+ Matrix Out: 85 dB 
+ Phones Out:  83 dB
+
+Stereo Return to: 
+ Main Out:  53 dB 
+ Group Out:  43 dB 
+ Aux Sends:  49 dB 
+ Monitor Out:  66 dB 
+ Matrix Out: 68 dB 
+ Phones Out:  66 dB
+
+Input Impedance
+Mic Input:   3 kΩ, balanced 
+Mono Channel Line Input:  34 kΩ balanced 
+Stereo Returns:   20 kΩ balanced 
+Talkback Mic:  1 kΩ balanced
+
+Output Impedance
+Main Out:  100 Ω balanced, XLR outputs;  
+  300 Ω TRS outputs 
+Direct Out: 300 Ω 
+Group Out:  300 Ω 
+Monitor Out:  300 Ω 
+Matrix Out:  300 Ω 
+Aux Sends:  300 Ω 
+Phones Out:  25 Ω
+
+
+
+31Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+Channel Level LED (Sensitivity)
+ 0 LED = 0 dBu (normal operating level)
+
+VU Meters
+Main Left and Right, Compressor Input, 12 segments:  
+ Clip (+20), +15, +10, +6, +3, 0, –2, –4, –7, –10, –20, –30 
+ 0 LED = 0 dBu 
+Compressor Gain Reduction, 12 segments: 
+ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15 dB
+
+AC Power Requirements
+Power Consumption: 
+ Onyx 24•4 100 watts 
+ Onyx 32•4 120 watts
+
+Universal AC Power Supply: 
+ 100 VAC – 240 VAC, 50-60 Hz
+
+Onyx 4•Bus Dimensions
+
+������
+��������
+�������
+
+���������
+
+��
+��
+���
+��
+��
+
+��
+�
+
+��
+��
+��
+���
+
+��
+�
+�
+
+��������������
+
+������
+��������
+�������
+
+���������
+
+��
+��
+���
+��
+��
+
+��
+�
+
+��
+��
+��
+���
+
+��
+�
+�
+
+���������������
+
+Physical Dimensions and Weight
+Onyx 24•4 
+Height:  7.3 in/185 mm  
+Width:  31.2 in/792 mm 
+Depth:  21.9 in/555 mm 
+Weight:  39.5 lb/17.9 kg
+
+Onyx 32•4 
+Height:  7.3 in/185 mm  
+Width:  39.8 in/1011 mm 
+Depth:  21.9 in/555 mm 
+Weight:  48.0 lb/21.8 kg
+
+LOUD Technologies Inc. is always striving to improve our prod-
+ucts by incorporating new and improved materials, components, 
+and manufacturing methods. Therefore, we reserve the right to 
+change these specifications at any time without notice.
+
+“Mackie.”, “Onyx,” and the “Running Man” are registered 
+trademarks of LOUD Technologies Inc. All other brand names 
+mentioned are trademarks or registered trademarks of their 
+respective holders, and are hereby acknowledged.
+
+©2006 LOUD Technologies Inc. All Rights Reserved.
+
+
+
+32 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s Onyx 4•Bus Block Diagram
+
+� � �
+�
+
+��
+�
+
+�
+��
+
+�
+
+����������
+
+����������
+
+���
+
+���
+
+���
+�����
+
+����
+
+�����
+
+�������
+���
+
+�������
+���
+
+���������
+�����������
+
+�����
+
+�����
+
+�������
+
+�������
+
+� �
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+
+�����
+
+������
+
+���������������
+
+������������
+
+�
+��
+
+��
+��
+
+�
+��
+
+��
+
+����������
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+�
+
+��
+�
+
+�
+�
+
+��
+�
+
+��������
+����������
+
+� �
+
+���������
+�����������
+
+�����
+
+���������
+
+�������������������
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+����������������������������������
+
+�����������������
+�
+�
+
+���
+
+���
+
+���
+
+����������
+
+�
+
+��������
+
+��������
+
+��
+������ ����
+
+�������������
+
+��������
+
+������
+
+���
+
+����������
+
+�� ��� ���
+
+�� ������ ������ ���
+
+��
+
+������
+
+�������
+������
+
+�����
+������
+�������
+�������
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+���
+
+� �
+
+�
+�
+
+��
+�
+
+�
+��
+
+�
+� �
+
+�
+��
+
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+�
+
+��
+�
+
+�
+�
+
+��
+�� �
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+����������
+
+�
+
+�
+
+����
+
+���
+
+������
+
+������
+
+������
+
+������
+
+�� ��� ���
+
+�� ��� ���� ���
+
+��
+
+�
+������
+
+�
+
+������
+������
+
+�����������
+
+�����������
+
+�������������
+
+����������
+
+������
+
+����
+����
+����
+
+������
+�����
+
+�����
+
+�����
+
+�����
+
+����������
+
+�����������
+�
+
+� �
+
+� �
+
+�
+
+�������
+�����
+
+�
+��
+
+���
+��
+
+�
+��
+
+���
+��
+
+�
+��
+
+���
+��
+
+�
+��
+
+���
+��
+
+����
+
+�������
+�����
+
+��������
+
+��������
+
+�����������
+
+�����������
+�����������
+
+�����������
+
+�����������
+
+�����������
+
+�����������
+
+�����������
+
+�
+
+�
+
+��������
+���
+
+��������
+���
+
+�������������
+
+�
+
+�
+
+������������� �
+�
+
+�����������
+������
+
+�������
+����������
+
+�������������
+
+�������
+����������
+
+�������������
+
+�������
+�����
+
+�����
+
+���
+
+�����������
+���
+
+��� ���
+
+������������
+
+���������
+���������
+
+������������
+
+�����
+
+�
+�
+
+��
+�
+
+���
+
+�
+�
+
+��
+�
+
+�
+
+�
+
+�
+�
+
+����
+������������
+
+�����������
+
+���
+
+������
+
+������������
+
+����
+����
+
+�����
+����
+
+�����
+��
+
+����
+��
+
+������
+
+�������
+
+�����
+
+���������
+
+��
+
+�
+���
+
+���
+
+���
+
+�����
+�����
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+����
+
+����
+
+����
+
+������������ �
+�
+
+�������������
+���
+
+���
+
+���������������
+
+���
+
+����
+
+����
+
+�
+
+�
+
+�������������
+
+����������
+���
+
+����������������
+�������������������
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+���������
+
+��
+
+�
+���
+
+���
+
+���
+
+�������������������������������������������������������
+
+������
+����������
+�������������
+���������������
+
+���������
+
+������ ������
+
+�������
+
+������ ������
+
+�������
+
+�
+������
+
+�
+
+���������������
+�
+
+�
+
+�
+�
+
+����
+������������
+
+������
+
+����
+����
+
+���
+
+���
+
+���
+�����
+
+��
+������
+
+������
+
+�����
+��
+
+����
+��
+
+�����
+
+�������
+�������
+
+�����
+
+���
+
+�
+������
+
+�
+
+���������������
+�
+
+�
+
+�
+�
+
+����
+������������
+
+�����
+
+����� ���������������
+������������
+
+�������
+�������
+
+�������
+
+�
+
+�
+
+����������
+
+����������
+
+������������
+
+��
+
+�
+���
+
+���
+
+��
+
+�
+���
+
+���
+
+�����
+�����
+
+������
+
+�����������
+
+����
+���������
+
+������
+��
+
+��
+��
+
+��
+
+�
+��
+
+��
+
+������������
+������������
+
+�������������
+���
+
+����������
+����������
+�����������
+���
+
+������
+����������
+
+����
+����
+
+��
+
+�
+�
+
+�����
+���
+
+����
+���
+
+����
+���
+
+�����
+������
+
+
+
+33Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+� � �
+�
+
+��
+�
+
+�
+��
+
+�
+
+����������
+
+����������
+
+���
+
+���
+
+���
+�����
+
+����
+
+�����
+
+�������
+���
+
+�������
+���
+
+���������
+�����������
+
+�����
+
+�����
+
+�������
+
+�������
+
+� �
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+
+�����
+
+������
+
+���������������
+
+������������
+
+�
+��
+
+��
+��
+
+�
+��
+
+��
+
+����������
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+�
+
+��
+�
+
+�
+�
+
+��
+�
+
+��������
+����������
+
+� �
+
+���������
+�����������
+
+�����
+
+���������
+
+�������������������
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+����������������������������������
+
+�����������������
+�
+�
+
+���
+
+���
+
+���
+
+����������
+
+�
+
+��������
+
+��������
+
+��
+������ ����
+
+�������������
+
+��������
+
+������
+
+���
+
+����������
+
+�� ��� ���
+
+�� ������ ������ ���
+
+��
+
+������
+
+�������
+������
+
+�����
+������
+�������
+�������
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+���
+
+� �
+
+�
+�
+
+��
+�
+
+�
+��
+
+�
+� �
+
+�
+��
+
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+�
+
+��
+�
+
+�
+�
+
+��
+�� �
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+�
+��
+
+��
+��
+
+�
+��
+
+�
+�
+
+��
+��
+
+��
+�
+
+��
+��
+
+����������
+
+�
+
+�
+
+����
+
+���
+
+������
+
+������
+
+������
+
+������
+
+�� ��� ���
+
+�� ��� ���� ���
+
+��
+
+�
+������
+
+�
+
+������
+������
+
+�����������
+
+�����������
+
+�������������
+
+����������
+
+������
+
+����
+����
+����
+
+������
+�����
+
+�����
+
+�����
+
+�����
+
+����������
+
+�����������
+�
+
+� �
+
+� �
+
+�
+
+�������
+�����
+
+�
+��
+
+���
+��
+
+�
+��
+
+���
+��
+
+�
+��
+
+���
+��
+
+�
+��
+
+���
+��
+
+����
+
+�������
+�����
+
+��������
+
+��������
+
+�����������
+
+�����������
+�����������
+
+�����������
+
+�����������
+
+�����������
+
+�����������
+
+�����������
+
+�
+
+�
+
+��������
+���
+
+��������
+���
+
+�������������
+
+�
+
+�
+
+������������� �
+�
+
+�����������
+������
+
+�������
+����������
+
+�������������
+
+�������
+����������
+
+�������������
+
+�������
+�����
+
+�����
+
+���
+
+�����������
+���
+
+��� ���
+
+������������
+
+���������
+���������
+
+������������
+
+�����
+
+�
+�
+
+��
+�
+
+���
+
+�
+�
+
+��
+�
+
+�
+
+�
+
+�
+�
+
+����
+������������
+
+�����������
+
+���
+
+������
+
+������������
+
+����
+����
+
+�����
+����
+
+�����
+��
+
+����
+��
+
+������
+
+�������
+
+�����
+
+���������
+
+��
+
+�
+���
+
+���
+
+���
+
+�����
+�����
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+����
+
+����
+
+����
+
+������������ �
+�
+
+�������������
+���
+
+���
+
+���������������
+
+���
+
+����
+
+����
+
+�
+
+�
+
+�������������
+
+����������
+���
+
+����������������
+�������������������
+
+�
+
+�
+
+�
+
+�
+
+�
+
+�
+
+���������
+
+��
+
+�
+���
+
+���
+
+���
+
+�������������������������������������������������������
+
+������
+����������
+�������������
+���������������
+
+���������
+
+������ ������
+
+�������
+
+������ ������
+
+�������
+
+�
+������
+
+�
+
+���������������
+�
+
+�
+
+�
+�
+
+����
+������������
+
+������
+
+����
+����
+
+���
+
+���
+
+���
+�����
+
+��
+������
+
+������
+
+�����
+��
+
+����
+��
+
+�����
+
+�������
+�������
+
+�����
+
+���
+
+�
+������
+
+�
+
+���������������
+�
+
+�
+
+�
+�
+
+����
+������������
+
+�����
+
+����� ���������������
+������������
+
+�������
+�������
+
+�������
+
+�
+
+�
+
+����������
+
+����������
+
+������������
+
+��
+
+�
+���
+
+���
+
+��
+
+�
+���
+
+���
+
+�����
+�����
+
+������
+
+�����������
+
+����
+���������
+
+������
+��
+
+��
+��
+
+��
+
+�
+��
+
+��
+
+������������
+������������
+
+�������������
+���
+
+����������
+����������
+�����������
+���
+
+������
+����������
+
+����
+����
+
+��
+
+�
+�
+
+�����
+���
+
+����
+���
+
+����
+���
+
+�����
+������
+
+
+
+34 ONYX 4•Bus
+
+O
+N
+
+Y
+X
+
+ 4
+•B
+
+u
+s
+
++3
+0
+
+ d
+Bu
+
+ m
+ax
+
+ in
+ 
+
+20
+ d
+
+B 
+lo
+
+ss
+, T
+
+RI
+M
+
+ d
+ow
+
+n 
+
+40
+ d
+
+B 
+ga
+
+in
+, T
+
+RI
+M
+
+ u
+p 
+
+LI
+NE
+
+ IN
+, m
+
+on
+o 
+
+ch
+an
+
+ne
+ls
+
+ 
+
+M
+IC
+
+ IN
+, m
+
+on
+o 
+
+ch
+an
+
+ne
+ls
+
+ 
+
+6
+0
+
+ d
+B 
+
+ga
+in
+
+, T
+RI
+
+M
+ u
+
+p 
+
+0
+ d
+
+B 
+ga
+
+in
+, T
+
+RI
+M
+
+ d
+ow
+
+n 
+
++2
+1 d
+
+Bu
+ m
+
+ax
+ in
+
+ 
++1
+
+5 
+dB
+
+ u
+p 
+
+–1
+5 
+
+dB
+ 
+
+do
+wn
+
+–1
+5 
+
+dB
+ 
+
+do
+wn
+
+–1
+5 
+
+dB
+ 
+
+do
+wn
+
+LO
+W
+
++1
+5 
+
+dB
+ u
+
+p 
+
+–1
+5 
+
+dB
+ 
+
+do
+wn
+
+LO
+W
+
+ M
+ID
+
+ 
+
++1
+5 
+
+dB
+ u
+
+p 
+
+H
+IG
+
+H
+ M
+
+ID
+ 
+
++1
+5 
+
+dB
+ u
+
+p 
+
+H
+IG
+
+H
++1
+
+0
+ d
+
+B 
+up
+
+ 
+
+FA
+DE
+
+R 
+PA
+
+N 
+A
+
+S
+S
+
+IG
+N
+
+–3
+ d
+
+B 
+ce
+
+nt
+er
+
+EQ
+M
+
+UT
+E
+
+M
+IX
+
+0
+ d
+
+B 
+XL
+
+R 
+an
+
+d 
+1/4
+
+" O
+ut
+
+ 
+
+OU
+TP
+
+UT
+S
+
+M
+ON
+
+O 
+CH
+
+A
+NN
+
+EL
+ 
+
+TA
+PE
+
+ IN
+ 
+
+M
+A
+
+IN
+ M
+
+IX
+ a
+
+nd
+ G
+
+RO
+UP
+
+S
+ 
+
+to
+A
+
+ 
+
+to
+A
+
+ 
+P
+
+ 
+
+A
+ 
+
+F
+
+F
+ro
+
+m
+ F
+
+ o
+r 
+
+G
+ 
+
+(M
+A
+
+IN
+)
+
+G
+E
+
+D
+B
+
+C
+
+0
+dB
+
+0
+dB
+
++1
+3 
+
+dB
+ u
+
+p 
+
+OU
+TP
+
+UT
+
+0
+dB
+
+LE
+VE
+
+L
+LE
+
+VE
+L
+
+M
+ON
+
+IT
+OR
+
+/P
+H
+
+ON
+ES
+
+ 
+
+0
+ d
+
+B 
+
+A
+UX
+
+ M
+IX
+
+ 
+A
+
+UX
+ M
+
+as
+te
+
+r 
+
+0
+dB
+
+OU
+TP
+
+UT
+
+A
+UX
+
+ S
+EN
+
+D 
+
++2
+1 d
+
+Bu
+ m
+
+ax
+ o
+
+ut
+ (X
+
+LR
+ a
+
+nd
+ 1/
+
+4"
+ O
+
+ut
+) 
+
++2
+1 d
+
+Bu
+ m
+
+ax
+ o
+
+ut
+ 
+
+FA
+DE
+
+R 
+
+OU
+TP
+
+UT
+S
+
+M
+ON
+
+O
+
+LE
+VE
+
+L
+
++1
+0
+
+ d
+B 
+
+up
+ 
+
++2
+1 d
+
+Bu
+ m
+
+ax
+ in
+
+ 
+
+20
+ d
+
+B 
+lo
+
+ss
+, T
+
+RI
+M
+
+ d
+ow
+
+n 
+
+20
+ d
+
+B 
+ga
+
+in
+, T
+
+RI
+M
+
+ u
+p 
+
+LI
+NE
+
+ IN
+, s
+
+te
+re
+
+o 
+ch
+
+an
+ne
+
+ls
+ 
+
+0
+ d
+
+B 
+
+(In
+se
+
+rt
+ 
+
+S
+en
+
+d)
+(In
+
+se
+rt
+
+ 
+Re
+
+tu
+rn
+
+)
+
+(In
+se
+
+rt
+ 
+
+S
+en
+
+d)
+(In
+
+se
+rt
+
+ 
+Re
+
+tu
+rn
+
+)
+
+IN
+S
+
+ER
+T 
+
+S
+en
+
+d
+IN
+
+S
+ER
+
+T 
+Re
+
+tu
+rn
+
+–6
+ d
+
+B 
+–9
+
+ d
+B 
+
+fr
+om
+
+ L
+ 
+
+–6
+ d
+
+B 
+
+F
+ro
+
+m
+ L
+
+ –
+9 
+
+dB
+–0
+
+ d
+B 
+
+0
+ d
+
+B 
+
++1
+6
+
+ d
+B 
+
+up
+ 
+
++1
+3 
+
+dB
+ u
+
+p 
+
+S
+OL
+
+O 
+(P
+
+FL
+/A
+
+FL
+) 
+
+0
+dB
+
+M
+A
+
+CK
+IE
+
+ O
+NY
+
+X 
+40
+
+ S
+ER
+
+IE
+S
+
+ 
+LE
+
+VE
+L 
+
+DI
+A
+
+G
+RA
+
+M
+ 
+
+0
+10
+
+50
+5
+
++1
+5 
+
+dB
+ u
+
+p 
+
+–1
+5 
+
+dB
+ 
+
+do
+wn
+
+–1
+5 
+
+dB
+ 
+
+do
+wn
+
+–1
+5 
+
+dB
+ 
+
+do
+wn
+
+LO
+W
+
++1
+5 
+
+dB
+ u
+
+p 
+
+–1
+5 
+
+dB
+ 
+
+do
+wn
+
+LO
+W
+
+ M
+ID
+
+ 
+
++1
+5 
+
+dB
+ u
+
+p 
+
+H
+IG
+
+H
+ M
+
+ID
+ 
+
++1
+5 
+
+dB
+ u
+
+p 
+
+H
+IG
+
+H
++1
+
+0
+ d
+
+B 
+up
+
+ 
+
+FA
+DE
+
+R 
+PA
+
+N 
+A
+
+S
+S
+
+IG
+N
+
++3
+ d
+
+B 
+on
+
+e 
+si
+
+de
+ 
+
+EQ
+M
+
+UT
+E
+
+S
+TE
+
+RE
+O 
+
+CH
+A
+
+NN
+EL
+
+ 
+
+E
+I
+
+H
+
+F
+ro
+
+m
+ A
+
+, C
+, D
+
+, H
+, I
+
+, M
+ 
+
+0
+ d
+
+B 
+
++1
+3 
+
+dB
+ u
+
+p 
+0
+
+ d
+B 
+
+0
+ d
+
+B 
+XL
+
+R 
+Ou
+
+t 
+
++1
+2 
+
+dB
+ u
+
+p 
+0
+
+ d
+B 
+
+M
+AT
+
+RI
+X 
+
+M
+IX
+
+ 
+M
+
+AT
+RI
+
+X 
+M
+
+as
+te
+
+r 
+
+0
+dB
+
+OU
+TP
+
+UT
+
+M
+AT
+
+RI
+X 
+
++2
+1 d
+
+Bu
+ m
+
+ax
+ o
+
+ut
+ 
+
++4
+ d
+
+B 
+
+F
+ro
+
+m
+ G
+
+(M
+ai
+
+n
+ a
+
+n
+d
+
+ G
+ro
+
+u
+p
+
+s)
+ 
+
+F
+ro
+
+m
+ B
+
+, G
+, H
+
+, M
+ 
+
+F
+ro
+
+m
+ G
+
+ (
+M
+
+A
+IN
+
+) 
+P
+
+ o
+r 
+
+K
+ 
+
+K
+
++1
+6
+
+ d
+B 
+
+up
+ 
+
+0
+ d
+
+B 
+
+TA
+LK
+
+BA
+CK
+
+ IN
+ 
+
+–4
+0
+
+ d
+B 
+
+0
+ d
+
+B 
+
+0
+dB
+
+TB
+ A
+
+S
+S
+
+IG
+N 
+
+TA
+LK
+
+BA
+CK
+
+ 
+
+LE
+VE
+
+L
+
++1
+0
+
+ d
+B 
+
+up
+ 
+
+0
+ d
+
+B 
+
+S
+TE
+
+RE
+O
+
+RE
+TU
+
+RN
+S
+
+E
+ (
+
+to
+ M
+
+ai
+n
+
+) 
+
++1
+0
+
+ d
+B 
+
+up
+ 
+
+0
+ d
+
+B 
+
+L 
+
+M
+
+Onyx 4•Bus Gain Structure Diagram
+
+
+
+35Owner’s Manual
+
+O
+w
+
+n
+e
+
+r’s M
+a
+n
+
+u
+a
+l
+
+A. LOUD Technologies Inc. warrants all materials, workmanship 
+and proper operation of this product for a period of three years 
+from the original date of purchase. If any defects are found 
+in the materials or workmanship or if the product fails to 
+function properly during the applicable warranty period, LOUD 
+Technologies, at its option, will repair or replace the product. 
+This warranty applies only to equipment sold and delivered 
+within the U.S. by LOUD Technologies Inc. or its authorized 
+dealers.
+B. Failure to register online or return the product registration 
+card will not void the three-year warranty.
+
+C. Service and repairs of Mackie products are to be performed 
+only at a factory-authorized facility (see D below). Unauthorized 
+service, repairs, or modification will void this warranty. To obtain 
+repairs under warranty, you must have a copy of your sales receipt 
+from the authorized Mackie dealer where you purchased the 
+product. It is necessary to establish purchase date and determine 
+whether your Mackie product is within the warranty period. 
+
+D. To obtain factory-authorized service:
+1. Call Mackie Technical Support at 800/898-3211, 7 AM 
+to 5 PM Monday through Friday (Pacific Time) to get a 
+Service Request Number. Products returned without a Service 
+Request Number will be refused. 
+
+2. Pack the product in its original shipping carton. Also 
+include a note explaining exactly how to duplicate the 
+problem, a copy of the sales receipt with price and date 
+showing, and your return street address (no P.O. boxes or 
+route numbers, please!). If we cannot duplicate the problem 
+or establish the starting date of your Limited Warranty, we 
+may, at our option, charge for service time.
+
+3. Ship the product in its original shipping carton, freight 
+prepaid to the authorized service center. The address of 
+your closest authorized service center will be given to you by 
+Technical Support.
+
+IMPORTANT:  Make sure that the Service Request Number 
+is plainly written on the shipping carton.
+
+E. LOUD Technologies reserves the right to inspect any products 
+that may be the subject of any warranty claims before repair 
+or replacement is carried out. LOUD Technologies may, at our 
+option, require proof of the original date of purchase in the form 
+of a dated copy of the original dealer’s invoice or sales receipt. 
+Final determination of warranty coverage lies solely with LOUD 
+Technologies. 
+
+F. Any products returned to one of the LOUD Technologies 
+factory-authorized service centers and deemed eligible for repair 
+or replacement under the terms of this warranty will be repaired 
+or replaced within thirty days of receipt. LOUD Technologies 
+and its authorized service centers may use refurbished parts for 
+repair or replacement of any product. Products returned to LOUD 
+Technologies that do not meet the terms of this Warranty will be 
+not be repaired unless payment is received for labor, materials, 
+return freight, and insurance. Products repaired under warranty 
+will be returned freight prepaid by LOUD Technologies to any 
+location within the boundaries of the USA.
+
+G. LOUD Technologies warrants all repairs performed for 90 
+days or for the remainder of the warranty period. This warranty 
+does not extend to damage resulting from improper installation, 
+misuse, neglect or abuse, or to exterior appearance. This 
+warranty is recognized only if the inspection seals and serial 
+number on the unit have not been defaced or removed.
+
+H. LOUD Technologies assumes no responsibility for the quality 
+or timeliness of repairs performed by an authorized service 
+center.
+
+I. This warranty is extended to the original purchaser and to 
+anyone who may subsequently purchase this product within the 
+applicable warranty period. A copy of the original sales receipt is 
+required to obtain warranty repairs.
+
+J. This is your sole warranty. LOUD Technologies does not 
+authorize any third party, including any dealer or sales 
+representative, to assume any liability on behalf of LOUD 
+Technologies or to make any warranty for LOUD Technologies Inc.
+
+K. THE WARRANTY GIVEN ON THIS PAGE IS THE SOLE 
+WARRANTY GIVEN BY LOUD TECHNOLOGIES INC. AND IS IN 
+LIEU OF ALL OTHER WARRANTIES, EXPRESS AND IMPLIED, 
+INCLUDING THE WARRANTIES OF MERCHANTABILITY AND 
+FITNESS FOR A PARTICULAR PURPOSE. THE WARRANTY 
+GIVEN ON THIS PAGE SHALL BE STRICTLY LIMITED IN 
+DURATION TO THREE YEARS FROM THE DATE OF ORIGINAL 
+PURCHASE FROM AN AUTHORIZED MACKIE DEALER. UPON 
+EXPIRATION OF THE APPLICABLE WARRANTY PERIOD, LOUD 
+TECHNOLOGIES INC. SHALL HAVE NO FURTHER WARRANTY 
+OBLIGATION OF ANY KIND. LOUD TECHNOLOGIES INC. 
+SHALL NOT BE LIABLE FOR ANY INCIDENTAL, SPECIAL, OR 
+CONSEQUENTIAL DAMAGES THAT MAY RESULT FROM ANY 
+DEFECT IN THE MACKIE PRODUCT OR ANY WARRANTY 
+CLAIM. Some states do not allow exclusion or limitation of 
+incidental, special, or consequential damages or a limitation on 
+how long warranties last, so some of the above limitations and 
+exclusions may not apply to you. This warranty provides specific 
+legal rights and you may have other rights which vary from state 
+to state.
+
+Please keep your sales receipt in a safe place.
+
+Onyx 4•Bus Limited Warranty
+
+
+
+16220 Wood-Red Road NE • Woodinville, WA 98072 • USA
+United States and Canada: 800.898.3211
+Europe, Asia, Central and South America: 425.487.4333
+Middle East and Africa: 31.20.654.4000
+Fax: 425.487.4337 • www.mackie.com
+E-mail: sales@mackie.com
+
+http://www.mackie.com
+
+	Contents
+	Important Safety Instructions
+	Introduction
+	Getting Started
+	Zero the Controls
+	Connections
+	Set the Levels
+	Instant Mixing
+
+	Hookup Diagrams
+	Onyx 4•Bus Features
+	Mono Channel Strips
+	Stereo Channel Strips
+	Matrix, Compressor, and Metering Section
+	Phones/Monitor, Solo, Mono, and Talkback Section
+	Auxiliary Section
+	Group Section
+	Rear Panel
+
+	Appendix A: Service Information
+	Warranty Service
+	Troubleshooting
+	Repair
+
+	Appendix B: Connections
+	Appendix C: Technical Info
+	Onyx 4•Bus Specifications
+	Onyx 4•Bus Dimensions
+	Onyx 4•Bus Block Diagram
+	Onyx 4•Bus Gain Structure Diagram
+
+	Onyx 4•Bus Limited Warranty
+
+
+
+

@@ -1,0 +1,1158 @@
+
+ 
+ 
+
+ 
+ 
+
+Memory Upgrade 
+For Fanuc Series 0 Models A/AD/B/C/D 
+
+ 
+Installation Instructions 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+Copyright © 2010 
+ 
+
+Memex Automation Inc. 
+200 – 3425 Harvester Rd. 
+
+Burlington, Ontario Canada 
+L7N 3N1 
+
+Ph: 905-635-3040 Fax: 905-631-9640 
+www.memex.ca 
+
+ 
+M100702D
+
+
+
+Contents 
+
+M100702D 
+Page 2 
+
+Table of Contents 
+ 
+
+Chapter 1 – Introduction ......................................................................... 3 
+ 
+
+General ............................................................................................ ......... 3 
+ 
+
+Applicable Master Boards ......................................................................... 3 
+ 
+
+Applicable Memory Cards .........................................................................     3 
+ 
+Locating SRAM Module ..........................................................................    4 
+
+ 
+ 
+
+Chapter 2 - The Basics ............................................................................ 6 
+ 
+
+Installation Considerations ........................................................................  6 
+ 
+Backup Critical Parameters ....................................................................... 6 
+ 
+Verify Your Control ................................................................................ .... 6 
+
+ 
+ 
+
+Chapter 3 - Installation for Fanuc 0 ...................................................... 7 
+ 
+
+Back Up Your Control ...............................................................................  7 
+ 
+ Parameter Setting for Punching ......................................... 7 
+ 
+ NC Parameters .................................................................. 8 
+ 
+ PC Parameters .................................................................. 9 
+ 
+ Part Programs ................................................................... 9 
+  
+ Tool Offsets ....................................................................... 9 
+   
+Installation Procedures for Fanuc 0 .................................................  10-11 
+ 
+Restoring Your Fanuc 0 ................................................................... 12-14 
+ 
+ 
+
+Chapter 5 – Appendix ............................................................................ 15 
+ 
+Technical Summary for Fanuc 0 ........................................................... 15 
+ 
+Parameter Worksheet   ........................................................................  16-18 
+
+
+
+Chapter 2 – The Basics 
+
+M100702D 
+Page 3 
+
+Introduction 
+ 
+ 
+General 
+ 
+
+The following instructions are for the installation of additional SRAM for Fanuc Series 0-A, 0-B, 
+0-C and 0-D controls.  
+ 
+The 0-A control can be upgraded 48K (120 meters), while the 0-B, 0-C, 0-D and the Amada 0-
+4PC controls can be upgraded with 128K (320 meters).  
+ 
+The SRAM based memory is located in sockets on either the Main CPU board (0-A and 0-B) or 
+on the Memory Card (0-C, 0-D and 0-4PC) as illustrated on pages 4 and 5. The supplied IC’s 
+(integrated circuits) will be used to add to the existing SRAM on these boards.  
+ 
+These instructions will assist you in completing the memory upgrade for your Fanuc 0 Series 
+control.  Please read through this document completely to familiarize yourself with the installation 
+before actually performing your upgrade. 
+
+ 
+ 
+
+Applicable Master Boards 
+ 
+
+0-A & 0-AD 0-B 0-C / 0-4PC / 0-D * 
+A16B-1010-0150 A16B-1010-0280 A20B-1002-0360 
+A16B-1010-0210 A16B-1010-0281 A20B-1003-0750 
+A16B-1010-0240 A16B-1010-0285 A20B-2000-0175 
+
+ A16B-1010-0286 A20B-2000-0179 
+A20B-2000-0180   
+
+   A20B-2001-0120 * 
+ 
+
+Sample “B” Software Versions: 415, 815… 
+ 
+
+Applicable Memory Cards (0-C and 0-4PC) 
+ 
+
+Memory Cards A16B-1212-0210 Analog Spindle 
+(MEM-A3) A16B-2201-0103 Analog Spindle 
+
+ A16B-1212-0215 16 bit, Serial Spindle 
+ A16B-1212-0216 32 bit, Serial Spindle 
+ A16B-2201-0101 32 bit, Serial Spindle 
+
+Sample “C” Software Versions: 460,462,465,469,660,662,690,665,880,135…
+
+
+
+      Chapter 2 – The Basics 
+
+M100702D 
+Page 4 
+
+ 
+
+Locating SRAM Modules (0-A / 0-AD / 0-B) 
+
+ 
+ 
+ 
+
+   I/O 
+
+BA4 
+
+CAP 
+
+CV21 
+
+CF91 
+
+CV22 
+
+CF92 
+
+CA1 
+
+CA2 
+
+PAS 
+
+SO SI WDA 
+
+(4H) (3H) (2H) (1H) 
+
+(34L) (34H) 
+
+Memory 
+Modules 
+
+(4L) (3L) (2L) (1L) 
+
+A16B-1010-0150 (Analog) 
+A16B-1010-0210 (Digital) 
+A16B-1010-0240 (0-Mate) 
+
+Memory 
+Modules 
+
+   CS8 
+
+CPA4 
+
+CP11 
+
+CCX M3 M2 
+
+M49 M48 M47 
+
+PAS (1H) (2H) (3H) 
+
+(1L) (2L) (3L) 
+
+M46 M45 M44 
+
+M39 M38 M36 
+
+M36 M35 M34 
+
+M26 M27 M25 M74 
+
+CS7 CS3 CS2 (34H) 
+
+(34L) 
+
+(12H) 
+
+(12L) 
+
+Battery 
+connection 
+
+ 
+A16B-1010-0280 
+A16B-1010-0281 
+A16B-1010-0285 
+A16B-1010-0286 
+
+
+
+      Chapter 2 – The Basics 
+
+M100702D 
+Page 5 
+
+ 
+
+ 
+ 
+
+Locating MEM-A3 Card (0-C / 0-4PC) 
+ 
+ 
+
+ 
+ 
+ 
+
+Locating SRAM Modules (0-C / 0-D / 0-4PC) 
+ 
+
+M27 
+
+M12 
+M26 
+
+M3 
+CCX5 
+
+M5 
+M74 CPA7 
+
+(2H) (2L) 
+(3H) (3L) 
+
+Power 
+Supply 
+
+Memory 
+Card 
+
+A16B-1212-0210 
+A16B-1212-0215 
+A16B-1212-0216 
+A16B-2201-0101 
+A16B-2201-0103 
+
+Memory 
+Modules 
+
+Battery 
+Connection 
+
+
+
+      Chapter 2 – The Basics 
+
+M100702D 
+Page 6 
+
+ 
+
+The Basics 
+ 
+ 
+Installation Considerations 
+
+ 
+The installation of the SRAM modules should be conducted with care. Never install or remove a 
+board with the control power on (the main power can be on, but not the control). Take care with 
+the handling of the integrated circuits, as they are static sensitive. Do not place the IC’s in any 
+other sockets than as per pages 4 and 5. Do not force, drop or otherwise mishandle the modules 
+during the installation procedure and always check the functionality of the machine at the end of 
+the installation (i.e. move the axes, perform a tool change, run a program, etc.).  
+
+ 
+ 
+
+Backup Critical Parameters 
+ 
+For a Fanuc Series 0 upgrades it is very important that you have a hard copy back-up of all your 
+control’s critical parameters. The following instructions will assist you in dumping a majority of 
+the Fanuc’s parameters to a PC to be saved. However, it is still advised to keep or make, if you 
+haven’t already, a written copy of ALL the critical parameters. You can use the Parameter 
+Sheets in the Appendix of this manual to write down all Settings, PC and Diagnostics 
+parameters. All of the Diagnostic parameters between D300 and D600 must be written down 
+here. If you have a Fanuc 0C, you can serially download the PMC Diagnostic parameters. Be 
+sure that all of the files you downloaded have been successfully recorded and saved on your 
+computer before performing the upgrade to your control. Otherwise you will have no choice but 
+to enter ALL parameters by hand in MDI. 
+ 
+
+ 
+Verify Your Control 
+
+ 
+Once the memory modules have been installed and all parameters have been restored, satisfy 
+yourself that the control is working properly. 
+ 
+Test the machine by the following procedure through either MDI or program: 
+
+ Home all axes, tool-changers and pallets – check for need to reset 
+Absolute Pulse Coders here. 
+
+ Check spindle functionality through all speeds and gear ranges. 
+
+ Check also Clockwise and Counter-clockwise rotation with M3 and M4 
+commands. 
+
+ Check the tool changer. Be sure that the tool you received was the tool 
+requested and that the carousel rotates in the proper direction. 
+
+ Check the pallet changer (if applicable). If your machine requires special 
+custom macros for a pallet changer or tool changer, be sure that they 
+have been loaded.  
+
+ 
+Once your machine has been proven, you have successfully upgraded your control. 
+
+
+
+Chapter 3 – Installation for Fanuc 0 
+
+M100702D 
+Page 7 
+
+Installation for Fanuc  0 
+ 
+ 
+Backup Your Control  
+ 
+
+Before starting the installation, power on the control and verify that the machine tool is in good 
+working order.  
+
+ 
+ 
+I. Parameter Settings for Punching 
+ 
+Set up the following communication parameters for the desired CNC port. Please make note of the 
+original settings for proper restoration of the new memory (see page 16). 
+
+ 
+On the SETTINGS (HANDY) screen, set the following:  
+ 
+ 
+TVON =  0 (TV Check off) 
+ISO =   1 (ISO data format) 
+I/O =   0  (port number) 
+PWE =  0 (Parameter Write Enable OFF) 
+TAPE = 0 
+ 
+ 
+Write down the previous settings so that they can be restored upon completing the upgrade. Also 
+set the following parameters: 
+
+Chart 1 
+CNC 
+
+Parameter 
+Port 1-M5 
+
+I/O=0 
+Port 1-M5 
+
+I/O=1 
+Port 2-M74 
+
+I/O=2 
+Port 2-M74 
+
+I/O=3 
+Current 
+Settings 
+
+0002 1xxxxxx0 -- -- --  
+0012 -- 1xxxxxx0 -- --  
+0038 10xxxxxx 10xxxxxx xx10xxxx xx10xxxx  
+0050 -- -- 1xxx0xx0 --  
+0051 -- -- -- 1xxx0xx0  
+0250* -- -- 10 --  
+0251* -- -- -- 10  
+0552* 10 -- -- --  
+0553* -- 10 -- --  
+
+ 
+* Parameters 250, 251, 552 and 553 represent the baud rate during communication and are set here to 4800 
+
+baud. Parameter 552 is used if Setting I/O=0, 553 if I/O=1, 250 if I/O=2 and 251 if I/O=3. The protocol is 
+Even parity, 7 data bits and 1 stop bit. For more baud rate choices refer to the following Chart 2. 
+
+
+
+Chapter 3 – Installation for Fanuc 0 
+
+M100702D 
+Page 8 
+
+Trace the RS-232 cable from the serial port connector back to the CNC MEMORY PCB to 
+determine if you are connected to Port 1 (M5) or Port 2 (M74).  Then, label the serial port 
+connection so it is visible from the outside. 
+      
+                      Chart 2 for Serial Baud  
+                                          Parameter on 552/553 or 250/251 
+
+Parameter Value Baud Rate 
+1 50 
+2 100 
+3 110 
+4 150 
+5 200 
+6 300 
+7 600 
+8 1200 
+9 2400 
+
+10 4800 
+11 9600 
+
+ 
+ 
+II. PUNCHING CNC NC PARAMETERS (CNC - PC) 
+ 
+ Connect the Fanuc serial cable between the serial ports on your computer and the CNC. 
+ Set up your computer with a terminal software program (Telix / ProCom+ / Hyper Terminal).  
+ Perform the following steps on the PC and CNC as follows: 
+ 
+PC-- Using the Baud Rate set in parameters 552 & 553, Even parity, 7 Data bits and 1 Stop bits,  
+
+set your terminal program to receive a file. 
+ 
+PC-- Enter a file name to record the NC parameters. ie; #103.NCP (103 being the machine #) 
+ 
+CNC-- Go into EDIT mode. 
+ 
+CNC-- Make sure the “Memory Protect” key is off. 
+ 
+CNC-- Press DGNOS/PARAM, [PARAM], then hold EOB while you press OUTPUT/START.  
+
+NB:  Hold the EOB key while pressing the OUTPUT/START key to punch ALL 
+the NC Parameters, including the 900 level options.  
+
+ (The CNC will flash OUTPUT in the lower right corner of the CRT.) 
+ (The PC will display the text and count lines until finished.) 
+ 
+PC-- Save the file you just received from the CNC on the computer. 
+ 
+ 
+IMPORTANT: Check the .NCP file with a text editor to visually confirm that system parameters 
+
+N0900 series have been sent to the computer. If these parameters are not 
+found in your listing, please repeat this section (Punching CNC Parameters). 
+Take this moment to write down the 900 level system parameters for backup 
+purposes. 
+
+
+
+Chapter 3 – Installation for Fanuc 0 
+
+M100702D 
+Page 9 
+
+ 
+III. RECORD THE PMC PARAMETERS 
+ 
+You must manually copy down on paper ALL of the Diagnostic parameters between No. 300 – 
+600 (see page 18). These parameters represent the Timers, Counter, Keep Relays & Data Tables 
+used by the machine builder. On the Fanuc 0-C you can punch these PMC parameters. This 
+backup is necessary before continuing this memory upgrade. Be sure that all of the files above 
+have been successfully recorded or saved on your computer. If there is any doubt, please contact 
+Memex Automation before continuing. Some parameters are changing, ignore these – generally it 
+is every 5th one that you need as you can see on the attached chart. 
+ 
+
+Sample Fanuc 0-C PMC Parameter Dump 
+ 
+
+ Delete the feed info before the first % sign 
+
+
+
+
+
+
+
+
+
+
+… 
+
+
+
+
+
+ 
+IV. PUNCHING CNC PART PROGRAMS (CNC - PC) 
+ 
+ Ensure that Macro files in the 9000 range can be downloaded – set NC Parameter 10 bit 4 = 0 
+
+(xxx0xxxx) so that ALL programs can be backed up properly. 
+ 
+ Perform the following steps on the PC and CNC as follows: 
+ 
+PC-- Enter a file name to receive the NC parameters. ie; #103.PRG (103 being the machine #) 
+ 
+CNC-- In EDIT mode, with the “Memory Protect” key off, press PRGRM, [LIB], O-9999, then 
+ OUTPUT/START. 
+ 
+PC-- Save the file you just received from the CNC on the computer. 
+ 
+ 
+V. PUNCHING CNC TOOL OFFSETS (CNC - PC) 
+ 
+ Perform the following steps on the PC and CNC as follows: 
+ 
+PC-- Enter a file name to receive the NC parameters. ie; #103.TOF (103 being the machine #) 
+ 
+CNC-- In EDIT mode, with the “Memory Protect” key off, press OFFSET, and then 
+
+OUTPUT/START. 
+
+
+
+Chapter 3 – Installation for Fanuc 0 
+
+M100702D 
+Page 10 
+
+ 
+PC-- Save the file you just received from the CNC on the computer. 
+
+
+
+Chapter 3 – Installation for Fanuc 0 
+
+M100702D 
+Page 11 
+
+ 
+ 
+ 
+Installation Procedures for Fanuc 0 
+ 
+ 
+Make a print out of your .NCP parameter file. When you are confident that you have completely 
+saved all of your CNC information, you will be ready to proceed with your memory upgrade. 
+ 
+The part program and system memory is located on the Master Board for Fanuc 0-A and 0-B 
+Series controls and on the MEM-A3 card for 0-C and 0-4PC Series (see pages 4-5). Locate this 
+board in your machine control cabinet.  
+ 
+ Check that you have received all of the information out of your CNC control. Check also that 
+
+any Custom Macro Variables have been written down and recorded. 
+ 
+
+1. Power OFF the control and the machine. Open the cabinet door to expose the control’s Master 
+Board.  
+ 
+
+2. Clearly label all of the cables, daughter boards and their locations that are connected to the 
+Master Board. Once all the cables and boards are labeled, you can loosen and remove the 
+cables and daughter boards using a screwdriver including the MEM-A3 board (for 0-C and 0-
+4PC upgrades). You are now ready to potentially remove the battery connection (CPA7) from 
+the bottom of the Master Board (see “Master Trick” note blow).  
+
+ 
+Master Trick: 
+With great care, it is possible to install the modules and not have the battery removed. If each 
+module is carefully inserted so as not to short the battery to ground, you may find the main 
+memory has been saved. Worst case is that you will have to do the manual restore listed 
+below. Test this by powering up not holding RESET & DELETE in the beginning. 
+    
+
+3. Put on an anti-static wrist strap if available and clip the other end of it to the GND post in the 
+top corner of the Master Board. Locate the SRAM socket positions on the Master Board / 
+MEM-A3 board (see pages 4-5). This is where you have to insert or replace the larger of the 
+new memory modules. Optionally if there are already modules in these locations, you can use 
+the small screwdriver or a chip puller to carefully remove them.  Also locate the smaller SRAM 
+parity socket positions on the Master Board (0-A and 0-B upgrades only).  This is where the 
+smaller of the new memory modules go. 
+ 
+
+4. One by one, remove the memory module from the kit. Check that the pins are straight and be 
+wary of static discharge that may damage the memory modules. 
+ 
+
+5. Orient one supplied memory module above the socket with the “notch” in the same direction as 
+the “notch” in the socket (Pointing “Down”). Place one row of pins in the socket, then with a 
+little sideways pressure put the second row in. With steady pressure, push the memory module 
+down into the socket. Check that none of the pins have bent in during this process. Repeat this 
+step for the remaining modules. If components exist in the sockets – leave them. 
+ 
+
+
+
+Chapter 3 – Installation for Fanuc 0 
+
+M100702D 
+Page 12 
+
+6. Again, check your work before replacing any daughter boards back in the control. After you 
+replace the daughter boards and restore all of the cable connections, check your work. After 
+you are confident that every cable has been correctly connected, power up the control. 
+
+  
+7. If the CNC boots normally, then jump to the next step of enabling the option (set 
+
+P901=x1x00001 for 320M) and reload your 8000/9000 Macro Programs. You are done. 
+However, if the controls comes up with a parity error, then turn off and on the CNC power while 
+holding the  RESET & DELETE keys simultaneously. This will erase the new Master Board 
+memory in preparation for your information. 
+
+ 
+8. Now you are ready to proceed with the reloading of all of your parameters and programs. 
+ 
+ 
+
+
+
+Chapter 4 – Appendix 
+
+M100702D 
+Page 13 
+
+ 
+ 
+ 
+Restoring your Fanuc 0 
+ 
+ 
+I. RESTORING THE SYSTEM PARAMETERS 
+ 
+With the Emergency Stop button depressed, set the PWE parameter on page 2 of the SETTINGS 
+screen to a 1. Press DGNOS/PARAM, [PARAM] and page down to parameter 900. Enter the 
+values for parameters 900-1000. At this time, set up the communication parameters again the 
+same way you did in Part 1-CNC Parameter Settings. When you are finished, turn off the power to 
+the control, then power on again. 
+ 
+ 
+II. READING CNC PARAMETERS (PC - CNC) 
+ 
+ Set the PWE parameter, then press DGNOS/PARAM, [PARAM] and set up the CNC 
+
+communication parameters in accordance with the following. 
+ 
+ 
+On the SETTINGS (Handy) screen and in MDI mode, set the following:   
+ 
+
+TVON =  0 (TV Check off) 
+ISO =   1 (ISO data format) 
+I/O =   0  (desired port number placed here) 
+PWE =  1 (Parameter Write Enable OFF) 
+TAPE = 0 
+
+ 
+For example – if you used Port 0 you would set parameters P901.6 to 1, P552=11 (for 9600 
+baud), P2=1xxx xxx0 for E71 with no feed and P38=10xx xxxx to get serial communications going 
+again. 
+ 
+NB: Check that after using the software that Parameter 901=x1x0 0001 (where x is don’t care) for 
+320M on Fanuc 0B &C, or P901=x1x0 0010 is set for 120M on the Fanuc 0A. 
+ 
+You should have the original settings written on page 16 (as per page 7) to be restored after all 
+other parameters are restored via the serial port.  In order to do this set the parameters for the 
+serial ports as per Chart 1 (page 7) and Chart 2 (page 8).  
+
+
+
+Chapter 4 – Appendix 
+
+M100702D 
+Page 14 
+
+ 
+ Set up the communications software on your computer to send a file. 
+ Perform the following steps on the PC and CNC as follows: 
+ 
+CNC-- In EDIT mode, press the DGNOS/PARAM, [PARAM], INPUT keys. 
+ (The CNC will flash LSK in the lower right corner of the CRT.) 
+ 
+PC-- Send the file with the .NCP extension to the control.  When the parameters have been 
+received,  Power OFF the control, then power it ON again. 
+ 
+ 
+III. WRITING THE PC PARAMETERS 
+ 
+You must manually input into the control, ALL of the Diagnostic parameters between No. 300-600. 
+At the end of this entering what you can, cycle the power completely (that is power off even back 
+to the main breaker - this reset the servo drives by the way). 
+ 
+ 
+IV. READING CNC TOOL OFFSETS 
+ 
+ Set up the CNC parameters in accordance with section 1. 
+ Set up the communications software on your computer to send a file. 
+ Perform the following steps on the PC and CNC as follows: 
+ 
+CNC-- In EDIT mode, press the OFFSET, then [INPUT] keys. 
+ (The CNC will flash LSK in the lower right corner of the CRT.) 
+ 
+PC-- Send the file with the .TOF extension to the control. This should reload all of your tool 
+offsets. 
+ 
+CNC-- Execute this .TOF file to set the Tool Offsets. 
+ 
+CNC-- Delete this file from the Programs in the CNC. 
+ 
+V. READING CNC PART PROGRAMS 
+ 
+ Set up the CNC parameters in accordance with section 1. 
+ Set up the communications software on your computer to send a file. 
+ Perform the following steps on the PC and CNC as follows: 
+ 
+CNC-- In EDIT mode, with the memory protect KEY switched off, Press the EDIT/AUTO, 
+[PRGRM],  then INPUT keys.(The CNC will flash LSK or “lead skip” in the lower right corner of 
+the CRT.) 
+ 
+PC-- Send the file with the .PGM extension to the control. This should reload all of your 
+programs. 
+ Don’t forget to reset parameter 10 if you had previously changed it. That will protect your 
+macro  programs (if applicable). 
+ 
+
+
+
+Chapter 4 – Appendix 
+
+M100702D 
+Page 15 
+
+ 
+ 
+ 
+VI. CLEAR ABSOLUTE ENCODER (if applicable) 
+ 
+1. Power up with  “No.QRP” + “CAN” or “P” + “CAN” to clear (or reset) any absolute encoders if 
+
+applicable. You will know this is needed if the machine over-travels upon homing, but is a long 
+way from normal home. 
+ 
+
+2. Reference machine manually as usual. 
+ 
+Restore any of the NC parameters that you changed from their original state (see SETTING, 
+communications settings etc. You will have to set PWE to do this. Double check the INCH versus 
+METRIC setting in the SETTING HANDY screen (a metric setting which is the default, will make 
+the machine seem to crawl when a program asks for what it thought was an INCH move). Check 
+the MIRROR AXES settings as well. 
+ 
+ Also remember to re-protect your 9000 level programs with parameter 10 bit 4 (xxx1 xxxx) if 
+
+applicable. 
+ 
+After a complete test - including exercising the tool changer if applicable - you will have completed 
+your installation. 
+ 
+Remember to change the 3 D cell batteries that keep your control memory backed up on a regular 
+basis (once a year) with the CNC control power ON. Call Memex if you would like to investigate 
+our permanent Fanuc MxBRU Battery Replacement Unit (see below).  
+ 
+Fanuc Serial Cable: 
+ 
+Pin 1 Frame Ground Pin 4 Request to Send Pin 7 Signal Ground   
+Pin 2 Transmit Data  Pin 5 Clear to Send  Pin 8 Carrier Detect 
+Pin 3  Receive Data  Pin 6 Data Set Ready Pin 20 Data Terminal Ready 
+ 
+Normally pins 6, 8 & 20 are jumpered on the Fanuc side. Also pins 2 & 3 are usually crossed, as 
+are 3 & 4, when connected to a PC with a DB25 connector.  
+ 
+Note that Fanuc has +24 volts on pin 25! 
+
+
+
+Chapter 4 – Appendix 
+
+M100702D 
+Page 16 
+
+ 
+
+ 
+
+
+
+Chapter 4 – Appendix 
+
+M100702D 
+Page 17 
+
+Appendix 
+ 
+ 
+Technical Summary for Fanuc 0 
+ 
+PUNCHING 
+Punch NC Parameters - EDIT mode, PARAM screen, EOB + OUTPUT/START 
+Punch PC Parameters  - EDIT mode, DGNOS screen, OUTPUT/START 
+Punch All Programs -  EDIT mode, PRGRM screen, 0-9999, OUTPUT/START 
+Tool Offsets -  EDIT mode, OFFSET screen, OUTPUT/START 
+ 
+READING 
+Load NC Parameters - EDIT mode, PARAM screen, EOB + INPUT 
+Load PC Parameters  - EDIT mode, DGNOS screen, INPUT 
+Load All Programs -  EDIT mode, PRGRM screen, INPUT 
+Load Tool Offsets -  EDIT mode, OFSET screen, INPUT 
+ 
+CLEARING 
+Delete All memory - Power On holding RESET + DELETE 
+ 
+Standard Fanuc Serial Port: (DB-25 Female) 
+1 = Frame Ground  6 =  Data Set Ready 
+2 = Transmit Data  7 =  Signal Ground 
+3 = Receive Data  8 =  Carrier Detect 
+4 = Ready To Send  20= Error (Data Terminal Ready) 
+5 = Clear To Send  25= +24 Volts DC 
+ 
+The usual software handshaking cable configuration has 2, 3 crossed & 7 connected straight through (with 
+4&5 jumpered  - or used if hardware handshake lines are preferred) and pins 6,8 & 20 jumpered on the 
+control side only.  
+ 
+Fanuc ISO Protocol: (E,7,x) 
+The standard protocol for Fanuc controls is “Even parity”, “7 data bits” and either “1 or 2 stop bits”) 
+See Parameters 101, 111, 121 and 131 above 
+ 
+
+Determination of Fanuc 0 Model Types 
+ 
+To determine the version of the Fanuc 0 series CNC Control, check the master board number and/or the 
+software version. The Master board number is found on the top left side of the main circuit board, usually 
+mounted in the control cabinet that has the daughter card attached. It should not be confused with  
+“A02B-????-????” numbers, which are Fanuc’s ordering numbers and are usually found on a sticker above 
+the master board.   Use the following table to determine which unit you have. 
+ 
+You can determine the software version by powering-up the control with E-stop active (button depressed). 
+The control should hang on the software version screen (in the lower right corner of this screen, you will see 
+the servo version number as well). Please note that Memex has a MxBRU (Battery Replacement Unit) 
+available that provides a maintenance-free rechargeable Lithium battery backup for this control. 
+ 
+1985 / 1986  Fanuc 0-MA and Fanuc 0-TA 120M maximum battery backed resident memory. 
+1987 / 1989  Fanuc 0-MB and Fanuc 0-TB  320M maximum battery backed resident memory. 
+1990 / 1998  Fanuc 0- MC and Fanuc 0-TC 320M maximum battery backed resident memory. 
+1999 / today  Fanuc 0- MD and Fanuc 0-TD 320M maximum battery backed resident memory
+
+
+
+Chapter 4 – Appendix 
+
+M100702D 
+Page 18 
+
+ 
+ 
+ 
+Parameter Worksheet 
+ 
+Company:_________________________________ Machine No.:___________    Date:_____________ 
+ 
+Fanuc 0-___ Software Version: _______________ Main CPU Board No.: _____________________ 
+ 
+ 
+ 
+
+Setting Screen Data 
+TV ON  PWE  
+
+ISO  TAPE  
+I/O    
+
+ 
+ 
+
+PC Parameters 
+Par. Value Par. Value Par. Value Par. Value Par. Value 
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+Par. = Parameter Number 
+
+
+
+Chapter 4 – Appendix 
+
+M100702D 
+Page 19 
+
+ 
+Diagnostics Parameters 
+
+Parameter Data Parameter Data 
+D300  D375  
+D301  D376  
+D305  D390  
+D306  D391  
+D310  D395  
+D311   
+D315  COUNTER 1 
+D316  D380  
+D320  D381  
+D321  D382  
+D325   
+D326  COUNTER 2 
+D330  D385  
+D331  D387  
+D335  
+D340  
+
+ 
+PC SWITCH 
+
+D341  D400  
+D345  D420  
+D346  D421  
+D350  D422  
+D351  D423  
+D355  D424  
+D356  
+D360  
+
+ 
+DATA TABLE 
+
+D361  D440  
+D365  D441  
+D366  
+D370  
+
+ 
+TOOL CHANGE 
+
+D371  D382  
+  D387  
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+Chapter 4 – Appendix 
+
+M100702D 
+Page 20 
+
+ 
+Spare Parameter Sheet 
+
+No. Data No. Data No. Data No. Data. 
+0  0  0  0  
+1  1  1  1  
+2  2  2  2  
+3  3  3  3  
+4  4  4  4  
+5  5  5  5  
+6  6  6  6  
+7  7  7  7  
+8  8  8  8  
+9  9  9  9  
+0  0  0  0  
+1  1  1  1  
+2  2  2  2  
+3  3  3  3  
+4  4  4  4  
+5  5  5  5  
+6  6  6  6  
+7  7  7  7  
+8  8  8  8  
+9  9  9  9  
+0  0  0  0  
+1  1  1  1  
+2  2  2  2  
+3  3  3  3  
+4  4  4  4  
+5  5  5  5  
+6  6  6  6  
+7  7  7  7  
+8  8  8  8  
+9  9  9  9  
+0  0  0  0  
+1  1  1  1  
+2  2  2  2  
+3  3  3  3  
+4  4  4  4  
+5  5  5  5  
+6  6  6  6  
+7  7  7  7  
+8  8  8  8  
+9  9  9  9  
+0  0  0  0  
+1  1  1  1  
+2  2  2  2  
+3  3  3  3  
+4  4  4  4  
+5  5  5  5  
+6  6  6  6  
+7  7  7  7  
+8  8  8  8  
+
+
+
+Chapter 4 – Appendix 
+
+M100702D 
+Page 21 
+
+ 
+
+ 
+ 
+Notes: 
+
+
+
+Chapter 4 – Appendix 
+
+M100702D 
+Page 22 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+Memex Automation Inc. 
+200 – 3425 Harvester Rd. 
+
+Burlington, Ontario 
+Canada L7N 3N1 
+
+Phone: 905-635-3040 Fax: 905-631-9640 
+www.memex.ca 
+
+ 
+ 
+ 
+ 
+
+Thank you for using Memex products 
+ 
+ 
+ 
+ 
+
+Manufacturing Connectivity Solutions™ 
+ 
+ 
+ 
+ 
+ 
+
+File: /ISO9000/DOCS/ M100702D - MAI Memory Upgrade for Fanuc 0.doc 
+
+

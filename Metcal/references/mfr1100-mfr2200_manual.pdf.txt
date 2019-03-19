@@ -1,0 +1,272 @@
+
+1 
+
+MFR-1100 SERIES 
+Single Output Soldering & Rework System 
+
+MFR-2200 SERIES 
+Dual Simultaneous Output  
+
+Soldering & Rework System 
+
+MFR-1100 & MFR-2200 Series User Guide 
+
+MFR-1100 & MFR-2200 Serie Betriebsanleitung 
+
+Série MFR-1100 & MFR-2200 Manuel d’utilisation 
+
+Serie MFR-1100 & MFR-2200 Manuale dell'utente
+
+Serie MFR-1100 & MFR-2200 Guía del usuario 
+
+Copyright © OK International, Inc. 7000-2571_B 
+
+Test Equipment Depot - 800.517.8431 - 99 Washington Street Melrose, MA 02176
+
+ TestEquipmentDepot.com 
+
+http://www.testequipmentdepot.com/
+
+
+2 
+
+With power applied, the tip temperature can be > 300°C. Failure to observe the following 
+precautions may lead to injury to users or damage the equipment: 
+
+• Do not touch any metallic parts of the hand-piece  
+• Do not use near flammable items  
+• Do not use unit for any function other than described in this manual  
+• Use only genuine MFR replacement parts  
+• Use in a well-ventilated area  
+• Do not use the equipment with wet hands  
+• Connect only to properly grounded outlets to prevent risk of electric shock. 
+• Always place hand-piece back into the work stand to prevent accidental 
+
+burning of oneself or surrounding objects. 
+• This appliance is not intended for use by persons (including children) with 
+
+reduced physical, sensory or mental capabilities, or lack of experience and 
+knowledge, unless they have been given supervision or instruction concerning 
+use of the appliance by a person responsible for their safety.  
+
+• Children should be supervised to ensure that they do not play with the 
+appliance.  
+
+Although the systems offer superior EOS (Electrical Overstress) protection, periodic 
+checks of the instrument cord should be incorporated into standard operator 
+maintenance procedures. 
+
+Waste Electrical and Electronic Equipment Directive - WEEE (2002/96/EC). 
+
+When this product is no longer required, if it cannot be re-used, 
+we ask our customers not to dispose of it as unsorted municipal 
+waste but to appropriately recycle the product. 
+
+WARNING! 
+
+
+
+3 
+
+Initial Setup & Operation. 
+
+1. Connect hand-piece(s) to power unit output connector(s).
+2. Insert your selected tip or cartridge into the hand-piece. Push the tip or
+
+cartridge all the way until it seats (See instructions supplied with each hand-
+piece).
+
+3. Place hand-piece(s) into associated work stand(s).
+4. Add distilled water to work stand sponge (sulfur free).
+5. (MFR-2200) Select the desired channel using the selector switch.  Either Left,
+
+Right or Both (Selector switch is in the center position to run both channels
+simultaneously)
+
+6. Plug the power cord into a grounded wall socket of the rated input line voltage.
+7. To turn the unit on, push the AC power switch. The AC power LED should light
+
+up in green.
+8. Unit must be grounded, otherwise it will not work, and the AC power LED will
+
+light in red.
+9. Unit will not work in electrical network where an isolation transformer has been
+
+used.
+Always use tip removal pad for changing tips. 
+
+WS1 for soldering hand-pieces 
+or 
+
+MFR-WSPT for tweezers hand-
+piece
+
+MFR-H2-ST2 
+MFR-H1-SC2 
+
+MFR-H4-TW 
+
+See inserts for relevant hand-piece operating instructions 
+
+Contents and Identification of Features 
+
+MFR-PS1100 MFR-PS2200 
+
+MFR-H6-SSC 
+
+AC Power LED 
+
+AC Power 
+Switch
+
+Output 
+Connector 
+
+Channel 
+Switch 
+
+Channel 
+LED 
+
+Test Equipment Depot - 800.517.8431 - 99 Washington Street Melrose, MA 02176
+
+ TestEquipmentDepot.com 
+
+http://www.testequipmentdepot.com/
+
+
+4 
+ 
+
+      Channel LED 
+• Green --- On / Ready 
+• Red ------ Open connection: tip, connector  
+• Off ------- Channel not selected or channel is in Auto Off 
+
+(cycle the power switch to reset) 
+
+      AC Power LED 
+• Green --- Power On 
+• Red ------ Ground Fault  
+• Off ------- Power Off 
+
+ 
+Auto-Sleep and Auto Off Functions 
+   
+To prolong tip life, MFR systems with a soldering hand-piece (MFR-H1-SC2, MFR-H2-
+ST2) include an “Auto-Sleep Workstand” (WS1).  When the hand-piece is placed into the 
+workstand, the “Auto-Sleep Workstand” immediately reduces power to the hand-piece.   
+All MFR systems have an “Auto Off” Function. The “Auto Off” Function will be engaged 
+when the hand-piece has been idle in the sleep stand for a period of two hours. The 
+channel LED indicator light will go from green to off.  The “Auto Off” Function can be 
+reset by cycling the power switch. 
+ 
+ LED Indications and Meaning 
+
+ 
+       
+ 
+
+System Specifications 
+Ambient Operating Temperature 10- 40°C 
+Maximum Enclosure Temperature 55°C 
+Input Line Voltage    100- 240 VAC, grounded circuit 
+Input Line Frequency  50/60 Hz  
+Power Consumption  
+
+MFR-1100 70 Watts max. 
+MFR-2200 130 Watts max. (With both channels on) 
+
+Output Power Max.  60 Watts max. Per channel at 22°C ambient 
+temperature 
+
+Output Frequency   450--480 KHz 
+Power Cord 3-Wire   183cm (18/3) SJT 
+Dimensions w x d x h       
+
+MFR-1100    90mm (3.5”), 297mm (8”), 142 mm (5.6”) 
+MFR-2200   122mm (4.8”), 200mm (8”), 152.5mm (6”) 
+
+Certification / Marking  cTUVus, CE 
+Tip-to-Ground Potential  <2mV 
+Tip-to-Ground Resistance  <2 ohms 
+Idle Temperature Stability  ± 1.1°C in still air 
+Hand-piece Cable Length  L=122cm (48”), burn proof, ESD safe 
+Hand-piece Connector  8-pin circular DIN 
+Workstand Dimensions w x d x h 100 mm (4”) x 200 mm (8”) x 100 mm (4”) max 
+  
+
+MFR-PS1100 MFR-PS2200 
+
+
+
+5 
+
+Accessories & Spares 
+The following upgrade kits provide extra hand-pieces with workstands as a set 
+
+MFR-UK1 Upgrade Kit: Solder cartridge hand-piece & WS1 workstand 
+MFR-UK2 Upgrade Kit: Solder tip hand-piece & WS1 workstand 
+MFR-UK4 Upgrade Kit: Tweezers hand-piece & MFR-WSPT workstand 
+MFR-UK6 Upgrade Kit: SSC Solder cartridge hand-piece & WS1 workstand 
+
+ AC-CP2 Soldering cartridge / tip removal pad 
+ MFR-CA3 Coil Assembly for MFR-H2-ST2 hand-piece 
+ MFR-PM70 Power meter, MFR, 0-70W scale 
+
+Soldering and Rework Tips and Cartridges 
+OKi offers a comprehensive range of cartridges and tips for each of its handpieces.  
+
+MFR-H2-ST2 Soldering tip hand-piece 
+SxV Series production soldering & touch-up soldering tips 
+CxV “Clean-up” blade tips for BGA pad clean-up 
+
+MFR-H1-SC2 Soldering cartridge hand-piece 
+SxP Soldering cartridge tips 
+RxP Rework cartridge tips 
+
+MFR-H1-SC2 Soldering cartridge hand-piece 
+SxP Soldering cartridge tips 
+
+MFR-H4-TW Precision tweezers handpiece 
+TxP Series cartridges for SMD rework 
+
+MFR-H6-SSC Soldering cartridge hand-piece 
+SSC Soldering cartridge tips 
+
+
+
+6 
+
+SmartHeat® & Calibration 
+Each cartridge or tip is equipped with a self-regulating heater which ‘senses’ its own 
+temperature and tightly maintains its pre-set idle temperature for the life of the heater-tip; 
+all controlled by OK International’s proprietary SmartHeat® Technology. The tip 
+temperature is determined by the inherent metallurgical properties of the heater; no 
+external adjustment or equipment is required. The power delivered to the tip 
+automatically varies in direct response to the thermal load. This eliminates spikes and 
+transients associated with electrically switched elements found in conventional soldering 
+irons. Please feel free to contact your OK International representative with any 
+questions. 
+
+Warranty 
+OK International warrants the MFR against any defects in materials or workmanship for 
+one (1) year from the date of purchase by the original owner.  This Warranty excludes 
+normal maintenance and shall not apply to any opened, misused, abused, altered or 
+damaged items. If the product should become defective within the warranty period, OK 
+International will repair or replace it free of charge at its sole option. The repaired or 
+replacement item will be shipped, freight prepaid, to the original purchaser. The warranty 
+period will start from the date of purchase. If the date of purchase cannot be 
+substantiated the date of manufacture will be used as the start of the warranty period. 
+
+The MFR-H2-ST2 hand-piece uses a coil assembly (MFR-CA3) which is a replaceable 
+item.  OK International warrants the coil for 30-days regular use.  
+
+Test Equipment Depot - 800.517.8431 - 99 Washington Street Melrose, MA 02176
+
+ TestEquipmentDepot.com 
+
+http://www.testequipmentdepot.com/
+
+
+

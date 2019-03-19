@@ -1,0 +1,5406 @@
+
+Micro-Scope IIa
+
+Artistic Licence (UK) Ltd.Artistic Licence (UK) Ltd.
+Software Version V5.0     Manual Revision V4.0
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 2
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 3
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 4
+
+Artistic Licence Product Registration Form
+
+Product: Micro-Scope IIa Version No.
+
+Serial No. Date Purchased:
+
+Supplier:
+
+Name:
+
+Company Name:
+
+Address:
+
+Post/Zip Code: Phone No.
+
+Comments:
+
+Please return to: Artistic Licence (UK) Ltd.
+B1 & B3 Livingstone Court, Peel Road, Harrow, Middlesex HA3 7QT. England.
+
+Tel/Fax: +44 (0) 181 863 4515
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 5
+
+Product Registration Form.....................3
+Introduction ...........................................5
+
+Quick Start .......................................5
+Features...........................................5
+
+What’s New in Micro-Scope IIa..............6
+The Control Surface ..............................7
+Over-view..............................................7
+Keyboard...............................................7
+
+MENU ..............................................7
+TOGGLE..........................................7
+LEFT RIGHT ....................................7
+UP DOWN........................................7
+
+Menus ...................................................8
+Displaying Received DMX512................9
+
+Status...............................................9
+DMX Base Address ..........................9
+Display Modes................................10
+Data Received Indicator..................10
+Data Error Indicator ........................10
+Loop Through Indicator...................11
+Max/Min Mode................................11
+Flicker Hunt ....................................11
+
+Detail Mode......................................... 11
+Trigger Output..................................... 12
+Generating DMX512............................ 13
+Transmit Rig Check............................. 13
+Transmit Preset................................... 13
+Transmit Lamp.................................... 14
+Transmit Dynamic DMX512................. 15
+Presets ............................................... 15
+
+Snapshot DMX to Preset-12........... 15
+Fill Preset with Pattern ................... 15
+
+Testing Cables .................................... 16
+Double Ended Cable Test ................... 16
+Single Ended Cable Test..................... 16
+Auto-Backup ....................................... 17
+Loop Through...................................... 17
+Start Codes......................................... 17
+Displaying Received MIDI ................... 18
+Backlight Menu ................................... 18
+Power Supply...................................... 19
+Pin Connections.................................. 19
+Appendix A Lamp Library .................... 20
+Lamp bug report form.......................... 32
+Appendix B Conversion Tables............ 33
+
+C            O            N             T            E             N             T             S
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 6
+
+Quick Start
+Welcome to the Micro-Scope manual. Micro-Scope is a sophisticated
+DMX512 and MIDI analyser, but is remarkably simple to operate.
+
+Users who are familiar with either DMX512 or MIDI should find that a
+scan of the Control Surface section is sufficient to get started.
+
+Please remember to return your product registration card, so that
+we can keep you informed of new developments.
+
+Features Micro-Scope provides the following features:
+• Receives DMX512 & MIDI
+• Display as bar chart, decimal, percentage or hexadecimal
+• Display update rate, number of channels received, Break and MaB
+
+time
+• Display maximum, minimum and current value of a single channel
+• Double and single ended cable test
+• Generate DMX512 or re-transmit buffered DMX512 or MIDI
+• Fifteen Preset memories with snapshot
+• Auto-backup, transmits Preset if console fails.
+
+I       N       T       R       O       D       U       C       T       I       O      N
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 7
+
+What’s New
+in Micro-
+Scope IIa
+
+A range of powerful new features have been added to Micro-Scope IIa.
+
+1. The display now has an LED backlight for those difficult under-stage
+problems!
+
+• The backlight is software controlled and can be switched off
+when not required.
+
+• When operating on battery power, a power saver
+automatically switches off the backlight when the product is
+idle for more than one minute. The next key press re-
+illuminates the backlight.
+
+ 
+2. A new transmit menu provides a list of over ninety manufacturer
+
+specific lamp definitions. This allows fast and automated testing of
+automated luminaires without reference to the user manual or a
+binary calculator.
+
+• The following attributes can be automatically tested:
+• Lamp on and pointed to centre position.
+• Intensity ramp.
+• Pan test.
+• Tilt test.
+• Combined Pan & Tilt test.
+• Colour cycle through up to four colour channels.
+• Gobo cycle.
+• Aux. channel test which is manufacturer dependent
+
+but usually tests either Iris or Zoom.
+• The library includes entries for all the operating modes of
+
+each lamp, including 16 bit pan and tilt.
+ 
+3. A new receive mode displays two channels in both binary and
+
+hexadecimal.
+• This is invaluable for product designers and engineers when
+
+solving serious equipment faults such as stuck data lines.
+ 
+4. A new Flicker Finder ‘Hunt Mode’ has been added. This allows Micro-
+
+Scope to continuously sample consecutive channels and display the
+error if the channel level fluctuates outside a user programmable
+range.
+
+5. A “Don’t Care” mode for the received start code. This is particularly
+useful for Compulite equipment.
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 8
+
+Over-view
+Micro-Scope is operated by the six front panel buttons. The buttons
+function as follows:
+
+MENU
+The MENU key is used to select the operating mode of Micro-Scope.
+Pressing MENU once will display the currently selected mode. The LEFT
+and RIGHT cursor keys are then used to select a new operating mode.
+The process is completed by pressing MENU a second time.
+
+TOGGLE
+When Micro-Scope is in DISPLAY RECEIVED DMX512, the TOGGLE
+key is used to step through the different display formats (bar graph,
+percent, decimal etc.).
+
+In TRANSMIT mode, the TOGGLE key is used to invert the level of the
+selected channel.
+
+In TRANSMIT LAMP mode, the TOGGLE key selects each of the
+automated tests in sequence.
+
+LEFT
+RIGHT
+
+When Micro-Scope is in DISPLAY RECEIVED DMX512, the LEFT and
+RIGHT cursor keys are used to select a new base address.
+
+In TRANSMIT DMX512 modes, the LEFT and RIGHT cursor keys are
+used to select a new transmit channel.
+
+If Micro-Scope is displaying the menu, the LEFT and RIGHT cursor keys
+are used to select the next operating mode.
+
+UP
+DOWN
+
+The UP and DOWN cursor keys are used to increment or decrement the
+level of the displayed data.
+
+T   H   E      C    O    N    T    R    O    L      S    U    R    F    A   C    E
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 9
+
+MENUS Upon entering MENU mode, twelve different operating modes may be
+selected.  These are:
+
+DISPLAY RECEIVEDDISPLAY RECEIVED
+dmx512dmx512  1 1
+
+Displays the DMX512 signal from any
+console, in any of the six available
+formats
+
+TRANSMITTRANSMIT
+RIG CHECKRIG CHECK  2
+
+Transmit DMX512.  Only a single
+channel on at a level.  This is the  basic
+flash through rig mode.
+
+TRANSMIT PRESETTRANSMIT PRESET
+NUMBER: 15NUMBER: 15  3 3
+
+Transmit and edit one of 15 Presets.
+Each Preset allows all 512 channels at
+individual levels.
+
+TRANSMIT lampTRANSMIT lamp
+vari*lite vl6vari*lite vl6  4 4
+
+Automatically test any automated
+luminaire from the library.
+
+TRANSMIT DYNAMICTRANSMIT DYNAMIC
+dmx512dmx512  5 5
+
+Transmit any range of channels at a
+level or continuously ramping.
+
+snapshot dmx tosnapshot dmx to
+preset: 15preset: 15  6 6
+
+Copy received DMX to any of the 15
+Presets. Used to create show backup or
+record useful test patterns.
+
+FILL PRESETFILL PRESET
+WITH PATTERNWITH PATTERN  7 7
+
+Fill one of the 15 Presets with a
+symmetrical pattern of channel levels.
+
+double endeddouble ended
+cable testcable test  8 8
+
+Fully test all three pins of DMX512 or
+MIDI cables for shorts and open circuits.
+
+SINGLE ENDEDSINGLE ENDED
+CABLE TESTCABLE TEST  9 9
+
+Test the two signal pins of DMX512 or
+MIDI cables for shorts, when only the
+console cable end is available.
+
+AUTOBACKUP IFAUTOBACKUP IF
+DMX FAILSDMX FAILS 1010
+
+Allows Micro-Scope to connect in-line
+between desk and dimmers. Switches to
+a selected Preset if the desk fails.
+
+BUFFER DMX MIDIBUFFER DMX MIDI
+ENABLEDENABLED 1111
+
+Switch between the DMX512 output of
+Micro-Scope and a regenerated
+version of the received signal.
+
+SELECT DMX STARTSELECT DMX START
+CODE: 000CODE: 000 1212
+
+Allows Micro-Scope to operate with non-
+standard start codes.
+
+DISPLAY RECEIVEDDISPLAY RECEIVED
+MIDIMIDI 1313
+
+Display MIDI data characters in
+hexadecimal form.
+
+backlightbacklight
+enabledenabled 1414
+
+Enable or disable the display backlight
+.
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 10
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 11
+
+DISPLAYING
+RECEIVED
+
+DMX512
+
+In DISPLAY RECEIVED DMX512 mode the following keys are active:
+• LEFT        Decrement the current DMX512 start address
+• RIGHT      Increment the current DMX512 start address
+• TOGGLE  Select the display format
+Received DMX512 data is displayed in one of seven formats.  They
+are:
+• Bar Graph
+• Decimal
+• Percent
+• Hex
+• Binary
+• Max/Min & Flicker Hunt
+• Detail
+
+STATUS The first five display formats also include the following information:
+1. DMX512 base address
+2. Display mode
+3. Data received indicator
+4. Data error indicator
+5. Loop-Through indicator
+The diagram below shows Micro-Scope receiving DMX512 in bar graph
+mode.
+
+DMX BASE The DMX base address is in the range 1 to 512 and defines the first
+channel displayed.  This value is also used to set the TRIGGER
+OUTPUT.
+
+1. DMX512 Base
+
+2. Display Mode
+
+3. Data Received
+
+4. Data Error
+
+5. Loop Through
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 12
+
+DISPLAY
+MODE
+
+This character shows the currently selected display mode:
+
+Bar-graph mode displays twenty four channels as a bar-graph with a
+resolution of 12.5%.  Whilst the resolution of this mode is limited, it is
+often the most useful when the DMX line is running show information.
+It is easy to pick out chases, which in other display modes could be
+mistaken for flickering data.
+
+D Decimal mode displays six channels as numbers in the range 0 to 255.
+This mode shows the entire resolution of each channel. It is most
+useful when dealing with moving lights and colour changers.
+
+% Percent mode displays six channels as numbers in the range 0 to 100.
+This mode provides the most familiar numbering system.
+
+$ Hexadecimal mode displays six channels as numbers in the range 00
+to FF.  This mode is most useful when working with DMX devices such
+as relay boxes and smoke machines, which use bit control.  See
+Appendix for conversion tables.
+
+B Binary mode displays two channels as both binary and hexadecimal.
+This mode is most useful for electronic designers and engineers when
+solving complex electronic problems such as a damaged data bus.
+
+DATA
+RECEIVED
+
+This character cell displays a tilde to show that data is being received.
+The data is not necessarily valid DMX512.
+
+DATA
+ERROR
+
+This character cell is clear when good data is being received.  If
+an error occurs, one of the following is displayed:
+
+H DMX512 is being received with a non matching Header or start code.
+
+F Data is being received with Framing errors.  This can be caused by
+noise pick-up and also occurs when the phase pins of the connector
+are reversed.
+
+O Data is being received with Overrun errors.  This can be caused by
+noise pick-up and also occurs when a phase pin is disconnected.
+
+T The received data is outside the DMX512 Timing specification.  This
+display occurs when either the number of channels per frame exceeds
+512, or the Break time is less than 88uS, or the MaB time is less than
+4uS.
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 13
+
+LOOP
+THROUGH
+
+This character cell displays 'L' when Micro-Scope's output is providing
+a clean and buffered version of the incoming DMX512.  When the
+character cell is clear, Micro-Scope's DMX512 generator is connected
+to the output.
+
+MAX/MIN
+MODE
+
+Max/Min mode is the "Flicker Finder". A single DMX512 channel is
+displayed as the current value, minimum value and maximum value.
+All three numbers are decimal 0 to 255.
+This mode will capture any fluctuations in the level of a channel.
+To clear  the  Max  and Min  values,
+press  the MENU  key twice.  When
+data is not received on the selected
+channels, the Max value is set to 0, and the Min value to 255.
+
+FLICKER
+HUNT
+
+The UP & DOWN cursor key are
+used to start the automatic ‘Flicker
+Hunt’ mode. In this mode Micro-
+Scope analyses the level of each channel in thirty consecutive frames
+of DMX512. Any level which has varied outside the flicker band causes
+the hunt to stop and the display reverts to MAX/MIN mode, displaying
+the erroneous channel data. The DOWN cursor key cycles though the
+range of flicker band values between $01 and $3f. When the flicker
+band is set to $01, a single bit fluctuation in the level of a single
+channel will cause the display to revert to MAX/MIN mode.
+
+DETAIL
+MODE
+
+Detail mode provides four further pieces of information about the DMX
+signal.
+The Period "P" is the time between received Breaks on the DMX512
+signal.  The reciprocal of this number gives the refresh rate.
+The second number is  the  Break
+time "Bk". This is the length of the
+synchronising code used to restart
+a new DMX frame. The specification requires this value to be 88uS or
+greater. If this is not the case, the timing error icon "T" will be displayed
+in the main receive window.
+The third number "C" represents the number of dimmer channels
+received in the last DMX packet.  This number should be constant,
+although the value may be less than 512, depending on the type of
+console used.
+The fourth number is the Mark after Break time "MaB". This is the delay
+between the end of a Break and transmission of the header code.  The
+specification requires a MaB of 4us or greater. If this is not the case,
+the timing error icon "T" will be displayed in the main receive window.
+(The MaB limit was increased to 8uS in the DMX512 1990 Revision).
+
+  001      CUR    154  001      CUR    154
+  MIN 153 MAX    155  MIN 153 MAX    155
+
+flicker hunt $01flicker hunt $01
+current chan: 012current chan: 012
+
+  p=023ms bk=150us  p=023ms bk=150us
+  C=512   MAB=012us  C=512   MAB=012us
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 14
+
+TRIGGER
+OUTPUT
+
+The spare two pins of the DMX512 output are used to provide a TTL
+(5V) oscilloscope trigger output. This signal can be used to synchronise
+the oscilloscope to either the falling edge of the break or the DMX base
+address.
+
+45.2uS 52.8uS
+
+TRIGGER
+
+DMX512
+
+BREAK Start bit goes low DIMMER n
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 15
+
+TRANSMIT
+RIG
+
+CHECK
+
+The TRANSMIT RIG CHECK
+menu allows any single dimmer
+channel to be switched on at a
+level.
+
+The following keys are active:
+• LEFT Decrement the dimmer channel
+• RIGHT Increment the dimmer channel
+• UP Increment the dimmer level
+• DOWN Decrement the dimmer level
+• TOGGLE Invert dimmer level
+The display shows the current dimmer channel, followed by its level as
+a  percentage.
+The DMX512 output continues when Micro-Scope is in Receive mode.
+
+TRANSMIT
+PRESET
+
+The TRANSMIT PRESET menu
+allows  any  one  of  the   fifteen
+Presets to be  transmitted to the
+dimmers and also edited. Each Preset contains individual level settings
+for all 512 channels and is held in non volatile memory. The Preset to
+be transmitted and edited is selected by the UP and DOWN keys when
+the menu display is active. Press the MENU key to enter edit mode.
+
+The following keys are active:
+• LEFT Decrement the dimmer channel
+• RIGHT Increment the dimmer channel
+• UP Increment the dimmer level
+• DOWN Decrement the dimmer level
+• TOGGLE Invert dimmer level
+All dimmer channel levels may be set individually. The display shows
+the current dimmer channel, followed by it's level in percent, binary,
+hexadecimal and decimal.
+The DMX512 output continues when Micro-Scope is in Receive mode.
+The SNAPSHOT and FILL menus are alternative methods of
+programming the Presets.
+
+  CHAN: 001   CHAN: 001 @@ 100% 100%
+RIG CHECKRIG CHECK
+
+ CHANNEL 001  CHANNEL 001 @@ 100% 100%
+ 11111111  $FF   255 11111111  $FF   255
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 16
+
+TRANSMIT
+LAMP
+
+The TRANSMIT LAMP menu
+is the most powerful method of
+testing automated luminaires.
+Micro-Scope contains a library of over ninety lamp definitions which can
+be used to automatically test lamps.
+When the menu is active, the UP & DOWN cursor keys are used to
+select the required lamp from the library.
+To accept the lamp selection press
+MENU. The display changes to
+show the start address of the
+lamp, the current test and the selected lamp.
+At this point the DMX output will command the selected lamp to point to
+it’s centre position with the beam on at full white with no gobos.
+The following keys are active:
+
+• LEFT Decrement the start channel to the previous lamp
+• RIGHT Increment the start channel to the next lamp
+• UP Increment by one the start chan
+• DOWN Decrement by one the start channel
+• TOGGLE Select the next automatic test
+
+The automatic tests function as follows:
+• ON Point lamp at centre of Pan & Tilt range with a full 
+
+power white beam.
+• INT Ramp up and down the lamp intensity. If a dimmer 
+
+exists in the lamp it is used, otherwise the mechanical 
+shutter is used.
+
+• PAN Pan the beam from one extent to the other.
+• TIL Tilt the beam from one extent to the other.
+• P/T Pan & Tilt the beam from one extent, diagonally to the 
+
+other.
+• COL Exercise the colours available. This tests up to four 
+
+colour attribute channels of the lamp. Depending on
+the lamp type, the order will be either:
+
+• RED BLUE GREEN COLOUR-WHEEL or
+• YELLOW MAGENTA CYAN COLOUR-WHEEL
+
+• GOB Run through all the available gobos.
+• AUX Depending on the lamp, this tests one of the following:
+
+• IRIS
+• ZOOM
+• STROBE
+• GOBO 2
+
+The DMX512 output continues when Micro-Scope is in Receive mode.
+Appendix A contains a full listing of all supported lamps.
+
+ LAMP 001-007    ON LAMP 001-007    ON
+VARI*LITE VL6VARI*LITE VL6
+
+ TRANSMIT LAMP TRANSMIT LAMP
+VARI*LITE VL6VARI*LITE VL6
+
+ TRANSMIT LAMP TRANSMIT LAMP
+VARI*LITE VL6VARI*LITE VL6
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 17
+
+TRANSMIT
+DYNAMIC
+
+DMX512
+
+The    TRANSMIT     DYNAMIC
+DMX512  selection  allows  any
+range of dimmer channels to be
+switched on at a level, or ramp continuously.
+
+The following keys are active:
+• LEFT Decrement the end dimmer channel
+• RIGHT Increment the end dimmer channel
+• UP Increment the start dimmer channel
+• DOWN Decrement the start dimmer channel
+• TOGGLE Stop or Start the channels ramping
+Any range of dimmers can be controlled. The display shows the start
+and end dimmer channel, followed by the current percentage level.
+The level ramp requires ten seconds to increment from zero to full and
+then decrement back to zero.
+If the end channel is set to a lower value than the start channel, all
+output channels are set to zero.
+The DMX512 output continues when Micro-Scope is in Receive mode.
+
+SNAPSHOT
+DMX
+
+TO
+PRESET
+
+The SNAPSHOT menu allows any
+one of  the  fifteen Presets  to   be
+filled with  data  captured from the
+DMX512 input.  The Preset to be used is selected by the UP and
+DOWN keys when the menu display is active. Press the MENU key to
+take the snapshot. The process requires eight consecutive frames of
+DMX512 to capture the data. The snapshot can be aborted (for
+example if the DMX512 input fails) by pressing the TOGGLE button.
+
+When the data has been success-
+fully captured, the display shows:
+
+FILL
+PRESET
+
+WITH
+PATTERN
+
+The FILL menu allows any one of
+the  fifteen  Presets  to  be   filled
+with   a   symmetrical   pattern  of
+channel levels.
+
+The following keys are active:
+• LEFT Select one of the pre-defined  patterns
+• RIGHT Select one of the pre-defined patterns
+• UP Increment the Preset number
+• DOWN Decrement the Preset number
+• TOGGLE Execute the Fill
+
+  CHAN: 001 - 512  CHAN: 001 - 512
+    @@100%100%
+
+SNAPSHOT DMX TOSNAPSHOT DMX TO
+PRESET: 15PRESET: 15
+
+DMX RECORDED TODMX RECORDED TO
+PRESET: 15PRESET: 15
+
+FILL PRESETFILL PRESET
+WITH PATTERNWITH PATTERN
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 18
+
+Fill patterns are selected from the following list:
+• ALL CHAN OFF Clear the Preset
+• ALL CHAN HALF Set all channels to 50%
+• ALL CHAN ON Set all channels to 100%
+• ODD CHAN ON Set all odd channels (1,3,5..511) to 100%
+• EVEN CHAN ON Set all even channels (2,4,6..512) to 100%
+• RAMP UP Set incrementing ramp from channel 1 to 256
+
+and 257 to 512
+• RAMP DOWN Set decrementing ramp from channel 1 to 256 
+
+and 257 to 512
+
+TESTING
+CABLES
+
+Micro-Scope offers two methods of testing DMX512 cables.
+
+The DOUBLE ENDED TEST is used when both ends of the cable are
+available.  Micro-Scope can test for short circuits and open circuits on
+any of the three active pins of the DMX512 cable.
+
+The SINGLE ENDED TEST is used when only the console cable end is
+accessible.  Micro-Scope can test for a short circuit between the two
+signal pins.
+
+DOUBLE
+ENDED
+CABLE
+
+TEST
+
+The DOUBLE ENDED TEST display shows the connectivity of each of
+the three active pins of the DMX512 or MIDI cable. An OPEN CIRCUIT
+is shown by a period, and a SHORT CIRCUIT is shown by the pin
+number.  The diagram below shows a correct DMX512 cable.
+
+The diagram below shows a DMX512 cable with pins 2 & 3 swapped.
+
+SINGLE
+ENDED
+CABLE
+
+TEST
+
+The SINGLE ENDED TEST display shows the short circuit status of
+pins 2 and 3 of the DMX512 output connector. The display will show
+the
+
+following when there is a connec-
+tion between pins 2 & 3. This test
+
+ DOUBLE END 1.. =1.. DOUBLE END 1.. =1..
+.2.=.2. GOOD  ..3=..3.2.=.2. GOOD  ..3=..3
+
+DOUBLE END 1.. =1..DOUBLE END 1.. =1..
+.2.=..3         ..3=.2..2.=..3         ..3=.2.
+
+SINGLE ENDSINGLE END
+2 & 3 SHORT/TERM2 & 3 SHORT/TERM
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 19
+
+   can  be  used to test for short cir-
+cuit in the cable or to confirm that
+the cable is properly terminated.
+
+AUTO
+BACKUP
+
+IF
+DMX
+
+FAILS
+
+The AUTO-BACKUP menu allows
+Micro-Scope  to  be connected in-
+line  between  a  lighting desk and
+dimmers.  Micro-Scope   monitors
+the received DMX512 and should the signal fail, switches one of the
+fifteen Presets to the output.  This mode provides a useful backup
+which forces a known look on stage should the console fail. When the
+backup mode is triggered, the user can snap between the presets.
+
+When  the  menu  is  entered,  the
+following   display   is  shown  and
+received DMX512 is looped to the
+output.  The  UP and DOWN keys
+are used to select the Preset that will be output should the received
+DMX512 fail.
+
+If the DMX fails, the following dis-
+play is  shown  and  the  selected
+Preset  is  output to  the dimmers.
+When    the   problem   with   the
+received DMX512 has been corrected, simply press MENU twice to
+reset AUTO-BACKUP mode. When AUTO-BACKUP is active, the UP
+and DOWN keys are used to snap between consecutive Presets.
+
+LOOP
+THROUGH
+
+The  BUFFER DMX/MIDI option
+is    used    to    select   between
+Micro-Scope's Generator output
+and   a   buffered   copy   of  the
+incoming DMX512 signal.  The Loop Through mode is selected by
+pressing the TOGGLE key when the menu is displayed. The BUFFER
+mode of operation allows Micro-Scope to be used as a signal booster
+for long DMX512 or MIDI cables.
+BUFFER mode is switched off when the Generator Menu is next
+selected. When BUFFER mode is active, “L” is shown in the receive
+window to denote “Loop Through”.
+
+SELECT
+DMX
+
+START
+CODE
+
+The  START  CODE  menu  is
+used     to     select    non-zero
+DMX512    start   codes.    The
+START  code  is defined in the
+protocol but has not been implemented by many manufacturers.  The
+
+AUTO-BACKUP IFAUTO-BACKUP IF
+DMX FAILSDMX FAILS
+
+AUTO-BACKUP: 15AUTO-BACKUP: 15
+WAIT-DMX IS GOODWAIT-DMX IS GOOD
+
+AUTO-BACKUP: 15AUTO-BACKUP: 15
+ACTIVE-DMX FAILACTIVE-DMX FAIL
+
+BUFFER DMX MIDIBUFFER DMX MIDI
+DISABLEDDISABLED
+
+SELECT DMX STARTSELECT DMX START
+code: 000code: 000
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 20
+
+UP and DOWN keys are used to select any one of the 256 possible
+values. The same value is used for both receive and transmit DMX512.
+If a non-zero value is selected, a warning is displayed when the Micro-
+Scope is next switched on.
+The Toggle key selects “Don’t Care” mode which is displayed as “xxx”.
+In this mode a value of zero is used for the transmit start code.
+However received DMX512 will be displayed as good data whatever
+the start code. This is particularly useful with Compulite equipment as
+they have implemented multiple start codes on their equipment.
+
+DISPLAYING
+RECEIVED
+
+MIDI
+
+DISPLAY RECEIVED MIDI shows six MIDI characters in hexadecimal
+format.  The external MIDI adapter cables are required to use this
+mode.  The TOGGLE key is used to freeze the data display.  The
+following diagram shows the screen layout.
+
+Loop Through may also be used with MIDI. The output circuitry used by
+Micro-Scope is RS485 compatible.  Whilst this is correct for DMX512,
+MIDI specifies a more simple and less expensive set of circuitry.
+However, the two sets of circuitry are compatible and the circuitry used
+by Micro-Scope overcomes the very short cable limitation usually
+encountered with MIDI.
+The MIDI input of Micro-Scope is opto-isolated.
+
+ENABLE
+BACKLIGHT
+
+The  BACKLIGHT menu is
+used to enable or disable the
+display backlight. The Backlight
+operates as follows:
+• DISABLE The backlight is off giving the longest possible battery 
+
+life.
+• ENABLE: When external power is connected the backlight is on 
+
+in all modes.
+When operating on battery power the backlight is 
+normally on, but powers down after one minute of 
+inactivity. The next key press will re-enable the 
+backlight.
+
+Most recent character
+
+Hexadecimal Mode
+
+Data Received
+
+Data Error
+
+Loop Through
+
+BACKLIGHTBACKLIGHT
+ENABLEENABLE
+
+Least recent character
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 21
+
+The TOGGLE key is used to enable or disable the backlight selection.
+
+POWER
+SUPPLY
+
+Micro-Scope has an internal Ni-Cd rechargeable battery which provides
+a life of about 30 hours between recharges (this is reduced to 15 hours
+when the backlight is used continuously).  The external 9 Volt, 300mA
+DC power supply is used to power and recharge Micro-Scope.
+As with all Ni-Cd battery products, the best battery life is obtained by
+completely discharging Micro-Scope prior to recharging.
+The power switch is used to switch off Micro-Scope, battery charging
+will continue if the power connector is plugged in.
+Micro-Scope contains a sophisticated battery manager, which regulates
+battery charging.  A full charge is obtained in three hours, after which
+the external power supply is used solely to power Micro-Scope.
+In order to further conserve battery power, Micro-Scope reverts to
+stand-by mode after 10 minutes of no key presses or received data.
+Stand-by is exited by pressing any key, or connecting a DMX512 input.
+Stand-by mode is inhibited when receiving data and when AUTO-
+BACKUP is triggered, in order that Micro-Scope can be used as a
+battery powered signal buffer.  Stand-by is also inhibited when the
+external power supply is connected.
+
+PIN
+DATA
+
+RECEIVE (MALE 5 PIN XLR)
+Pin 1 Screen
+Pin 2 DMX Receive Signal-
+Pin 3 DMX Receive Signal+
+Pin 4 MIDI Receive Anode
+Pin 5 MIDI Receive  Cathode
+The MIDI receive feature of Micro-Scope uses pins 4 & 5 which are
+undefined by the DMX512 protocol. These pins may be disconnected
+internally should this conflict with your DMX512 implementation.
+
+A MIDI adapter cable is available from Artistic Licence or can be simply
+constructed from the following wiring plan:
+
+FEMALE 5 PIN XLR FEMALE 5 PIN DIN
+Pin 1  Connect to screen No connection
+Pin 4 Pin 4
+Pin 5 Pin 5
+
+TRANSMIT (FEMALE 5 PIN XLR)
+Pin 1 Screen
+Pin 2 DMX Transmit Signal-
+Pin 3 DMX Transmit Signal+
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 22
+
+Pin 4 Trigger output
+Pin 5 Trigger ground
+
+The Trigger feature of Micro-Scope uses pins 4 & 5 which are
+undefined by the DMX512 protocol. These pins may be disconnected
+internally should this conflict with your DMX512 implementation.
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 23
+
+Appendix A - Lamp Library
+
+Legend:
+
+W1 Colour Wheel 1 F Frost Wheel
+
+W2 Colour Wheel 2 H Colour Hue Wheel
+
+R Red Colour Wheel S Colour Saturation Wheel
+
+G Green Colour Wheel E Effects Wheel
+
+B Blue Colour Wheel Lens Lens Change Wheel
+
+Y Yellow Colour Wheel Shutter Mechanical Dimmer
+
+C Cyan Colour Wheel G2 Second Gobo Wheel
+
+M Magenta Colour Wheel Fan Remote Control to Fan
+
+A Amber Colour Wheel G Rotate Gobo Wheel Rotate Control
+
+1 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Adlite Intelli’1
+Adlite
+Intellite 1
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+
+þ
+
+þ
+
+þ W1
+þ
+
+ý
+
+2 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Adlite Intelli’2
+Adlite
+Intellite 2
+8
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+3 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Adlite Intel Pro
+Adlite
+Intellite Professional
+12
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1/W2
+þ
+þ Zoom
+
+4 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Adlite L’Bounce2
+Adlite
+Litebounce II
+7
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+ý
+
+5 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Amptown PosiSpot
+Amptown
+ACC Posi Spot
+4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+þ
+þ
+þ
+þ W1
+ý
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 24
+
+Aux: ý
+
+6 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Amptown ControlLite PML
+Amptown
+ControlLite PML
+7
+Name changed V4.2
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Shutter
+
+7 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Amptown Control PML Mk2
+Amptown
+ControlLite PML Mk2
+12
+Name changed V4.2
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1/W2
+þ
+þ Shutter
+
+8 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Amptown Washlite Halogen
+Amptown
+Washlite Halogen
+7
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ YMC
+ý
+þ Focus
+
+9 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Amptown W’lite HP
+Amptown
+Washlite HP
+10
+Added V4.2
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ YMC
+ý
+þ Focus
+
+10 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Amptown WinDesign
+Amptown
+WinDesign Moving Fan
+3
+Added V4.2
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+ý
+ý
+ý
+
+11 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+B+K Varytec
+B+K
+Varytec
+5
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+ý
+
+12 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Cam Telescan mk1
+Cameleon
+Telescan mk1
+8
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ RGB
+þ
+þ Focus
+
+13 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Celco M9 Video
+Celco
+M9 Videowall
+10
+Intensity test cycles thru
+freeze then thaw entire wall
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+ý
+ý
+ý
+ý
+ý
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 25
+
+14 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Miniscan
+Clay Paky
+Miniscan
+4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+þ W1
+þ Strobe
+þ
+
+15 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Miniscan HPE
+Clay Paky
+Miniscan HPE
+7
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ Strobe
+þ
+
+16 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Goldenscan
+Clay Paky
+Goldenscan 2 & 3
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+17 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Goldenscn HPE
+Clay Paky
+Goldenscan HPE
+12
+Added V4.2
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þW1/2FE
+þ
+þ Focus
+
+18 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Superscan
+Clay Paky
+Superscan
+12
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ RGB W1
+þ
+þ Iris
+
+19 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Supersca Zoom
+Clay Paky
+Superscan Zoom
+12
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ RGB W1
+þ
+þ Zoom
+
+20 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Stage Scan
+Clay Paky
+Stage Scan
+16
+Added V4.4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ RGB W1
+þ
+þ Zoom
+
+21 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Tiger Multcol
+Clay Paky
+Tiger Multicolour
+3
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+ý
+ý
+þ W1
+ý
+þ Frost
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 26
+
+22 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Tiger MRG
+Clay Paky
+Tiger MRG
+4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+ý
+ý
+þ W1
+þ
+þ G Rotate
+
+23 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Tigerscan MRG
+Clay Paky
+Tiger Scan MRG
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ G Rotate
+
+24 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Tiger Scan
+Clay Paky
+Tiger Scan
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ G Rotate
+
+25 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Pin Scan
+Clay Paky
+Pin Scan
+3
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+ý
+ý
+ý
+
+26 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+CP Bazooka 4C
+Clay Paky
+Bazooka 4C
+4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+ý
+ý
+
+27 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Coemar Baby Col
+Coemar
+Baby Colour
+2
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+ý
+ý
+þ W1
+ý
+þ Iris
+
+28 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Coemar Microscan
+Coemar
+Micro-Scan
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Shutter
+
+29 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Coemar Ultrascan
+Coemar
+Ultra-Scan
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Shutter
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 27
+
+30 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Coemar Samuri
+Coemar
+Samuri Light 1200
+8
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Shutter
+
+31 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Coemar PC1000
+Coemar
+PC1000
+8
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ RGB F
+þ
+þ Zoom
+
+32 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Coemar PC1200HMI
+Coemar
+PC1200 HMI
+9
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ RGB F
+þ
+þ Zoom
+
+33 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Coemar Nat Ch15
+Coemar
+NAT1200 NAT2500
+15
+Low resolution Mode
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1 HSE
+þ
+þ G2
+
+34 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Coemar Nat Ch22
+Coemar
+NAT1200 NAT2500
+22
+High resolution Mode
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ RGB W1
+þ
+þ G2
+
+35 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+FAL Primoscan
+FAL
+Primoscan
+4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+þ W1
+þ
+ý
+
+36 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+FAL Superclever
+FAL
+Super Clever Scan
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+þ W1
+þ
+ý
+
+37 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+FLY FOS1/2/3/4
+FLY
+FOS1 FOS2 FOS3 FOS4
+12
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+þ
+þ
+þ
+þ RGB
+þ
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 28
+
+Aux: þ Zoom
+
+38 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+HE Intella V1
+High End / LWR
+Intellabeam Version 1
+8
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+39 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+HE Intellabm 000
+High End / LWR
+Intellabeam Version 1
+7
+Personality set to 000
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+40 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+HE Intellabm 010
+High End / LWR
+Intellabeam Version 1
+11
+Personality set to 010
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+41 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+HE Cyberlight M1
+High End / LWR
+Cyberlight
+20
+Updated V4.4
+Personality set to Mode 1
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ Zoom
+
+42 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+HE Studio Color
+High End / LWR
+Studio Color
+16
+Updated V4.4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ YMC W1
+þ
+þ Lens
+
+43 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+HE Technobeam Full
+High End / LWR
+Technobeam
+18
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Effects
+
+44 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+HE Technobeam Reduced
+High End / LWR
+Technobeam
+14
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Effects
+
+45 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+HE Technoray Full
+High End / LWR
+Technoray
+14
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+þ
+ý
+ý
+þ W1
+þ
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 29
+
+Aux: þ Effects
+
+46 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+HE Technoray Reduced
+High End / LWR
+Technoray
+12
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+ý
+ý
+þ W1
+þ
+þ Effects
+
+47 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+HE Trackspot
+High End / LWR
+Technoray
+7
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Strobe
+
+48 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+JB Varyscan 3
+JB
+Varyscan 3
+7
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+49 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+JB Varyscan Sys2
+JB
+Varyscan System 2
+8
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+50 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+JB Varyscan Sys3
+JB
+Varyscan System 3
+14
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ RGB W1
+þ
+þ Zoom
+
+51 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+JB Varyscan DM17
+JB
+Varyscan DMX17
+17
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ RGB W1
+þ
+þ Zoom
+
+52 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Lampo Sintesi
+Lampo
+Sintesi
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+53 Abbreviation:
+Manufacturer:
+
+Lamp:
+
+Lampo Colum400RG
+Lampo
+Columbus MSR 400RG
+
+Intensity:
+Pan:
+Tilt:
+
+þ
+þ
+þ
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 30
+
+Number of Channels:
+Notes:
+
+7 Colour:
+Gobo:
+
+Aux:
+
+þ W1
+þ
+þ G Rotate
+
+54 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Lampo Gemini
+Lampo
+Gemini
+5
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+þ W1
+þ
+ý
+
+55 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+LT Capapillar
+Lighting Technology
+Capapillar
+3
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ Nod
+þ Wiggle
+ý
+ý
+ý
+
+56 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Litebeam Swing 2
+Litebeam
+Swing II
+12
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ G2
+
+57 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Mad Colour 211
+MAD Lighting
+Colour 211
+2
+*
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+ý
+ý
+þ W1
+þ
+ý
+
+58 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Mad Scan 411
+MAD Lighting
+Mad Scan 411
+4
+*
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+þ W1
+þ
+ý
+
+59 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Mad Scan 611
+MAD Lighting
+Mad Scan 611
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Strobe
+
+60 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Martin MAC500 1
+Martin
+MAC500
+12
+Added V4.2
+Set personality to Mode 1
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1 W2
+þ
+þ Frost
+
+61 Abbreviation:
+Manufacturer:
+
+Lamp:
+
+Ma MAC600/1200 1
+Martin
+MAC600 MAC1200
+
+Intensity:
+Pan:
+Tilt:
+
+þ
+þ
+þ
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 31
+
+Number of Channels:
+Notes:
+
+10
+Added V4.2
+Set personality to Mode 1
+
+Colour:
+Gobo:
+
+Aux:
+
+þ CMY W1
+þ
+þ Frost
+
+62 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Ma MAC600/1200 2
+Martin
+MAC600 MAC1200
+12
+Added V4.2
+Set personality to Mode 2
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ Frost
+
+63 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Ma MAC600/1200 3
+Martin
+MAC600 MAC1200
+12
+Added V4.2
+Set personality to Mode 3
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ Frost
+
+64 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Ma MAC600/1200 4
+Martin
+MAC600 MAC1200
+12
+Added V4.2
+Set personality to Mode 4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ Frost
+
+65 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Martin PAL1200 1
+Martin
+PAL1200
+22
+Set personality to Mode 1
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY
+W1
+þ
+þ Zoom
+
+66 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Martin PAL1200 2
+Martin
+PAL1200
+24
+Set personality to Mode 2
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ Zoom
+
+67 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Martin PAL1200 3
+Martin
+PAL1200
+24
+Set personality to Mode 3
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ Zoom
+
+68 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Martin PAL1200 4
+Martin
+PAL1200
+26
+Set personality to Mode 4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ Zoom
+
+69 Abbreviation: Martin PAL1200E1 Intensity: þ
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 32
+
+Manufacturer:
+Lamp:
+
+Number of Channels:
+Notes:
+
+Martin
+PAL1200E
+16
+Set personality to Mode 1
+
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ CMY W1
+þ
+þ Zoom
+
+70 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Martin PAL1200E2
+Martin
+PAL1200E
+18
+Set personality to Mode 2
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ Zoom
+
+71 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Martin PAL1200E3
+Martin
+PAL1200E
+18
+Set personality to Mode 3
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ Zoom
+
+72 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Martin PAL1200E4
+Martin
+PAL1200E
+20
+Set personality to Mode 4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ Zoom
+
+73 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Martin Robocolor 5
+Martin
+Robocolor Pro 400
+5
+Set personality to standard
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+ý
+ý
+þ
+þ
+þ
+
+74 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Martin Robocolor 7
+Martin
+Robocolor Pro 400
+7
+Set personality to extended
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+ý
+ý
+þ W1 W2
+þ
+ý
+
+75 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Mart Rscan 218
+Martin
+Roboscan Pro 218
+7
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+ý
+
+76 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Mart Rscan 518
+Martin
+Roboscan Pro 518
+7
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+ý
+
+77 Abbreviation: Mart Rscan 805 Intensity: þ
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 33
+
+Manufacturer:
+Lamp:
+
+Number of Channels:
+Notes:
+
+Martin
+Roboscan 805
+6
+
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ W1
+þ
+ý
+
+78 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Mart Rscan 812 5
+Martin
+Roboscan 812
+5
+Set personality to standard
+mode.
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+ý
+
+79 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Mart Rscan 812 7
+Martin
+Roboscan 812
+7
+Set personality to extended
+mode.
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+ý
+
+80 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Mart Rscan 1020
+Martin
+Roboscan 1020
+12
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1 W2
+þ
+þ G2
+
+81 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Mart Rscan 1220C
+Martin
+Roboscan 1220 CMYR
+15
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ CMY W1
+þ
+þ G Rotate
+
+82 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Mart Rscan 1220X
+Martin
+Roboscan 1220 XR
+11
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ G Rotate
+
+83 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+PanCom ColFader
+PanCommand
+ColorFader
+3
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+ý
+ý
+þ RGB
+ý
+ý
+
+84 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Sagitter Inf Club
+Sagitter
+Infinity Club 1200
+12
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 34
+
+85 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Sagitter Inf Live
+Sagitter
+Infinity Live 1200
+20
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Prism
+
+86 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Sag MultiStep Zm
+Sagitter
+Infinity Multistep Zoom
+14
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Effects
+
+87 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Sagitter Prince
+Sagitter
+Prince
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Strobe
+
+88 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Sag Super Prince
+Sagitter
+Super Prince
+10
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Effects
+
+89 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Sag Mask Col Zm
+Sagitter
+Mask Colour Zoom
+10
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Zoom
+
+90 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Sajem Copernik
+Sajem
+Copernik
+5
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+ý
+ý
+þ RGBY
+ý
+ý
+
+91 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+SGM Galileo
+SGM
+Galileo
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ
+
+92 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Space Can Ireos
+Space Cannon
+Ireos
+8
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+þ
+þ
+þ
+þ W1
+þ
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 35
+
+Aux: þ Zoom
+93 Abbreviation:
+
+Manufacturer:
+Lamp:
+
+Number of Channels:
+Notes:
+
+Starlite Mk5
+Starlite
+MK5
+19
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ RGB1
+þ
+þ Iris
+
+94 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Strong Multi1200
+Strong
+Multicolour 1200
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ
+
+95 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Strong Scan 150
+Strong
+Scan 150
+4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+þ W1
+þ
+ý
+
+96 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+StudioD Minibeam
+Studio Due
+Mini Beam
+6
+*
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+ý
+
+97 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+StudioD Stratos
+Studio Due
+Stratos
+12
+*
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+98 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+StudioD StratCol
+Studio Due
+Stratos Color
+14
+*
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ MCY W1
+þ
+þ Frost
+
+99 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Summa HTI
+Suma
+HTI
+9
+*
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1 W2
+þ
+þ Zoom
+
+100 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Synchrolite A
+Synchrolite
+Synchrolite
+8
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+
+þ
+þ
+þ
+þ W1
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 36
+
+Notes: Set personality to Mode A * Gobo:
+Aux:
+
+þ
+þ Iris
+
+101 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+TAS MiniUltra200
+TAS
+Mini Ultrascan 200
+6
+*
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+ý
+
+102 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+TAS Ultrasca 700
+TAS
+Ultrascan 700
+8
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+103 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+TAS Symbol 700
+TAS
+Symbol 700
+7
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Iris
+
+104 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Vari*Lite VL1
+Vari*Lite
+VL1
+6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ HS
+þ
+ý
+
+105 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+VL5  Mod1 (8/8)
+Vari*Lite
+VL5 VL5A VL5B
+8
+Mode 1
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+þ BAM
+þ
+þ Diffuser
+
+106 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+VL5  Mod3 (16/10)
+Vari*Lite
+VL5 VL5A VL5B
+10
+Mode 3
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+þ BAM
+þ
+þ Diffuser
+
+107 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+VL5  Mod4 (16/13)
+Vari*Lite
+VL5 VL5A VL5B
+13
+Mode 4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+þ BAM
+þ
+þ Diffuser
+
+108 Abbreviation:
+Manufacturer:
+
+Lamp:
+
+VL5  Mod5 (8/7)
+Vari*Lite
+VL5 VL5A VL5B
+
+Intensity:
+Pan:
+Tilt:
+
+ý
+þ
+þ
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 37
+
+Number of Channels:
+Notes:
+
+7
+Mode 5
+
+Colour:
+Gobo:
+
+Aux:
+
+þ BAM
+þ
+þ Diffuser
+
+109 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+VL5  Mod6 (16/9)
+Vari*Lite
+VL5 VL5A VL5B
+9
+Mode 6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+þ BAM
+þ
+þ Diffuser
+
+110 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+VL6 Mod1 (8/8)
+Vari*Lite
+VL6
+8
+Mode 1
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Lens
+
+111 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+VL6 Mod3 (16/10)
+Vari*Lite
+VL6
+10
+Mode 3
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Lens
+
+112 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+VL6 Mod4 (16/13)
+Vari*Lite
+VL6
+13
+Mode 4
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Lens
+
+113 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+VL6 Mod5 (8/7)
+Vari*Lite
+VL6
+7
+Mode 5
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Lens
+
+114 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+VL6 Mod6 (16/9)
+Vari*Lite
+VL6
+9
+Mode 6
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+þ
+þ
+þ
+þ W1
+þ
+þ Lens
+
+115 Abbreviation:
+Manufacturer:
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+Vari*Lite VLM  7
+Vari*Lite
+VLM
+7
+Set personality to 16 bit, 7
+channel
+
+Intensity:
+Pan:
+Tilt:
+
+Colour:
+Gobo:
+
+Aux:
+
+ý
+þ
+þ
+ý
+ý
+ý
+
+116 Abbreviation:
+Manufacturer:
+
+Vari*Lite VLM  9
+Vari*Lite
+
+Intensity:
+Pan:
+
+ý
+þ
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 38
+
+Lamp:
+Number of Channels:
+
+Notes:
+
+VLM
+9
+Set personality to 16 bit, 9
+channel
+
+Tilt:
+Colour:
+Gobo:
+
+Aux:
+
+þ
+ý
+ý
+ý
+
+* Lamps available in previous releases only. Contact Artistic Licence for
+details.
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 39
+
+Artistic Licence Bug Report Form
+If you discover an error in the Lamp Library or would like to request a new entry, please
+
+return details to us on this form. Thank you
+Please also forward any additional manufacturer data, such as channel allocation tables.
+
+   -
+
+Product: Micro-Scope IIa Version No.
+
+Serial No. Date Purchased:
+
+Supplier:
+
+Name:
+
+Company Name:
+
+Address:
+
+Post/Zip Code: Phone No.
+
+Lamp Entry:
+
+Description of Problem:
+
+Please detail below the channel level data required to produce a centred white beam without
+gobo:
+
+Chan 1 Chan 9 Chan 17
+Chan 2 Chan 10 Chan 18
+Chan 3 Chan 11 Chan 19
+Chan 4 Chan 12 Chan 20
+Chan 5 Chan 13 Chan 21
+Chan 6 Chan 14 Chan 22
+Chan 7 Chan 15 Chan 23
+Chan 8 Chan 16 Chan 24
+
+Please return to: Artistic Licence (UK) Ltd.
+B1 & B3 Livingstone Court, Peel Road, Harrow, Middlesex HA3 7QT. England.
+
+Tel/Fax: +44 (0) 181 863 4515
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 40
+
+Appendix B - Conversion Table
+
+Dec Hex Binary Dec Hex Binary Dec Hex Binary
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0A
+0B
+0C
+0D
+0E
+0F
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+1A
+1B
+1C
+1D
+1E
+1F
+
+0000 0000
+0000 0001
+0000 0010
+0000 0011
+0000 0100
+0000 0101
+0000 0110
+0000 0111
+0000 1000
+0000 1001
+0000 1010
+0000 1011
+0000 1100
+0000 1101
+0000 1110
+0000 1111
+0001 0000
+0001 0001
+0001 0010
+0001 0011
+0001 0100
+0001 0101
+0001 0110
+0001 0111
+0001 1000
+0001 1001
+0001 1010
+0001 1011
+0001 1100
+0001 1101
+0001 1110
+0001 1111
+
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+2A
+2B
+2C
+2D
+2E
+2F
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+3A
+3B
+3C
+3D
+3E
+3F
+
+0010 0000
+0010 0001
+0010 0010
+0010 0011
+0010 0100
+0010 0101
+0010 0110
+0010 0111
+0010 1000
+0010 1001
+0010 1010
+0010 1011
+0010 1100
+0010 1101
+0010 1110
+0010 1111
+0011 0000
+0011 0001
+0011 0010
+0011 0011
+0011 0100
+0011 0101
+0011 0110
+0011 0111
+0011 1000
+0011 1001
+0011 1010
+0011 1011
+0011 1100
+0011 1101
+0011 1110
+0011 1111
+
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+4A
+4B
+4C
+4D
+4E
+4F
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+5A
+5B
+5C
+5D
+5E
+5F
+
+0100 0000
+0100 0001
+0100 0010
+0100 0011
+0100 0100
+0100 0101
+0100 0110
+0100 0111
+0100 1000
+0100 1001
+0100 1010
+0100 1011
+0100 1100
+0100 1101
+0100 1110
+0100 1111
+0101 0000
+0101 0001
+0101 0010
+0101 0011
+0101 0100
+0101 0101
+0101 0110
+0101 0111
+0101 1000
+0101 1001
+0101 1010
+0101 1011
+0101 1100
+0101 1101
+0101 1110
+0101 1111
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 41
+
+Appendix B - Conversion Table
+
+Dec Hex Binary Dec Hex Binary Dec Hex Binary
+96
+97
+98
+99
+
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+118
+119
+120
+121
+122
+123
+124
+125
+126
+
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+6A
+6B
+6C
+6D
+6E
+6F
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+7A
+7B
+7C
+7D
+7E
+7F
+
+0110 0000
+0110 0001
+0110 0010
+0110 0011
+0110 0100
+0110 0101
+0110 0110
+0110 0111
+0110 1000
+0110 1001
+0110 1010
+0110 1011
+0110 1100
+0110 1101
+0110 1110
+0110 1111
+0111 0000
+0111 0001
+0111 0010
+0111 0011
+0111 0100
+0111 0101
+0111 0110
+0111 0111
+0111 1000
+0111 1001
+0111 1010
+0111 1011
+0111 1100
+0111 1101
+0111 1110
+0111 1111
+
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+8A
+8B
+8C
+8D
+8E
+8F
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+9A
+9B
+9C
+9D
+9E
+9F
+
+1000 0000
+1000 0001
+1000 0010
+1000 0011
+1000 0100
+1000 0101
+1000 0110
+1000 0111
+1000 1000
+1000 1001
+1000 1010
+1000 1011
+1000 1100
+1000 1101
+1000 1110
+1000 1111
+1001 0000
+1001 0001
+1001 0010
+1001 0011
+1001 0100
+1001 0101
+1001 0110
+1001 0111
+1001 1000
+1001 1001
+1001 1010
+1001 1011
+1001 1100
+1001 1101
+1001 1110
+1001 1111
+
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+
+A0
+A1
+A2
+A3
+A4
+A5
+A6
+A7
+A8
+A9
+AA
+AB
+AC
+AD
+AE
+AF
+B0
+B1
+B2
+B3
+B4
+B5
+B6
+B7
+B8
+B9
+BA
+BB
+BC
+BD
+BE
+BF
+
+1010 0000
+1010 0001
+1010 0010
+1010 0011
+1010 0100
+1010 0101
+1010 0110
+1010 0111
+1010 1000
+1010 1001
+1010 1010
+1010 1011
+1010 1100
+1010 1101
+1010 1110
+1010 1111
+1011 0000
+1011 0001
+1011 0010
+1011 0011
+1011 0100
+1011 0101
+1011 0110
+1011 0111
+1011 1000
+1011 1001
+1011 1010
+1011 1011
+1011 1100
+1011 1101
+1011 1110
+1011 1111
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 42
+
+Appendix B - Conversion Table
+
+Dec Hex Binary Dec Hex Binary
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+6A
+6B
+6C
+6D
+6E
+6F
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+7A
+7B
+7C
+7D
+7E
+7F
+
+0110 0000
+0110 0001
+0110 0010
+0110 0011
+0110 0100
+0110 0101
+0110 0110
+0110 0111
+0110 1000
+0110 1001
+0110 1010
+0110 1011
+0110 1100
+0110 1101
+0110 1110
+0110 1111
+0111 0000
+0111 0001
+0111 0010
+0111 0011
+0111 0100
+0111 0101
+0111 0110
+0111 0111
+0111 1000
+0111 1001
+0111 1010
+0111 1011
+0111 1100
+0111 1101
+0111 1110
+0111 1111
+
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+
+E0
+E1
+E2
+E3
+E4
+E5
+E6
+E7
+E8
+E9
+EA
+EB
+EC
+ED
+EE
+EF
+F0
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+FA
+FB
+FC
+FD
+FE
+FF
+
+1110 0000
+1110 0001
+1110 0010
+1110 0011
+1110 0100
+1110 0101
+1110 0110
+1110 0111
+1110 1000
+1110 1001
+1110 1010
+1110 1011
+1110 1100
+1110 1101
+1110 1110
+1110 1111
+1111 0000
+1111 0001
+1111 0010
+1111 0011
+1111 0100
+1111 0101
+1111 0110
+1111 0111
+1111 1000
+1111 1001
+1111 1010
+1111 1011
+1111 1100
+1111 1101
+1111 1110
+1111 1111
+
+
+
+Artistic Licence (UK) Ltd. Micro-Scope IIa Manual 43
+
+The information contained in this document is subject to change without notice.  Artistic
+Licence (UK) Ltd. makes no warranty of any kind with regard to this material, including, but
+not limited to, the implied warranties of fitness for a particular purpose.
+
+Artistic Licence (UK) Ltd. shall not be liable for errors contained herein or for incidental or
+consequential damages in connection with the furnishing, performance or use of this material.
+
+As with all Artistic Licence products, Micro-Scope IIa is fully compliant with all EMC and LVD
+directives.
+
+All trademarks are acknowledged.
+
+Artistic Licence
+© Artistic Licence (UK) Ltd. 1994-99
+B1 & B3 Livingstone Court
+Peel Road
+Harrow
+Middlesex
+England
+HA3 7QT
+Tel: +44 (0)181 863 4515
+
+

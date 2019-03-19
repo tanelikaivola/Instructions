@@ -1,0 +1,5065 @@
+
+Soldering / Desoldering / Rework
+
+Tips and Cartridges
+SELECTION GUIDE
+
+
+
+Content
+
+Metcal STTC Soldering Cartridges .................................................................. 1 - 4
+
+Metcal UFTC UltraFine Soldering Cartridges ................................................ 5 - 6
+
+Metcal SMTC Rework Cartridges .................................................................... 7 - 11
+
+Metcal PTTC Tweezer Cartridges ........................................................................ 12
+
+Metcal TATC Talon Cartridges .............................................................................. 13
+
+Metcal STDC Desoldering Cartridges ................................................................ 14
+
+Metcal and OKi SSC Soldering Cartridges ............................................................ 15 - 17
+
+OKi SxV Soldering Tips.................................................................................................. 18 - 22
+
+OKi CxV Soldering Tips ........................................................................................ 22
+
+OKi PHT Soldering Tips ................................................................................ 22 - 24
+
+OKi SxP Soldering & Rework Cartridges .................................................... 25 - 27
+
+OKi RxP Rework Cartridges .......................................................................... 28 - 29
+
+OKi TxP Tweezer Cartridges ................................................................................ 30
+
+OKi DxP Desoldering Tips .................................................................................... 31
+
+Tip Temperature Chart .......................................................................................... 32
+
+SmartHeat® Technology ........................................................................................ 33
+
+ALL METCAL AND OKI TIPS AND CARTRIDGES
+ARE POWERED BY SMARTHEAT®TECHNOLOGY
+
+SmartHeat® Technology = Variable Power / Fixed Temperature
+�� See page 33 for full explanation
+
+
+
+Metcal Cartridges 
+
+STTC SOLDERING CARTRIDGES Compatible with: MX-500 and MX-5000 Systems / MX-RM3E and MX-H1-AV hand-pieces
+
+STTC-125P
+STTC-825P
+
+Chisel 30°
+P = Optimised geometry for best
+thermal performance
+1.0mm x 6.5mm (.04" x .25")
+
+STTC-525
+STTC-025
+STTC-125
+STTC-825
+
+Chisel 30°
+
+1.0mm x 9.1mm (.04"x .33")
+
+STTC-138P
+STTC-838P
+
+Chisel 30°
+P = Optimised geometry for best
+thermal performance
+1.5mm x 6.0mm (.06" x .24")
+
+STTC-538
+STTC-038
+STTC-138
+STTC-838
+
+Chisel 30°
+
+1.5mm x 9.9mm (.06" x .39")
+
+STTC-599
+STTC-099
+STTC-199
+STTC-899
+
+Chisel Bent 30°
+1.5mm x 11.9mm (.06" x .47")
+
+STTC-137P
+STTC-837P
+
+Chisel 30°
+P = Optimised geometry for best
+thermal performance
+1.78mm x 6.0mm (.07" x .24")
+
+STTC-537
+STTC-037
+STTC-137
+STTC-837
+
+Chisel Solder Cartridge 30°
+
+1.78mm x 9.9mm (.07" x .39")
+
+STTC-598
+STTC-098
+STTC-198
+STTC-898
+
+Chisel Bent 30°
+1.78mm x 9.9mm (.07" x .39")
+
+STTC-542
+STTC-042
+STTC-142
+STTC-842
+
+Long Reach Chisel 60°
+1.78mm x 16mm (.07" x .63")
+
+STTC-514
+STTC-014
+STTC-114
+
+Chisel 45°
+
+2.0mm x 4.7mm (.08" x .19")
+
+0.24"6.0mm0.04" 1.0mm
+
+0.24" 6.0mm0.055" 1.4mm
+
+.39"
+.07" 9.9mm
+
+1.78mm
+
+.07"
+.63"
+
+1.78mm
+
+16.0mm
+
+.06"
+.39"
+
+1.5mm
+
+9.9mm
+
+5 = 500 Series and 0 = 600 Series for temperature sensitive applications  -  1 = 700 Series for most standard applications.  
+8 = 800 Series for Ceramic and high thermal demand applications. 1
+
+C
+H
+IS
+
+E
+L
+
+.36"
+.04"
+
+1.0mm
+
+9.1mm
+
+STTC
+ Soldering C
+
+artridges
+
+.47"
+
+.06"
+
+1.5mm
+
+11.9mm
+
+.47"
+
+.06"
+
+1.5mm
+
+11.9mm
+
+.39"
+.07"
+
+1.78mm
+
+9.9mm
+
+.39"
+.07"
+
+1.78mm
+
+9.9mm
+
+.19"
+
+.08"
+
+4.7mm
+
+2.03mm
+
+
+
+Metcal Cartridges 
+
+STTC-136P
+STTC-836P
+
+Chisel 30°
+P = Optimised geometry for best
+thermal performance
+2.5mm x 6.0mm (.10" x .24")
+
+STTC-536
+STTC-036
+STTC-136
+STTC-836
+
+Chisel 30°
+
+2.5mm x 9.9mm (.10" x .39")
+
+STTC-513
+STTC-013
+STTC-113
+STTC-813
+
+Chisel 90°
+
+3.0mm x 4.8mm (.12" x .19")
+
+2STTC-520
+STTC-020
+STTC-120
+STTC-820
+
+Long Reach Chisel 12°
+
+3.8mm x 21.6mm (.15" x .85")
+
+STTC-517
+STTC-017
+STTC-117
+STTC-817
+
+Large Chisel 
+5.0mm x 7.6mm (.20" x .30”)
+
+STTC-565
+STTC-065
+STTC-165
+STTC-865
+
+Large Chisel 
+5.0mm x 11.4mm (.20" x .45")
+
+STTC-590
+STTC-090
+STTC-190
+STTC-890
+
+Fine and Long Reach Conical
+0.25mm x 13.2mm (.01"x .52")
+
+STTC-526
+STTC-026
+STTC-126
+STTC-826
+
+Conical Sharp Bent 30°
+0.4mm x 7.9mm (.016" x .31")
+
+STTC-522
+STTC-022
+STTC-122
+STTC-822
+
+Conical Sharp 
+
+0.4mm x 8.4mm (.016" x .33")
+
+STTC-145P
+STTC-845P
+
+Conical Sharp
+P = Optimised geometry for best
+thermal performance
+0.4mm x 8.5mm (.016" x .34"
+
+.30"
+
+.20"
+5.0mm
+
+7.6mm
+
+.45"
+
+.20"
+5.0mm
+
+11.4mm
+
+5 = 500 Series and 0 = 600 Series for temperature sensitive applications  -  1 = 700 Series for most standard applications. 
+8 = 800 Series for Ceramic and high thermal demand applications.2
+
+C
+H
+IS
+
+E
+L
+
+C
+O
+N
+IC
+
+A
+L
+
+STTC SOLDERING CARTRIDGES Compatible with: MX-500 and MX-5000 Systems / MX-RM3E and MX-H1-AV hand-pieces
+
+.15"
+
+.04"
+
+.85"
+
+3.8mm
+
+21.6mm
+
+1.0mm
+
+.15"
+
+.04"
+
+.85"
+
+3.8mm
+
+21.6mm
+
+1.0mm
+
+0.016"  
+0.4mm 
+
+0.34"  8.5mm 
+
+ST
+TC
+
+ S
+ol
+
+de
+rin
+
+g 
+C
+
+ar
+tr
+
+id
+ge
+
+s 
+
+.016"
+
+7.9mm
+.31"
+
+0.4mm
+
+0.24"6.0mm0.10"2.5mm
+
+.10"
+.39"
+
+9.9mm
+
+2.5mm
+
+.19"
+.12"
+
+3.0mm
+
+4.8mm
+
+.52"
+13.2mm
+
+.01"
+.25mm
+
+.33"
+.016" 8.4mm
+
+0.4mm
+
+
+
+Metcal Cartridges 
+
+STTC-506
+STTC-006
+STTC-106
+STTC-806
+
+Conical Sharp 
+
+0.4mm x 13.7mm (.016"x .54")
+
+STTC-545
+STTC-045
+STTC-145
+STTC-845
+
+Conical Sharp
+
+0.4mm x 14.7mm (.016"x .58")
+
+STTC-540
+STTC-040
+STTC-140
+STTC-840
+
+Conical Sharp Bent 30°
+Long Reach
+0.4mm x 16mm (.016" x .63")
+
+STTC-511
+STTC-011
+STTC-111
+
+Conical Sharp
+
+0.5mm x 4.6mm (.02" x .18")
+
+STTC-516
+STTC-016
+STTC-116
+STTC-816
+
+Conical Sharp
+
+0.5mm x 4.8mm (.02" x .19")
+
+STTC-544
+STTC-044
+STTC-144
+STTC-844
+
+Conical Sharp Bent 30°
+Long Reach
+0.5mm x 14.5mm (.02" x .57")
+
+STTC-543
+STTC-043
+STTC-143
+STTC-843
+
+Conical Sharp
+0.5mm x x 15.2mm (.02" x .6")
+
+STTC-101P
+STTC-801P
+
+Conical
+P = Optimised geometry for best
+thermal performance
+1.0mm x 6.5mm (.04" x .25")
+
+STTC-531
+STTC-031
+STTC-131
+
+Conical 
+
+1.0mm x 9.9mm (.04" x .39")
+
+STTC-501
+STTC-001
+STTC-101
+
+Conical 
+
+1.0mm x 13.5mm (.04" x .53")
+
+.54"
+
+0.4mm
+
+.016" 13.7mm
+
+.58"
+
+.016"
+14.7mm
+
+0.4mm
+
+.18"
+
+0.5mm
+
+.02" 4.6mm
+
+.02"
+.19"
+
+0.5mm
+
+4.8mm
+
+.02"
+.60"
+
+0.5mm
+
+15.2mm
+
+0.25"  6.5mm 0.04"  1.0mm 
+
+.04"
+.53"
+
+13.5mm
+
+1.0mm
+
+5 = 500 Series and 0 = 600 Series for temperature sensitive applications  -   1 = 700 Series for most standard applications.
+8 = 800 Series for Ceramic and high thermal demand applications. 3
+
+C
+O
+N
+IC
+
+A
+L
+
+STTC SOLDERING CARTRIDGES Compatible with: MX-500 and MX-5000 Systems / MX-RM3E and MX-H1-AV hand-pieces
+
+STTC
+ Soldering C
+
+artridges 
+
+.63"
+
+.016"
+
+16.0mm
+
+0.4mm
+
+.57"
+
+.02"
+
+14.5mm
+
+0.5mm
+
+.39"
+.04"
+
+1.0mm
+
+9.9mm
+
+
+
+Metcal Cartridges 
+
+STTC-507
+STTC-007
+STTC-107
+
+Conical 
+
+1.0mm x 16.7mm (.04" x .66")
+
+STTC-541
+STTC-041
+STTC-141
+STTC-841
+
+Conical Bent 30°
+Long Reach
+1.3 mm x 21.8mm (.05" x .86")
+
+STTC-546
+STTC-046
+STTC-146
+STTC-846
+
+Long Reach Bevel 60°
+
+1.00mm x 14.2mm (.04"x .56")
+
+STTC-147P
+STTC-847P
+
+Bevel 60°
+P = Optimised geometry for best
+thermal performance
+1.78mm x 6.4mm (.07" x .25")
+
+STTC-535
+STTC-035
+STTC-135
+
+Bevel 30°
+
+1.78mm x 9.9mm (.07"x .39")
+
+STTC-505
+STTC-005
+STTC-105
+
+Bevel 30°
+
+1.78mm x 11.7mm (.07"x .46")
+
+STTC-547
+STTC-047
+STTC-147
+STTC-847
+
+Long Reach Bevel 60°
+
+1.78mm x 14.2mm (.07"x .56")
+
+.66"
+.04" 16.7mm
+
+1.0mm
+
+.04"
+
+.56".02"
+
+60∞
+
+1.0mm
+
+.51mm 14.2mm
+
+0.07"  1.78mm 
+
+0.25"  6.4mm 
+
+.46".07"
+
+30°1.78mm
+
+11.7mm
+
+.07"
+
+9.9mm
+
+30°
+
+.39"1.78mm
+
+.07"
+14.2mm
+
+60°
+1.78mm .56"
+
+5 = 500 Series and 0 = 600 Series for temperature sensitive applications  -   1 = 700 Series for most standard applications.  
+8 = 800 Series for Ceramic and high thermal demand applications.
+
+4
+
+C
+O
+N
+IC
+
+A
+L
+
+B
+E
+V
+E
+L
+
+STTC SOLDERING CARTRIDGES Compatible with: MX-500 and MX-5000 Systems / MX-RM3E and MX-H1-AV hand-pieces
+
+ST
+TC
+
+ S
+ol
+
+de
+rin
+
+g 
+C
+
+ar
+tr
+
+id
+ge
+
+s 
+
+21.8mm
+
+.05"
+
+.86"
+
+1.3mm
+
+
+
+Metcal Cartridges 
+
+Compatible with: MX-5000 Systems and MX-H2-UF hand-piece
+
+UFTC-7CN01
+Conical
+
+0.13mm x 5.1mm (.005"x .20")
+
+UFTC-7CN02
+Conical 
+
+0.2mm x 5.1mm (.01" x .20")
+
+UFTC-7CNB02
+Conical Bent 
+
+0.2mm x 5.5mm (0.01" x .22")
+
+UFTC-7CN04
+Conical 
+
+0.4mm x 5.1mm (.02" x 0.20")
+
+UFTC-7CNL04
+Conical Long 
+
+0.4mm x 8mm (.02" x .31")
+
+UFTC-7CNB04
+Conical Bent
+
+0.4mm x 5.5mm (.02" x .22")
+
+UFTC-7DRH408
+Hoof Micro 
+
+0.8mm x 5.1mm (.03" x .20")
+
+UFTC-7DHR412
+Hoof Micro 
+
+1.2mm x 5.1mm (.048" x .20")
+
+8
+
+7 = 700 Series for most standard applications  
+
+5
+
+C
+O
+N
+IC
+
+A
+L
+
+H
+O
+O
+F
+
+UFTC ULTRAFINE
+SOLDERING CARTRIDGES
+
+U
+FTC
+
+ U
+ltraFine  Soldering C
+
+artridges 
+
+
+
+Metcal Cartridges 
+
+Compatible with: MX-5000 Systems and MX-H2-UF hand-piece
+
+UFTC-7CH06
+Chisel 
+
+0.6mm x 5.1mm (.024" x .20")
+
+UFTC-7CHL06
+Chisel Long 
+
+0.6mm x 9mm (.024" x .35")
+
+UFTC-7CH08
+Chisel 
+
+0.8mm x 5.1mm (.03" x .2")
+
+UFTC-7CHL08
+Chisel Long 
+
+0.8mm x 9mm (.03" x .35")
+
+UFTC-7CH12
+Chisel 
+
+1.2mm x 5.1mm (.05" x .20")
+
+7 = 700 Series for most standard applications
+
+6
+
+C
+H
+IS
+
+E
+L
+
+UFTC ULTRAFINE
+SOLDERING CARTRIDGES
+
+U
+FT
+
+C
+ U
+
+ltr
+aF
+
+in
+e 
+
+ S
+ol
+
+de
+rin
+
+g 
+C
+
+ar
+tr
+
+id
+ge
+
+s
+
+
+
+Metcal Cartridges 
+
+Compatible with: MX-500 and MX-5000 Systems, MX-RM3E and MX-H1-AV hand-pieces. 
+All dimensions shown are in mm (inches)
+
+B
+
+A
+
+D
+
+B
+
+A
+
+D
+
+5 = 500 Series & 0 = 600 Series for temperature sensitive applications. 1 = 700 Series for most standard applications.  
+8 = 800 Series for Ceramic and high thermal demand applications.
+
+S
+LO
+
+T
+
+A D B SMT TYPE
+
+SMTC-505
+SMTC-005
+SMTC-105
+
+1.7 
+(.068) 
+
+1.27
+(.05)
+
+2.5 
+(.10) SOT-32
+
+SMTC-596
+SMTC-096
+SMTC-196
+
+1.78 
+(.070) 
+
+1.02 
+(.040)
+
+1.02 
+(.040) Chip 0402, 0603
+
+SMTC-588
+SMTC-088
+SMTC-188
+
+2.03 
+(.080) 
+
+1.52 
+(.60)
+
+1.27 
+(.050) 
+
+Chip 0402, 0603, 
+0805
+
+SMTC-501
+SMTC-001
+SMTC-101
+
+2.3 
+(.090) 
+
+1.8 
+(.070)
+
+1.3 
+(.050) Chip 0805
+
+SMTC-502
+SMTC-002
+SMTC-102
+
+3.6 
+(.14) 
+
+1.8 
+(.07)
+
+1.5 
+(.06) Chip 1206,1210
+
+SMTC-132 3.81 (.150) 
+2.54 
+(.10)
+
+2.41
+(.095) 
+
+Chip Box B EIA 
+SOPM-3528
+
+SMTC-536
+SMTC-036
+SMTC-136
+
+4.8 
+(.190) 
+
+4.06 
+(.16)
+
+2.8 
+(.110) 
+
+Chip Box B EIA 
+SOPM-4532
+
+SMTC-503
+SMTC-003
+SMTC-103
+
+4.83 
+(.190) 
+
+1.91 
+(.075)
+
+2.03
+(.080) Chip 1812
+
+SMTC REWORK CARTRIDGES
+
+7
+
+SM
+TC
+
+  R
+ew
+
+ork C
+artridges 
+
+B
+
+A
+
+D
+
+
+
+Metcal Cartridges 
+
+Compatible with: MX-500 and MX-5000 Systems, MX-RM3E and MX-H1-AV hand-pieces
+All dimensions shown are in mm (inches)
+
+5 = 500 Series & 0 = 600 Series for temperature sensitive applications. 1 = 700 Series for most standard applications.  
+8 = 800 Series for Ceramic and high thermal demand applications.
+
+T
+U
+N
+N
+E
+L
+
+A A2 D B SMT TYPE
+
+SMTC-004
+SMTC-104
+
+5.08 
+(.20) 
+
+5.08 
+(.20)
+
+2.3 
+(.90) 
+
+4.32 
+(.17) SOIC-8
+
+SMTC-006
+SMTC-106
+
+5.08 
+(.20) 
+
+5.08 
+(.20)
+
+2.3 
+(.90) 
+
+10.16 
+(.40) SOIC-14,16
+
+SMTC-0142
+SMTC-1142
+
+5.18 
+(.204) 
+
+5.18 
+(.204) 
+
+2.54 
+(.100) 
+
+8.89 
+(.350) SOIC-14
+
+SMTC-047
+SMTC-147
+
+8.51 
+(.335) 
+
+8.51 
+(.335) 
+
+5.08 
+(.200) 
+
+6.35 
+(.250) DPAC
+
+SMTC-126 8.64 (.340) 
+8.0 
+
+(.315)
+1.88 
+(.074) 
+
+18.8 
+(.740) 
+
+SOJ-28, 
+SOM-32
+
+SMTC-007
+SMTC-107
+
+9.53 
+(.375) 
+
+9.53 
+(.375) 
+
+3.20 
+(.125) 
+
+18.3 
+(.720) SOIC-28
+
+SMTC-009
+SMTC-109
+
+9.53 
+(.375) 
+
+9.53 
+(.375) 
+
+3.18 
+(.125) 
+
+15.75 
+(.620) SOIC-24
+
+SMTC-010
+SMTC-110
+
+9.53 
+(.375) 
+
+9.53 
+(.375) 
+
+3.20 
+(.125) 
+
+13.20 
+(.520) SOIC-20
+
+SMTC-040
+SMTC-140
+
+11.43 
+(.450) 
+
+10.40 
+(.410)
+
+1.90 
+(.075) 
+
+25.9 
+(1.02) 
+
+SOJ-40,
+SOM-32
+
+SMTC REWORK CARTRIDGES
+
+8
+
+SM
+TC
+
+  R
+ew
+
+or
+k 
+
+C
+ar
+
+tr
+id
+
+ge
+s 
+
+
+
+Metcal Cartridges 
+
+5 = 500 Series & 0 = 600 Series for temperature sensitive applications. 1 = 700 Series for most standard applications.  
+8 = 800 Series for Ceramic and high thermal demand applications.
+
+Q
+U
+A
+D
+
+B2
+
+B
+
+A A2
+
+D
+
+B2
+
+B
+
+A A2
+
+D
+
+A A2 D B B2 SMT TYPE
+SMTC-0121
+SMTC-1121
+
+8.38 
+(.330) 
+
+8.38 
+(.330) 
+
+2.54 
+(.100) 
+
+8.38 
+(.330)
+
+8.38 
+(.330)
+
+SQFP 48
+(EIJA)
+
+SMTC-0112
+SMTC-1112
+
+10.16 
+(.400) 
+
+9.14 
+(.360) 
+
+3.80 
+(.150) 
+
+10.16 
+(.400) 
+
+9.14 
+(.360) PLCC 20
+
+SMTC-0120
+SMTC-1120
+
+11.18 
+(.440) 
+
+11.18 
+(.440) 
+
+2.54 
+(.100) 
+
+11.18 
+(.440) 
+
+11.18 
+(.440) 
+
+SQFP 64
+(EIJA)
+
+SMTC-1159 12.19 (.480) 
+11.18 
+(.440) 
+
+2.79 
+(.110) 
+
+13.21 
+(.520)
+
+12.19 
+(.480) TQFP 44
+
+SMTC-013
+SMTC-113
+
+12.70 
+(.500) 
+
+11.56 
+(.455) 
+
+3.80 
+(.150) 
+
+12.70 
+(.500)
+
+11.56 
+(.455) PLCC 28
+
+SMTC-116 12.70 (.500) 
+11.43 
+(.450) 
+
+3.80 
+(.150) 
+
+15.24 
+(.600)
+
+13.97 
+(.550) PLCC 32
+
+SMTC-1132 13.34 (.525) 
+12.32 
+(.485) 
+
+2.79 
+(.110) 
+
+13.34 
+(.525)
+
+12.32 
+(.485) TQFP 80
+
+SMTC-0118
+SMTC-1118
+
+15.49 
+(.610) 
+
+14.48 
+(.570) 
+
+2.79 
+(.110) 
+
+15.49 
+(.610)
+
+14.48 
+(.570)
+
+VQFP 100
+(EIJA)
+
+SMTC-043
+SMTC-143
+
+16.51 
+(.650) 
+
+16.51 
+(.650)
+
+3.30 
+(.130) 
+
+22.48 
+(.885)
+
+22.48 
+(.885)
+
+QFP 100
+Rectangular
+
+SMTC-014
+SMTC-114
+
+17.78 
+(.700) 
+
+16.76 
+(.660) 
+
+3.80 
+(.150) 
+
+17.78 
+(.700)
+
+16.76 
+(.660) PLCC 44
+
+SMTC-117 20.32 (.800) 
+19.30 
+(.760) 
+
+3.80 
+(.150) 
+
+20.32 
+(.800)
+
+19.30 
+(.760) PLCC 52
+
+SMTC-118 25.27 (.995) 
+19.30 
+(.760) 
+
+3.80 
+(.150) 
+
+25.27 
+(.995)
+
+19.30 
+(.760) PLCC 68
+
+SMTC-144 26.42 (1.040) 
+26.42 
+(1.040) 
+
+3.30 
+(.130) 
+
+26.42 
+(1.040) 
+
+26.42 
+(1.040) 
+
+QFP 100
+Square
+
+SMTC REWORK CARTRIDGES
+
+9
+
+Compatible with: MX-500 and MX-5000 Systems, MX-RM3E and MX-H1-AV hand-pieces
+All dimensions shown are in mm (inches)
+
+SM
+TC
+
+  R
+ew
+
+ork C
+artridges 
+
+B
+
+A
+
+D
+
+A2
+
+B2
+
+
+
+Metcal Cartridges 
+
+Compatible with: MX-500 and MX-5000 Systems, MX-RM3E and MX-H1-AV hand-pieces
+
+SMTC-5172
+SMTC-0172
+SMTC-1172
+SMTC-8172
+
+Hook Long 30° 
+
+0.5mm x 15.24mm (.02"x.06")
+
+SMTC-5171
+SMTC-0171
+SMTC-1171
+SMTC-8171
+
+Conical Bent 30° 
+
+0.76mm x 16.51mm (.03"x .65")
+
+SMTC-5161
+SMTC-0161
+SMTC-1161
+
+Knife 45° - Increased tinned
+Area Length 2.03mm (.08")
+4.8mm x 16.51mm (.18"x .65")
+
+SMTC-5173
+SMTC-1173
+SMTC-8173
+
+Knife 45° - Increased tinned
+Area Length 5.84mm (.23")
+4.8mm x 16.51mm (.18"x .65")
+
+STTC-1173P
+STTC-8173P
+
+Knife 45°
+
+5.0mm x 13.2mm (.20" x .52")
+
+.23"
+
+45°
+
+.65"
+
+.19"
+
+16.51mm
+5.84mm
+
+4.83mm
+
+.19"
+
+.08"
+
+.65"
+
+45°
+
+4.83mm
+
+16.51mm
+
+2.03mm
+
+SMTC-X171 
+
+30°
+0.65"16.51mm
+
+.03".76mm
+
+ 
+
+30°
+.60"15.24mm
+
+.02".51mm
+
+5 = 500 Series & 0 = 600 Series for temperature sensitive applications. 1 = 700 Series for most standard applications.  
+8 = 800 Series for Ceramic and high thermal demand applications.
+
+B
+LA
+
+D
+E
+
+K
+N
+IF
+E
+
+A
+
+H
+O
+O
+K
+ &
+
+ C
+O
+N
+IC
+
+A
+L
+
+SMTC REWORK CARTRIDGES
+
+A BLADE TYPE
+
+SMTC-064
+SMTC-164
+
+5mm
+(.20") Short
+
+SMTC-560
+SMTC-060
+SMTC-160
+SMTC-860
+
+10mm 
+(.40") Long
+
+SMTC-561
+SMTC-061
+SMTC-161
+SMTC-861
+
+15.75mm 
+(.62") Long
+
+SMTC-562
+SMTC-062
+SMTC-162
+SMTC-862
+
+22mm 
+(.86") Long
+
+45° 
+0.20"  5.0mm 
+
+0.52"  13.2mm 
+10
+
+SM
+TC
+
+  R
+ew
+
+or
+k 
+
+C
+ar
+
+tr
+id
+
+ge
+s 
+
+
+
+11
+
+S
+P
+E
+C
+IA
+LI
+TY
+
+Metcal Cartridges 
+
+SMTC-5175
+SMTC-0175
+SMTC-1175
+SMTC-8175
+
+Micro Hoof 60° 
+0.89mm x 11.43mm (.035"x.45")
+
+SMTC-5174
+SMTC-0174
+SMTC-1174
+
+Micro Hoof 60° Long Reach 
+1.14mm x 16.51mm (.045"x.65")
+
+SMTC-5167
+SMTC-0167
+SMTC-1167
+
+Hoof 30° Long Reach 
+1.5mm x 16.51mm (.06"x.65")
+
+SMTC-5169
+SMTC-0169
+SMTC-1169
+
+Hoof 60° Long Reach 
+2mm x 15.24mm (.08" x .60")
+
+SMTC-0183
+SMTC-1183
+
+Hoof Concave 30° Bent 
+2.5mm x 16.36mm (.01" x.64")
+
+SMTC-5170
+SMTC-0170
+SMTC-1170
+
+Hoof 60° Long Reach 
+3mm x 15.24mm (.12" x.60")
+
+SMTC-5147
+SMTC-0147
+SMTC-1147
+SMTC-8147
+
+Hoof 60° Long Reach 
+3.3mm x 17.78mm (.13" x .70")
+
+SMTC-198 28 Pin SMT Connector
+
+5 = 500 Series and 0 = 600 Series for temperature sensitive applications  -   1 = 700 Series for most standard applications.  
+8 = 800 Series for Ceramic and high thermal demand applications.
+
+Compatible with: MX-500 and MX-5000 Systems, MX-RM3E and MX-H1-AV hand-pieces
+
+60°
+
+.45"11.43mm.035".89mm
+
+60°
+.65"16.51mm
+
+.045"1.14mm
+.06"
+
+30°
+
+.65"
+16.51mm1.52mm
+
+.08"
+60°
+
+.60"
+15.24mm
+
+2.03mm
+
+.12" 60°
+
+.60"
+15.24mm
+
+3.05mm
+
+.13" .70"
+
+60°
+3.3mm 17.78mm
+
+H
+O
+O
+F
+
+.19"
+
+.13"
+
+1.18"
+4.83mm 29.97mm
+
+3.3mm
+
+.03" .08".76mm 2.03mm
+
+.19"
+
+.13"
+
+1.18"
+4.83mm 29.97mm
+
+3.3mm
+
+.03" .08".76mm 2.03mm
+
+SMTC REWORK CARTRIDGES
+
+SM
+TC
+
+  R
+ew
+
+ork C
+artridges 
+
+
+
+12
+
+Metcal Cartridges 
+
+Compatible with: MX-5000 Systems and MX-PTZ Precision Tweezers hand-piece
+
+PTTC-601
+PTTC-701
+PTTC-801
+
+Conical 
+0.4mm x 19mm (.016" x .75")
+
+PTTC-701B
+PTTC-801B
+
+Conical Bent 30° 
+0.4mm x 14.3mm (.016" x .56")
+
+PTTC-602
+PTTC-702
+PTTC-802
+
+Blade, thickness 1mm (.04") 
+1.3mm x 16.5mm (.05" x .65")
+
+PTTC-603
+PTTC-703
+PTTC-803
+
+Blade, thickness 1mm (.04") 
+2mm x 16.5mm (.08" x .65")
+
+PTTC-608B
+PTTC-708B
+PTTC-808B
+
+Blade Bent 30° 
+3.5mm x 12.1mm (0.12" x .48")
+
+PTTC-604
+PTTC-704
+PTTC-804
+
+Blade Bent 22°, 
+thickness 0.7mm (.28")
+6.35mm x 12.7mm (.25" x .50")
+
+PTTC-605
+PTTC-705
+PTTC-805
+
+Blade Bent 22°, 
+thickness 0.7mm (.28") 
+16mm x 12.7mm (.63" x .50")
+
+PTTC-606
+PTTC-706
+PTTC-806
+
+Blade Bent 22°,
+thickness 0.7mm (.28") 
+20.5mm x 12.7mm (.80" x .50")
+
+PTTC-607
+PTTC-707
+PTTC-807
+
+Blade Bent 22°, 
+thickness 0.7mm (.28") 
+28mm x 12.7mm (1.1" x .50")
+
+0.28" 0.7mm
+22°
+
+0.28" 0.7mm
+22°
+
+0.28" 0.7mm
+22°
+
+0.28" 0.7mm
+22°
+
+6 = 600 Series for temperature sensitive applications. 1 = 700 Series for most standard applications.  
+8 = 800 Series for Ceramic and high thermal demand applications.
+
+PTTC TWEEZER CARTRIDGES
+
+PT
+TC
+
+  T
+w
+
+ee
+ze
+
+r C
+ar
+
+tr
+id
+
+ge
+s 
+
+C
+O
+N
+IC
+
+A
+L
+
+B
+LA
+
+D
+E
+
+
+
+13
+
+Metcal Cartridges 
+
+Compatible with: MX-500 Systems and MX-Talon hand-piece
+
+TATC-609
+Fine Point, 
+thickness 0.35mm (.0137") 
+0.5mm x 12.45mm (.02" x .49")
+
+TATC-601
+Fine Point, 
+thickness 1.2mm (.047") 
+0.5mm x 12.45mm (.02" x .49")
+
+TATC-608 Dual Side, angled Point
+1.27mm (.05")
+
+TATC-602
+Blade 
+6.35mm x 10.16mm 
+(.25" x .40")
+
+TATC-605
+Blade
+10mm x 10.93mm 
+(.394" x .43")
+
+TATC-603
+Blade 
+15.75mm x 8.38mm
+(.62" x .33")
+
+TATC-604
+Blade 
+20.57mm x 8.38mm
+(.81" x .33")
+
+TATC-606
+Blade 
+27.94mm x 7.62mm
+(1.1" x .30")
+
+6 = 600 Series for temperature sensitive applications.
+
+TATC TALON CARTRIDGES
+
+.49"
+12.45mm
+
+.02"
+0.5mm
+
+.013"
+0.35mm
+
+.49"
+12.45mm
+
+.02"
+0.5mm
+
+.047"
+1.2mm
+
+3.75"  95.25mm
+
+.05"
+1.27mm
+
+.25"
+6.35mm
+
+.40"
+10.16mm
+
+.10"
+2.54mm
+
+.40"
+10mm
+
+.43"
+10.93mm
+
+.03"
+0.76mm
+
+.05"
+1.27mm
+
+.33"
+8.38mm
+
+.62"
+15.75mm
+
+.81"
+20.57mm
+
+.33"
+8.38mm
+
+.05"
+1.27mm
+
+1.1"
+27.94mm
+
+.30"
+7.62mm
+
+.03"
+0.76mm
+
+3.75"  95.25mm
+
+.05"
+1.27mm
+
+TATC
+ Talon C
+
+artridges 
+
+
+
+14
+
+Metcal Cartridges 
+
+Compatible with: MX-500 and MX-5000 Systems, MX-DS1 Desoldering hand-piece
+All dimensions shown are in mm (inches)
+
+Standard
+
+Long Reach
+
+0.400"
+
+1 = 700 Series (standard length) and 7 = 700 Series (long reach) for most standard applications.  
+8 = 800 Series for Ceramic and high thermal demand applications.
+
+STDC DESOLDER CARTRIDGES
+
+0.4"
+10.16mm
+
+C
+
+C
+
+A B C TYPE
+
+STDC-102
+STDC-802
+
+0.64
+(.025) 
+
+1.40
+(.055)
+
+11.43
+(.45) Standard
+
+STDC-103
+STDC-803
+
+0.76
+(.029)
+
+1.68
+(.066)
+
+11.17
+(.44) Standard
+
+STDC-104
+STDC-804
+
+1.02
+(.04)
+
+1.78
+(.07)
+
+10.92
+(.43) Standard
+
+STDC-105
+STDC-805
+
+1.27
+(.05)
+
+2.03
+(.08) 
+
+10.66
+(.42) Standard
+
+STDC-106
+STDC-806
+
+1.52
+(.06) 
+
+2.29
+(.09)
+
+10.41
+(.41) Standard
+
+STDC-707
+STDC-807
+
+2.41
+(.09)
+
+3.18
+(.12) 
+
+9.14
+(.36) Standard
+
+STDC-703L
+STDC-803L
+
+0.76
+(.03) 
+
+1.68
+(.06) 
+
+21.33
+(.84) Long Reach
+
+STDC-704L
+STDC-804L
+
+1.02
+(.04)
+
+1.79
+(.07) 
+
+21.08
+(.83) Long Reach
+
+STDC-705L
+STDC-805L
+
+1.27
+(.05)
+
+2.03
+(.08)
+
+20.82
+(.82) Long Reach
+
+ST
+D
+
+C
+ D
+
+es
+ol
+
+de
+r C
+
+ar
+tr
+
+id
+ge
+
+s 
+
+
+
+6 = 600 Series for temperature sensitive applications  -   7 = 700 Series for most standard applications.  15
+
+Metcal / OKi Cartridges 
+
+Compatible with: Metcal SP200, OKi MFR-1160 Systems,
+Metcal SP-HC12 and OKi MFR-H6-SSC hand-pieces
+
+SSC-671A
+SSC-771A
+
+Chisel 
+1.0mm x 9.1mm (.04" x .36")
+
+SSC-625A
+SSC-725A
+
+Chisel 30°
+
+1.0mm x 11mm (.04" x .43")
+
+SSC-638A
+SSC-738A
+
+Chisel 30° 
+1.5mm x 10mm (.06" x .40")
+
+SSC-637A
+SSC-737A
+
+Chisel 30°
+
+1.78mm x 9.9mm (.07" x .40")
+
+SSC-672A
+SSC-772A
+
+Chisel
+1.78mm x 9.9mm (.07"x .39")
+
+SSC-642A
+SSC-742A
+
+Long Reach Chisel 60°
+1.78mm x 16mm (.07" x .63")
+
+SSC-670A
+SSC-770A
+
+Long Reach Chisel
+1.78mm x 16.5mm (.07" x .65")
+
+SSC-636A
+SSC-736A
+
+Chisel 30°
+
+2.5mm x 9.9mm (.10" x .39")
+
+SSC-613A
+SSC-713A
+
+Chisel 90°
+
+3.0mm x 7.6mm (.12" x .30")
+
+SSC-646A
+SSC-746A
+
+Long Reach Chisel 
+
+3.0mm x 16.5mm (.12" x .65")
+
+.43"
+
+1.0mm
+.04" 11mm
+
+.40"
+
+1.5mm
+
+10mm.06"
+
+.40"
+.07" 9.9mm
+
+1.78mm
+
+.65"
+
+.07"
+
+1.78mm
+16.5mm
+
+.63".07"
+
+1.78mm
+
+16mm
+
+.30"
+.13"
+
+7.6mm
+3.3mm
+
+.39"
+.10"
+
+9.9mm
+2.5mm
+
+SSC SOLDERING CARTRIDGES
+
+C
+H
+IS
+
+E
+L
+
+.65"
+
+.12"
+
+3.0mm
+16.5mm
+
+SSC
+ Soldering C
+
+artridges 
+
+.36".04"
+
+1.0mm
+
+9.1mm
+
+.39"
+.07" 9.9mm
+
+1.78mm
+
+
+
+16
+
+Metcal / OKi Cartridges 
+
+SSC-617A
+SSC-717A
+
+Extra Large Chisel
+
+5.3mm x 10mm (.21" x .40")
+
+SSC-690A
+SSC-790A
+
+Long Reach
+Micro Fine Conical
+0.25mm x 13.2mm (.01" x .52")
+
+SSC-645A
+SSC-745A
+
+Conical Sharp Long Reach
+
+0.4mm x 19mm (.016" x .75")
+
+SSC-622A
+SSC-722A
+
+Conical Sharp 
+
+0.51mm x 11.4mm (.02" x 45")
+
+SSC-626A
+SSC-726A
+
+Conical Sharp Bent 30°
+
+0.51mm x 11.4mm (.02" x .45")
+
+SSC-654A
+SSC-754A
+
+Conical Sharp Bent 30°
+Long Reach
+0.5mm x 18.5mm (.02" x .73")
+
+SSC-601A
+SSC-701A
+
+Conical Sharp 
+
+1.0mm x 15.2mm (.04" x .60")
+
+SSC-674A
+SSC-774A
+
+Conical 
+1.4mm x 15mm (.055" x .590")
+
+.75".016"
+0.4mm
+
+19mm
+
+6 = 600 Series for temperature sensitive applications  -   7 = 700 Series for most standard applications.  
+15mm
+
+.055"
+
+.590"1.4mm
+
+.52"13.2mm.01".25mm
+
+SSC SOLDERING CARTRIDGES
+
+C
+O
+N
+IC
+
+A
+L
+
+.45"
+
+0.51mm
+.02" 11.4mm
+
+.04" .60"
+
+1.0mm
+15.2mm
+
+.73"
+
+.02".51mm
+
+18.5mm
+
+.45"
+
+.02"
+0.51mm
+
+11.4mm
+
+SS
+C
+
+ S
+ol
+
+de
+rin
+
+g 
+C
+
+ar
+tr
+
+id
+ge
+
+s 
+
+Compatible with: Metcal SP200, OKi MFR-1160 Systems,
+Metcal SP-HC12 and OKi MFR-H6-SSC hand-pieces
+
+.40"
+.21"5.3mm
+
+10mm
+
+
+
+17
+
+Metcal / OKi Cartridges 
+
+SSC-667A
+SSC-767A
+
+Mini-Hoof
+
+1.27mm x 17.8mm (.05" x .70")
+
+SSC-639A
+SSC-739A
+
+Hoof 
+
+2.3mm x 17.8mm (.016" x .70")
+
+SSC-661A
+SSC-761A
+
+Knife 45°
+
+4.5mm x 16.25mm (.18" x .64")
+
+SSC-673A
+SSC-773A
+
+Knife 45°
+Increased tinned area
+5.1mm x 16.25mm (.24" x .64")
+
+SSC-647A
+SSC-747A
+
+Bevel 60°
+
+1.78mm x 14.2mm (.07" x .56")
+
+.64"
+
+45º
+
+.02"
+
+.18"
+
+16.25mm
+0.5mm
+
+4.5mm
+.24"6.1mm
+
+.64"
+
+45º
+
+.02"
+
+.18"
+
+16.25mm
+0.5mm
+
+4.5mm
+.24"6.1mm
+
+6 = 600 Series for temperature sensitive applications  -   7 = 700 Series for most standard applications.  
+
+SSC SOLDERING CARTRIDGES
+
+B
+E
+V
+E
+L
+
+H
+O
+O
+F
+
+K
+N
+IF
+E
+
+.70".05" 17.8mm
+1.27mm
+
+.70".016" 17.8mm
+
+2.3mm
+
+.64"
+
+45º
+
+.02"
+
+.18"
+
+16.25mm
+0.5mm
+
+4.5mm
+
+.64"
+
+45º
+
+.02"
+
+.18"
+
+16.25mm
+0.5mm
+
+4.5mm
+
+SSC
+ Soldering C
+
+artridges 
+
+Compatible with: Metcal SP200, OKi MFR-1160 Systems,
+Metcal SP-HC12 and OKi MFR-H6-SSC hand-pieces
+
+.07"
+
+14.2mm
+
+60°
+1.78mm
+
+.56"
+
+
+
+OKi Tips
+
+SFV-CH10A
+STV-CH10A
+SCV-CH10A
+
+Chisel 
+
+1.0mm x 18.3mm (.04" x .719") 
+
+SFV-CH10AR
+STV-CH10AR
+SCV-CH10AR
+
+Chisel 
+
+1.0mm x 13.7mm (.04" x .54")
+
+SFV-CH10
+STV-CH10
+SCV-CH10
+
+Chisel 
+
+1.0mm x 11mm (.04" x .43")
+
+SFV-CH15A
+STV-CH15A
+SCV-CH15A
+
+Chisel
+
+1.5mm x 11.3mm (.06" x .44")
+
+SFV-CH15AR
+STV-CH15AR
+SCV-CH15AR
+
+Chisel 
+
+1.5mm x 13.4mm (.06" x 528")
+
+SFV-CHB15
+STV-CHB15
+SCV-CHB15
+
+Chisel Bent  30° 
+
+1.5mm x 12.2mm (.06" x .48")
+
+SFV-CH18AR
+STV-CH18AR
+SCV-CH18AR
+
+Chisel 
+
+1.8mm x 13.4mm (.07" x .528")
+
+SFV-CH20
+STV-CH20
+SCV-CH20
+
+Chisel 
+
+2.0mm x 11mm (.08" x .43")
+
+SFV-CH24A
+STV-CH24A
+SCV-CH24A
+
+Chisel Long Reach
+
+2.4mm x 18.3mm (.094" x .719")
+
+SFV-CH25AR
+STV-CH25AR
+SCV-CH25AR
+
+Chisel 
+
+2.5mm x 13.4mm (.10" x .528")
+
+0.43" 
+11.0mm
+
+0.04" 
+1.0mm
+
+.06"
+.528"
+
+1.5mm
+
+13.4mm
+
+0.48" 
+12.2mm
+
+0.06" 
+1.5mm
+
+1.8mm
+
+.07"
+.528"
+
+13.4mm
+
+0.43" 
+11.0mm
+
+0.08" 
+2.0mm
+
+.719" 18.3mm0.094" 2.4mm
+
+0.44" 11.3mm
+0.06" 1.5mm
+
+F = FR4 / Fiber Glass, for most standard applications  T = Temperature Sensitive  C = Ceramic for high thermal demand applications.
+
+2.5mm
+
+.10"
+.528"
+
+13.4mm
+
+0.719" 18.3mm
+0.04" 1.0mm
+
+Compatible with: PS-900, MFR-1120, MFR-2220, MFR-2222 Systems, 
+PS-HC3 and MFR-H2-ST hand-pieces, PS-CA3 and MFR-CA2 Coil Assemblies
+
+18
+
+.54"
+.04"1.0mm
+
+13.7mm
+
+SXV SOLDERING TIPS
+N EW
+
+OLD  S T Y L E
+
+O LD  S T Y L E
+
+NEW
+
+NEW
+
+C
+H
+IS
+
+E
+L
+
+Sx
+V 
+
+So
+ld
+
+er
+in
+
+g 
+Ti
+
+ps
+ 
+
+
+
+OKi Tips 
+
+SFV-CH25
+STV-CH25
+SCV-CH25
+
+Chisel 
+
+2.5mm x 11mm (.10" x .43")
+
+SFV-CH30AR
+STV-CH30AR
+SCV-CH30AR
+
+Chisel
+
+3.0mm x 13.4mm (.12" x .528")
+
+SFV-CH50A
+STV-CH50A
+SCV-CH50A
+
+Chisel
+
+5.0mm x 11.3mm (.20" x .44")
+
+SFV-CH50AR
+STV-CH50AR
+SCV-CH50AR
+
+Chisel
+
+5.0mm x 11.7mm (.197" x .461")
+
+SFV-CH50
+STV-CH50
+SCV-CH50
+
+Chisel 
+
+5.0mm x 10mm (.20" x .4")
+
+SFV-CNL03AR
+STV-CNL03AR
+SCV-CNL03AR
+
+Conical Long Reach
+
+0.3mm x 18.4mm (.01" x .724")
+
+SFV-CNB04A
+STV-CNB04A
+SCV-CNB04A
+
+Conical Bent Long Reach
+
+0.4mm x 15.5mm (.016" x .61")
+
+SFV-CN05A
+STV-CN05A
+SCV-CN05A
+
+Conical Long Reach
+
+0.4mm x 18.2mm (.016" x .72")
+
+SFV-CNB04AR
+STV-CNB04AR
+SCV-CNB04AR
+
+Conical Bent 
+
+0.4mm x 19.6mm (.016" x .77")
+
+SFV-CNL04
+STV-CNL04
+SCV-CNL04
+
+Conical 
+
+0.4mm x 13.6mm (.016" x .53")
+
+F = FR4 / Fiber Glass, for most standard applications  T = Temperature Sensitive  C = Ceramic for high thermal demand applications.
+
+0.43" 
+11.0mm
+
+0.1" 
+2.5mm
+
+0.44" 11.3mm
+0.2" 5.0mm
+
+3mm
+
+.12"
+.528"
+
+13.4m m
+
+0.61" 15.5mm0.016" 0.40mm
+
+0.21" 5.4mm
+
+.77"
+
+.016"
+
+19.6mm
+
+0.4mm
+
+SXV SOLDERING TIPS
+
+O LD  S T Y L E
+
+O LD  S T Y L E
+
+NEW
+
+NEW
+
+C
+H
+IS
+
+E
+L
+
+C
+O
+N
+IC
+
+A
+L
+
+.461"
+
+.197"
+5.0mm
+
+11.7mm
+
+OLD  S T Y L E
+
+.724"
+.01" 18.4m m
+
+0.3mm
+
+0.4" 
+10.0mm
+
+0.2" 
+5.0mm
+
+Compatible with: PS-900, MFR-1120, MFR-2220, MFR-2222 Systems, 
+PS-HC3 and MFR-H2-ST hand-pieces, PS-CA3 and MFR-CA2 Coil Assemblies
+
+0.72" 18.2mm
+0.016" 0.4mm
+
+0.53" 
+13.6mm
+
+0.016" 
+0.4mm
+
+NEW
+
+19
+
+SxV Soldering Tips 
+
+
+
+OKi Tips 
+
+Compatible with: PS-900, MFR-1120, MFR-2220, MFR-2222 Systems, 
+PS-HC3 and MFR-H2-ST hand-pieces, PS-CA3 and MFR-CA2 Coil Assemblies
+
+SFV-CN05AR
+STV-CN05AR
+SCV-CN05AR
+
+Conical 
+
+0.5mm x 13.7mm (.02" x .53")
+
+SFV-CN05
+STV-CN05
+SCV-CN05
+
+Conical 
+
+0.5mm x 8.5mm (.02" x .34")
+
+SFV-CNB05
+STV-CNB05
+SCV-CNB05
+
+Conical Bent 
+
+0.5mm x 13mm (.02" x .51")
+
+SFV-CNL10A
+STV-CNL10A
+SCV-CNL10A
+
+Conical Long Reach 
+
+1.0mm x 18mm (.04" x .71")
+
+SFV-CNL10AR
+STV-CNL10AR
+SCV-CNL10AR
+
+Conical Long Reach
+
+1.0mm x 13.7mm (.04" x .54")
+
+SFV-CNL10
+STV-CNL10
+SCV-CNL10
+
+Conical Long Reach
+
+1.0mm x 13mm (.04" x .51")
+
+SFV-CNL14
+STV-CNL14
+SCV-CNL14
+
+Conical Long Reach
+
+1.4mm x 15mm (.056" x .59")
+
+SFV-DRH20
+STV-DRH20
+SCV-DRH20
+
+Conical Bevel 
+
+2.0mm x 14mm (.08" x .55")
+
+SFV-CNL20
+STV-CNL20
+SCV-CNL20
+
+Conical Long Reach 
+
+2.0mm x 14mm (.08" x .59")
+
+SFV-WV20
+STV-WV20
+SCV-WV20
+
+Conical Wave Hoof 45°
+
+2.0mm x 13.8mm (.08" x .54")
+
+0.51" 
+13.0mm
+
+0.02" 
+0.5mm
+
+0.51" 
+13.0mm
+
+0.04" 
+1.0mm
+
+0.59" 
+15.0mm
+
+0.056" 
+1.4mm
+
+F = FR4 / Fiber Glass, for most standard applications  T = Temperature Sensitive  C = Ceramic for high thermal demand applications.
+
+0.58" 
+14.6mm
+
+0.54" 
+13.8mm
+
+.08" 
+2.03mm
+
+0.58" 
+14.6mm
+
+0.54" 
+13.8mm
+
+.08" 
+2.03mm
+
+SXV SOLDERING TIPS
+
+0.71" 18.0mm
+0.04" 1.0mm
+
+.04"
+.59"
+
+15.0mm
+
+1.0mm
+
+C
+O
+N
+IC
+
+A
+L
+
+NEW
+
+0.59"  15.0mm 
+0.08"  2.0mm 
+
+OLD  S T Y L E
+
+20
+
+Sx
+V 
+
+So
+ld
+
+er
+in
+
+g 
+Ti
+
+ps
+ 
+
+.53"
+.02" 13.7mm
+
+0.5mm
+
+OLD  S T Y L E
+
+0.34" 
+8.5mm
+
+0.02" 
+0.5mm
+
+
+
+OKi Tips 
+
+Compatible with: PS-900, MFR-1120, MFR-2220, MFR-2222 Systems, 
+PS-HC3 and MFR-H2-ST hand-pieces, PS-CA3 and MFR-CA2 Coil Assemblies
+
+SFV-DRH420AR
+STV-DRH420AR
+SCV-DRH420AR
+
+Hoof 45° Long Reach
+Original Easy Access Geometry
+2.0mm x 20.7mm (.08" x .81")
+
+SFV-DRH20CP
+STV-DRH20CP
+SCV-DRH20CP
+
+Hoof 45°
+
+2.5mm x 13mm (.10" x .51")
+
+SFV-DRH430AR
+STV-DRH430AR
+SCV-DRH430AR
+
+Hoof 45° Long Reach
+
+3mm x 20.4mm (.12" x .8")
+
+SFV-DRH420A
+STV-DRH420A
+SCV-DRH420A
+
+Hoof
+
+3.47mm x 12.2mm (.137" x .48”)
+
+SFV-DRH30CP
+STV-DRH30CP
+SCV-DRH30CP
+
+Hoof 45°
+
+3.6mm x 13mm (.14" x .51")
+
+SFV-DRH640AR
+STV-DRH640AR
+SCV-DRH640AR
+
+Hoof 60° Long Reach
+
+4mm x 17mm (.15" x .67")
+
+SFV-DRH40CP
+STV-DRH40CP
+SCV-DRH40CP
+
+Hoof 45°
+
+4.6mm x 13mm (.18" x .51")
+
+SFV-DRH440A
+STV-DRH440A
+SCV-DRH440A
+
+Hoof
+
+4.75mm x 13.2mm (.187" x .52")
+
+SFV-DRK30AR
+STV-DRK30AR
+SCV-DRK30AR
+
+Knife 45° Long Reach
+
+3mm x 18.7mm (.12" x .74”)
+
+SFV-DRK45AR
+STV-DRK45AR
+SCV-DRK45AR
+
+Knife 45° Long Reach
+
+4.5mm x 18.7mm (.18" x .74”)
+
+20.7mm.81"
+
+45˚2.0mm
+.08"
+
+SXV SOLDERING TIPS
+
+F = FR4 / Fiber Glass, for most standard applications  T = Temperature Sensitive  C = Ceramic for high thermal demand applications.
+
+H
+O
+O
+F
+
+K
+N
+IF
+E
+
+0.137" 3.47mm
+0.48" 12.2mm
+
+0.079" 2mm
+
+0.187" 4.75mm
+0.52" 13.2mm
+
+0.157" 4mm
+
+NEW
+
+NEW
+
+.18"4.5mm 45º
+
+.74"
+.07"
+
+18.7mm
+1.8mm
+
+45º.12"3.0mm
+
+.74"18.7mm
+
+OLD  S T Y L E
+
+O LD  S T Y L E
+
+21
+
+SxV Soldering Tips 
+
+60°
+
+.670"
+17.01mm
+
+4.02mm
+.158"
+
+20.4m m 0.8"
+
+45˚3.0m m
+
+.12"
+
+
+
+75 = 750 Series for most standard applications  -   65 = 650 Series for temperature sensitive applications  22
+
+OKi Tips 
+
+Compatible with: PS-800, PS-800E and PS-900 Systems and PS-CA1 Coil Assembly
+
+PHT-750315
+PHT-650315
+
+Chisel Fine 30° 
+
+1.0mm x 10mm (.04" x .394")
+
+PHT-750325
+PHT-650325
+
+Chisel 60° 
+
+1.5mm x 10mm (.06" x .394")
+
+PHT-750326
+PHT-650326
+
+Chisel Fine Bent 30° 
+
+1.5mm x 12mm (.06" x .472")
+
+PHT-750335
+PHT-650335
+
+Chisel 30° 
+
+1.78mm x 10mm (.07" x .394")
+
+1.0mm
+
+.04"
+.394"
+10mm
+
+.06"
+
+1.5mm
+
+.472"
+12.0mm
+
+.06"
+
+1.5mm
+
+.472"
+12.0mm
+
+.06"
+.394"
+
+1.5mm
+
+10.0mm
+
+1.78mm
+
+.07"
+.394"
+
+10.0mm
+
+PHT SOLDERING TIPS
+
+C
+H
+IS
+
+E
+L
+
+Sx
+V,
+
+ C
+xV
+
+ a
+nd
+
+  P
+H
+
+T 
+So
+
+ld
+er
+
+in
+g 
+
+Ti
+ps
+
+ 
+
+CXV BLADE TIPS Compatible with: PS-900, MFR-1120, MFR-2220, MFR-2222 Systems, PS-HC3 and MFR-H2-SThand-pieces, PS-CA3 and MFR-CA2 Coil Assemblies
+
+CFV-BL100   CTV-BL100   CCV-BL100 10mm (.40")
+
+CFV-BL250   CTV-BL250   CCV-BL250 25mm (1")
+
+CFV-BL350   CTV-BL350   CCV-BL350 35mm (1.4")
+
+CFV-BL400   CTV-BL400   CCV-BL400 40mm (1.6")
+
+CFV-BL500   CTV-BL500   CCV-BL500 50mm (2")
+
+ 0.02"
+0.5mm
+
+ 0.36"
+9.1mm
+
+F = FR4 / Fiber Glass, for most standard applications  T = Temperature Sensitive  C = Ceramic for high thermal demand applications.
+
+A
+
+A
+
+Compatible with: PS-900, MFR-1120, MFR-2220, MFR-2222 Systems, 
+PS-HC3 and MFR-H2-ST hand-pieces, PS-CA3 and MFR-CA2 Coil Assemblies
+
+SFV-DRK45A
+STV-DRK45A
+SCV-DRK45A
+
+Knife 45°
+
+5.0mm x 15.1mm (.20" x .60”)
+
+SFV-DRK50
+STV-DRK50
+SCV-DRK50
+
+Knife 45°
+
+5.0mm x 14mm (.20" x .55")
+
+SXV SOLDERING TIPS
+
+F = FR4 / Fiber Glass, for most standard applications  T = Temperature Sensitive  C = Ceramic for high thermal demand applications.
+
+K
+N
+IF
+E
+
+.20"
+5.0mm
+
+14mm  .55"
+
+45°
+
+.095"2.4mm
+.20"
+
+5.0mm
+
+14mm  .55"
+
+45°
+
+.095"2.4mm0.20"5.0mm
+15.1mm  0.60"
+
+45°
+
+2.4mm  0.095"   
+
+0.20"5.0mm
+15.1mm  0.60"
+
+45°
+
+2.4mm  0.095"   
+1mm  
+0.039"   
+
+2mm  
+0.079"   
+
+NEW
+
+
+
+75 = 750 Series for most standard applications  -   65 = 650 Series for temperature sensitive applications  23
+
+OKi Tips 
+
+PHT-751355
+PHT-651355
+
+Chisel 30° 
+
+2.5mm x 10mm (.10" x .394")
+
+PHT-751367
+PHT-651367
+
+Chisel 30° Long Reach
+
+3.0mm x 16.5mm (.12" x .65")
+
+PHT-751384
+PHT-651384
+
+Chisel 30° 
+
+3.0mm x 8mm (.12" x .315")
+
+PHT-752017
+PHT-652017
+
+Conical Fine Long Reach 
+
+0.25mm x 15mm (.01" x .59")
+
+PHT-752327
+PHT-652327
+
+Conical Fine Bent 
+Long Reach 
+0.4mm x 16mm (.016" x .63")
+
+PHT-752035
+PHT-652035
+
+Conical Fine
+
+0.5mm x 10mm (.02" x .39")
+
+PHT-752335
+PHT-652335
+
+Conical Fine 30° 
+0.5mm x 10mm (.02" x .394")
+
+PHT-752337
+PHT-652337
+
+Conical Fine Bent 30°
+Long Reach  
+0.5mm x 15mm (.02" x .59")
+
+PHT-753035
+PHT-653035
+
+Conical 30° 
+Long Reach 
+0.5mm x 15mm (.02" x .59")
+
+PHT-752057
+PHT-652057
+
+Conical Fine
+Long Reach 
+1.0mm x 15mm (.04" x .59")
+
+.39"
+.02" 10.0mm
+
+0.5mm
+
+.02"
+10.0mm
+
+.394"
+
+0.5mm
+
+.59"
+
+.02"
+
+15.0mm
+
+0.5mm
+
+.04"
+.59"
+
+15.0mm
+
+1.0mm
+
+0.59"
+15.0mm
+
+0.02"
+
+0.5mm
+
+Compatible with: PS-800, PS-800E and PS-900 Systems and PS-CA1 Coil AssemblyPHT SOLDERING TIPS
+
+C
+H
+IS
+
+E
+L
+
+C
+O
+N
+IC
+
+A
+L
+
+.63"
+
+.016"
+
+16.0mm
+
+0.4mm
+
+.59"
+
+.01"
+
+15.0mm
+
+0.25mm
+
+PH
+T Soldering Tips 
+
+2.5mm
+
+.10"
+.394"
+
+10.0mm
+
+.65"
+
+.12"
+
+3.0mm
+
+16.5mm
+
+.315"
+
+.197"
+5.0mm
+
+8.0mm
+
+
+
+75 = 750 Series for most standard applications  -   65 = 650 Series for temperature sensitive applications  24
+
+OKi Tips  
+
+PHT-753067
+PHT-653067
+
+Conical Long Reach  
+
+1.0mm x 15mm (.04" x .59")
+
+PHT-753077
+PHT-653077
+
+Conical Long Reach 
+
+1.0mm x 16.6mm (.04" x .656")
+
+PHT-754627
+PHT-654627
+
+Mini Hoof 60°
+
+1.0mm x 15mm (.04" x.59")
+
+PHT-754667
+PHT-654667
+
+Hoof 60°
+
+2.0mm x 17mm (.08" x .67")
+
+PHT-754687
+PHT-654687
+
+Hoof 60° 
+
+3.0mm x 17mm (.12" x .67")
+
+PHT-754487F
+PHT-654487F
+
+Hoof 45° 
+
+3.0mm x 17mm (.12" x .67")
+
+PHT-654497
+Hoof 45° 
+
+4.00mm x 17mm (.16" x .67")
+
+PHT-654697
+Hoof 60° 
+
+4.00mm x 17mm (.16" x .67")
+
+PHT-755437
+PHT-655437
+
+Knife 45° 
+
+4.5mm x 15mm (.18" x .59")
+
+PHT-755477
+PHT-655477
+
+Knife 45° 
+
+5.0mmx 15mm (.20"x .59")
+
+15.0mm
+.59"
+
+60˚1.0mm
+
+.04"
+
+17.0mm
+.67"
+
+60˚
+2.0mm
+
+.08"
+
+17.0mm
+.67"
+
+60˚3.0mm
+
+.12"
+
+17.0mm
+.67"
+
+45˚3.0mm
+
+.12"
+
+17.0mm
+.67"
+
+45˚4.0mm
+
+.16"
+
+45°.12" 
+3.0mm
+
+.59"
+15.0mm
+
+45°.12" 
+3.0mm
+
+.59"
+15.0mm
+
+.02"
+
+.20"
+
+0.5mm
+
+5.0mm
+
+15.0mm  .59"
+
+2.0mm
+.08"
+
+1.0mm
+.04"
+
+45°
+
+.02"
+
+.20"
+
+0.5mm
+
+5.0mm
+
+15.0mm  .59"
+
+2.0mm
+.08"
+
+1.0mm
+.04"
+
+45°
+
+Compatible with: PS-800, PS-800E and PS-900 Systems and PS-CA1 Coil AssemblyPHT SOLDERING TIPS
+
+H
+O
+O
+F
+
+K
+N
+IF
+E
+
+PH
+T 
+
+So
+ld
+
+er
+in
+
+g 
+Ti
+
+ps
+ 
+
+15.0mm
+
+.04"
+
+.590"
+
+1.0mm
+
+16.65mm
+
+.04"
+
+.656"
+
+1.0mm
+
+C
+O
+N
+IC
+
+A
+L
+
+
+
+25
+
+OKi Cartridges 
+
+Compatible with: MFR-1110, MFR-1161, MFR-2211, MFR-2241 Systems and MFR-H1-SC hand-piece
+
+SFP-CH10
+STP-CH10
+SCP-CH10
+
+Chisel 30°
+
+1.0mm x 9.2mm (.04" x .36")
+
+SFP-CH15
+STP-CH15
+SCP-CH15
+
+Chisel 30°
+
+1.5mm x 10mm (.06" x .39")
+
+SFP-CHB15
+STP-CHB15
+SCP-CHB15
+
+Chisel 30° Bent
+
+1.5mm x 12.04mm (.06" x .474")
+
+SFP-CH20
+STP-CH20
+SCP-CH20
+
+Chisel 30°
+
+2.0mm x 10mm (.08" x .4")
+
+SFP-CHL20
+STP-CHL20
+SCP-CHL20
+
+Chisel 60° Long Reach
+2.0mm x 16.04mm (.08" x .632")
+
+SFP-CH25
+STP-CH25
+SCP-CH25
+
+Chisel 30°
+
+2.5mm x 10mm (.10" x .39")
+
+SFP-CH30
+STP-CH30
+SCP-CH30
+
+Chisel 30°
+
+3.0mm x 11mm (.12" x .43")
+
+SFP-CH35
+STP-CH35
+SCP-CH35
+
+Chisel 30°
+
+3.5mm x 11mm (.12" x .43")
+
+SFP-CH50
+STP-CH50
+SCP-CH50
+
+Chisel 30°
+
+5.0mm x 7.6mm (.20" x .3")
+
+0.36" 
+9.2mm
+
+0.04" 
+1mm
+
+0.39" 
+10mm
+
+0.06" 
+1.5mm
+
+0.4" 
+10.0mm
+
+0.08" 
+
+ 
+
+ 
+
+2.0mm
+
+.394" 
+10mm
+
+0.1" 
+2.5mm
+
+0.12"
+3.0mm
+
+0.43"
+11.0mm
+
+0.14"
+3.5mm
+
+0.43"
+11.0mm
+
+0.3" 
+7.6mm
+
+0.2" 
+5mm
+
+0.474" 
+12.04mm
+
+0.06" 
+1.5mm
+
+.632" 
+16.04mm
+
+0.08" 
+2.0mm
+
+F = FR4 / Fiber Glass, for most standard applications   T = Temperature Sensitive    C = Ceramic for high thermal demand applications
+
+SXP SOLDERING & REWORK
+CARTRIDGES
+
+C
+H
+IS
+
+E
+L
+
+SxP Soldering  and R
+ew
+
+ork C
+artridges 
+
+
+
+26
+
+OKi Cartridges 
+
+Compatible with: MFR-1110, MFR-1161, MFR-2211, MFR-2241 Systems and MFR-H1-SC hand-piece
+
+SFP-CN04
+STP-CN04
+SCP-CN04
+
+Conical 
+
+0.4mm x 8.6mm (.016" x .34")
+
+SFP-CNB04
+STP-CNB04
+SCP-CNB04
+
+Conical Bent
+
+0.4mm x 15.21mm (.016" x .6")
+
+SFP-CNL04
+STP-CNL04
+SCP-CNL04
+
+Conical Long Reach
+0.4mm x 14.9mm (.016" x .59")
+
+SFP-CN05
+STP-CN05
+SCP-CN05
+
+Conical 
+
+0.5mm x 4.95mm (.02" x .20")
+
+SFP-CNB05
+STP-CNB05
+SCP-CNB05
+
+Conical Bent Long Reach
+
+0.5mm x 14.7mm (.02" x .58")
+
+SFP-CNL06
+SCP-CNL06
+
+Conical Long Reach
+0.6mm x 14.9mm (.023" x .59")
+
+SFP-BLV10
+STP-BLV10
+SCP-BLV10
+
+Bevel 60°
+
+1.0mm x 14.22mm (.04" x .56")
+
+0.34" 
+8.6mm
+
+0.016" 
+0.4mm
+
+0.6" 
+15.21mm0.016" 
+
+0.4mm
+
+0.59" 
+14.9mm
+
+0.016" 
+0.4mm
+
+.579" 
+14.7mm
+
+0.02" 
+0.5mm
+
+0.56" 
+14.22mm
+
+0.04" 
+1.0mm
+
+ 
+ 
+
+F = FR4 / Fiber Glass, for most standard applications   T = Temperature Sensitive    C = Ceramic for high thermal demand applications
+
+C
+O
+N
+IC
+
+A
+L
+
+B
+E
+V
+E
+L
+
+SXP SOLDERING & REWORK
+CARTRIDGES
+
+Sx
+P 
+
+So
+ld
+
+er
+in
+
+g 
+ a
+
+nd
+ R
+
+ew
+or
+
+k 
+C
+
+ar
+tr
+
+id
+ge
+
+s 
+
+
+
+27
+
+OKi Cartridges 
+
+Compatible with: MFR-1110, MFR-1161, MFR-2211, MFR-2241 Systems and MFR-H1-SC hand-piece
+
+SFP-DRH05
+STP-DRH05
+SCP-DRH05
+
+Hoof
+0.5mm x 15.21mm (.02" x .6")
+
+SFP-DRH610
+STP-DRH610
+SCP-DRH610
+
+Hoof
+1.0mm x 11.6mm (.04" x .45")
+
+SFP-DRH15
+STP-DRH15
+SCP-DRH15
+
+Hoof 15°
+1.5mm x 16.5mm (.06" x .65")
+
+SFP-DRH615
+STP-DRH615
+SCP-DRH615
+
+Hoof 60° 
+1.5mm x 11.6mm (.06" x .46")
+
+SFP-DRH35
+STP-DRH35
+SCP-DRH35
+
+Hoof Long Reach
+3.5mm x 17.78mm (.14" x .7")
+
+SFP-DRK50
+STP-DRK50
+SCP-DRK50
+
+Knife
+5.0mm x 16mm (.20" x .63")
+
+0.6" 
+15.21mm
+
+0.02" 
+0.5mm
+
+.45"
+11.6 mm
+
+.039"
+1.0mm
+
+0.63" 
+16mm
+
+0.2" 
+5.0mm
+
+60°
+
+.46"
+11.6mm
+
+.06"
+1.5mm
+
+60°
+
+.46"
+11.6mm
+
+.06"
+1.5mm
+
+F = FR4 / Fiber Glass, for most standard applications   T = Temperature Sensitive    C = Ceramic for high thermal demand applications
+
+H
+O
+O
+F
+
+K
+N
+IF
+E
+
+SXP SOLDERING & REWORK
+CARTRIDGES
+
+SxP Soldering  and R
+ew
+
+ork C
+artridges 
+
+
+
+28
+
+OKi Cartridges
+
+Compatible with: MFR-1110, MFR-1161, MFR-2211, MFR-2241 Systems and MFR-H1-SC hand-piece
+All dimensions shown are in mm (inches)
+
+.36" 
+9.14mm
+
+.02" 
+0.5mm
+
+.87" 
+22.1mm
+
+.36" 
+9.14mm
+
+.02" 
+0.5mm
+
+.87" 
+22.1mm
+
+A
+
+D
+
+B
+
+A
+
+D
+
+F = FR4 / Fiber Glass, for most standard applications    C = Ceramic for high thermal demand applications.
+
+RXP REWORK CARTRIDGES
+
+B
+LA
+
+D
+E
+
+T
+U
+N
+N
+E
+L
+
+S
+LO
+
+TB
+
+A
+
+D
+
+A
+
+A B D SMT TYPE
+
+RFP-BL1
+RCP-BL1
+
+10
+(0.41) - - -
+
+RFP-BL2
+RCP-BL2
+
+15.6
+(0.62) - - -
+
+RFP-BL3
+RCP-BL2
+
+22.1
+(0.87) - - -
+
+RFP-DL1
+RCP-DL1
+
+5.18
+(0.204)
+
+4.32
+(0.17)
+
+3.22
+(0.127) 
+
+Tunnel 
+SOIC-8
+
+RFP-DL2
+RCP-DL2
+
+5.18
+(0.204)
+
+4.32
+(0.17)
+
+2.29
+(.09)
+
+Tunnel 
+SOIC-14-16
+
+RFP-DL3
+RCP-DL3
+
+6.86
+(.270)
+
+11.15
+(0.44) 
+
+2.29
+(.09)
+
+Tunnel 
+SOMC-16
+
+RFP-SL1
+RCP-SL1
+
+2.34
+(.092) 
+
+1.37
+(.054) 
+
+1.78
+(.07)
+
+0805 Chip
+Package
+
+RFP-SL2
+RCP-SL2
+
+3.48
+(.137)
+
+1.63
+(.064) 
+
+1.78
+(.07)
+
+0805 Chip
+Package
+
+R
+xP
+
+ R
+ew
+
+or
+k 
+
+C
+ar
+
+tr
+id
+
+ge
+s 
+
+A
+
+D B
+
+
+
+F = FR4 / Fiber Glass, for most standard applications  C = Ceramic for high thermal demand applications. 29
+
+OKi Cartridges 
+
+B2
+
+B
+
+A A2
+
+D
+
+B2
+
+B
+
+A A2
+
+D
+
+Compatible with: MFR-1110, MFR-1161, MFR-2211, MFR-2241 Systems and MFR-H1-SC hand-piece
+All dimensions shown are in mm (inches)RXP REWORK CARTRIDGES
+
+Q
+U
+A
+D
+
+A A2 D B B2 SMT TYPE
+
+RFP-QD4
+RCP-QD4
+
+12.70
+(.500) 
+
+11.43
+(.450)
+
+3.81
+(.150)
+
+15.24
+(.600)
+
+13.97
+(.550) PLCC 32
+
+RFP-QD6
+RCP-QD6
+
+17.78
+(.700)
+
+16.76
+(.660)
+
+3.81
+(.150)
+
+17.78
+(.700)
+
+16.76
+(.660) PLCC 44
+
+RFP-QD7
+RCP-QD7
+
+25.27
+(.995)
+
+24.38
+(.960)
+
+5.59
+(.220)
+
+25.27
+(.995)
+
+24.38
+(.960) PLCC 68
+
+RFP-QD10
+RCP-QD10
+
+20.32
+(.800)
+
+19.30
+(.760)
+
+3.81
+(.150)
+
+20.32
+(.800)
+
+19.30
+(.760) PLCC 52
+
+RFP-QD15
+RCP-QD15 13.34(.525)
+
+12.32
+(.485)
+
+2.79
+(.110)
+
+13.34
+(.525)
+
+12.32
+(.485) TQFP 80
+
+RFP-QD19
+RCP-QD19
+
+16.13
+(.635)
+
+16.13
+(.635)
+
+3.30
+(.130)
+
+16.13
+(.635)
+
+16.13
+(.635) QFP 44
+
+RFP-QD20
+RCP-QD20
+
+16.51
+(.650)
+
+16.51
+(.650)
+
+3.30
+(.130)
+
+22.48
+(.885)
+
+22.48
+(.885) QFP 100
+
+SxP Soldering  and R
+ew
+
+ork C
+artridges 
+
+B
+
+A
+
+D
+
+A2
+
+B2
+
+
+
+30
+
+OKi Cartridges
+
+Compatible with: MFR-1140, MFR-2240, MFR2241 Systems and MFR-H4-TW hand-piece
+
+TFP-BLP1
+TTP-BLP1
+TCP-BLP1
+
+1.0mm x 14mm (.04" x .55")
+
+TFP-BLP2
+TTP-BLP2
+TCP-BLP2
+
+2.0mm x 14mm (.08" x .55")
+
+TFP-CNP1
+TTP-CNP1
+TCP-CNP1
+
+Conical 
+0.4mm x 19.1mm (.015" x .75")
+
+.55" 
+14mm
+
+.04" 
+1.0mm
+
+.03" 
+0.76mm
+
+.55" 
+14mm
+
+.079" 
+2.0mm
+
+.03" 
+0.76mm
+
+.75" 
+19.1mm
+
+.015" 
+.38mm
+
+0.055" 
+1.4mm
+
+A 
+
+0.028" 
+0.57mm
+
+F = FR4 / Fiber Glass, for most standard applications  T = Temperature Sensitive   C = Ceramic for high thermal demand applications.
+
+TXP TWEEZER CARTRIDGES
+
+A
+
+TFP-BLH40
+TTP-BLH40
+TCP-BLH40
+
+6.35mm
+(.25")
+
+TFP-BLH50
+TTP-BLH50
+TCP-BLH50
+
+16mm
+(.62")
+
+TFP-BLH60
+TTP-BLH60
+TCP-BLH60
+
+20.5mm
+(.81")
+
+TFP-BLH70
+TTP-BLH70
+TCP-BLH70
+
+28mm
+(1.1")
+
+B
+LA
+
+D
+E
+
+H
+E
+A
+V
+Y
+ D
+
+U
+T
+Y
+
+Tx
+P 
+
+Tw
+ee
+
+ze
+r C
+
+ar
+tr
+
+id
+ge
+
+s 
+
+
+
+31
+
+OKi Cartridges 
+
+Compatible with: MFR-DSX, MFR-DSI, MFR-SDX, MFR-SDI Systems and MFR-HDS hand-piece
+All dimensions shown are in mm (inches)
+
+F = FR4 / Fiber Glass, for most standard applications  C = Ceramic for high thermal demand applications
+
+DXP DESOLDERING TIPS
+
+Standard
+
+Long Reach
+
+5.54mm
+0.218"
+
+12.80mm
+0.503"
+
+A B TYPE
+
+DFP-CN2
+DCP-CN2
+
+0.67
+(.026) 
+
+1.80
+(.070) Standard
+
+DFP-CN3
+DCP-CN3
+
+0.79
+(.031)
+
+2.05
+(.080) Standard
+
+DFP-CN4
+DCP-CN4
+
+1.05
+(.041)
+
+2.30
+(.090) Standard
+
+DFP-CN5
+DCP-CN5
+
+1.31
+(.052)
+
+2.65
+(.104) Standard
+
+DFP-CN6
+DCP-CN6
+
+1.55
+(.061) 
+
+2.85
+(.112) Standard
+
+DFP-CN7
+DCP-CN7
+
+2.44
+(.096)
+
+3.65
+(.143) Standard
+
+DFP-CNL3
+DCP-CNL3
+
+0.79
+(.031) 
+
+2.05
+(.080) Long Reach
+
+DFP-CNL4
+DCP-CNL4
+
+1.05
+(.041)
+
+2.30
+(.090) Long Reach
+
+DFP-CNL5
+DCP-CNL5
+
+1.31
+(.052)
+
+2.65
+(.104) Long Reach DxP D
+
+esoldering Tips
+
+
+
+32
+
+SmartHeat®  Technology is unique in that it senses the specific thermal demand directly at the solder
+pad and delivers the precise quantity and flow of thermal energy during both flux activation and inter-
+metallic bonding phases without any adjustment and calibration.  SmartHeat® is radically different and
+provides users the only fully safe and thermally effective soldering lead free solution.
+
+Conventional technology senses and responds to the tip temperature and not the thermal energy de-
+mand of the solder joint and users are required to calibrate their systems regularly.  In today’s lead free
+environment, the conventional technology is thermally inefficient to produce good quality solder joints
+consistently and leaves process control in the hands of the individual operators.
+
+Good quality joints are a result of precise quantity and flow of thermal energy and not tip temperature.
+Fixed temperature cartridges and tips offer users a fully safe and thermally effective solution to their
+lead free soldering needs as well as complete process control.  Furthermore, fixed temperature car-
+tridges and tips can offer better tip life because they can operate at a lower temperature than conven-
+tional technology.  Please speak to our representatives on proper tip selection for your soldering
+applications.
+
+Based on historical practices, we acknowledged that some of our customers have specific maximum
+temperature criteria to meet when choosing a tip/cartridge for a particular application.  The table below
+provides the max tip temperature for our soldering cartridges/tips:
+
+Maximum Tip Temperature for Smartheat® Soldering Cartridges and Tips
+
+Serie Part Number Application Max tip temperature
+
+500 STTC-5xx,  SMTC-5xxx, SSC-5xx Temperature Sensitive 575°F/302°C
+
+600 STTC-0xx, PTTC-6xx, UFTC-6xxxx, SMTC-0xxx, TATC-6xx, SSC-6xx Temperature Sensitive 675°F/357°C
+
+700 STTC-1xx, PTTC-7xx, UFTC-7xxxx, SMTC-1xxx,STDC-1xx, STDC-7xx, SSC-7xx FR4/Glass Fiber 775°F/412°C
+
+800 STTC-8xx, SMTC-8xx, PTTC-8xx Ceramic 950°F/510°C
+
+650 PHT-65xxxx Temperature Sensitive 680°F/360°C
+
+750 PHT-75xxxx FR4/Glass Fiber 780°F/416°C
+
+T STP-xxxx, STV-xxxx, TTP-xxx Temperature Sensitive 690°F/365°C
+
+F SFP-xxxx, SFV-xxxx, RFP-xxx, TFP-xxx, DFP-xxx FR4/Glass Fiber 790°F/421°C
+
+C SCP-xxxx, SCV-xxxx, RCP-xxx, TCP-xxx, DCP-xxx Ceramic 860°F/460°C
+
+M
+ax
+
+im
+um
+
+ T
+ip
+
+ T
+em
+
+pe
+ra
+
+tu
+re
+
+
+
+33
+
+What is Smartheat® Technology?
+
+SmartHeat® senses the exact thermal requirement for each solder joint and responds by delivering the
+precise amount of thermal energy required to create a reliable connection. 
+
+The result is a high degree of control without resorting to higher tip idle temperatures required by conventional
+heater process technologies. Consequently, the risk of component and board damage is minimized.
+This is especially important with the greater thermal demands required by lead-free applications.
+
+Controller
+Ergonomic
+Hand-piece
+
+Heater
+
+Temperature Sensor
+
+Soldering Tip
+
+Stored Energy
+
+Self-regulating
+Tip Cartridge
+(see below)
+
+Tip
+Heater
+
+Coil Connector
+
+Conventional Soldering Technology = 
+Fixed Power / Variable Temperature
+�� Conventional soldering irons are fixed power systems
+that store energy in the tip, they don’t adjust power in 
+response to thermal demand. 
+
+�� The temperature needs to be manually set and 
+adjusted to vary the amount of thermal energy 
+applied, the operator can vary the process.
+
+�� The tip cools as it heats the joint and the heater 
+reheats the tip, often overshooting the set temperature.
+
+�� Conventional soldering systems require calibration.
+
+�� The actual tip temperature can vary widely from set
+point, slowing the process and causing thermal damage
+and poor solder joint quality.
+
+SmartHeat® Soldering Technology = 
+Variable Power / Fixed Temperature
+�� SmartHeat® tips and cartridges sense the load 
+and instantly deliver the right amount of heat directly
+to the solder joint.
+
+�� The required solder joint temperature drives the
+heating process, as opposed to the idle tip 
+temperature setting (as in a conventional iron).
+
+�� Operates at lower safer temperatures. Power is 
+delivered in proportion to the load. SmartHeat®
+technology eliminates overshoot.
+
+�� No calibration required - saves money and 
+eliminates system down-time.
+
+Sm
+artH
+
+eat ®
+Technology
+
+
+
+B
+R
+O
+-T
+S
+G
+-1
+1
+
+V
+1
+-M
+
+ay
+20
+
+11
+
+
+
+

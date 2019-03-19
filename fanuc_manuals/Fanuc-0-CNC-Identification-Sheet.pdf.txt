@@ -1,0 +1,63 @@
+
+ 
+
+ 
+
+Memex Automation Inc., Suite 200 - 3425 Harvester Rd, Burlington, Ontario Canada L7N 2G1 
+  Phone: (905) 635-3040 Fax: (905) 631-9640 
+
+   www.memex.ca 
+
+ 
+Determination of Fanuc 0 Model Types 
+
+ 
+To determine the version of the Fanuc 0 series CNC Control, check the master board number and/or the 
+software version. The Master board number is found on the top left side of the main circuit board, usually 
+mounted in the control cabinet that has the daughter card attached. It should not be confused with  
+“A02B-????-????” numbers, which are Fanuc’s ordering numbers and are usually found on a sticker  
+above the master board.   Use the following table to determine which unit you have. 
+ 
+You can determine the software version by powering-up the control with E-stop active (button depressed). 
+The control should hang on the software version screen (in the lower right corner of this screen, you will 
+see the servo version number as well). 
+ 
+As far as difficulty with installation, the process requires the following basic procedures: 
+ 
+
+1. Back-up everything (using a computer and following Memex kit instructions); 
+2. Write down NC system parameters, PMC parameters (in the Diagnostics area) and options; 
+3. Power off and install the Memex memory components in the designated empty sockets; 
+4. Power  up holding RESET & DELETE keys to re-initialize and erases all memory; 
+5. Use special procedures to reload data in the proper sequence (as per kit instructi ons); 
+6. Verify operation of the machine, and you are done!  
+
+ 
+1985 / 1986  Fanuc 0-MA and Fanuc 0-TA 120M maximum battery backed resident memory. 
+1987 / 1989  Fanuc 0-MB and Fanuc 0-TB  320M maximum battery backed resident memory. 
+1990 / 1998  Fanuc 0- MC and Fanuc 0-TC 320M maximum battery backed resident memory. 
+ 
+
+ 
+ 
+
+FANUC 0-A  Masterboards; A16B-1010-0150   (Analog)  Max. 120 Meters (48K) 
+A16B-1010-0210  (Digital)  (Software Ver 400, 402, etc) 
+
+                                                 A16B-1010-0240   (0-Mate) 
+ 
+FANUC 0-B  Masterboards;   A16B-1010-0280   (3/4 Axis)   Max. 320 Meters (128K) 
+                                                 A16B-1010-0281  (2 Axis)              (Software Ver 415, 815, etc)  
+                                                 A16B-1010-0285  (3/4 Axis) 
+                                                 A16B-1010-0288  (2 Axis) 
+ 
+FANUC 0-C  Masterboards;   A20B-2000-0179  (32Bit Version)   Max. 320 Meters (128K) 
+                                                 A20B-2000-0180  (32Bit Version)  (Software Ver 460, 462, 465 
+                                                 A20B-1002-0360 or 0380  (16 Bit Ver) 660,662,690,665,880,135, etc) 
+                                                 A20B-1003-0750  (16Bit Version) 
+                             
+
+ 
+File: /ISO9000/Docs/F100051D – MAI Determination of Fanuc 0 Model Types.doc  
+
+
